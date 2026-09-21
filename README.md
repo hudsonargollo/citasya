@@ -10,6 +10,21 @@ CitasYa is an on-demand booking, appointment scheduling, and multi-vendor market
 - **docs/**: Vendor and module documentation.
 - **_archives/**: Original raw upstream packages (ignored in git).
 
+## Configuration Defaults
+- **Admin**: `hudsonargollo@gmail.com`
+- **Default Currency**: `Bs` (BOB)
+- **Timezone**: `America/La_Paz` (UTC-4)
+- **Country Code**: `BO` (+591)
+- **Default Locale**: `es` (Spanish)
+
+## Local Docker Stack
+```bash
+docker compose up -d
+```
+- **Web / API**: `http://localhost:8085`
+- **MySQL**: `127.0.0.1:3307` (DB: `citasya_db`)
+
+
 ## Stacks
 - Backend: Laravel 10 / PHP 8.1+ / MySQL / Blade AdminLTE
 - Customer App: Flutter (Dart sdk >= 3.3.3) / GetX / Dio / Firebase
