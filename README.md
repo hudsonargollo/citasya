@@ -1,7 +1,7 @@
 # CitasYa Monorepo
 
 ## Overview
-CitasYa is an on-demand booking, appointment scheduling, and multi-vendor marketplace platform for beauty salons, barbershops, spas, and wellness professionals.
+CitasYa is an on-demand booking, appointment scheduling, and multi-vendor marketplace platform for beauty salons, barbershops, wellness centers, health clinics, and all professional on-demand services.
 
 ## Workspace Structure
 - **backend/**: Laravel 10 REST API, Admin Control Panel, and Vendor Web Portal.

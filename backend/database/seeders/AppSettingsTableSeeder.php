@@ -50,7 +50,7 @@ class AppSettingsTableSeeder extends Seeder
             array(
                 'id' => 19,
                 'key' => 'app_short_description',
-                'value' => 'Manage Mobile Application',
+                'value' => 'Reserva de citas y servicios profesionales',
             ),
             array(
                 'id' => 20,
