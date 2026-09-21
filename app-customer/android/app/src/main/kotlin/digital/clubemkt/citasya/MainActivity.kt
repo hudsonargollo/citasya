@@ -5,7 +5,7 @@
  * Copyright (c) 2022
  */
 
-package com.smartersvision.beauty_salons
+package digital.clubemkt.citasya
 
 import io.flutter.embedding.android.FlutterActivity
 

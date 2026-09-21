@@ -1,4 +1,4 @@
-package com.smartersvision.beauty_salons_owner
+package digital.clubemkt.citasya.owner
 
 import io.flutter.embedding.android.FlutterActivity
 
