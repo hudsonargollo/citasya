@@ -38,6 +38,9 @@ backend/storage/app/public/*
 !backend/storage/app/public/.gitignore
 backend/public/storage
 backend/public/hot
+backend/public/downloads/*.apk
+backend/public/app/
+backend/public/owner/
 backend/node_modules/
 backend/npm-debug.log
 backend/yarn-error.log

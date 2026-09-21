@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:82342958619:android:5d2afd95efb2fab7a08abe",
         "android_client_info": {
-          "package_name": "com.smartersvision.beauty_salons"
+          "package_name": "digital.clubemkt.citasya"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "82342958619-0tt7ca2s9hbtcho1kh2bpl0omns9o23t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.smartersvision.beauty_salons",
+            "package_name": "digital.clubemkt.citasya",
             "certificate_hash": "12bbf8e25752b28535e857994fa30ba36641e0f0"
           }
         },
@@ -25,7 +25,7 @@
           "client_id": "82342958619-k90nn6j6lg5k2ha66kg1csquk9e4ia1m.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.smartersvision.beauty_salons",
+            "package_name": "digital.clubemkt.citasya",
             "certificate_hash": "f7fd251634224106edb295bbd3b49d811a174105"
           }
         },
