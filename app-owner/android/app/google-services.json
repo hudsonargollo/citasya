@@ -1,7 +1,7 @@
 {
   "project_info": {
     "project_number": "82342958619",
-    "project_id": "beautysalons-9a815",
+    "project_id": "citasya-bae2c",
     "storage_bucket": "beautysalons-9a815.appspot.com"
   },
   "client": [
@@ -54,7 +54,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:82342958619:android:34b934e92dad14d2a08abe",
         "android_client_info": {
-          "package_name": "digital.clubemkt.citasya.owner"
+          "package_name": "citasya.android"
         }
       },
       "oauth_client": [
@@ -62,7 +62,7 @@
           "client_id": "82342958619-u36ritg28os5o7vddocuv5v0nk8htrf0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "digital.clubemkt.citasya.owner",
+            "package_name": "citasya.android",
             "certificate_hash": "86a7e4c2d4262e85e6d624addbf56724a10460d6"
           }
         },
