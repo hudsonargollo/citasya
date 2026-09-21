@@ -1,0 +1,50 @@
+services:
+  citasya-db:
+    image: mysql:8.0
+    container_name: citasya-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: citasya_root_password
+      MYSQL_DATABASE: citasya_db
+      MYSQL_USER: citasya_user
+      MYSQL_PASSWORD: citasya_password
+    ports:
+      - "3307:3306"
+    volumes:
+      - citasya_db_data:/var/lib/mysql
+    networks:
+      - citasya-net
+
+  citasya-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: citasya-backend
+    restart: unless-stopped
+    ports:
+      - "8085:8080"
+    environment:
+      APP_NAME: "CitasYa"
+      APP_ENV: "local"
+      APP_DEBUG: "true"
+      APP_URL: "http://localhost:8085"
+      DB_CONNECTION: "mysql"
+      DB_HOST: "citasya-db"
+      DB_PORT: "3306"
+      DB_DATABASE: "citasya_db"
+      DB_USERNAME: "citasya_user"
+      DB_PASSWORD: "citasya_password"
+    volumes:
+      - ./backend:/var/www/html
+      - /var/www/html/vendor
+    depends_on:
+      - citasya-db
+    networks:
+      - citasya-net
+
+volumes:
+  citasya_db_data:
+
+networks:
+  citasya-net:
+    driver: bridge
