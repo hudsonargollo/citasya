@@ -71,7 +71,7 @@ import '../services/auth_service.dart';
 import 'app_routes.dart';
 
 class Theme1AppPages {
-  static final INITIAL = Get.find<AuthService>().user.value.isSalonOwner ? Routes.ROOT : Routes.LOGIN;
+  static const INITIAL = Routes.ROOT;
 
   static final routes = [
     GetPage(name: Routes.ROOT, page: () => RootView(), binding: RootBinding(), middlewares: [AuthMiddleware(), SalonOwnerMiddleware()]),

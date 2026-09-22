@@ -20,7 +20,7 @@ import '../../root/controllers/root_controller.dart';
 import '../controllers/auth_controller.dart';
 
 class LoginView extends GetView<AuthController> {
-  final Setting _settings = Get.find<SettingsService>().setting.value;
+  Setting get _settings => Get.find<SettingsService>().setting.value;
 
   @override
   Widget build(BuildContext context) {

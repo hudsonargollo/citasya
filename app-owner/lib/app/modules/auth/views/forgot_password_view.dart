@@ -18,7 +18,7 @@ import '../../global_widgets/text_field_widget.dart';
 import '../controllers/auth_controller.dart';
 
 class ForgotPasswordView extends GetView<AuthController> {
-  final Setting _settings = Get.find<SettingsService>().setting.value;
+  Setting get _settings => Get.find<SettingsService>().setting.value;
 
   @override
   Widget build(BuildContext context) {

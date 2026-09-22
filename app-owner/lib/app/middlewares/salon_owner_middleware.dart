@@ -13,8 +13,14 @@ import '../services/auth_service.dart';
 
 class SalonOwnerMiddleware extends GetMiddleware {
   @override
+  int? get priority => 2;
+
+  @override
   RouteSettings? redirect(String? route) {
     final authService = Get.find<AuthService>();
+    if (!authService.isAuth) {
+      return RouteSettings(name: Routes.LOGIN);
+    }
     if (!authService.user.value.isSalonOwner) {
       return RouteSettings(name: Routes.SALONS);
     }
