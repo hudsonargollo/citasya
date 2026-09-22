@@ -18,14 +18,17 @@ use Srmklive\PayPal\Services\ExpressCheckout;
 class PayPalController extends ParentBookingController
 {
     /**
-     * @var ExpressCheckout
+     * @var ExpressCheckout|null
      */
-    protected ExpressCheckout $provider;
+    protected ?ExpressCheckout $provider = null;
 
     public function __init(): void
     {
-        $this->provider = new ExpressCheckout();
-
+        try {
+            $this->provider = new ExpressCheckout();
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::warning('PayPal init warning: ' . $e->getMessage());
+        }
     }
 
     public function index():View
@@ -43,6 +46,10 @@ class PayPalController extends ParentBookingController
         // TODO validate input request
         $this->booking = $this->bookingRepository->find($request->get('booking_id'));
         if (!empty($this->booking)) {
+            if (!$this->provider) {
+                Flash::error("PayPal is not currently configured.");
+                return redirect(route('payments.failed'));
+            }
             $payPalCart = $this->getCheckoutData();
             try {
                 $response = $this->provider->setExpressCheckout($payPalCart);
