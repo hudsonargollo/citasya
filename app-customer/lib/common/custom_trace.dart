@@ -1,10 +1,3 @@
-/*
- * File name: custom_trace.dart
- * Last modified: 2022.08.14 at 16:25:33
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
- * Copyright (c) 2022
- */
-
 class CustomTrace {
   final StackTrace _trace;
 
@@ -16,70 +9,67 @@ class CustomTrace {
   int? columnNumber;
 
   CustomTrace(this._trace, {this.message}) {
-    _parseTrace();
+    try {
+      _parseTrace();
+    } catch (_) {}
   }
 
   String _getFunctionNameFromFrame(String frame) {
-    /* Just giving another nickname to the frame */
-    var currentTrace = frame;
+    try {
+      var currentTrace = frame;
+      var indexOfWhiteSpace = currentTrace.indexOf(' ');
+      if (indexOfWhiteSpace == -1) return currentTrace;
 
-    /* To get rid off the #number thing, get the index of the first whitespace */
-    var indexOfWhiteSpace = currentTrace.indexOf(' ');
+      var subStr = currentTrace.substring(indexOfWhiteSpace).trim();
+      var indexOfFunction = subStr.indexOf(RegExp(r'[A-Za-z0-9]'));
+      if (indexOfFunction == -1) return subStr;
 
-    /* Create a substring from the first whitespace index till the end of the string */
-    var subStr = currentTrace.substring(indexOfWhiteSpace);
-
-    /* Grab the function name using reg expr */
-    var indexOfFunction = subStr.indexOf(RegExp(r'[A-Za-z0-9]'));
-
-    /* Create a new substring from the function name index till the end of string */
-    subStr = subStr.substring(indexOfFunction);
-
-    indexOfWhiteSpace = subStr.indexOf(' ');
-
-    /* Create a new substring from start to the first index of a whitespace. This substring gives us the function name */
-    subStr = subStr.substring(0, indexOfWhiteSpace);
-
-    return subStr;
+      subStr = subStr.substring(indexOfFunction);
+      var nextSpace = subStr.indexOf(' ');
+      if (nextSpace != -1) {
+        subStr = subStr.substring(0, nextSpace);
+      }
+      return subStr;
+    } catch (_) {
+      return '';
+    }
   }
 
   void _parseTrace() {
-    /* The trace comes with multiple lines of strings, (each line is also known as a frame), so split the trace's string by lines to get all the frames */
-    var frames = this._trace.toString().split("\n");
-
-    /* The first frame is the current function */
-    this.functionName = _getFunctionNameFromFrame(frames[0]);
-
-    /* The second frame is the caller function */
-    this.callerFunctionName = _getFunctionNameFromFrame(frames[1]);
-
-    /* The first frame has all the information we need */
-    var traceString = frames[0];
-
-    /* Search through the string and find the index of the file name by looking for the '.dart' regex */
-    var indexOfFileName = traceString.indexOf(RegExp(r'[A-Za-z]+.dart'));
-
-    var fileInfo = traceString.substring(indexOfFileName);
-
-    var listOfInfos = fileInfo.split(":");
-
-    /* Splitting fileInfo by the character ":" separates the file name, the line number and the column counter nicely.
-      Example: main.dart:5:12
-      To get the file name, we split with ":" and get the first index
-      To get the line number, we would have to get the second index
-      To get the column number, we would have to get the third index
-    */
     try {
-      this.fileName = listOfInfos[0];
-      this.lineNumber = int.tryParse(listOfInfos[1]);
-      var columnStr = listOfInfos[2];
-      columnStr = columnStr.replaceFirst(")", "");
-      this.columnNumber = int.tryParse(columnStr);
-    } catch (e) {}
+      var frames = this._trace.toString().split("\n");
+      if (frames.isNotEmpty && frames[0].isNotEmpty) {
+        this.functionName = _getFunctionNameFromFrame(frames[0]);
+      }
+      if (frames.length > 1 && frames[1].isNotEmpty) {
+        this.callerFunctionName = _getFunctionNameFromFrame(frames[1]);
+      }
+      if (frames.isNotEmpty && frames[0].isNotEmpty) {
+        var traceString = frames[0];
+        var indexOfFileName = traceString.indexOf(RegExp(r'[A-Za-z]+.dart'));
+        if (indexOfFileName != -1) {
+          var fileInfo = traceString.substring(indexOfFileName);
+          var listOfInfos = fileInfo.split(":");
+          if (listOfInfos.isNotEmpty) {
+            this.fileName = listOfInfos[0];
+          }
+          if (listOfInfos.length > 1) {
+            this.lineNumber = int.tryParse(listOfInfos[1]);
+          }
+          if (listOfInfos.length > 2) {
+            var columnStr = listOfInfos[2].replaceFirst(")", "");
+            this.columnNumber = int.tryParse(columnStr);
+          }
+        }
+      }
+    } catch (_) {}
   }
 
   @override
   String toString() {
-    return "$message | ($functionName)";
+    if (message != null && functionName != null && functionName!.isNotEmpty) {
+      return "$message | ($functionName)";
+    }
+    return message ?? functionName ?? '';
   }
 }

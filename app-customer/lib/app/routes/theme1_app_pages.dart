@@ -73,6 +73,7 @@ class Theme1AppPages {
   static const INITIAL = Routes.ROOT;
 
   static final routes = [
+    GetPage(name: '/', page: () => RootView(), binding: RootBinding()),
     GetPage(name: Routes.ROOT, page: () => RootView(), binding: RootBinding()),
     GetPage(name: Routes.RATING, page: () => RatingView(), binding: RatingBinding(), middlewares: [AuthMiddleware()]),
     GetPage(name: Routes.CHAT, page: () => ChatsView(), binding: RootBinding(), middlewares: [AuthMiddleware()]),
