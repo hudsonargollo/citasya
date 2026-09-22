@@ -19,7 +19,11 @@ class Permissions
     private array $exceptNames = [
         'LaravelInstaller*',
         'LaravelUpdater*',
-        'debugbar*'
+        'debugbar*',
+        'home*',
+        'brand-guidelines*',
+        'branding*',
+        'landing*'
     ];
 
     private array $exceptControllers = [
@@ -40,7 +44,7 @@ class Permissions
     public function handle(Request $request, Closure $next): mixed
     {
         $permission = $request->route()->getName();
-        if ($this->match($request->route()) && auth()->user()->canNot($permission)) {
+        if ($this->match($request->route()) && auth()->check() && auth()->user()->canNot($permission)) {
             if ($permission == 'dashboard') {
                 return redirect(route('users.profile'));
             }

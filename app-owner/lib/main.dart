@@ -12,6 +12,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
+import 'firebase_options.dart';
 import 'app/providers/firebase_provider.dart';
 import 'app/providers/laravel_provider.dart';
 import 'app/routes/theme1_app_pages.dart';
@@ -25,12 +26,12 @@ Future<void> initServices() async {
   Get.log('starting services ...');
   await GetStorage.init();
   await Get.putAsync(() => GlobalService().init());
-  if (!kIsWeb) {
-    try {
-      await Firebase.initializeApp();
-    } catch (e) {
-      Get.log('Firebase.initializeApp warning: $e');
-    }
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    Get.log('Firebase.initializeApp warning: $e');
   }
   await Get.putAsync(() => AuthService().init());
   await Get.putAsync(() => LaravelApiClient().init());

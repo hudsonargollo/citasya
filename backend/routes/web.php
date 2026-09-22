@@ -54,10 +54,21 @@ Route::get('payments/paypal', 'PayPalController@index')->name('paypal.index');
 Route::get('firebase/sw-js', 'AppSettingController@initFirebase');
 
 
+Route::get('/', function () {
+    return view('landing');
+})->name('home');
+
+Route::get('brand-guidelines', function () {
+    return view('brand_guidelines');
+})->name('brand-guidelines');
+
+Route::get('branding', function () {
+    return view('brand_guidelines');
+})->name('branding');
+
 Route::get('storage/app/public/{id}/{conversion}/{filename?}', 'UploadController@storage');
 Route::middleware('auth')->group(function () {
     Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
-    Route::get('/', 'DashboardController@index')->name('dashboard');
 
     Route::post('uploads/store', 'UploadController@store')->name('medias.create');
     Route::get('users/profile', 'UserController@profile')->name('users.profile');

@@ -5,7 +5,7 @@
  * Copyright (c) 2022
  */
 
-import 'package:beauty_salons_owner/app/modules/salons/controllers/salons_controller.dart';
+import 'salons_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

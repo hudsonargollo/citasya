@@ -1,0 +1,671 @@
+<!DOCTYPE html><html lang="es" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>CitasYa — Brand Guidelines &amp; Design System Presentation</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-background":"#131b2e","error":"#ba1a1a","on-primary-fixed-variant":"#004b73","on-surface-variant":"#3f4850","surface-container-low":"#f2f3ff","on-error":"#ffffff","primary-fixed-dim":"#93ccff","primary-container":"#007bb9","on-secondary-container":"#004666","inverse-on-surface":"#eef0ff","secondary-fixed-dim":"#89ceff","on-secondary-fixed-variant":"#004c6e","on-surface":"#131b2e","primary":"#006194","secondary-container":"#39b8fd","outline":"#707881","surface-container-high":"#e2e7ff","surface-variant":"#dae2fd","surface-tint":"#006398","tertiary-fixed-dim":"#68dba9","on-primary-container":"#fdfcff","secondary-fixed":"#c9e6ff","primary-fixed":"#cce5ff","surface-container-lowest":"#ffffff","inverse-surface":"#283044","surface-container":"#eaedff","on-primary":"#ffffff","on-secondary-fixed":"#001e2f","tertiary-fixed":"#85f8c4","on-error-container":"#93000a","background":"#faf8ff","inverse-primary":"#93ccff","on-secondary":"#ffffff","secondary":"#006591","on-tertiary":"#ffffff","surface-dim":"#d2d9f4","tertiary":"#006948","error-container":"#ffdad6","outline-variant":"#bfc7d2","on-primary-fixed":"#001d31","surface-bright":"#faf8ff","on-tertiary-fixed-variant":"#005137","on-tertiary-fixed":"#002114","surface":"#faf8ff","tertiary-container":"#00855d","surface-container-highest":"#dae2fd","on-tertiary-container":"#f5fff7"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","space-xl":"2.5rem","space-lg":"1.5rem","margin-mobile":"1rem","gutter-mobile":"0.75rem","space-md":"1rem","gutter":"1.5rem","margin":"2rem","space-xs":"0.25rem"},fontFamily:{"label-md":["Open Sans"],"body-lg":["Open Sans"],"headline-lg-mobile":["Outfit"],"label-sm":["Open Sans"],"body-sm":["Open Sans"],"label-lg":["Open Sans"],"display-lg-mobile":["Outfit"],"title-lg":["Outfit"],"display-lg":["Outfit"],"headline-lg":["Outfit"],"body-md":["Open Sans"],"headline-md":["Outfit"],"headline-sm":["Outfit"]},fontSize:{"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"600"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpb_4iCBSK-0pPXQ31Bcx1m1Tr88KBQ3XDxh1105gbt6Bnwq0saCwxRRFhjnEFUY_TivUZBfqItNASK-UwLK17aesDt8voEX_AkTmxn_aupBxUhqkTfJ3pn0Y-np5KWS0mTh2Ipf957rdL8cI0wwWH3nEyj98koZTO2c-ACZctY-56pnUTzwxC00EgaMiHwERaqkrHkUxmDZovb7IDcmzj410CHyOQVx0pXI1vwlhNL82VhN4EFlSB_Tlyicrfvlcc4g" alt="CitasYa Icon" class="w-9 h-9 object-contain rounded-lg"><div class="flex flex-col"><span class="font-title-lg text-title-lg tracking-tight text-on-surface">CitasYa</span><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Brandbook &amp; System</span></div></div><div class="hidden xl:flex items-center gap-space-sm pl-space-md"><span class="px-space-sm py-space-xs rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm">v2.0 Soft UI</span><span class="flex items-center gap-1.5 px-space-sm py-space-xs rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>Online &amp; Stable</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-1 rounded-xl bg-surface-container-low" data-active-classes="bg-primary-container text-on-primary-container font-label-md text-label-md rounded-lg shadow-sm"><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="01-identidad" href="#">01 Identidad</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="02-color" href="#">02 Color</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="03-tipografia" href="#">03 Tipografía</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="04-logotipo" href="#">04 Logotipo</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="05-componentes-ui" href="#">05 Componentes UI</a><a class="px-3 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-md text-label-md" data-path="06-prompt-library" href="#">06 Prompt Library</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-3 py-1.5 rounded-lg bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Ready to Export</span><span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Top Spec Status Header Bar -->
+<section class="w-full bg-surface-container-low py-space-lg shadow-sm">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="px-2.5 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-fixed animate-ping"></span>
+            Canonical Identity Lock-in
+          </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm uppercase">
+            Normativa v2.4 • Producción Definitiva
+          </span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">
+            Santa Cruz de la Sierra • Bolivia
+          </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight mt-1">
+          CitasYa <span class="text-primary font-headline-sm text-headline-sm font-normal">| Master Brand Identity &amp; Logo System</span>
+</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          Especificación canónica unificada: Arquitectura dual simétrica entre vector plano 2D de alta precisión y render volumétrico 3D Soft-Glass para ecosistema omnicanal de reservas.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm self-start md:self-center">
+<div class="flex flex-col items-end text-right hidden sm:flex">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Estado del Asset</span>
+<span class="font-label-lg text-label-lg text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span> Bloqueado &amp; Aprobado
+          </span>
+</div>
+<a class="px-4 py-2.5 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-md flex items-center gap-2" href="#matrix">
+<span class="material-symbols-outlined text-[18px]">download</span> Matriz de Descarga
+        </a>
+</div>
+</div>
+</section>
+<!-- Hero Dual-Master Showcase -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="flex flex-col gap-space-md mb-space-lg">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[20px]">view_quilt</span>
+<span class="">Dual-Render System Architecture</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">
+        Los Dos Maestros Canónicos: 3D Glossy vs. 2D Minimal
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-4xl">
+        Ambos estilos derivan de la misma geometría base: el calendario redondeado con argollas, la esfera cronométrica con estelas de velocidad, y el check dinámico de confirmación inmediata.
+      </p>
+</div>
+<!-- 2 Column Master Split Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg w-full">
+<!-- Master A: 3D Glossy -->
+<div class="flex flex-col rounded-3xl bg-surface-container-lowest shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="p-space-lg flex items-center justify-between bg-surface-container-low">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary font-label-md text-label-md font-bold">A</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Master A — 3D Glossy Render</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Soft UI Volumétrico, Vidrio Translúcido &amp; Neón Esmeralda</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-primary font-label-sm text-label-sm uppercase font-bold">
+            App Store &amp; Hero Assets
+          </span>
+</div>
+<!-- Visual Display Card -->
+<div class="p-space-xl flex flex-col items-center justify-center bg-gradient-to-b from-surface-container-lowest to-surface-container-low min-h-[360px]">
+<div class="w-full max-w-lg overflow-hidden rounded-2xl shadow-sm bg-surface-container-lowest p-space-md flex flex-col items-center justify-center">
+<img alt="CitasYa 3D Master Wordmark and App Icon Lockup" class="w-full h-auto object-contain max-h-[220px]" src="/images/brand/logo_3d.png">
+</div>
+<div class="flex items-center gap-space-lg mt-space-lg">
+<div class="w-20 h-20 rounded-2xl shadow-md overflow-hidden bg-surface-container-lowest p-1 flex items-center justify-center">
+<img alt="CitasYa 3D Squircle App Icon" class="w-full h-full object-contain rounded-xl" src="/images/brand/icon_3d.png">
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Icono Squircle iOS &amp; Android</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Profundidad acrílica + bisel curvo + brillo central</span>
+<span class="font-label-sm text-label-sm text-tertiary mt-1">Rendered at 4096 × 4096 px @ 300DPI</span>
+</div>
+</div>
+</div>
+<!-- Spec Data Table for 3D -->
+<div class="p-space-lg bg-surface-container-lowest flex flex-col gap-space-sm">
+<div class="grid grid-cols-3 gap-space-sm text-center">
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Materiales</span>
+<span class="font-label-md text-label-md text-on-surface">Vidrio Esmerilado + PVC</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Iluminación</span>
+<span class="font-label-md text-label-md text-on-surface">3-Point Soft Studio</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Acabado Wordmark</span>
+<span class="font-label-md text-label-md text-on-surface">Gota Cerámica Glossy</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong>Aplicación recomendada:</strong> Iconos de launcher móviles, cabeceras de landing pages, carruseles de WhatsApp Business, banners publicitarios y piezas de marketing digital masivo.
+          </p>
+</div>
+</div>
+<!-- Master B: 2D Minimal Flat -->
+<div class="flex flex-col rounded-3xl bg-surface-container-lowest shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl">
+<div class="p-space-lg flex items-center justify-between bg-surface-container-low">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center text-on-secondary font-label-md text-label-md font-bold">B</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Master B — 2D Flat Vector</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Línea Pura, Máxima Escalabilidad &amp; Alto Contraste</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase font-bold">
+            Web Core &amp; Impresión
+          </span>
+</div>
+<!-- Visual Display Card -->
+<div class="p-space-xl flex flex-col items-center justify-center bg-gradient-to-b from-surface-container-lowest to-surface-container-low min-h-[360px]">
+<div class="w-full max-w-lg overflow-hidden rounded-2xl shadow-sm bg-surface-container-lowest p-space-md flex flex-col items-center justify-center">
+<img alt="CitasYa 2D Minimal Flat Vector Master Logo" class="w-full h-auto object-contain max-h-[220px]" src="/images/brand/logo_2d.png">
+</div>
+<div class="flex items-center gap-space-lg mt-space-lg">
+<div class="w-20 h-20 rounded-2xl shadow-sm bg-surface-container-lowest p-2 flex items-center justify-center">
+<img alt="CitasYa 2D Vector Calendar Squircle Isotype" class="w-full h-full object-contain" src="/images/brand/icon_2d.png">
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Isotipo Vectorial Puro</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Grosor de trazo modular calibrado para favicon 16px</span>
+<span class="font-label-sm text-label-sm text-primary mt-1">Vector Bezier Perfecto • SVG Optimizado</span>
+</div>
+</div>
+</div>
+<!-- Spec Data Table for 2D -->
+<div class="p-space-lg bg-surface-container-lowest flex flex-col gap-space-sm">
+<div class="grid grid-cols-3 gap-space-sm text-center">
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Construcción</span>
+<span class="font-label-md text-label-md text-on-surface">Stroke 4px / Fill Puro</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Tipografía</span>
+<span class="font-label-md text-label-md text-on-surface">Geometric Heavy Sans</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Mínimo Tamaño</span>
+<span class="font-label-md text-label-md text-on-surface">16 × 16 px legibilidad</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+<strong>Aplicación recomendada:</strong> Interfaz UI responsiva, barra superior móvil, favicons, facturación electrónica, credenciales impresas, rotulación vehicular y vinilo para clínicas.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Anatomy & Semantic Breakdown -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Desglose Anatómico</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Semiótica y Fundamentos de Diseño</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+          El símbolo sintetiza tres promesas fundamentales para el mercado de servicios y salud de Santa Cruz de la Sierra: organización, velocidad extrema y confirmación transparente.
+        </p>
+</div>
+<!-- 3 Pillar Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Pillar 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[28px]">calendar_today</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Pilar 01 • Estructura</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">El Calendario Squircle</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Un marco contenedor cuadrangular de esquinas redondeadas con dos argollas superiores cilíndricas. Representa la agenda profesional, la previsibilidad de horarios y la erradicación del caos en las salas de espera.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> Azul Agenda: <code class="text-on-surface font-mono">#007BC7</code>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[28px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Pilar 02 • Agilidad</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Esfera &amp; Estelas Veloces</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tres estelas horizontales dinámicas intersectan el cuadrante horario izquierdo, transmitiendo agendamiento en menos de 30 segundos sin fricción telefónica ni intermediarios.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary-fixed-dim"></span> Dinámica: Velocidad de flujo WhatsApp
+          </div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[28px]">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Pilar 03 • Certeza</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">El Checkmark "Ya"</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Un check verde enérgico en ángulo de 45° ubicado en el centro exacto del reloj. Valida la cita en tiempo real con recordatorio automático, pago verificado y cupo 100% garantizado.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Verde Cruceño: <code class="text-on-surface font-mono">#059669</code>
+</div>
+</div>
+</div>
+<!-- Typography Wordmark Geometry Deep Dive -->
+<div class="p-space-lg rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col lg:flex-row items-center gap-space-lg">
+<div class="w-full lg:w-1/2 flex flex-col gap-space-sm">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase self-start">
+            Construcción Tipográfica
+          </span>
+<h3 class="font-headline-md text-headline-md text-on-surface">
+            Anatomía del Wordmark: Contraste "Citas" vs. "Ya"
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            La composición combina un tono oscuro sólido de gran seriedad institucional con un acento esmeralda hiper-enérgico. La unión tipográfica no lleva espacio entre palabras, resolviéndose por cambio cromático puro.
+          </p>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Componente 01</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">"Citas"</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Midnight Blue Navy (#0F172A). Transmite rigor, base de datos clínica y confianza legal.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-primary block uppercase">Componente 02</span>
+<span class="font-label-lg text-label-lg text-primary font-bold">"Ya"</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Emerald Active (#059669). Denota urgencia inmediata, frescura tropical y éxito.</p>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-1/2 p-space-lg rounded-2xl bg-surface-container flex flex-col items-center justify-center">
+<div class="text-center py-space-md">
+<div class="flex items-baseline justify-center tracking-tight">
+<span class="text-[64px] font-extrabold text-[#0F172A] leading-none" style="letter-spacing: -0.04em;">Citas</span>
+<span class="text-[64px] font-extrabold text-[#059669] leading-none" style="letter-spacing: -0.04em;">Ya</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant mt-2 block">
+              Proporción Óptica: 1:1 Altura X • Kerning Estricto: -0.04em
+            </span>
+</div>
+<!-- Metric Grid Indicator -->
+<div class="w-full flex items-center justify-between text-on-surface-variant font-mono text-body-sm border-t border-surface-dim pt-space-sm">
+<span class="">X-Height: 100%</span>
+<span class="">Weight: 800 (Extrabold)</span>
+<span class="">Tracking: Tight</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Canonical Color Palette System -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="flex flex-col gap-space-xs mb-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Muestrario Cromático Oficial</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Códigos de Color Blindados</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        Valores estrictos para reproducción uniforme en pantallas digitales (sRGB/P3), apps móviles e impresión offset física.
+      </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Swatch 1: Calendar Azure -->
+<div class="flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<div class="h-32 w-full bg-[#007BC7] p-space-sm flex flex-col justify-between text-white">
+<span class="font-label-sm text-label-sm uppercase opacity-80">Calendar Azure</span>
+<span class="font-headline-sm text-headline-sm font-bold">#007BC7</span>
+</div>
+<div class="p-space-md flex flex-col gap-1 text-on-surface">
+<span class="font-label-md text-label-md font-bold">Azul Calendario Primario</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RGB: 0, 123, 199</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CMYK: 84, 43, 0, 0</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-2">Uso: Marcos, argollas, contornos y dials</span>
+</div>
+</div>
+<!-- Swatch 2: Emerald Confirm -->
+<div class="flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<div class="h-32 w-full bg-[#059669] p-space-sm flex flex-col justify-between text-white">
+<span class="font-label-sm text-label-sm uppercase opacity-80">Verde Cruceño Emerald</span>
+<span class="font-headline-sm text-headline-sm font-bold">#059669</span>
+</div>
+<div class="p-space-md flex flex-col gap-1 text-on-surface">
+<span class="font-label-md text-label-md font-bold">Verde Confirmación "Ya"</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RGB: 5, 150, 105</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CMYK: 82, 11, 72, 1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-2">Uso: Checkmark, botón CTA principal, éxito</span>
+</div>
+</div>
+<!-- Swatch 3: Midnight Slate -->
+<div class="flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<div class="h-32 w-full bg-[#0F172A] p-space-sm flex flex-col justify-between text-white">
+<span class="font-label-sm text-label-sm uppercase opacity-80">Midnight Slate</span>
+<span class="font-headline-sm text-headline-sm font-bold">#0F172A</span>
+</div>
+<div class="p-space-md flex flex-col gap-1 text-on-surface">
+<span class="font-label-md text-label-md font-bold">Cuerpo de Wordmark "Citas"</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RGB: 15, 23, 42</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CMYK: 64, 45, 0, 84</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-2">Uso: Texto ancla, tipografía de alta jerarquía</span>
+</div>
+</div>
+<!-- Swatch 4: Clean Canvas White -->
+<div class="flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<div class="h-32 w-full bg-surface-container-low p-space-sm flex flex-col justify-between text-on-surface">
+<span class="font-label-sm text-label-sm uppercase opacity-80">Ice Surface &amp; Canvas</span>
+<span class="font-headline-sm text-headline-sm font-bold">#F8FAFC / #FFFFFF</span>
+</div>
+<div class="p-space-md flex flex-col gap-1 text-on-surface">
+<span class="font-label-md text-label-md font-bold">Lienzo y Fondos Contenedores</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RGB: 248, 250, 252</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CMYK: 0, 0, 0, 2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-2">Uso: Espacio negativo, tarjetas flotantes</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Master Asset Matrix: 4 Scenarios Side-by-Side -->
+<section class="w-full bg-surface-container-low py-space-xl" id="matrix">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[20px]">table_chart</span>
+<span class="">Matriz de Variaciones de Producción</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Guía de Uso según Escenario y Soporte</h2>
+</div>
+<!-- Table / Card Matrix -->
+<div class="flex flex-col gap-space-md">
+<!-- Row 1: Primary Horizontal Lockup -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-1 lg:w-1/4">
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">Escenario 01</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Lockup Horizontal Completo</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Isotipo integrado a la izquierda + Wordmark a la derecha.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md lg:w-3/4 w-full">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-2">3D Glossy Version</span>
+<img alt="CitasYa 3D Horizontal Logo" class="h-16 object-contain" src="/images/brand/logo_3d_horizontal.png">
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-2">2D Flat Vector Version</span>
+<img alt="CitasYa 2D Horizontal Logo" class="h-16 object-contain" src="/images/brand/logo_2d_horizontal.png">
+</div>
+</div>
+</div>
+<!-- Row 2: Standalone App Icon / Favicon -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-1 lg:w-1/4">
+<span class="font-label-sm text-label-sm uppercase text-secondary font-bold">Escenario 02</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Icono Squircle / Favicon</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Símbolo independiente para accesos directos y perfiles.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md lg:w-3/4 w-full">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-2">3D Translucent Glass (Mobile Launcher)</span>
+<div class="w-16 h-16 rounded-2xl shadow-md overflow-hidden bg-surface-container-lowest p-1 flex items-center justify-center">
+<img alt="CitasYa 3D Icon" class="w-full h-full object-cover rounded-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGp6sRcsGFBipv-F7sxdeDEPoQq-JLbNSVsA-8zMOfpqbyeI8xSwpqtMvohUSwrCjTd_WrB0Sw4aGOPOYEDeWyPXt4fCAL8E9RJoScdCS3A4YDRct6j2FtkuFWpjxTPPdAjFx68AmiZ-tAOj4v7X5hV9VmS05Nc0pIXysbgliMa8WBrzlVCUUa5pxAVBf-VLAibAJuMphWfR1DXHwXTE-keyQvG1QZ-4senyJ51SXP3LljZj4uK-vCct26MPeWMc2kSg">
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-2">2D Line Vector (Browser Tab / Mini UI)</span>
+<div class="w-16 h-16 rounded-2xl shadow-sm bg-surface-container-lowest p-2 flex items-center justify-center">
+<img alt="CitasYa 2D Icon" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAabRV7PhTKO7O4E_CGnr-PE1DcsppCG6R1DBiHSqQDMDMn4xFMTValz6oW8JDx2PoURy8QSdzqTzDR4PmnVcNleSW6lgfs1_v7V0RktLiM6eqKsRO2YbD2jPtf_ENJkG0T1Fqo8hlaJNIkvuQYj7LumkjoIaE5OSrV1FX-m-7MeZrS7DigslxC6SeamZFOvXfL93HqvBt_u5D5OWeOwMsRxSaNfgWk0jnaRN2z1EV_NL2pb8YEHcRr93WzVvNs0w3Hag">
+</div>
+</div>
+</div>
+</div>
+<!-- Row 3: Dark Mode Execution -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-1 lg:w-1/4">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">Escenario 03</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Modo Nocturno (Dark Canvas)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fondos oscuros OLED (#0F172A / Obsidian) con neón auto-iluminado.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md lg:w-3/4 w-full">
+<!-- Dark 3D -->
+<div class="p-space-md rounded-xl bg-[#0F172A] flex flex-col items-center justify-center text-white">
+<span class="font-label-sm text-label-sm text-slate-400 mb-2">3D en Fondo Oscuro</span>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl overflow-hidden shadow-lg p-0.5 bg-slate-800">
+<img alt="CitasYa 3D in Dark Mode" class="w-full h-full object-cover rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2xUttPN_elBsuq80TRCIPp-XZHDDWjPPPrsbzCX6tmmhCaUn0qFEW7AYieWMeyyShFOunIpqSSgGUAgQge0QGlURCoD2Pb4Zo3n23MoTHE54WYTZ-Ur67pM5o8Q_0wUSMMprA06ZYze1Otgk0mRbo7vysaUttUrO2yq301MsmT5W5ao6sLipH32Mf4ceFX0RfUfYouezYsogqiAJZ1eIBpwXsmePCqV8ikl0j6FBivzQvYtQByDCq7IH4cei6zQWX6w">
+</div>
+<div class="flex items-baseline tracking-tight">
+<span class="text-[28px] font-extrabold text-white">Citas</span>
+<span class="text-[28px] font-extrabold text-[#10B981]">Ya</span>
+</div>
+</div>
+</div>
+<!-- Dark 2D -->
+<div class="p-space-md rounded-xl bg-[#0F172A] flex flex-col items-center justify-center text-white">
+<span class="font-label-sm text-label-sm text-slate-400 mb-2">2D Vector Invertido</span>
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl flex items-center justify-center bg-slate-800 p-1">
+<svg class="w-full h-full object-contain" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="32" rx="9" stroke="#10B981" stroke-width="3.5" fill="none"></rect><rect x="13" y="4" width="4" height="8" rx="2" fill="#10B981"></rect><rect x="31" y="4" width="4" height="8" rx="2" fill="#10B981"></rect><circle cx="24" cy="26" r="9" stroke="#10B981" stroke-width="2.5" stroke-dasharray="3 3" fill="none"></circle><path d="M10 23h5M8 27h6M11 31h4" stroke="#10B981" stroke-width="2" stroke-linecap="round"></path><path d="M20 26l3.5 3.5L30 21" stroke="#34D399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</div>
+<div class="flex items-baseline tracking-tight">
+<span class="text-[28px] font-extrabold text-white">Citas</span>
+<span class="text-[28px] font-extrabold text-[#34D399]">Ya</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row 4: Monochrome Stencil & Single-Ink Stamping -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-1 lg:w-1/4">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold">Escenario 04</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Monocromático &amp; Tinta Única</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Para facturas electrónicas, sellos notariales, bordados y papelería legal.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md lg:w-3/4 w-full">
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col items-center justify-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-2">Negro Puro 100% K</span>
+<div class="flex items-center gap-3 grayscale contrast-200">
+<img alt="CitasYa Black Monochrome" class="h-12 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZRnB4bWDQBwA6Nmj94Hv0Sr_FpHRuF2D_9MQPKklN_P8OrRvymCWLDonq2fN19_Yrw0o6Q4zV0TzCFYSAN_e9GnPIBUGsDdCDiYohdRu61GgIZVM00GvpKC5v-CQCy1NVZR7i1UgQDfV5pXclnzrN7a1FeWO-jp-LnpxInXKyELDGkIVoK6zP-OYRm6o5SEpNEf_IwJLi3nfX1MM25LxPgN-RkHd8je_-oXFumyqc_8U5TwZybTLGTZ2ErAGRFPIZKw" style="mix-blend-mode: multiply;">
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-[#006948] flex flex-col items-center justify-center text-white">
+<span class="font-label-sm text-label-sm text-primary-fixed mb-2">Monotono "Verde Cruceño"</span>
+<div class="flex items-center gap-3"><div class="w-10 h-10 flex items-center justify-center"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJEOsl2cb3dHwB4-mMIbjneEh6QVipNpIYaRXAGPJSbUMCpYc8zZa7FNciFlFA8CTtFH2s3IJ6M01uO7eJFuhWWyZ5QUsKZJwo8-LHOpiSouPtK8Ukh4vv2-Q12n_GyZcX-xTOXty_j9vqZ7LWfgfhn18liZkVOcE0d2MIEg463s9B9t7cAwNBDz3UY1bkH83HRaE3WFgZ7kMlk9uNFBhmbPXOkr_HXbH_puVEGN3G9Wcjycx75mwzNxruZIi-B6qe7Q" alt="CitasYa Monocromo Verde Cruceño" class="w-full h-full object-contain filter invert brightness-0 [filter:brightness(0)_invert(1)]"></div><div class="flex items-baseline tracking-tight"><span class="text-[24px] font-extrabold text-white leading-none">Citas</span><span class="text-[24px] font-extrabold text-white leading-none">Ya</span></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Real-World Digital & Physical Context Previews -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="flex flex-col gap-space-xs mb-space-lg">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Implementaciones en Entorno Real</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">El Sistema en Acción</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        Verificación de consistencia visual en puntos de contacto clave: tienda de apps, navegación móvil, confirmación por WhatsApp y vitrinas comerciales.
+      </p>
+</div>
+<!-- 4 Mockup Preview Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Mockup 1: App Store Icon -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="aspect-square w-full rounded-xl bg-surface-container-low flex flex-col items-center justify-center p-space-md relative overflow-hidden">
+<div class="w-28 h-28 rounded-3xl shadow-xl overflow-hidden bg-surface-container-lowest p-1.5 flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
+<img alt="CitasYa 3D Squircle App Icon" class="w-full h-full object-cover rounded-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcobfG4x8ym2p-Ull_D7f-C_UFdE0r8iC4k9dLfpyqulwSebNP8NPSOID6MIJmSj7bhfdQRG8XBmhvr4q2IJepGzIhiZoWzkUuPixyr0gIfvBSh-GTcR8bJwHoIbOVMDbLRBBwxGvYxG2ye5F5fGjtwanbRG7K26ZUpFg-yDgyG8r6GZ3MuQLRWsFXgw6S1OwBxWx1WuHhJOf3SMHf7vAfMVSbAb8oaZmlb8dLeY67kEq7jiyazazO9-L9PHt71U4HHg">
+</div>
+<span class="mt-space-sm font-label-md text-label-md text-on-surface font-bold">CitasYa: Agendamientos &amp; Consultas</span>
+<span class="font-label-sm text-label-sm text-primary">★★★★★ 4.9 (1.2k reseñas)</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Google Play &amp; Apple Store</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Launcher 3D Glass</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Profundidad táctil que destaca en la cuadrícula de aplicaciones del usuario frente a competidores planos.
+          </p>
+</div>
+</div>
+<!-- Mockup 2: WhatsApp Confirmation Card -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="aspect-square w-full rounded-xl bg-[#EFEAE2] flex flex-col items-center justify-center p-space-md relative overflow-hidden">
+<div class="w-full max-w-[240px] rounded-xl bg-white p-3 shadow-md flex flex-col gap-2">
+<div class="flex items-center gap-2 border-b border-slate-100 pb-2">
+<div class="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
+<img alt="CitasYa Bot WhatsApp" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxfxdnsTLQM-Mr-PHSvkvNIA8B4gFjPZ91TsBLrQv6dOU1CUSsgGTn2saNPuU0XOCHdFT1BjX3FdmFIph4suPt0Z_22zG_lrlakQPIRB7Wzx3CAQXW6P2CwiITD7CEAeeCFH2mlNS8hj80lyiJv0kuDoW3S91FVLCfojelCyqeLM6HlcrQMf9wMipQmyHV9lSh8wdcBXUTH9u_rSgQWqgKwKX61ctL2QQFLDwSW-pZpY_2orExAKbkzVJ--dbem34BAA">
+</div>
+<div class="flex flex-col leading-none">
+<span class="font-label-md text-label-md font-bold text-slate-800">CitasYa Bolivia</span>
+<span class="text-[10px] text-emerald-600 flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">verified</span> Cuenta Oficial
+                </span>
+</div>
+</div>
+<div class="text-[11px] text-slate-600 leading-tight">
+              ¡Hola Andrés! Cita confirmada con <strong class="text-slate-800">Dr. Roberto Paz</strong>.<br>
+              📅 <strong>Mañana, 15:30</strong><br>
+              📍 Clínica Foianini, Equipetrol.
+            </div>
+<div class="bg-emerald-50 rounded-lg p-1.5 flex items-center justify-between text-[11px] text-emerald-700 font-bold">
+<span class="">Cupo #CY-8492</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Mensajería Instantánea</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Bot WhatsApp Business</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Confirmación automatizada instantánea vinculada a la pasarela QR y geolocalización de Google Maps.
+          </p>
+</div>
+</div>
+<!-- Mockup 3: Mobile Web Navigation Topbar -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="aspect-square w-full rounded-xl bg-surface-container-low flex flex-col items-center justify-center p-space-md relative overflow-hidden">
+<div class="w-full max-w-[240px] rounded-2xl bg-white shadow-md p-3 flex flex-col gap-3">
+<div class="flex items-center justify-between border-b border-slate-100 pb-2">
+<img alt="CitasYa 2D Header Mobile" class="h-6 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfbol0xlN8N6rVDG-52vN2xsLvfA5A4-8e47XN7aa3hpKk7N3LFvHZxwgrjSWa1ziD47Rm31JZ_ZlDn_EI0wSUyBYs7oDCq2CGBRIzxpHQZgTDib47H4FTIViPEyqtdURojM_qPrSksh1aJGf2dlQpTXAlx9LOfpJcM9jSJN4vs2YBVZZfG3ugkaev4Zgo9Jvy2R6NQnJqdlxCL_vyRRFdIFim9IeEFDGMMpPHR4LUdezpgeBnA1bSb3IS0U2wt2nf-g">
+<span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px] text-on-surface">menu</span>
+</span>
+</div>
+<div class="flex items-center gap-2 bg-slate-50 p-2 rounded-xl">
+<span class="material-symbols-outlined text-slate-400 text-[18px]">search</span>
+<span class="text-[11px] text-slate-400">Dentista, Salón, Clínica...</span>
+</div>
+<div class="flex gap-1.5">
+<span class="px-2 py-1 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold">Equipetrol</span>
+<span class="px-2 py-1 rounded-full bg-slate-100 text-slate-700 text-[10px]">Las Palmas</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Navegación Móvil UI</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Header 2D Minimal</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Consumo ultra-ligero de SVG (menos de 2.4kb) que optimiza los Web Vitals en conexiones 4G/LTE locales.
+          </p>
+</div>
+</div>
+<!-- Mockup 4: Storefront Vinyl & Business Card -->
+<div class="p-space-md rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
+<div class="aspect-square w-full rounded-xl bg-gradient-to-tr from-slate-900 to-slate-800 flex flex-col items-center justify-center p-space-md relative overflow-hidden">
+<div class="w-full max-w-[220px] rounded-xl bg-white/95 backdrop-blur-md p-3 shadow-2xl flex flex-col gap-2 border border-white/20">
+<div class="flex items-center justify-between">
+<img alt="CitasYa Storefront Sticker" class="h-5 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUraXGyB-DeXYZP3mZOqaavlQz3SniXKuum74gJgecJDATTb3Pz72DKdeEltgpAjR-8olKDPvCxuZT-KSM_PBCvxRTPQVB5q4Qd5dK39dtwMiFcgdeidajPd8u8xtlr14GvkC38mxPOHAxK-hHv9tO_DhRPlo8YyVAwEhoQ54t4gBOY9lA40_A1N2HsTreSC8vPEEZqFrgNS9aGuRYbGRlOvGYi282iM_C8e8zAfkg-pC4cQEh_s3dqSMQKMwO172Feg">
+<span class="text-[9px] font-bold uppercase tracking-wider bg-emerald-600 text-white px-1.5 py-0.5 rounded">Socio Oficial</span>
+</div>
+<div class="text-[10px] text-slate-600">
+              Agenda tu turno escaneando aquí sin hacer fila.
+            </div>
+<div class="flex items-center gap-2 pt-1 border-t border-slate-100">
+<div class="w-10 h-10 bg-slate-100 rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px] text-slate-800">qr_code_2</span>
+</div>
+<span class="text-[9px] text-slate-500 leading-tight">Confirmación directa en tu teléfono</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Merchandising &amp; Retail</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Adhesivo QR Físico</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Etiqueta vinílica para vitrinas de consultorios, centros de estética y talleres mecánicos de la ciudad.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Clear Space, Minimum Sizes & Safe Zones -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Normas de Aplicación Técnica</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Área de Protección y Reducciones Mínimas</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Clear Space Card -->
+<div class="p-space-lg rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Área de Exclusión 'X'</h3>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">X = Altura del Check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Ningún elemento gráfico, titular publicitario ni margen de corte debe penetrar el área de resguardo perimetral definida por el módulo <code class="font-bold text-primary">X</code>.
+          </p>
+<!-- Visual Safezone Graphic -->
+<div class="p-space-lg rounded-2xl bg-surface-container border-2 border-dashed border-primary/40 flex items-center justify-center relative">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-center">
+<img alt="CitasYa Safe Zone Rule" class="h-16 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO640TWT3klDfasz18TfWZadaGggxM0zLazGDDZh_rs1vdAMVlIsb9nUOqEkPVGuds0Idj3agQVmYrUFeeJFbkwxEYi12dTwDxEb5pBrVKmwmnYPk8X0N73BNam2vd1GtSIDW53GQ-M2hgEYxtw8W6LzJ58aFDPDC9Hh3D9U1ioy-8i-C46con1RoQIXgJ9ki4P5OkITRg8UZjmYW4hR4ZLHBrP8XXvTBmlru6hbsklMfaxrx4l2A-g5SR1X4YxAw8fw">
+</div>
+<!-- Labels -->
+<span class="absolute top-2 left-4 font-mono text-[11px] text-primary font-bold">X ↑</span>
+<span class="absolute bottom-2 left-4 font-mono text-[11px] text-primary font-bold">X ↓</span>
+<span class="absolute top-1/2 left-2 -translate-y-1/2 font-mono text-[11px] text-primary font-bold">← X</span>
+<span class="absolute top-1/2 right-2 -translate-y-1/2 font-mono text-[11px] text-primary font-bold">X →</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="">Garantiza legibilidad sobre fotografías de especialistas o fondos institucionales.</span>
+</div>
+</div>
+<!-- Minimum Sizes Card -->
+<div class="p-space-lg rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Límites Mínimos de Reducción</h3>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Digital vs Impreso</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Para evitar la pérdida de legibilidad de las estelas y el cuadrante horario, nunca reducir por debajo de los siguientes límites técnicos:
+          </p>
+<div class="grid grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-2xl bg-surface-container-low flex flex-col items-center justify-center text-center gap-1">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Pantalla Digital</span>
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface">32 px</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Lockup Horizontal Completo</span>
+<div class="mt-2 pt-2 border-t border-surface-dim w-full font-label-sm text-label-sm text-on-surface">
+                Favicon aislado: <strong>16 × 16 px</strong>
+</div>
+</div>
+<div class="p-space-md rounded-2xl bg-surface-container-low flex flex-col items-center justify-center text-center gap-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Soporte Físico / Impreso</span>
+<span class="font-headline-lg text-headline-lg font-bold text-on-surface">18 mm</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ancho Mínimo de Impresión</span>
+<div class="mt-2 pt-2 border-t border-surface-dim w-full font-label-sm text-label-sm text-on-surface">
+                Sello / Isotipo: <strong>8 mm</strong>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-error text-[18px]">block</span>
+<span class="">No utilizar el render 3D por debajo de 64 px (usar siempre la versión 2D vectorial pura).</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Asset Export & Developer Sign-Off Strip -->
+<section class="max-w-[1440px] mx-auto px-margin py-space-xl w-full">
+<div class="p-space-xl rounded-3xl bg-surface-container-lowest shadow-lg flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Paquete de Producción Blindado</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Kit Maestro CitasYa Listo para Implementación
+        </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Los archivos SVG vectoriales canónicos, renders 3D EXR/PNG con canal alfa transparente y tokens CSS preconfigurados se encuentran validados para el equipo de desarrollo y diseño de producto.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="px-5 py-3 rounded-full bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-all shadow-md flex items-center gap-2" onclick="alert('Descargando Master SVG Pack (2D Flat &amp; Monocromo)...')">
+<span class="material-symbols-outlined text-[20px]">download</span> Descargar SVG Pack (2D)
+        </button>
+<button class="px-5 py-3 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-all flex items-center gap-2" onclick="alert('Descargando 3D Glossy Renders Kit (PNG Alpha 4K)...')">
+<span class="material-symbols-outlined text-[20px]">folder_zip</span> Renders 3D 4K (PNG)
+        </button>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-[1440px] mx-auto px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">CitasYa</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Design Architecture</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md text-center md:text-left">Official Agency-Grade Design System Presentation and Brandbook Guidelines. Engineered for frictionless digital appointment orchestration.</p></div><div class="flex flex-wrap items-center justify-center gap-space-lg text-on-surface-variant font-label-md text-label-md"><span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-tertiary"></span>Spec: M3 Soft UI 2.0</span><span class="text-outline-variant">•</span><span class="">Color Space: sRGB/P3</span><span class="text-outline-variant">•</span><span class="">Typography: Outfit &amp; Open Sans</span></div><div class="flex items-center gap-space-sm"><div class="flex items-center gap-1.5 px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>Export Status: Verified</div></div></div></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

@@ -26,14 +26,12 @@ Future<void> initServices() async {
   Get.log('starting services ...');
   await GetStorage.init();
   await Get.putAsync(() => GlobalService().init());
-  if (!kIsWeb) {
-    try {
-      await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform,
-      );
-    } catch (e) {
-      Get.log('Firebase.initializeApp warning: $e');
-    }
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    Get.log('Firebase.initializeApp warning: $e');
   }
   await Get.putAsync(() => AuthService().init());
   await Get.putAsync(() => LaravelApiClient().init());

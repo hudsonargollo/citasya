@@ -31,8 +31,17 @@ class TranslationService extends GetxService {
   // with the code of language concatenate with the country code
   // for example (en_US.json)
   Future<TranslationService> init() async {
-    languages = await _settingsRepo.getSupportedLocales();
-    await loadTranslation();
+    try {
+      languages = await _settingsRepo.getSupportedLocales();
+    } catch (e) {
+      Get.log('getSupportedLocales error: $e');
+      languages = ['en', 'es'];
+    }
+    try {
+      await loadTranslation();
+    } catch (e) {
+      Get.log('loadTranslation error: $e');
+    }
     return this;
   }
 

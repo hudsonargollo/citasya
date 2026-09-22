@@ -10,7 +10,12 @@ class Helper {
   DateTime? currentBackPressTime;
 
   static Future<dynamic> getJsonFile(String path) async {
-    return rootBundle.loadString(path).then(convert.jsonDecode);
+    try {
+      return await rootBundle.loadString(path).then(convert.jsonDecode);
+    } catch (_) {
+      String fallbackPath = path.startsWith('assets/') ? path.replaceFirst('assets/', '') : 'assets/$path';
+      return await rootBundle.loadString(fallbackPath).then(convert.jsonDecode);
+    }
   }
 
   static Future<dynamic> getFilesInDirectory(String path) async {
