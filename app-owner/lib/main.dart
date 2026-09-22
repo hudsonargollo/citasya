@@ -13,6 +13,9 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
 import 'firebase_options.dart';
+import 'app/modules/auth/controllers/auth_controller.dart';
+import 'app/modules/home/controllers/home_controller.dart';
+import 'app/modules/root/controllers/root_controller.dart';
 import 'app/providers/firebase_provider.dart';
 import 'app/providers/laravel_provider.dart';
 import 'app/routes/theme1_app_pages.dart';
@@ -38,6 +41,9 @@ Future<void> initServices() async {
   await Get.putAsync(() => FirebaseProvider().init());
   await Get.putAsync(() => SettingsService().init());
   await Get.putAsync(() => TranslationService().init());
+  Get.lazyPut(() => AuthController(), fenix: true);
+  Get.lazyPut(() => RootController(), fenix: true);
+  Get.lazyPut(() => HomeController(), fenix: true);
   Get.log('All services started...');
 }
 
