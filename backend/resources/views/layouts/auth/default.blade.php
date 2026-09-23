@@ -16,7 +16,7 @@
 <body class="hold-transition login-page">
 <div class="login-box" @if(isset($width)) style="width:{{$width}}" @endif>
     <div class="login-logo mb-4">
-        <a href="{{ url('/') }}"><img src="{{ asset('images/brand/logo_2d_horizontal.webp?v=4') }}" alt="{{setting('app_name')}}" style="max-height: 52px; width: auto;" class="img-fluid"></a>
+        <a href="{{ url('/') }}"><img src="{{ asset('images/brand/logocitasya.webp?v=10') }}" alt="{{setting('app_name')}}" style="max-height: 130px; width: auto;" class="img-fluid"></a>
     </div>
     <!-- /.login-logo -->
     <div class="card shadow-sm">
