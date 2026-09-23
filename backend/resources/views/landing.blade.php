@@ -4,6 +4,9 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>CitasYa | Reserva de citas y servicios profesionales en Santa Cruz, Bolivia</title>
+<link rel="icon" type="image/png" href="{{ asset('images/brand/icon_2d.png') }}"/>
+<link rel="shortcut icon" href="{{ asset('images/brand/icon_2d.png') }}"/>
+<link rel="apple-touch-icon" href="{{ asset('images/brand/icon_2d.png') }}"/>
 <!-- Google Fonts: Plus Jakarta Sans for ultra-clean tech & neo-grotesque flair -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -977,10 +980,8 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800 text-sm">
 <!-- Brand Info Col -->
 <div class="lg:col-span-2">
-<a class="inline-flex items-center gap-3 mb-6 group" href="#">
-  <div class="bg-white rounded-2xl p-3 px-5 inline-flex items-center shadow-lg shadow-brand-lime/15 border border-white/30 transition-transform duration-300 group-hover:scale-105">
-    <img alt="CitasYa Bolivia" class="h-12 sm:h-14 w-auto object-contain" src="/images/brand/logo_2d_horizontal.png"/>
-  </div>
+<a class="inline-flex items-center gap-3 mb-6 group" href="/">
+  <img alt="CitasYa Bolivia" class="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-105" src="{{ asset('images/brand/logo_landing_footer.png') }}"/>
 </a>
 <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
             La plataforma líder de auto-agendamiento y confirmación instantánea por WhatsApp para profesionales y comercios de servicios en Bolivia.

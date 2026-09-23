@@ -32,10 +32,17 @@ class App
     {
         try {
             $this->uploadRepository = new UploadRepository(app());
-            $upload = $this->uploadRepository->findByField('uuid', setting('app_logo', ''))->first();
             $appLogo = asset('images/logo_default.png');
-            if ($upload && $upload->hasMedia('app_logo')) {
-                $appLogo = $upload->getFirstMediaUrl('app_logo');
+            $logoSetting = setting('app_logo', '');
+            if (!empty($logoSetting)) {
+                if (filter_var($logoSetting, FILTER_VALIDATE_URL) || str_starts_with($logoSetting, '/') || str_starts_with($logoSetting, 'images/')) {
+                    $appLogo = str_starts_with($logoSetting, 'images/') ? asset($logoSetting) : $logoSetting;
+                } else {
+                    $upload = $this->uploadRepository->findByField('uuid', $logoSetting)->first();
+                    if ($upload && $upload->hasMedia('app_logo')) {
+                        $appLogo = $upload->getFirstMediaUrl('app_logo');
+                    }
+                }
             }
             view()->share('app_logo', $appLogo);
         } catch (Exception $exception) {

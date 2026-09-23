@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>{{setting('app_name')}} | {{setting('app_short_description')}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <link rel="icon" type="image/png" href="{{$app_logo ?? ''}}"/>
+    <link rel="icon" type="image/png" href="{{asset('images/brand/icon_2d.png')}}"/>
+    <link rel="shortcut icon" href="{{asset('images/brand/icon_2d.png')}}"/>
+    <link rel="apple-touch-icon" href="{{asset('images/brand/icon_2d.png')}}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free/css/all.min.css')}}">
 

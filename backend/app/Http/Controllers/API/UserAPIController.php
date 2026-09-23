@@ -173,11 +173,19 @@ class UserAPIController extends Controller
         if (!$settings) {
             return $this->sendError('Settings not found');
         }
-        $upload = $this->uploadRepository->findByField('uuid', setting('app_logo', ''))->first();
-        $settings['app_logo'] = asset('images/logo_default.png');
-        if ($upload && $upload->hasMedia('app_logo')) {
-            $settings['app_logo'] = $upload->getFirstMediaUrl('app_logo');
+        $appLogo = asset('images/logo_default.png');
+        $logoSetting = setting('app_logo', '');
+        if (!empty($logoSetting)) {
+            if (filter_var($logoSetting, FILTER_VALIDATE_URL) || str_starts_with($logoSetting, '/') || str_starts_with($logoSetting, 'images/')) {
+                $appLogo = str_starts_with($logoSetting, 'images/') ? asset($logoSetting) : $logoSetting;
+            } else {
+                $upload = $this->uploadRepository->findByField('uuid', $logoSetting)->first();
+                if ($upload && $upload->hasMedia('app_logo')) {
+                    $appLogo = $upload->getFirstMediaUrl('app_logo');
+                }
+            }
         }
+        $settings['app_logo'] = $appLogo;
 
         return $this->sendResponse($settings, 'Settings retrieved successfully');
     }
