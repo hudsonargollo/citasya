@@ -122,15 +122,19 @@ Route::middleware('auth')->group(function () {
         });
     });
 
-    Route::resource('salonLevels', 'SalonLevelController')->except([
+    Route::resource('niveles', 'SalonLevelController', ['names' => 'salonLevels'])->except([
         'show'
     ]);
-    Route::post('salons/remove-media', 'SalonController@removeMedia');
-    Route::resource('salons', 'SalonController')->except([
+    Route::post('negocios/remove-media', 'SalonController@removeMedia');
+    Route::resource('negocios', 'SalonController', ['names' => 'salons'])->except([
         'show'
     ]);
 
-    Route::get('requestedSalons', 'SalonController@requestedSalons')->name('requestedSalons.index');
+    Route::get('solicitudes', 'SalonController@requestedSalons')->name('requestedSalons.index');
+
+    // Legacy redirects
+    Route::redirect('salons', '/negocios');
+    Route::redirect('requestedSalons', '/solicitudes');
 
     Route::resource('addresses', 'AddressController')->except([
         'show'
