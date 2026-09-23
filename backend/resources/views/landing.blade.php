@@ -109,7 +109,15 @@
 <header class="sticky top-0 z-50 bg-[#FAFDF7]/90 backdrop-blur-md border-b border-lime-100 transition-all duration-300" data-purpose="site-header">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
 <!-- Brand Logo -->
-<a class="flex items-center gap-2.5 group" href="#"><div class="flex items-center gap-3"><img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6vaQlwo_oGVmClXgGE5oCZOMafPZDClGGMWWQehJS-zwR0wzcMBL1oJsf8Rvm2bGLYvJmlzU4N8G4aJ4cHFF_LWyuKWC5_qvrIq0AwwDJHvXN-l1-YiBcQOSAgneKuBalXx-vDufwVHvi8PGPAkMs5SUqg7b5H_DyoFh2yqDuAVZaO6ikZtVUuhPXLYnF6XC8kXrNmw-9ieUbHPnwFzg8KNgEjXS89KCg7mdolFleWC9TcXEsygxrCwzFkaAb1jwTqg"/><div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3"><span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span><span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span></div></div></a>
+<a class="flex items-center gap-2.5 group" href="#">
+  <div class="flex items-center gap-3">
+    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logo_2d_horizontal.png"/>
+    <div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3">
+      <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span>
+      <span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
+    </div>
+  </div>
+</a>
 <!-- Desktop Navigation Menu -->
 <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
 <a class="hover:text-brand-darklime transition-colors flex items-center gap-1" href="#servicios">
@@ -969,8 +977,12 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800 text-sm">
 <!-- Brand Info Col -->
 <div class="lg:col-span-2">
-<a class="flex items-center gap-2.5 mb-4" href="#"><div class="bg-white/95 rounded-2xl p-2 px-3 inline-flex items-center shadow-md"><img alt="CitasYa Bolivia" class="h-8 w-auto object-contain" src="/images/brand/logo_2d_horizontal.png"/></div></a>
-<p class="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
+<a class="inline-flex items-center gap-3 mb-6 group" href="#">
+  <div class="bg-white rounded-2xl p-3 px-5 inline-flex items-center shadow-lg shadow-brand-lime/15 border border-white/30 transition-transform duration-300 group-hover:scale-105">
+    <img alt="CitasYa Bolivia" class="h-12 sm:h-14 w-auto object-contain" src="/images/brand/logo_2d_horizontal.png"/>
+  </div>
+</a>
+<p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
             La plataforma líder de auto-agendamiento y confirmación instantánea por WhatsApp para profesionales y comercios de servicios en Bolivia.
           </p>
 <div class="flex items-center gap-2 text-xs font-semibold text-slate-400">
