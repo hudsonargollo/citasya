@@ -364,7 +364,7 @@
 </div>
 <div class="text-left text-xs">
 <div class="flex items-center gap-1.5 font-bold text-slate-900">
-<span class="">WhatsApp Auto-Confirm</span>
+<span class="">Confirmación Automática</span>
 <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
 </div>
 <p class="text-slate-500 mt-0.5 text-[11px] leading-snug">"¡Hola Mariela! Tu cita en Los Cusis Spa está agendada para hoy a las 16:30 hrs."</p>
