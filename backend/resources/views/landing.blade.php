@@ -114,7 +114,7 @@
 <!-- Brand Logo -->
 <a class="flex items-center gap-2.5 group" href="#">
   <div class="flex items-center gap-3">
-    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logo_2d_horizontal.png"/>
+    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logo_2d_horizontal.png?v=2"/>
     <div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3">
       <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span>
       <span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
@@ -981,7 +981,7 @@
 <!-- Brand Info Col -->
 <div class="lg:col-span-2">
 <a class="inline-flex items-center gap-3 mb-6 group" href="/">
-  <img alt="CitasYa Bolivia" class="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-105" src="{{ asset('images/brand/logo_landing_footer.png') }}"/>
+  <img alt="CitasYa Bolivia" class="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-105" src="{{ asset('images/brand/logo_landing_footer.png?v=2') }}"/>
 </a>
 <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
             La plataforma líder de auto-agendamiento y confirmación instantánea por WhatsApp para profesionales y comercios de servicios en Bolivia.

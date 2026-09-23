@@ -70,13 +70,9 @@
             </div>
         </form>
 
-        @if(setting('enable_facebook',false) || setting('enable_google',false) || setting('enable_twitter',false))
+        @if(setting('enable_google',false) || setting('enable_twitter',false))
             <div class="social-auth-links text-center mb-3">
                 <p style="text-transform: uppercase">- {{__('lang.or')}} -</p>
-                @if(setting('enable_facebook',false))
-                    <a href="{{url('login/facebook')}}" class="btn btn-block btn-facebook"> <i class="fab fa-facebook mr-2"></i> {{__('auth.login_facebook')}}
-                    </a>
-                @endif
                 @if(setting('enable_google',false))
                     <a href="{{url('login/google')}}" class="btn btn-block btn-google"> <i class="fab fa-google mr-2"></i> {{__('auth.login_google')}}
                     </a>
