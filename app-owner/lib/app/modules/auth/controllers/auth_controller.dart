@@ -37,15 +37,19 @@ class AuthController extends GetxController {
 
   void login() async {
     Get.focusScope?.unfocus();
-    if ((loginFormKey.currentState != null) && (loginFormKey.currentState?.validate() ?? false)) {
+    if (loginFormKey.currentState!.validate()) {
       loginFormKey.currentState!.save();
       loading.value = true;
       try {
         await Get.find<FireBaseMessagingService>().setDeviceToken();
         currentUser.value = await _userRepository.login(currentUser.value);
-        await _userRepository.signInWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+        try {
+          await _userRepository.signInWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+        } catch (e) {
+          Get.log('Firebase signin notice: $e');
+        }
         loading.value = false;
-        await Get.toNamed(Routes.ROOT, arguments: 0);
+        await Get.toNamed(Routes.SALONS);
       } catch (e) {
         Get.showSnackbar(Ui.ErrorSnackBar(message: e.toString()));
       } finally {
@@ -67,7 +71,11 @@ class AuthController extends GetxController {
         } else {
           await Get.find<FireBaseMessagingService>().setDeviceToken();
           currentUser.value = await _userRepository.register(currentUser.value);
-          await _userRepository.signUpWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+          try {
+            await _userRepository.signUpWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+          } catch (e) {
+            Get.log('Firebase signup notice: $e');
+          }
           loading.value = false;
           await Get.toNamed(Routes.SALONS);
         }
@@ -85,7 +93,11 @@ class AuthController extends GetxController {
       await _userRepository.verifyPhone(smsSent.value);
       await Get.find<FireBaseMessagingService>().setDeviceToken();
       currentUser.value = await _userRepository.register(currentUser.value);
-      await _userRepository.signUpWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+      try {
+        await _userRepository.signUpWithEmailAndPassword(currentUser.value.email, currentUser.value.apiToken);
+      } catch (e) {
+        Get.log('Firebase signup notice: $e');
+      }
       loading.value = false;
       await Get.toNamed(Routes.SALONS);
     } catch (e) {

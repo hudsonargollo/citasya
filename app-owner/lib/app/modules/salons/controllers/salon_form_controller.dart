@@ -42,16 +42,17 @@ class SalonFormController extends GetxController {
   }
 
   @override
-  void onInit() async {
-
+  void onInit() {
     try {
-      var arguments = Get.arguments as Map<String, dynamic>;
-      salon.value = arguments['salon'] as Salon;
-    }catch(e){
-
+      if (Get.arguments != null && Get.arguments is Map<String, dynamic>) {
+        var arguments = Get.arguments as Map<String, dynamic>;
+        if (arguments.containsKey('salon') && arguments['salon'] != null) {
+          salon.value = arguments['salon'] as Salon;
+        }
+      }
+    } catch (e) {
+      Get.log('SalonFormController onInit args notice: $e');
     }
-    var arguments = Get.arguments as Map<String, dynamic>;
-    salon.value = arguments['salon'] as Salon;
 
     super.onInit();
   }
