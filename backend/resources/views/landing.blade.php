@@ -114,7 +114,7 @@
 <!-- Brand Logo -->
 <a class="flex items-center gap-2.5 group" href="#">
   <div class="flex items-center gap-3">
-    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logo_2d_horizontal.png?v=2"/>
+    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logo_2d_horizontal.webp?v=3"/>
     <div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3">
       <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span>
       <span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
@@ -200,7 +200,7 @@
 </div>
 <!-- BEGIN: JanjiyukTabletShowcase -->
 <!-- Centerpiece inspired by Janjiyuk mockup composition with lime green backing card and device tablet -->
-<div class="mt-14 relative max-w-5xl mx-auto" data-purpose="hero-device-composition"><div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 px-4 animate-float"><div class="bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-3xl shadow-xl border border-lime-200/80 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left gap-3.5 flex-wrap hover:scale-105 transition-transform duration-300"><img alt="CitasYa 3D Icon" class="w-12 h-12 object-contain drop-shadow-md" src="/images/brand/icon_3d.png?v=2"/><div class="text-left"><p class="font-display font-black text-sm text-slate-900 tracking-tight leading-snug">Auto-Agendamiento Inteligente SCZ</p></div><div class="h-8 w-px bg-slate-200 hidden sm:block"></div><img alt="CitasYa 3D Lockup" class="h-9 w-auto object-contain hidden sm:block" src="/images/brand/logo_2d_horizontal.png?v=2"/></div></div>
+<div class="mt-14 relative max-w-5xl mx-auto" data-purpose="hero-device-composition"><div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 px-4 animate-float"><div class="bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-3xl shadow-xl border border-lime-200/80 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left gap-3.5 flex-wrap hover:scale-105 transition-transform duration-300"><img alt="CitasYa 3D Icon" class="w-12 h-12 object-contain drop-shadow-md" src="/images/brand/icon_3d.png?v=2"/><div class="text-left"><p class="font-display font-black text-sm text-slate-900 tracking-tight leading-snug">Auto-Agendamiento Inteligente SCZ</p></div><div class="h-8 w-px bg-slate-200 hidden sm:block"></div><img alt="CitasYa 3D Lockup" class="h-9 w-auto object-contain hidden sm:block" src="/images/brand/logo_2d_horizontal.webp?v=3"/></div></div>
 <!-- Outer Bright Lime Curved Canvas (Direct Janjiyuk Visual Homage) -->
 <div class="relative bg-gradient-to-b from-[#84CC16] to-[#65A30D] rounded-[2.5rem] md:rounded-[3.5rem] p-4 sm:p-8 lg:p-12 shadow-2xl shadow-brand-darklime/30 overflow-hidden">
 <!-- Janjiyuk Graphic Starburst Accents inside the lime canvas -->
@@ -982,7 +982,7 @@
 <!-- Brand Info Col -->
 <div class="lg:col-span-2">
 <a class="inline-flex items-center gap-3 mb-6 group" href="/">
-  <img alt="CitasYa Bolivia" class="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-105" src="{{ asset('images/brand/logo_landing_footer.png?v=2') }}"/>
+  <img alt="CitasYa Bolivia" class="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-105" src="{{ asset('images/brand/logo_2d_horizontal.webp') }}?v=3"/>
 </a>
 <p class="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
             La plataforma líder de auto-agendamiento y confirmación instantánea por WhatsApp para profesionales y comercios de servicios en Bolivia.
