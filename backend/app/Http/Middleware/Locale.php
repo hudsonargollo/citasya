@@ -22,8 +22,8 @@ class Locale
         try {
             if (Session::has('locale')) {
                 $locale = Session::get('locale');
-            } else if (!($locale = $this->parseHttpLocale($request))) {
-                $locale = setting('language', app()->getLocale());
+            } else {
+                $locale = setting('language', 'es');
             }
             app()->setLocale($locale);
             Carbon::setLocale($locale);

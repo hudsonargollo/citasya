@@ -1,23 +1,28 @@
 <?php
-/*
- * File name: auth.php
- * Last modified: 2022.08.11 at 20:05:52
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
- * Copyright (c) 2022
- */
 
 return [
-    /*
-    |--------------------------------------------------------------------------
-    | Authentication Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-    */
-
+    'agree' => 'Acepto los términos y condiciones',
+    'account_not_accepted' => '¡Cuenta no aprobada! Por favor envíe su solicitud utilizando su cuenta de panel de administración.',
+    'already_member' => 'Ya tengo una cuenta',
+    'email' => 'Correo Electrónico',
     'failed' => 'Estas credenciales no coinciden con nuestros registros.',
+    'forgot_password' => 'Olvidé mi contraseña',
+    'login' => 'Iniciar Sesión',
+    'login_facebook' => 'Ingresar con Facebook',
+    'login_google' => 'Ingresar con Google',
+    'login_title' => 'Inicia sesión para comenzar',
+    'login_twitter' => 'Ingresar con Twitter',
+    'logout' => 'Cerrar Sesión',
+    'name' => 'Nombre Completo',
+    'password' => 'Contraseña',
+    'password_confirmation' => 'Confirmar contraseña',
+    'register' => 'Registrarse',
+    'register_new_member' => 'Crear una nueva cuenta',
+    'remember_me' => 'Recordarme',
+    'remember_password' => 'Recuerdo mi contraseña, volver a iniciar sesión',
+    'reset_password' => 'Restablecer',
+    'reset_password_title' => 'Ingrese su nueva contraseña',
+    'reset_title' => 'Correo para restablecer contraseña',
+    'send_password' => 'Enviar enlace de restablecimiento',
     'throttle' => 'Demasiados intentos de acceso. Por favor intente nuevamente en :seconds segundos.',
 ];
