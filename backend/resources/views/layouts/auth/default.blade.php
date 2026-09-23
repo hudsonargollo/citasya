@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{setting('app_name')}} | {{setting('app_short_description')}}</title>
-    <link rel="icon" type="image/png" href="{{asset('images/brand/icon_2d.png')}}"/>
+    <link rel="icon" type="image/png" href="{{asset('images/brand/icon_3d.png?v=4')}}"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=fallback">
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free/css/all.min.css')}}">
     <link rel="stylesheet" href="{{asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css')}}">
@@ -16,7 +16,7 @@
 <body class="hold-transition login-page">
 <div class="login-box" @if(isset($width)) style="width:{{$width}}" @endif>
     <div class="login-logo mb-4">
-        <a href="{{ url('/') }}"><img src="{{$app_logo ?? asset('images/logo_default.png?v=2')}}" alt="{{setting('app_name')}}" style="max-height: 52px; width: auto;" class="img-fluid"></a>
+        <a href="{{ url('/') }}"><img src="{{ asset('images/brand/logo_2d_horizontal.webp?v=4') }}" alt="{{setting('app_name')}}" style="max-height: 52px; width: auto;" class="img-fluid"></a>
     </div>
     <!-- /.login-logo -->
     <div class="card shadow-sm">

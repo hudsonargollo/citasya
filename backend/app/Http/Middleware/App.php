@@ -32,7 +32,7 @@ class App
     {
         try {
             $this->uploadRepository = new UploadRepository(app());
-            $appLogo = asset('images/logo_default.png');
+            $appLogo = asset('images/brand/logo_2d_horizontal.webp');
             $logoSetting = setting('app_logo', '');
             if (!empty($logoSetting)) {
                 if (filter_var($logoSetting, FILTER_VALIDATE_URL) || str_starts_with($logoSetting, '/') || str_starts_with($logoSetting, 'images/')) {
