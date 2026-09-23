@@ -957,7 +957,7 @@
               Crea tu perfil en menos de 5 minutos. Sin contratos forzosos y con soporte local 24/7 vía WhatsApp.
             </p>
 <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-slate text-brand-lime font-display font-extrabold text-base hover:bg-slate-900 shadow-xl transition-transform hover:scale-105 active:scale-95" href="/owner/">
+<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-slate text-brand-lime font-display font-extrabold text-base hover:bg-slate-900 shadow-xl transition-transform hover:scale-105 active:scale-95" href="/register">
                 Registrar Mi Negocio Gratis
               </a>
 <a class="w-full sm:w-auto px-7 py-4 rounded-full bg-white text-slate-900 font-display font-bold text-base hover:bg-slate-50 transition-colors flex items-center justify-center gap-2" href="#contacto-whatsapp">
