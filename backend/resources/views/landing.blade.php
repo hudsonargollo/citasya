@@ -485,18 +485,19 @@
 <section class="py-20 bg-[#FAFDF7]" data-purpose="service-categories" id="servicios">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <!-- Header -->
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-14">
-<div>
-<span class="px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-100 text-brand-cruz border border-emerald-200">
-              Categorías Principales
-            </span>
-<h2 class="font-display font-black text-3xl sm:text-5xl text-brand-slate mt-3 tracking-tight">
-              Diseñado para servicios esenciales
-            </h2>
-</div>
-<p class="mt-4 md:mt-0 text-slate-600 max-w-md text-sm">
-            Miles de cruceños usan CitasYa para organizar consultas médicas, tratamientos de belleza y citas legales con profesionales certificados.
-          </p>
+<div class="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+  <div class="inline-flex items-center justify-center mb-6">
+    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest bg-emerald-50 text-emerald-700 border border-emerald-200/60 shadow-sm ring-1 ring-emerald-900/5">
+      <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+      Explorar Categorías
+    </span>
+  </div>
+  <h2 class="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-slate-900 tracking-tight leading-tight mb-6">
+    Diseñado para servicios <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-500">esenciales</span>
+  </h2>
+  <p class="text-slate-500 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
+    Miles de cruceños usan <strong>CitasYa</strong> para organizar consultas médicas, tratamientos de belleza y citas legales con profesionales certificados de forma rápida y segura.
+  </p>
 </div>
 <!-- Category Cards Grid -->
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
