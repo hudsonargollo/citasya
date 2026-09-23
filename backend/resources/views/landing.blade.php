@@ -231,32 +231,32 @@
 </div>
 <!-- Tablet Screen Content -->
 <div class="bg-white rounded-b-2xl p-4 sm:p-6 lg:p-8">
-<!-- Quick Metric Top Row (Janjiyuk Stats Style) -->
-<div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-6">
-<div class="bg-[#F7FEE7] border border-lime-200 rounded-2xl p-3.5 flex flex-col">
+<!-- Quick Metric Top Row (Responsive Mobile-First Stats) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 mb-6">
+<div class="bg-[#F7FEE7] border border-lime-200 rounded-2xl p-3 sm:p-3.5 flex flex-col justify-between">
 <span class="text-[11px] font-bold text-lime-800 uppercase tracking-wider">Citas Hoy</span>
-<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
+<div class="flex items-baseline justify-between gap-2 mt-1.5">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">18</span>
-<span class="text-xs font-semibold text-emerald-600 bg-emerald-100 px-1.5 py-0.5 rounded-full">+4 vs ayer</span>
+<span class="text-[10px] sm:text-xs font-semibold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full border border-emerald-200/60">+4 vs ayer</span>
 </div>
 </div>
-<div class="bg-slate-50 border border-slate-200 rounded-2xl p-3.5 flex flex-col">
+<div class="bg-slate-50 border border-slate-200 rounded-2xl p-3 sm:p-3.5 flex flex-col justify-between">
 <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Especialistas</span>
-<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
+<div class="flex items-baseline justify-between gap-2 mt-1.5">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">6 / 6</span>
-<span class="text-xs font-medium text-slate-500">Disponibles</span>
+<span class="text-[10px] sm:text-xs font-medium text-slate-600 bg-slate-200/80 px-2 py-0.5 rounded-full">Disponibles</span>
 </div>
 </div>
-<div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3.5 flex flex-col">
+<div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 sm:p-3.5 flex flex-col justify-between">
 <span class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider">Confirmadas WhatsApp</span>
-<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
+<div class="flex items-baseline justify-between gap-2 mt-1.5">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-emerald-700">100%</span>
-<span class="text-xs font-medium text-emerald-600">Automático</span>
+<span class="text-[10px] sm:text-xs font-medium text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full border border-emerald-200/60">Automático</span>
 </div>
 </div>
-<div class="bg-sky-50 border border-sky-200 rounded-2xl p-3.5 flex flex-col">
+<div class="bg-sky-50 border border-sky-200 rounded-2xl p-3 sm:p-3.5 flex flex-col justify-between">
 <span class="text-[11px] font-bold text-sky-800 uppercase tracking-wider">Ingreso Estimado</span>
-<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
+<div class="flex items-baseline justify-between gap-2 mt-1.5">
 <span class="font-display font-extrabold text-xl sm:text-2xl text-slate-900">3,450 <span class="text-xs font-bold text-slate-500">Bs.</span></span>
 </div>
 </div>
@@ -264,86 +264,87 @@
 <!-- Main Interactive Booking View Inside Mockup -->
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
 <!-- Left Schedule List (Santa Cruz Clinica / Salon Slots) -->
-<div class="lg:col-span-7 bg-slate-50 border border-slate-200 rounded-2xl p-4">
-<div class="flex items-center justify-between pb-3 border-b border-slate-200 mb-3">
+<div class="lg:col-span-7 bg-slate-50 border border-slate-200 rounded-2xl p-3.5 sm:p-5">
+<div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-200 mb-3">
 <div class="flex items-center gap-2">
-<span class="w-3 h-3 rounded-full bg-brand-lime border border-brand-darklime"></span>
-<h4 class="font-display font-bold text-sm text-slate-800">Citas Programadas · Hoy 14 de Octubre</h4>
+<span class="w-2.5 h-2.5 rounded-full bg-brand-lime border border-brand-darklime"></span>
+<h4 class="font-display font-bold text-xs sm:text-sm text-slate-800">Citas Programadas · Hoy 14 de Octubre</h4>
 </div>
-<span class="text-xs font-semibold text-brand-darklime bg-lime-100 px-2.5 py-0.5 rounded-full">Equipetrol</span>
+<span class="text-[10px] sm:text-xs font-semibold text-brand-darklime bg-lime-100 px-2.5 py-0.5 rounded-full">Equipetrol</span>
 </div>
 <div class="space-y-2.5 text-xs">
 <!-- Appointment Item 1 -->
-<div class="flex items-center justify-between p-2.5 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition">
-<div class="flex items-center gap-3">
-<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg">15:00</span>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 sm:p-3 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition gap-2">
+<div class="flex items-center gap-2.5">
+<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg shrink-0">15:00</span>
 <div>
-<p class="font-bold text-slate-900">Dra. Valeria Suárez</p>
+<p class="font-bold text-slate-900 leading-tight">Dra. Valeria Suárez</p>
 <p class="text-slate-500 text-[11px]">Dermatología Clínica · Consultorio 4</p>
 </div>
 </div>
-<span class="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-semibold text-[10px] flex items-center gap-1">
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-semibold text-[10px] inline-flex items-center gap-1 shrink-0">
 <svg class="w-3 h-3 text-emerald-600" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path></svg>
                           WhatsApp OK
                         </span>
 </div>
 <!-- Appointment Item 2 -->
-<div class="flex items-center justify-between p-2.5 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition">
-<div class="flex items-center gap-3">
-<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg">16:15</span>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 sm:p-3 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition gap-2">
+<div class="flex items-center gap-2.5">
+<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg shrink-0">16:15</span>
 <div>
-<p class="font-bold text-slate-900">Mauricio Antelo V.</p>
+<p class="font-bold text-slate-900 leading-tight">Mauricio Antelo V.</p>
 <p class="text-slate-500 text-[11px]">Diseño de Barba &amp; Spa Capilar</p>
 </div>
 </div>
-<span class="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-semibold text-[10px] flex items-center gap-1">
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-semibold text-[10px] inline-flex items-center gap-1 shrink-0">
 <svg class="w-3 h-3 text-emerald-600" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path></svg>
                           Confirmado
                         </span>
 </div>
 <!-- Appointment Item 3 -->
-<div class="flex items-center justify-between p-2.5 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition">
-<div class="flex items-center gap-3">
-<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg">17:30</span>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between p-2.5 sm:p-3 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-lime-400 transition gap-2">
+<div class="flex items-center gap-2.5">
+<span class="font-mono font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded-lg shrink-0">17:30</span>
 <div>
-<p class="font-bold text-slate-900">Dra. Gabriela Saucedo</p>
+<p class="font-bold text-slate-900 leading-tight">Dra. Gabriela Saucedo</p>
 <p class="text-slate-500 text-[11px]">Notaría de Fe Pública #42 · Poder Especial</p>
 </div>
 </div>
-<span class="px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 font-semibold text-[10px]">
+<span class="self-start sm:self-auto px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 font-semibold text-[10px] shrink-0">
                           En Sala de Espera
                         </span>
 </div>
 </div>
 </div>
 <!-- Right Slot Selector (Direct Janjiyuk Green Grid Feature) -->
-<div class="lg:col-span-5 bg-lime-50/70 border border-lime-200 rounded-2xl p-4 flex flex-col justify-between">
+<div class="lg:col-span-5 bg-lime-50/70 border border-lime-200 rounded-2xl p-3.5 sm:p-4 flex flex-col justify-between">
 <div>
-<div class="flex items-center justify-between mb-3">
+<div class="flex items-center justify-between mb-2.5">
 <span class="font-bold text-xs text-lime-950 uppercase tracking-wider">Horarios Libres Urubó</span>
 <span class="text-[10px] bg-lime-200 text-lime-900 font-bold px-2 py-0.5 rounded-full">Hoy</span>
 </div>
 <p class="text-xs text-slate-600 mb-3 font-medium">Selecciona un turno para agendar en 30 segundos:</p>
 <!-- Pill Matrix -->
 <div class="grid grid-cols-2 gap-2">
-<button class="py-2 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
+<button class="py-2.5 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
                           18:00 hrs
                         </button>
-<button class="py-2 px-3 rounded-xl bg-brand-slate text-brand-lime font-bold text-xs shadow-sm flex items-center justify-center gap-1" type="button">
+<button class="py-2.5 px-3 rounded-xl bg-brand-slate text-brand-lime font-bold text-xs shadow-sm flex items-center justify-center gap-1.5" type="button">
 <span class="">18:45 hrs</span>
 <span class="w-1.5 h-1.5 rounded-full bg-brand-lime animate-ping"></span>
 </button>
-<button class="py-2 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
+<button class="py-2.5 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
                           19:30 hrs
                         </button>
-<button class="py-2 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
+<button class="py-2.5 px-3 rounded-xl bg-white border border-lime-300 font-bold text-slate-800 hover:bg-brand-lime hover:text-slate-950 transition text-xs shadow-sm" type="button">
                           20:15 hrs
                         </button>
 </div>
 </div>
 <!-- Instant QR Notification Mock -->
-<div class="mt-4 p-2.5 bg-white rounded-xl border border-lime-200 flex items-center gap-3">
-<div class="w-8 h-8 rounded-lg bg-brand-cruz/10 text-brand-cruz flex items-center justify-center font-bold text-xs">
+<div class="mt-4 p-2.5 bg-white rounded-xl border border-lime-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-brand-cruz/10 text-brand-cruz flex items-center justify-center font-bold text-xs shrink-0">
                         QR
                       </div>
 <div class="text-[11px] leading-tight">
@@ -676,33 +677,33 @@
 <!-- Bento Card 1: WhatsApp Bot & Notifications (Large 7 Cols) -->
 <div class="md:col-span-7 bg-brand-slate rounded-3xl p-6 sm:p-8 text-white relative overflow-hidden flex flex-col justify-between">
 <div class="relative z-10">
-<div class="flex items-center gap-3 mb-6">
-<span class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center text-xl font-bold">
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-2.5 sm:gap-3 mb-6">
+<span class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center text-xl font-bold shrink-0">
                   💬
                 </span>
-<span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-800">
+<span class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/80 px-3 py-1 rounded-full border border-emerald-800">
                   Integración Nativa WhatsApp API
                 </span>
 </div>
-<h3 class="font-display font-extrabold text-2xl sm:text-3xl text-white mb-3">
+<h3 class="font-display font-extrabold text-xl sm:text-3xl text-white mb-3 leading-snug">
                 Cero ausencias injustificadas. Recordatorios que sí se leen.
               </h3>
-<p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-lg mb-6">
+<p class="text-slate-300 text-xs sm:text-base leading-relaxed max-w-lg mb-6">
                 El 99% de tus clientes en Santa Cruz usan WhatsApp todo el día. CitasYa envía alertas de cortesía 2 horas antes con botón para confirmar o ceder el turno a otra persona.
               </p>
 </div>
 <!-- WhatsApp Chat Message Simulation -->
-<div class="relative z-10 bg-slate-800/90 rounded-2xl p-4 border border-slate-700 max-w-md shadow-lg">
-<div class="flex items-start gap-3">
-<div class="w-9 h-9 rounded-full bg-brand-lime flex items-center justify-center text-slate-900 font-extrabold text-xs">
+<div class="relative z-10 bg-slate-800/90 rounded-2xl p-3.5 sm:p-4 border border-slate-700 max-w-full sm:max-w-md shadow-lg">
+<div class="flex items-start gap-2.5 sm:gap-3">
+<div class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-brand-lime flex items-center justify-center text-slate-900 font-extrabold text-xs shrink-0">
                   CY
                 </div>
-<div class="text-xs leading-relaxed">
-<div class="flex items-center justify-between">
-<span class="font-bold text-white">CitasYa Bot (Clínica Equipetrol)</span>
-<span class="text-slate-400 text-[10px]">10:30 am</span>
+<div class="text-xs leading-relaxed flex-1 min-w-0">
+<div class="flex flex-wrap items-center justify-between gap-1">
+<span class="font-bold text-white truncate">CitasYa Bot (Clínica Equipetrol)</span>
+<span class="text-slate-400 text-[10px] shrink-0">10:30 am</span>
 </div>
-<p class="text-slate-200 mt-1">
+<p class="text-slate-200 mt-1 text-[11px] sm:text-xs">
                     "Hola Carlos, tu cita con el Dr. Foianini es hoy a las 15:30. Para confirmar responde <strong>1</strong>, para reprogramar responde <strong>2</strong>."
                   </p>
 <div class="mt-2 flex gap-2">
@@ -715,21 +716,21 @@
 <div class="absolute -right-16 -bottom-16 w-80 h-80 bg-brand-lime/10 rounded-full blur-3xl pointer-events-none"></div>
 </div>
 <!-- Bento Card 2: Simple QR Bolivia (5 Cols) -->
-<div class="md:col-span-5 bg-gradient-to-br from-[#FAFDF7] to-[#F0FDF4] border-2 border-lime-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between overflow-hidden">
+<div class="md:col-span-5 bg-gradient-to-br from-[#FAFDF7] to-[#F0FDF4] border-2 border-lime-200 rounded-3xl p-5 sm:p-8 flex flex-col justify-between overflow-hidden">
 <div>
-<div class="w-12 h-12 rounded-2xl bg-brand-lime text-brand-slate flex items-center justify-center text-2xl font-black mb-6 shadow-md shadow-lime-500/20">
+<div class="w-12 h-12 rounded-2xl bg-brand-lime text-brand-slate flex items-center justify-center text-2xl font-black mb-5 sm:mb-6 shadow-md shadow-lime-500/20">
                 Bs.
               </div>
-<h3 class="font-display font-extrabold text-2xl text-brand-slate mb-2">
+<h3 class="font-display font-extrabold text-xl sm:text-2xl text-brand-slate mb-2">
                 Cobro anticipado con Simple QR
               </h3>
-<p class="text-slate-600 text-sm leading-relaxed mb-4">
+<p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">
                 Garantiza el turno cobrando una seña de 50 Bs. o el monto completo mediante código QR compatible con todos los bancos bolivianos.
               </p>
 </div>
-<div class="bg-white rounded-2xl p-4 border border-lime-200 flex items-center justify-between">
+<div class="bg-white rounded-2xl p-3.5 sm:p-4 border border-lime-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5">
 <div class="flex items-center gap-3">
-<div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-brand-lime font-mono text-xs font-black">
+<div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-slate-900 flex items-center justify-center text-brand-lime font-mono text-xs font-black shrink-0">
                   QR
                 </div>
 <div>
@@ -737,7 +738,7 @@
 <p class="text-[11px] text-slate-500">Acreditación directa a tu cuenta</p>
 </div>
 </div>
-<span class="text-xs font-bold text-emerald-700 bg-emerald-100 px-2 py-1 rounded-md">0% Fricción</span>
+<span class="text-[10px] sm:text-xs font-bold text-emerald-700 bg-emerald-100 px-2 py-1 rounded-md shrink-0">0% Fricción</span>
 </div>
 </div>
 <!-- Bento Card 3: Multi-Staff & Calendar Sync (5 Cols) -->
