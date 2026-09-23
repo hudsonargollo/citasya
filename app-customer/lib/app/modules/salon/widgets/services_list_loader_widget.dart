@@ -1,7 +1,7 @@
 /*
  * File name: services_list_loader_widget.dart
  * Last modified: 2022.05.25 at 15:07:31
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

@@ -3,7 +3,7 @@
 /*
  * File name: model.dart
  * Last modified: 2022.02.11 at 18:24:30
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

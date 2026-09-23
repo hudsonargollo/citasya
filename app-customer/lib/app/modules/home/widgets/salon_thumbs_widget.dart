@@ -1,7 +1,7 @@
 /*
  * File name: salon_thumbs_widget.dart
  * Last modified: 2022.02.17 at 09:47:19
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

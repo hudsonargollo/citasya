@@ -1,7 +1,7 @@
 /*
  * File name: scripts.js
  * Last modified: 2021.11.07 at 11:59:29
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

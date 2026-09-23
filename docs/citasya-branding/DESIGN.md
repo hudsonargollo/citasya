@@ -139,7 +139,7 @@ spacing:
 
 ## Brand & Style
 
-This design system channels the warmth, lush greenery, and entrepreneurial drive of Santa Cruz de la Sierra into a high-converting, joyful service booking ecosystem. Inspired by modern Southeast Asian super-apps like Janjiyuk, the aesthetic merges approachable tech with high-efficiency booking flows.
+This design system channels the warmth, lush greenery, and entrepreneurial drive of Santa Cruz de la Sierra into a high-converting, joyful service booking ecosystem. Inspired by modern Southeast Asian super-apps like ClubeMkt, the aesthetic merges approachable tech with high-efficiency booking flows.
 
 ### Brand Personality & Tone
 - **Warm & Optimistic:** A breezy, welcoming tropical atmosphere rooted in Santa Cruz identity ("Verde Cruceño"), avoiding sterile clinical tropes while preserving clinical and professional trust.
@@ -202,7 +202,7 @@ Visual hierarchy uses **ambient, soft tinted shadows** combined with **subtle lo
 
 ## Shapes
 
-The design uses **Rounded (level 2)** shaping across containers and inputs, infused with signature **full pill capsules** for interactives and status chips to maintain the Janjiyuk-inspired lively consumer vibe.
+The design uses **Rounded (level 2)** shaping across containers and inputs, infused with signature **full pill capsules** for interactives and status chips to maintain the ClubeMkt-inspired lively consumer vibe.
 
 ### Curvature Tokens
 - **Cards, Modals & Containers (`rounded-xl`):** `1.5rem` (24px) gives specialist profiles and service cards a friendly, contemporary framing.

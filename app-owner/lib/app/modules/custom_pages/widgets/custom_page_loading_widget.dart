@@ -1,7 +1,7 @@
 /*
  * File name: custom_page_loading_widget.dart
  * Last modified: 2022.02.18 at 11:50:02
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

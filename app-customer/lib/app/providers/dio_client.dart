@@ -1,7 +1,7 @@
 /*
  * File name: dio_client.dart
  * Last modified: 2022.08.16 at 14:18:08
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

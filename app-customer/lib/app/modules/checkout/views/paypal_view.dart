@@ -1,7 +1,7 @@
 /*
  * File name: paypal_view.dart
  * Last modified: 2023.01.26 at 18:23:43
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

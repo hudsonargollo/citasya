@@ -1,7 +1,7 @@
 /*
  * File name: buttons.server-side.js
  * Last modified: 2021.01.03 at 16:21:01
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

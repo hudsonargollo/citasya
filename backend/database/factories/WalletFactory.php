@@ -2,7 +2,7 @@
 /*
  * File name: WalletFactory.php
  * Last modified: 2024.04.11 at 14:31:13
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

@@ -2,7 +2,7 @@
 /*
  * File name: AvailabilityHourFactory.php
  * Last modified: 2024.04.11 at 11:40:23
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

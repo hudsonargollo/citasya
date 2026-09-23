@@ -2,7 +2,7 @@
 /*
  * File name: UpdateBookingRequest.php
  * Last modified: 2021.01.29 at 23:27:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

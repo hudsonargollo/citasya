@@ -2,7 +2,7 @@
 /*
  * File name: VerifyCsrfToken.php
  * Last modified: 2021.04.18 at 07:57:20
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

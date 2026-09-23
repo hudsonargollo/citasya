@@ -2,7 +2,7 @@
 /*
  * File name: OptionsOfUserCriteria.php
  * Last modified: 2024.04.18 at 18:21:47
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

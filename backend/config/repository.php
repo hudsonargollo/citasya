@@ -2,7 +2,7 @@
 /*
  * File name: repository.php
  * Last modified: 2022.02.12 at 02:17:42
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

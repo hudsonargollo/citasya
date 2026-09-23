@@ -1,7 +1,7 @@
 /*
  * File name: messages_controller.dart
  * Last modified: 2022.02.17 at 15:50:54
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

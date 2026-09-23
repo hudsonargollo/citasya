@@ -2,7 +2,7 @@
 /*
  * File name: CustomPagesTableSeeder.php
  * Last modified: 2024.04.18 at 17:53:52
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 namespace Database\Seeders;
@@ -30,8 +30,8 @@ class CustomPagesTableSeeder extends Seeder
                 array(
                     'id' => 1,
                     'title' => 'Privacy Policy',
-                    'content' => '<h1>Privacy Policy of SmarterVision</h1>
-<p>SmarterVision operates the SmarterVision website, which provides the SERVICE.</p>
+                    'content' => '<h1>Privacy Policy of ClubeMkt</h1>
+<p>ClubeMkt operates the ClubeMkt website, which provides the SERVICE.</p>
 <p>This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the smartersvision.com website.</p>
 <p>If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
 <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at smartersvision.com, unless otherwise defined in this Privacy Policy.</p>

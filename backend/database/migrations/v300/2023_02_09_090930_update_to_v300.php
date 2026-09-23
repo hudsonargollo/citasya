@@ -2,7 +2,7 @@
 /*
  * File name: 2023_02_09_090930_update_to_v300.php
  * Last modified: 2023.02.09 at 20:36:50
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

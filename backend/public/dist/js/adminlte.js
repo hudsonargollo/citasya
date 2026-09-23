@@ -1,7 +1,7 @@
 /*
  * File name: adminlte.js
  * Last modified: 2021.04.12 at 19:39:57
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 (function (global, factory) {

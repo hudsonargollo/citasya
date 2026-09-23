@@ -2,7 +2,7 @@
 /*
  * File name: 2024_04_05_190000_update_to_v400.php
  * Last modified: 2024.04.09 at 07:54:12
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

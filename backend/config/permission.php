@@ -2,7 +2,7 @@
 /**
  * File name: permission.php
  * Last modified: 2021.01.03 at 16:20:59
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

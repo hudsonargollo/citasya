@@ -2,7 +2,7 @@
 /*
  * File name: BookingAPIController.php
  * Last modified: 2024.04.10 at 13:21:42
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

@@ -1,7 +1,7 @@
 /*
  * File name: firebase_provider.dart
  * Last modified: 2022.10.16 at 12:23:14
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

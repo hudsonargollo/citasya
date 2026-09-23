@@ -1,7 +1,7 @@
 /*
  * File name: salon_details_view.dart
  * Last modified: 2024.04.16 at 19:38:42
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

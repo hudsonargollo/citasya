@@ -1,7 +1,7 @@
 /*
  * File name: duration_chip_widget.dart
  * Last modified: 2023.02.09 at 15:50:36
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

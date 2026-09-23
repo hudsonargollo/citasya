@@ -2,7 +2,7 @@
 /*
  * File name: api.php
  * Last modified: 2026.09.23
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Updated for CitasYa Platform & Multi-Vendor Engine
  */
 

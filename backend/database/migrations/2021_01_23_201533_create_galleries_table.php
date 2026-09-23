@@ -2,7 +2,7 @@
 /*
  * File name: 2021_01_23_201533_create_galleries_table.php
  * Last modified: 2024.04.18 at 17:21:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

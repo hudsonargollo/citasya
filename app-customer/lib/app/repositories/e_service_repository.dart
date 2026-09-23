@@ -1,7 +1,7 @@
 /*
  * File name: e_service_repository.dart
  * Last modified: 2022.02.04 at 16:43:20
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

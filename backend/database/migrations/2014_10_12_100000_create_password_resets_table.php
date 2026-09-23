@@ -2,7 +2,7 @@
 /*
  * File name: 2014_10_12_100000_create_password_resets_table.php
  * Last modified: 2024.04.18 at 17:21:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

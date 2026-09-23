@@ -2,7 +2,7 @@
 /*
  * File name: AwardController.php
  * Last modified: 2024.04.10 at 12:26:07
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

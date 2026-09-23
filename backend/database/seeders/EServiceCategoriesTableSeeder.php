@@ -2,7 +2,7 @@
 /*
  * File name: EServiceCategoriesTableSeeder.php
  * Last modified: 2024.04.11 at 14:17:29
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

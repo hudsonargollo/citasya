@@ -3,7 +3,7 @@
 /*
  * File name: review_model.dart
  * Last modified: 2022.02.10 at 17:46:03
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 import 'booking_model.dart';

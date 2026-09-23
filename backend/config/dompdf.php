@@ -2,7 +2,7 @@
 /*
  * File name: dompdf.php
  * Last modified: 2021.01.17 at 17:08:22
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

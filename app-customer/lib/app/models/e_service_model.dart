@@ -3,7 +3,7 @@
 /*
  * File name: e_service_model.dart
  * Last modified: 2022.03.11 at 22:33:38
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

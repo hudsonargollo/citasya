@@ -2,7 +2,7 @@
 /*
  * File name: AvailabilityHourController.php
  * Last modified: 2024.04.10 at 12:26:06
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

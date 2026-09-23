@@ -1,7 +1,7 @@
 /*
  * File name: app_routes.dart
  * Last modified: 2022.02.10 at 22:35:55
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

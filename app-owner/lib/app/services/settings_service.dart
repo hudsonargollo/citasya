@@ -1,7 +1,7 @@
 /*
  * File name: settings_service.dart
  * Last modified: 2023.02.09 at 15:56:09
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

@@ -3,7 +3,7 @@
 /*
  * File name: media_model.dart
  * Last modified: 2022.02.14 at 11:29:09
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

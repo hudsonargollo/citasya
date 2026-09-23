@@ -1,7 +1,7 @@
 /*
  * File name: coupon_model.dart
  * Last modified: 2022.02.12 at 00:59:13
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

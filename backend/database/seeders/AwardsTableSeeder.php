@@ -2,7 +2,7 @@
 /*
  * File name: AwardsTableSeeder.php
  * Last modified: 2024.04.11 at 13:59:08
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 namespace Database\Seeders;

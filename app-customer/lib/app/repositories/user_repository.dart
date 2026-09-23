@@ -1,7 +1,7 @@
 /*
  * File name: user_repository.dart
  * Last modified: 2022.08.18 at 20:21:33
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

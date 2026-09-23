@@ -1,7 +1,7 @@
 /*
  * File name: salon_title_bar_widget.dart
  * Last modified: 2022.02.05 at 14:54:14
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

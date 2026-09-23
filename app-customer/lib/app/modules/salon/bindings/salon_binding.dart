@@ -1,7 +1,7 @@
 /*
  * File name: salon_binding.dart
  * Last modified: 2022.02.06 at 16:15:28
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

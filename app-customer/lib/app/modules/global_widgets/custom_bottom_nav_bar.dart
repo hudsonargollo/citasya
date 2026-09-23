@@ -1,7 +1,7 @@
 /*
  * File name: custom_bottom_nav_bar.dart
  * Last modified: 2022.02.13 at 15:49:17
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

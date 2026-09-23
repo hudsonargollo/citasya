@@ -2,7 +2,7 @@
 /*
  * File name: RegisterControllerTest.php
  * Last modified: 2024.04.11 at 15:29:52
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

@@ -2,7 +2,7 @@
 /*
  * File name: installer_messages.php
  * Last modified: 2021.01.17 at 16:43:58
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

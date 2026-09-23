@@ -2,7 +2,7 @@
 /*
  * File name: media-library.php
  * Last modified: 2024.04.06 at 11:21:51
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

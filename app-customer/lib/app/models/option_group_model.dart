@@ -3,7 +3,7 @@
 /*
  * File name: option_group_model.dart
  * Last modified: 2022.02.07 at 17:15:26
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

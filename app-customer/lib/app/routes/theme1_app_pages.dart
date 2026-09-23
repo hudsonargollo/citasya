@@ -1,7 +1,7 @@
 /*
  * File name: theme1_app_pages.dart
  * Last modified: 2022.02.16 at 22:11:22
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

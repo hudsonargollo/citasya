@@ -2,7 +2,7 @@
 /*
  * File name: 2018_07_24_211308_create_custom_fields_table.php
  * Last modified: 2024.04.18 at 17:21:24
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

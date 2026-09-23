@@ -1,7 +1,7 @@
 /*
  * File name: salon_repository.dart
  * Last modified: 2022.02.11 at 02:12:32
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

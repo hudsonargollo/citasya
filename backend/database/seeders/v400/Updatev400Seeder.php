@@ -2,7 +2,7 @@
 /*
  * File name: Updatev400Seeder.php
  * Last modified: 2024.04.09 at 07:58:42
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

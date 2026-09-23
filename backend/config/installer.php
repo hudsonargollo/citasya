@@ -2,7 +2,7 @@
 /*
  * File name: installer.php
  * Last modified: 2024.04.18 at 18:32:07
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

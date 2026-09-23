@@ -2,7 +2,7 @@
 /*
  * File name: PaymentMethodController.php
  * Last modified: 2024.04.18 at 17:22:50
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

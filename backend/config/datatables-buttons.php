@@ -2,7 +2,7 @@
 /*
  * File name: datatables-buttons.php
  * Last modified: 2021.01.20 at 18:41:05
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

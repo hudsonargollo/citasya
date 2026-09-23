@@ -1,7 +1,7 @@
 <?php /*
  * File name: CreateExperienceRequest.php
  * Last modified: 2024.04.18 at 17:39:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */ /** @noinspection PhpParamsInspection */
 

@@ -1,7 +1,7 @@
 /*
  * File name: translation_service.dart
  * Last modified: 2022.10.16 at 12:23:15
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

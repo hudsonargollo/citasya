@@ -2,7 +2,7 @@
 /*
  * File name: 2019_08_19_000000_create_failed_jobs_table.php
  * Last modified: 2024.04.18 at 17:21:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

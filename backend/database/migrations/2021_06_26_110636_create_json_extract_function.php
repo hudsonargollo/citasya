@@ -2,7 +2,7 @@
 /*
  * File name: 2021_06_26_110636_create_json_extract_function.php
  * Last modified: 2024.04.18 at 17:21:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

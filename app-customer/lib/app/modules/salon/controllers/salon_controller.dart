@@ -1,7 +1,7 @@
 /*
  * File name: salon_controller.dart
  * Last modified: 2022.02.12 at 21:57:18
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

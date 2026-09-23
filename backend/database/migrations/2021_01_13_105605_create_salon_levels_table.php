@@ -2,7 +2,7 @@
 /*
  * File name: 2021_01_13_105605_create_salon_levels_table.php
  * Last modified: 2024.04.18 at 17:21:25
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

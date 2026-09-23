@@ -2,7 +2,7 @@
 /*
  * File name: error.php
  * Last modified: 2021.08.06 at 14:42:23
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

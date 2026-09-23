@@ -1,7 +1,7 @@
 /*
  * File name: e_service_view.dart
  * Last modified: 2024.04.16 at 19:53:22
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

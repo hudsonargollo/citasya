@@ -1,7 +1,7 @@
 /*
  * File name: salon_reviews_controller.dart
  * Last modified: 2022.02.12 at 21:52:29
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

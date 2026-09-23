@@ -1,7 +1,7 @@
 /*
  * File name: api_provider.dart
  * Last modified: 2022.08.14 at 16:25:33
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

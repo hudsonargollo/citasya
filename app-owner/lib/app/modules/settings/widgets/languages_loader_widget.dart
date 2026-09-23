@@ -1,7 +1,7 @@
 /*
  * File name: languages_loader_widget.dart
  * Last modified: 2022.03.10 at 21:33:53
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

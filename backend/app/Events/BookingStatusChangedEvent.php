@@ -2,7 +2,7 @@
 /*
  * File name: BookingStatusChangedEvent.php
  * Last modified: 2022.02.16 at 18:16:51
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

@@ -2,7 +2,7 @@
 /*
  * File name: PayStackController.php
  * Last modified: 2024.04.10 at 14:47:27
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

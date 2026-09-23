@@ -2,7 +2,7 @@
 /*
  * File name: app_generator.php
  * Last modified: 2022.02.02 at 21:31:35
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

@@ -2,7 +2,7 @@
 /*
  * File name: WalletTransactionCreatedEvent.php
  * Last modified: 2021.08.10 at 18:03:35
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

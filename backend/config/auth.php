@@ -2,7 +2,7 @@
 /**
  * File name: auth.php
  * Last modified: 2021.01.03 at 15:46:37
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

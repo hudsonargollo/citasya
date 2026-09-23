@@ -1,7 +1,7 @@
 /*
  * File name: booking_controller.dart
  * Last modified: 2022.02.26 at 14:50:11
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

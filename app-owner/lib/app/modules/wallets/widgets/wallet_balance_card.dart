@@ -1,7 +1,7 @@
 /*
  * File name: wallet_balance_card.dart
  * Last modified: 2023.02.09 at 15:53:21
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

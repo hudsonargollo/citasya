@@ -3,7 +3,7 @@
 /*
  * File name: booking_model.dart
  * Last modified: 2022.03.11 at 23:34:48
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 

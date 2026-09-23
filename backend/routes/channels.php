@@ -2,7 +2,7 @@
 /**
  * File name: channels.php
  * Last modified: 2019.08.27 at 15:37:13
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2021
  */
 

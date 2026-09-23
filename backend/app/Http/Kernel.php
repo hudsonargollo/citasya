@@ -2,7 +2,7 @@
 /*
  * File name: Kernel.php
  * Last modified: 2024.04.05 at 13:39:12
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2024
  */
 

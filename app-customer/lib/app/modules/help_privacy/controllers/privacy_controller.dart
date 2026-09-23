@@ -1,7 +1,7 @@
 /*
  * File name: privacy_controller.dart
  * Last modified: 2023.01.26 at 18:22:04
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2023
  */
 

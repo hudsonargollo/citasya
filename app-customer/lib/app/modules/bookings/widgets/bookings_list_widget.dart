@@ -1,7 +1,7 @@
 /*
  * File name: bookings_list_widget.dart
  * Last modified: 2022.08.16 at 14:16:42
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
+ * Author: ClubeMkt - https://clubemkt.online
  * Copyright (c) 2022
  */
 
