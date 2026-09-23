@@ -1,93 +1,186 @@
 @extends('layouts.auth.default')
+
 @section('content')
-    <div class="card-body login-card-body">
-        <p class="login-box-msg">{{__('auth.register_new_member')}}</p>
+<div class="w-full">
+    <!-- Title Section -->
+    <div class="text-center mb-6">
+        <h1 class="font-display font-black text-2xl sm:text-3xl text-slate-900 tracking-tight leading-snug">
+            ¡Únete a CitasYa!
+        </h1>
+        <p class="text-slate-500 text-xs sm:text-sm mt-1">
+            {{ __('auth.register_new_member') }}
+        </p>
+    </div>
 
-        <form action="{{ url('/register') }}" method="post">
-            {!! csrf_field() !!}
+    <!-- Registration Form -->
+    <form action="{{ url('/register') }}" method="post" class="space-y-4">
+        {!! csrf_field() !!}
 
-            <div class="input-group mb-3">
-                <input value="{{ old('name') }}" type="name" class="form-control {{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" placeholder="{{__('auth.name')}}" aria-label="{{__('auth.name')}}">
-                <div class="input-group-append">
-                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+        <!-- Full Name Field -->
+        <div>
+            <label for="name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                {{ __('auth.name') }}
+            </label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                    <i class="fas fa-user text-sm"></i>
                 </div>
-                @if ($errors->has('name'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('name') }}
-                    </div>
-                @endif
+                <input 
+                    id="name" 
+                    type="text" 
+                    name="name" 
+                    value="{{ old('name') }}" 
+                    required 
+                    autofocus 
+                    placeholder="Tu nombre completo"
+                    class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border border-slate-200 rounded-2xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-lime-300 transition-all {{ $errors->has('name') ? 'border-rose-500 ring-1 ring-rose-300' : '' }}"
+                >
             </div>
+            @if ($errors->has('name'))
+                <p class="text-rose-500 text-xs mt-1.5 font-medium flex items-center gap-1">
+                    <i class="fas fa-exclamation-circle"></i>
+                    {{ $errors->first('name') }}
+                </p>
+            @endif
+        </div>
 
-            <div class="input-group mb-3">
-                <input value="{{ old('email') }}" type="email" class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" placeholder="{{__('auth.email')}}" aria-label="{{__('auth.email')}}">
-                <div class="input-group-append">
-                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+        <!-- Email Field -->
+        <div>
+            <label for="email" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                {{ __('auth.email') }}
+            </label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                    <i class="fas fa-envelope text-sm"></i>
                 </div>
-                @if ($errors->has('email'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('email') }}
-                    </div>
-                @endif
+                <input 
+                    id="email" 
+                    type="email" 
+                    name="email" 
+                    value="{{ old('email') }}" 
+                    required 
+                    placeholder="ejemplo@correo.com"
+                    class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border border-slate-200 rounded-2xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-lime-300 transition-all {{ $errors->has('email') ? 'border-rose-500 ring-1 ring-rose-300' : '' }}"
+                >
             </div>
+            @if ($errors->has('email'))
+                <p class="text-rose-500 text-xs mt-1.5 font-medium flex items-center gap-1">
+                    <i class="fas fa-exclamation-circle"></i>
+                    {{ $errors->first('email') }}
+                </p>
+            @endif
+        </div>
 
-            <div class="input-group mb-3">
-                <input value="{{ old('password') }}" type="password" class="form-control  {{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" placeholder="{{__('auth.password')}}" aria-label="{{__('auth.password')}}">
-                <div class="input-group-append">
-                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+        <!-- Password Field -->
+        <div>
+            <label for="password" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                {{ __('auth.password') }}
+            </label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                    <i class="fas fa-lock text-sm"></i>
                 </div>
-                @if ($errors->has('password'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('password') }}
-                    </div>
-                @endif
+                <input 
+                    id="password" 
+                    type="password" 
+                    name="password" 
+                    required 
+                    placeholder="••••••••"
+                    class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border border-slate-200 rounded-2xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-lime-300 transition-all {{ $errors->has('password') ? 'border-rose-500 ring-1 ring-rose-300' : '' }}"
+                >
             </div>
+            @if ($errors->has('password'))
+                <p class="text-rose-500 text-xs mt-1.5 font-medium flex items-center gap-1">
+                    <i class="fas fa-exclamation-circle"></i>
+                    {{ $errors->first('password') }}
+                </p>
+            @endif
+        </div>
 
-            <div class="input-group mb-3">
-                <input value="{{ old('password_confirmation') }}" type="password" class="form-control  {{ $errors->has('password_confirmation') ? ' is-invalid' : '' }}" name="password_confirmation" placeholder="{{__('auth.password_confirmation')}}" aria-label="{{__('auth.password_confirmation')}}">
-                <div class="input-group-append">
-                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+        <!-- Confirm Password Field -->
+        <div>
+            <label for="password_confirmation" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">
+                {{ __('auth.password_confirmation') }}
+            </label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                    <i class="fas fa-check-double text-sm"></i>
                 </div>
-                @if ($errors->has('password_confirmation'))
-                    <div class="invalid-feedback">
-                        {{ $errors->first('password_confirmation') }}
-                    </div>
-                @endif
+                <input 
+                    id="password_confirmation" 
+                    type="password" 
+                    name="password_confirmation" 
+                    required 
+                    placeholder="••••••••"
+                    class="w-full pl-11 pr-4 py-3.5 bg-slate-50 border border-slate-200 rounded-2xl text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-emerald-500 focus:ring-2 focus:ring-lime-300 transition-all {{ $errors->has('password_confirmation') ? 'border-rose-500 ring-1 ring-rose-300' : '' }}"
+                >
             </div>
+            @if ($errors->has('password_confirmation'))
+                <p class="text-rose-500 text-xs mt-1.5 font-medium flex items-center gap-1">
+                    <i class="fas fa-exclamation-circle"></i>
+                    {{ $errors->first('password_confirmation') }}
+                </p>
+            @endif
+        </div>
 
-            <div class="row mb-2">
-                <div class="col-8">
-                    <div class="icheck-{{setting("theme_color","primary")}}">
-                        <input type="checkbox" id="remember" name="remember"> <label for="remember">
-                            {{__('auth.agree')}}
-                        </label>
-                    </div>
-                </div>
-                <!-- /.col -->
-                <div class="col-4">
-                    <button type="submit" class="btn btn-{{setting("theme_color","primary")}} btn-block">{{__('auth.register')}}</button>
-                </div>
-                <!-- /.col -->
-            </div>
-        </form>
+        <!-- Terms Agreement Checkbox -->
+        <div class="flex items-center justify-between pt-1">
+            <label class="inline-flex items-start gap-2.5 cursor-pointer group">
+                <input 
+                    type="checkbox" 
+                    id="remember" 
+                    name="remember"
+                    required
+                    class="w-4 h-4 mt-0.5 rounded border-slate-300 text-brand-cruz focus:ring-brand-lime transition cursor-pointer"
+                >
+                <span class="text-xs font-medium text-slate-600 group-hover:text-slate-900 transition leading-snug">
+                    {{ __('auth.agree') }}
+                </span>
+            </label>
+        </div>
 
-        @if(setting('enable_google',false) || setting('enable_twitter',false))
-            <div class="social-auth-links text-center mb-3">
-                <p style="text-transform: uppercase">- {{__('lang.or')}} -</p>
+        <!-- Submit Button -->
+        <button 
+            type="submit" 
+            class="w-full py-3.5 sm:py-4 px-6 rounded-full bg-slate-900 text-[#A3E635] font-display font-extrabold text-sm sm:text-base hover:bg-slate-950 shadow-xl shadow-slate-900/15 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 mt-4 cursor-pointer"
+        >
+            <span>{{ __('auth.register') }}</span>
+            <i class="fas fa-arrow-right text-xs"></i>
+        </button>
+    </form>
+
+    <!-- Social Logins (Google / Twitter) -->
+    @if(setting('enable_google',false) || setting('enable_twitter',false))
+        <div class="mt-6 pt-6 border-t border-slate-100 text-center">
+            <p class="text-xs uppercase font-extrabold tracking-widest text-slate-400 mb-4">
+                - {{ __('lang.or') }} -
+            </p>
+            <div class="space-y-2">
                 @if(setting('enable_google',false))
-                    <a href="{{url('login/google')}}" class="btn btn-block btn-google"> <i class="fab fa-google mr-2"></i> {{__('auth.login_google')}}
+                    <a href="{{ url('login/google') }}" class="w-full py-3 px-4 rounded-2xl bg-white border border-slate-200 text-slate-700 font-bold text-xs hover:bg-slate-50 transition-all shadow-sm flex items-center justify-center gap-2">
+                        <i class="fab fa-google text-red-500"></i>
+                        <span>{{ __('auth.login_google') }}</span>
                     </a>
                 @endif
                 @if(setting('enable_twitter',false))
-                    <a href="{{url('login/twitter')}}" class="btn btn-block btn-twitter"> <i class="fab fa-twitter mr-2"></i> {{__('auth.login_twitter')}}
+                    <a href="{{ url('login/twitter') }}" class="w-full py-3 px-4 rounded-2xl bg-white border border-slate-200 text-slate-700 font-bold text-xs hover:bg-slate-50 transition-all shadow-sm flex items-center justify-center gap-2">
+                        <i class="fab fa-twitter text-sky-500"></i>
+                        <span>{{ __('auth.login_twitter') }}</span>
                     </a>
                 @endif
             </div>
-            <!-- /.social-auth-links -->
-        @endif
+        </div>
+    @endif
 
-        <p class="mb-1 text-center">
-            <a href="{{ url('/login') }}">{{__('auth.already_member')}}</a>
+    <!-- Login CTA Footer link -->
+    <div class="mt-8 pt-6 border-t border-slate-100 text-center">
+        <p class="text-xs text-slate-500 font-medium">
+            ¿Ya tienes una cuenta registrada?
         </p>
+        <a href="{{ url('/login') }}" class="mt-2 inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/80 px-4 py-2 rounded-full hover:bg-emerald-100 hover:border-emerald-300 transition-all">
+            <i class="fas fa-sign-in-alt text-xs text-brand-cruz"></i>
+            <span>{{ __('auth.already_member') }}</span>
+        </a>
     </div>
-    <!-- /.login-card-body -->
+</div>
 @endsection
