@@ -37,18 +37,6 @@
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-lime/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
     <div class="absolute bottom-0 right-0 w-[500px] h-[300px] bg-emerald-500/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
-    <!-- Header Navigation Bar -->
-    <header class="w-full py-4 px-6 sm:px-10 flex items-center justify-between max-w-7xl mx-auto">
-        <a href="{{ url('/') }}" class="flex items-center gap-2 group transition-transform hover:scale-105">
-            <img src="{{ asset('images/brand/logocitasya.webp?v=10') }}" alt="{{ setting('app_name', 'CitasYa') }}" class="h-10 sm:h-12 w-auto object-contain">
-        </a>
-        <a href="{{ url('/') }}" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full border border-slate-200 shadow-sm hover:border-brand-lime hover:bg-white transition-all">
-            <i class="fas fa-arrow-left text-brand-cruz"></i>
-            <span class="hidden sm:inline">Volver al Inicio</span>
-            <span class="sm:hidden">Inicio</span>
-        </a>
-    </header>
-
     <!-- Main Auth Container -->
     <main class="flex-1 flex items-center justify-center p-4 sm:p-6 my-6">
         <div class="w-full max-w-md bg-white/90 backdrop-blur-xl border border-lime-200/80 rounded-[2.5rem] p-6 sm:p-10 shadow-2xl shadow-lime-900/10 relative overflow-hidden">
