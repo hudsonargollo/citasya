@@ -28,6 +28,7 @@ class AcceptedCriteria implements CriteriaInterface
      */
     public function apply($model, RepositoryInterface $repository): mixed
     {
-        return $model->where('salons.accepted', '1');
+        return $model->where('salons.accepted', '1')
+                     ->where('salons.curation_status', 'approved');
     }
 }

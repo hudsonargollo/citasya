@@ -231,6 +231,9 @@ class SalonController extends Controller
             return redirect(route('salons.index'));
         }
         $input = $request->all();
+        if (isset($input['accepted']) && ($input['accepted'] == '1' || $input['accepted'] == true)) {
+            $input['curation_status'] = 'approved';
+        }
         $customFields = $this->customFieldRepository->findByField('custom_field_model', $this->salonRepository->model());
         try {
             $input['users'] = $input['users'] ?? [];

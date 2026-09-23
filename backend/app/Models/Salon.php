@@ -94,7 +94,8 @@ class Salon extends Model implements HasMedia, Castable
         'availability_range',
         'available',
         'featured',
-        'accepted'
+        'accepted',
+        'curation_status'
     ];
 
     /**

@@ -8,10 +8,11 @@
     ],
     "license": "MIT",
     "require": {
-        "anlutro/l4-settings": "^v1.2.0",
-        "barryvdh/laravel-dompdf": "^v2.1.1",
+        "php": "^8.1",
         "ext-curl": "*",
         "ext-json": "*",
+        "anlutro/l4-settings": "^v1.2.0",
+        "barryvdh/laravel-dompdf": "^v2.1.1",
         "guzzlehttp/guzzle": "^7.8.1",
         "infyomlabs/adminlte-templates": "^v6.0.0",
         "laravel/cashier": "^v15.3.2",
@@ -24,7 +25,6 @@
         "maatwebsite/excel": "^3.1.55",
         "nwidart/laravel-modules": "^10.0.6",
         "orangehill/iseed": "^3.0.4",
-        "php": "^8.1",
         "prettus/l5-repository": "^2.9.0",
         "rap2hpoutre/laravel-log-viewer": "^2.4.0",
         "razorpay/razorpay": "^2.9.0",
@@ -38,6 +38,8 @@
         "spatie/laravel-translatable": "^6.6.2",
         "spatie/opening-hours": "^2.41",
         "srmklive/paypal": "^1.11.0",
+        "symfony/css-selector": "^7.4",
+        "symfony/dom-crawler": "^7.4",
         "yajra/laravel-datatables": "v10.0.0"
     },
     "require-dev": {
