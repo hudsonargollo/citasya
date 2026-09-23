@@ -81,9 +81,16 @@ class Ui {
 
   static Color parseColor(String? hexCode, {double? opacity}) {
     try {
-      return Color(int.tryParse(hexCode!.replaceAll("#", "0xFF")) ?? 0).withOpacity(opacity ?? 1);
+      if (hexCode == null || hexCode.trim().isEmpty) {
+        return Color(0xFF84CC16).withOpacity(opacity ?? 1);
+      }
+      String cleanHex = hexCode.replaceAll("#", "");
+      if (cleanHex.length == 6) {
+        cleanHex = "FF" + cleanHex;
+      }
+      return Color(int.tryParse("0x" + cleanHex) ?? 0xFF84CC16).withOpacity(opacity ?? 1);
     } catch (e) {
-      return Color(0xFFCCCCCC).withOpacity(opacity ?? 1);
+      return Color(0xFF84CC16).withOpacity(opacity ?? 1);
     }
   }
 
