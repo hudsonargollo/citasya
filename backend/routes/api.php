@@ -1,9 +1,9 @@
 <?php
 /*
  * File name: api.php
- * Last modified: 2022.10.16 at 19:34:07
+ * Last modified: 2026.09.23
  * Author: SmarterVision - https://codecanyon.net/user/smartervision
- * Copyright (c) 2022
+ * Updated for CitasYa Platform & Multi-Vendor Engine
  */
 
 /*
@@ -17,6 +17,8 @@
 |
 */
 
+// Public webhook endpoint for Simple QR Bolivia payment callbacks
+Route::post('payments/simple_qr/callback', 'API\SimpleQrAPIController@callback');
 
 Route::prefix('salon_owner')->group(function () {
     Route::post('login', 'API\SalonOwner\UserAPIController@login');
@@ -28,8 +30,10 @@ Route::prefix('salon_owner')->group(function () {
     Route::get('translations', 'API\TranslationAPIController@translations');
     Route::get('supported_locales', 'API\TranslationAPIController@supportedLocales');
     Route::middleware('auth:api')->group(function () {
-        Route::resource('salons', 'API\SalonOwner\SalonAPIController')->only(['index', 'show']);
-        Route::get('e_services', 'API\SalonOwner\EServiceAPIController@index');
+        Route::resource('salons', 'API\SalonOwner\SalonAPIController')->only(['index', 'show', 'store', 'update']);
+        Route::resource('e_services', 'API\SalonOwner\EServiceAPIController');
+        Route::resource('bookings', 'API\SalonOwner\BookingAPIController')->only(['index', 'show', 'update']);
+        Route::get('calendar', 'API\SalonOwner\BookingAPIController@calendar');
         Route::resource('availability_hours', 'API\AvailabilityHourAPIController')->only(['store', 'update', 'destroy']);
         Route::resource('awards', 'API\AwardAPIController')->only(['store', 'update', 'destroy']);
         Route::resource('experiences', 'API\ExperienceAPIController')->only(['store', 'update', 'destroy']);
@@ -98,17 +102,19 @@ Route::middleware('auth:api')->group(function () {
     Route::get('payments/byMonth', 'API\PaymentAPIController@byMonth')->name('payments.byMonth');
     Route::post('payments/wallets/{id}', 'API\PaymentAPIController@wallets')->name('payments.wallets');
     Route::post('payments/cash', 'API\PaymentAPIController@cash')->name('payments.cash');
+    Route::post('payments/simple_qr', 'API\SimpleQrAPIController@generate')->name('payments.simple_qr');
+    Route::match(['get', 'post'], 'payments/simple_qr/verify/{id}', 'API\SimpleQrAPIController@verify')->name('payments.simple_qr.verify');
     Route::resource('payment_methods', 'API\PaymentMethodAPIController')->only([
         'index'
     ]);
     Route::post('salon_reviews', 'API\SalonReviewAPIController@store')->name('salon_reviews.store');
-
 
     Route::resource('favorites', 'API\FavoriteAPIController');
     Route::resource('addresses', 'API\AddressAPIController');
 
     Route::get('notifications/count', 'API\NotificationAPIController@count');
     Route::resource('notifications', 'API\NotificationAPIController');
+    Route::get('bookings/{id}/whatsapp_link', 'API\BookingAPIController@whatsappLink')->name('bookings.whatsapp_link');
     Route::resource('bookings', 'API\BookingAPIController');
 
     Route::resource('earnings', 'API\EarningAPIController');

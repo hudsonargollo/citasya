@@ -1,17 +1,14 @@
 <?php
-/*
- * File name: SalonAPIController.php
- * Last modified: 2024.04.10 at 14:21:46
- * Author: SmarterVision - https://codecanyon.net/user/smartervision
- * Copyright (c) 2024
- */
 
 namespace App\Http\Controllers\API\SalonOwner;
 
-
 use App\Criteria\Salons\SalonsOfUserCriteria;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CreateSalonRequest;
+use App\Http\Requests\UpdateSalonRequest;
 use App\Repositories\SalonRepository;
+use App\Repositories\UploadRepository;
+use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -20,25 +17,24 @@ use Prettus\Repository\Criteria\RequestCriteria;
 
 /**
  * Class SalonController
- * @package App\Http\Controllers\API
+ * @package App\Http\Controllers\API\SalonOwner
  */
 class SalonAPIController extends Controller
 {
     /** @var  SalonRepository */
     private SalonRepository $salonRepository;
+    private UploadRepository $uploadRepository;
 
-    public function __construct(SalonRepository $salonRepo)
+    public function __construct(SalonRepository $salonRepo, UploadRepository $uploadRepository)
     {
         $this->salonRepository = $salonRepo;
+        $this->uploadRepository = $uploadRepository;
         parent::__construct();
     }
 
     /**
      * Display a listing of the Salon.
-     * GET|HEAD /salons
-     *
-     * @param Request $request
-     * @return JsonResponse
+     * GET /api/salon_owner/salons
      */
     public function index(Request $request): JsonResponse
     {
@@ -57,11 +53,7 @@ class SalonAPIController extends Controller
 
     /**
      * Display the specified Salon.
-     * GET|HEAD /salons/{id}
-     *
-     * @param int $id
-     * @param Request $request
-     * @return JsonResponse
+     * GET /api/salon_owner/salons/{id}
      */
     public function show(int $id, Request $request): JsonResponse
     {
@@ -78,5 +70,63 @@ class SalonAPIController extends Controller
         }
 
         return $this->sendResponse($salon->toArray(), 'Salon retrieved successfully');
+    }
+
+    /**
+     * Store a newly created Salon.
+     * POST /api/salon_owner/salons
+     */
+    public function store(CreateSalonRequest $request): JsonResponse
+    {
+        try {
+            $input = $request->all();
+            $input['users'] = [auth()->id()];
+            $input['accepted'] = 1;
+            $input['available'] = 1;
+
+            $salon = $this->salonRepository->create($input);
+            if (isset($input['image']) && $input['image'] && is_array($input['image'])) {
+                foreach ($input['image'] as $fileUuid) {
+                    $cacheUpload = $this->uploadRepository->getByUuid($fileUuid);
+                    $mediaItem = $cacheUpload->getMedia('image')->first();
+                    $mediaItem->copy($salon, 'image');
+                }
+            }
+        } catch (Exception $e) {
+            return $this->sendError($e->getMessage());
+        }
+        return $this->sendResponse($salon->toArray(), __('lang.saved_successfully', ['operator' => __('lang.salon')]));
+    }
+
+    /**
+     * Update the specified Salon.
+     * PUT /api/salon_owner/salons/{id}
+     */
+    public function update(int $id, UpdateSalonRequest $request): JsonResponse
+    {
+        $this->salonRepository->pushCriteria(new SalonsOfUserCriteria(auth()->id()));
+        $salon = $this->salonRepository->findWithoutFail($id);
+
+        if (empty($salon)) {
+            return $this->sendError('Salon not found or unauthorized');
+        }
+
+        try {
+            $input = $request->all();
+            $salon = $this->salonRepository->update($input, $id);
+            if (isset($input['image']) && $input['image'] && is_array($input['image'])) {
+                if ($salon->hasMedia('image')) {
+                    $salon->getMedia('image')->each->delete();
+                }
+                foreach ($input['image'] as $fileUuid) {
+                    $cacheUpload = $this->uploadRepository->getByUuid($fileUuid);
+                    $mediaItem = $cacheUpload->getMedia('image')->first();
+                    $mediaItem->copy($salon, 'image');
+                }
+            }
+        } catch (Exception $e) {
+            return $this->sendError($e->getMessage());
+        }
+        return $this->sendResponse($salon->toArray(), __('lang.updated_successfully', ['operator' => __('lang.salon')]));
     }
 }

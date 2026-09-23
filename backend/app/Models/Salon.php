@@ -239,8 +239,22 @@ class Salon extends Model implements HasMedia, Castable
     {
         $openingHoursArray = [];
         foreach ($this->availabilityHours as $element) {
-            $openingHoursArray[$element['day']][] = $element['start_at'] . '-' . $element['end_at'];
+            $openingHoursArray[strtolower($element['day'])][] = $element['start_at'] . '-' . $element['end_at'];
         }
+
+        // Fallback to standard business hours if no specific hours have been saved yet
+        if (empty($openingHoursArray)) {
+            $openingHoursArray = [
+                'monday' => ['08:00-20:00'],
+                'tuesday' => ['08:00-20:00'],
+                'wednesday' => ['08:00-20:00'],
+                'thursday' => ['08:00-20:00'],
+                'friday' => ['08:00-20:00'],
+                'saturday' => ['08:00-20:00'],
+                'sunday' => ['09:00-18:00'],
+            ];
+        }
+
         return OpeningHours::createAndMergeOverlappingRanges($openingHoursArray);
     }
 
@@ -249,20 +263,51 @@ class Salon extends Model implements HasMedia, Castable
      */
     public function weekCalendarRange(Carbon $date, int $employeeId): array
     {
-        $period = CarbonPeriod::since($date->subDay()->ceilDay())->minutes(30)->until($date->addDay()->ceilDay()->subMinutes(30));
+        $period = CarbonPeriod::since($date->copy()->subDay()->ceilDay())->minutes(30)->until($date->copy()->addDay()->ceilDay()->subMinutes(30));
         $dates = [];
+        $now = new DateTime("now");
+
+        // Preload active bookings for this salon around the period
+        $startDate = $date->copy()->subDay()->startOfDay();
+        $endDate = $date->copy()->addDay()->endOfDay();
+
+        $activeBookings = $this->bookings()
+            ->whereBetween('booking_at', [$startDate, $endDate])
+            ->where('cancel', '<>', '1')
+            ->whereNotIn('booking_status_id', ['6', '7']) // Exclude cancelled & failed
+            ->get(['id', 'booking_at', 'employee_id', 'e_services']);
+
+        $staffCapacity = max(1, $this->users()->count());
+        $maxConcurrentSlots = max(3, $staffCapacity);
+
         // Iterate over the period
         foreach ($period as $key => $d) {
             $firstDate = $d->locale('en')->toDateTime();
-            $isOpen = $firstDate > new DateTime("now");
+            $isOpen = $firstDate > $now;
             if ($isOpen) {
                 $isOpen = $this->openingHours()->isOpenAt($firstDate);
-                if ($isOpen && $employeeId != 0) {
-                    $isOpen = !($this->bookings()->where('booking_at', '=', $firstDate)
-                        ->where('cancel', '<>', '1')
-                        ->whereNotIn('booking_status_id', ['6', '7'])
-                        ->where('employee_id', '=', $employeeId)
-                        ->count());
+                if ($isOpen) {
+                    $slotTime = $d->getTimestamp();
+
+                    if ($employeeId != 0) {
+                        // Check if this specific employee is already booked within a 30m window
+                        $hasConflict = $activeBookings->contains(function ($booking) use ($employeeId, $slotTime) {
+                            if ($booking->employee_id != $employeeId) {
+                                return false;
+                            }
+                            $bookingTime = Carbon::parse($booking->booking_at)->getTimestamp();
+                            return abs($bookingTime - $slotTime) < 1800; // 30 minutes
+                        });
+                        $isOpen = !$hasConflict;
+                    } else {
+                        // Check if total concurrent active bookings exceed salon capacity
+                        $concurrentCount = $activeBookings->filter(function ($booking) use ($slotTime) {
+                            $bookingTime = Carbon::parse($booking->booking_at)->getTimestamp();
+                            return abs($bookingTime - $slotTime) < 1800;
+                        })->count();
+
+                        $isOpen = ($concurrentCount < $maxConcurrentSlots);
+                    }
                 }
             }
             $times = $d->locale('en')->toIso8601String();

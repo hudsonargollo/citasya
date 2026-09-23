@@ -115,6 +115,8 @@ class Booking extends Model
         'custom_fields',
         'duration',
         'at_salon',
+        'whatsapp_customer_link',
+        'whatsapp_salon_link',
     ];
 
     /**
@@ -218,7 +220,25 @@ class Booking extends Model
 
     public function getAtSalonAttribute(): bool
     {
-        return $this->address->id == $this->salon->address->id;
+        return $this->address && $this->salon && $this->salon->address && $this->address->id == $this->salon->address->id;
+    }
+
+    public function getWhatsappCustomerLinkAttribute(): string
+    {
+        try {
+            return \App\Services\WhatsAppService::getCustomerWhatsAppLink($this);
+        } catch (\Exception $e) {
+            return '';
+        }
+    }
+
+    public function getWhatsappSalonLinkAttribute(): string
+    {
+        try {
+            return \App\Services\WhatsAppService::getSalonWhatsAppLink($this);
+        } catch (\Exception $e) {
+            return '';
+        }
     }
 
     /**

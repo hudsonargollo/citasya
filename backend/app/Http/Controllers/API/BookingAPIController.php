@@ -148,6 +148,41 @@ class BookingAPIController extends Controller
         try {
             $input = $request->all();
             $salon = $this->salonRepository->find($input['salon_id']);
+
+            if (empty($salon)) {
+                return $this->sendError('Salon not found');
+            }
+
+            // Conflict validation for appointment slot
+            if (!empty($input['booking_at'])) {
+                $requestedTime = \Carbon\Carbon::parse($input['booking_at']);
+                if ($requestedTime->isPast()) {
+                    return $this->sendError('No se puede agendar una cita en una fecha u hora pasada.');
+                }
+
+                $employeeId = $input['employee_id'] ?? 0;
+                $slotTimestamp = $requestedTime->getTimestamp();
+
+                // Check salon existing bookings around this 30m window
+                $conflictQuery = $salon->bookings()
+                    ->where('cancel', '<>', '1')
+                    ->whereNotIn('booking_status_id', [6, 7]);
+
+                if ($employeeId != 0) {
+                    $conflictQuery->where('employee_id', $employeeId);
+                }
+
+                $activeBookings = $conflictQuery->get(['id', 'booking_at', 'employee_id']);
+                $hasConflict = $activeBookings->contains(function ($existing) use ($slotTimestamp) {
+                    $existingTimestamp = \Carbon\Carbon::parse($existing->booking_at)->getTimestamp();
+                    return abs($existingTimestamp - $slotTimestamp) < 1800;
+                });
+
+                if ($hasConflict && $employeeId != 0) {
+                    return $this->sendError('El profesional seleccionado ya tiene una cita agendada en ese horario. Por favor elige otro horario.');
+                }
+            }
+
             if (isset($input['address'])) {
                 $this->validate($request, [
                     'address.address' => Address::$rules['address'],
@@ -233,4 +268,28 @@ class BookingAPIController extends Controller
         return $this->sendResponse($booking->toArray(), __('lang.saved_successfully', ['operator' => __('lang.booking')]));
     }
 
+    /**
+     * Get WhatsApp 1-Click dispatch link for booking.
+     * GET /api/bookings/{id}/whatsapp_link
+     */
+    public function whatsappLink(int $id, Request $request): JsonResponse
+    {
+        $booking = $this->bookingRepository->findWithoutFail($id);
+        if (empty($booking)) {
+            return $this->sendError('Booking not found');
+        }
+
+        $type = $request->get('type', 'customer'); // 'customer' or 'salon'
+        $link = ($type === 'salon')
+            ? \App\Services\WhatsAppService::getSalonWhatsAppLink($booking)
+            : \App\Services\WhatsAppService::getCustomerWhatsAppLink($booking);
+
+        return $this->sendResponse([
+            'booking_id' => $booking->id,
+            'type' => $type,
+            'whatsapp_link' => $link,
+            'customer_link' => \App\Services\WhatsAppService::getCustomerWhatsAppLink($booking),
+            'salon_link' => \App\Services\WhatsAppService::getSalonWhatsAppLink($booking),
+        ], 'WhatsApp link generated successfully');
+    }
 }
