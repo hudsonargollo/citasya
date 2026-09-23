@@ -177,7 +177,7 @@
 </h1>
 <!-- Hero Subtitle -->
 <p class="mt-6 text-base sm:text-lg lg:text-xl text-slate-600 max-w-2xl mx-auto font-normal leading-relaxed">
-          Encuentra médicos especialistas, salones de belleza, notarías y consultores en <strong class="text-slate-800 font-semibold">Equipetrol, Urubó, Las Palmas</strong> y el centro. Confirmación instantánea por WhatsApp.
+          Encuentra médicos especialistas, centros de belleza, notarías y consultores en <strong class="text-slate-800 font-semibold">Equipetrol, Urubó, Las Palmas</strong> y el centro. Confirmación instantánea por WhatsApp.
         </p>
 <!-- CTA Buttons -->
 <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -578,14 +578,14 @@
 </svg>
 </div>
 <span class="text-xs font-bold text-amber-800 bg-amber-100 px-3 py-1 rounded-full">
-                  140+ Salones &amp; Spas
+                  140+ Negocios &amp; Servicios
                 </span>
 </div>
 <h3 class="font-display font-extrabold text-2xl text-brand-slate mb-2">
                 Belleza &amp; Bienestar
               </h3>
 <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                Barberías de autor, salones de manicura en Urubó, colocación de pestañas y spas corporativos con confirmación inmediata de tu sillón.
+                Barberías, estética, consultorios y centros de cuidado profesional con confirmación inmediata de tu cita.
               </p>
 <!-- Tags -->
 <div class="flex flex-wrap gap-1.5 mb-6 text-xs font-medium text-slate-700">
@@ -595,7 +595,7 @@
 </div>
 </div>
 <a class="w-full py-3 rounded-2xl bg-amber-50 text-amber-900 font-display font-bold text-sm text-center group-hover:bg-amber-500 group-hover:text-white transition-all flex items-center justify-center gap-1.5" href="#estetica-scz">
-<span class="">Explorar Salones &amp; Spas</span>
+<span class="">Explorar Negocios &amp; Servicios</span>
 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 </a>
 </div>
