@@ -200,7 +200,7 @@
 </div>
 <!-- BEGIN: JanjiyukTabletShowcase -->
 <!-- Centerpiece inspired by Janjiyuk mockup composition with lime green backing card and device tablet -->
-<div class="mt-14 relative max-w-5xl mx-auto" data-purpose="hero-device-composition"><div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 px-4 animate-float"><div class="bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-3xl shadow-xl border border-lime-200/80 flex items-center gap-3.5 hover:scale-105 transition-transform duration-300"><img alt="CitasYa 3D Icon" class="w-12 h-12 object-contain drop-shadow-md" src="/images/brand/icon_3d.png?v=2"/><div class="text-left"><p class="font-display font-black text-sm text-slate-900 tracking-tight leading-snug">Auto-Agendamiento Inteligente SCZ</p></div><div class="h-8 w-px bg-slate-200 hidden sm:block"></div><img alt="CitasYa 3D Lockup" class="h-9 w-auto object-contain hidden sm:block" src="/images/brand/logo_2d_horizontal.png?v=2"/></div></div>
+<div class="mt-14 relative max-w-5xl mx-auto" data-purpose="hero-device-composition"><div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 px-4 animate-float"><div class="bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-3xl shadow-xl border border-lime-200/80 flex flex-col sm:flex-row items-center justify-center text-center sm:text-left gap-3.5 flex-wrap hover:scale-105 transition-transform duration-300"><img alt="CitasYa 3D Icon" class="w-12 h-12 object-contain drop-shadow-md" src="/images/brand/icon_3d.png?v=2"/><div class="text-left"><p class="font-display font-black text-sm text-slate-900 tracking-tight leading-snug">Auto-Agendamiento Inteligente SCZ</p></div><div class="h-8 w-px bg-slate-200 hidden sm:block"></div><img alt="CitasYa 3D Lockup" class="h-9 w-auto object-contain hidden sm:block" src="/images/brand/logo_2d_horizontal.png?v=2"/></div></div>
 <!-- Outer Bright Lime Curved Canvas (Direct Janjiyuk Visual Homage) -->
 <div class="relative bg-gradient-to-b from-[#84CC16] to-[#65A30D] rounded-[2.5rem] md:rounded-[3.5rem] p-4 sm:p-8 lg:p-12 shadow-2xl shadow-brand-darklime/30 overflow-hidden">
 <!-- Janjiyuk Graphic Starburst Accents inside the lime canvas -->
@@ -226,7 +226,7 @@
 </div>
 <div class="flex items-center gap-2 text-xs font-bold text-slate-700 bg-white px-3 py-1 rounded-full border border-slate-200 shadow-sm">
 <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-<span class="">Agenda Santa Cruz: Hoy en Vivo</span>
+<span class="hidden sm:inline">Agenda Santa Cruz: Hoy en Vivo</span><span class="sm:hidden">Agenda Hoy</span>
 </div>
 </div>
 <!-- Tablet Screen Content -->
@@ -235,28 +235,28 @@
 <div class="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-6">
 <div class="bg-[#F7FEE7] border border-lime-200 rounded-2xl p-3.5 flex flex-col">
 <span class="text-[11px] font-bold text-lime-800 uppercase tracking-wider">Citas Hoy</span>
-<div class="flex items-baseline gap-2 mt-1">
+<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">18</span>
 <span class="text-xs font-semibold text-emerald-600 bg-emerald-100 px-1.5 py-0.5 rounded-full">+4 vs ayer</span>
 </div>
 </div>
 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-3.5 flex flex-col">
 <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Especialistas</span>
-<div class="flex items-baseline gap-2 mt-1">
+<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">6 / 6</span>
 <span class="text-xs font-medium text-slate-500">Disponibles</span>
 </div>
 </div>
 <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3.5 flex flex-col">
 <span class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider">Confirmadas WhatsApp</span>
-<div class="flex items-baseline gap-2 mt-1">
+<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
 <span class="font-display font-extrabold text-2xl sm:text-3xl text-emerald-700">100%</span>
 <span class="text-xs font-medium text-emerald-600">Automático</span>
 </div>
 </div>
 <div class="bg-sky-50 border border-sky-200 rounded-2xl p-3.5 flex flex-col">
 <span class="text-[11px] font-bold text-sky-800 uppercase tracking-wider">Ingreso Estimado</span>
-<div class="flex items-baseline gap-2 mt-1">
+<div class="flex items-baseline flex-wrap gap-1 sm:gap-2 mt-1">
 <span class="font-display font-extrabold text-xl sm:text-2xl text-slate-900">3,450 <span class="text-xs font-bold text-slate-500">Bs.</span></span>
 </div>
 </div>
@@ -423,7 +423,7 @@
 <!-- 3 Step Cards with Janjiyuk Circular Number Badges -->
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
 <!-- Step 1 -->
-<div class="bg-[#FAFDF7] border-2 border-lime-200/80 rounded-3xl p-8 flex flex-col justify-between hover:border-brand-lime transition-all hover:shadow-xl hover:-translate-y-1">
+<div class="bg-[#FAFDF7] border-2 border-lime-200/80 rounded-3xl p-6 sm:p-8 flex flex-col justify-between hover:border-brand-lime transition-all hover:shadow-xl hover:-translate-y-1">
 <div>
 <div class="w-16 h-16 rounded-full bg-brand-slate text-brand-lime flex items-center justify-center font-display font-black text-2xl shadow-lg shadow-slate-900/10 mb-6 border-4 border-lime-100">
                 01
@@ -441,7 +441,7 @@
 </div>
 </div>
 <!-- Step 2 -->
-<div class="bg-gradient-to-b from-[#F0FDF4] to-white border-2 border-brand-lime rounded-3xl p-8 flex flex-col justify-between shadow-lg shadow-lime-500/10 hover:-translate-y-1 transition-all">
+<div class="bg-gradient-to-b from-[#F0FDF4] to-white border-2 border-brand-lime rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-lg shadow-lime-500/10 hover:-translate-y-1 transition-all">
 <div>
 <div class="w-16 h-16 rounded-full bg-brand-lime text-brand-slate flex items-center justify-center font-display font-black text-2xl shadow-lg shadow-lime-500/20 mb-6 border-4 border-white">
                 02
@@ -459,7 +459,7 @@
 </div>
 </div>
 <!-- Step 3 -->
-<div class="bg-[#FAFDF7] border-2 border-lime-200/80 rounded-3xl p-8 flex flex-col justify-between hover:border-brand-lime transition-all hover:shadow-xl hover:-translate-y-1">
+<div class="bg-[#FAFDF7] border-2 border-lime-200/80 rounded-3xl p-6 sm:p-8 flex flex-col justify-between hover:border-brand-lime transition-all hover:shadow-xl hover:-translate-y-1">
 <div>
 <div class="w-16 h-16 rounded-full bg-brand-slate text-brand-lime flex items-center justify-center font-display font-black text-2xl shadow-lg shadow-slate-900/10 mb-6 border-4 border-lime-100">
                 03
@@ -674,7 +674,7 @@
 </div>
 <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
 <!-- Bento Card 1: WhatsApp Bot & Notifications (Large 7 Cols) -->
-<div class="md:col-span-7 bg-brand-slate rounded-3xl p-8 text-white relative overflow-hidden flex flex-col justify-between">
+<div class="md:col-span-7 bg-brand-slate rounded-3xl p-6 sm:p-8 text-white relative overflow-hidden flex flex-col justify-between">
 <div class="relative z-10">
 <div class="flex items-center gap-3 mb-6">
 <span class="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center text-xl font-bold">
@@ -715,7 +715,7 @@
 <div class="absolute -right-16 -bottom-16 w-80 h-80 bg-brand-lime/10 rounded-full blur-3xl pointer-events-none"></div>
 </div>
 <!-- Bento Card 2: Simple QR Bolivia (5 Cols) -->
-<div class="md:col-span-5 bg-gradient-to-br from-[#FAFDF7] to-[#F0FDF4] border-2 border-lime-200 rounded-3xl p-8 flex flex-col justify-between">
+<div class="md:col-span-5 bg-gradient-to-br from-[#FAFDF7] to-[#F0FDF4] border-2 border-lime-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between overflow-hidden">
 <div>
 <div class="w-12 h-12 rounded-2xl bg-brand-lime text-brand-slate flex items-center justify-center text-2xl font-black mb-6 shadow-md shadow-lime-500/20">
                 Bs.
@@ -741,7 +741,7 @@
 </div>
 </div>
 <!-- Bento Card 3: Multi-Staff & Calendar Sync (5 Cols) -->
-<div class="md:col-span-5 bg-[#F8FAFC] border border-slate-200 rounded-3xl p-8 flex flex-col justify-between">
+<div class="md:col-span-5 bg-[#F8FAFC] border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
 <div>
 <span class="text-xs font-bold uppercase tracking-wider text-slate-500 bg-slate-200 px-3 py-1 rounded-full">
                 Multiequipo &amp; Sucursales
@@ -765,7 +765,7 @@
 </div>
 </div>
 <!-- Bento Card 4: Metrics & Weekly Analytics (7 Cols) -->
-<div class="md:col-span-7 bg-[#FAFDF7] border-2 border-brand-lime/80 rounded-3xl p-8 flex flex-col justify-between">
+<div class="md:col-span-7 bg-[#FAFDF7] border-2 border-brand-lime/80 rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
 <div class="flex items-center justify-between mb-4">
 <div>
 <span class="text-xs font-bold uppercase tracking-wider text-brand-darklime bg-lime-100 px-3 py-1 rounded-full border border-lime-200">
