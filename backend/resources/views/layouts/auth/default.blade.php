@@ -34,19 +34,19 @@
 <body class="bg-gradient-to-b from-[#F0FCE6] via-[#FAFDF7] to-white min-h-screen font-sans text-slate-800 flex flex-col justify-between relative overflow-x-hidden antialiased">
 
     <!-- Decorative background ambient glows -->
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-brand-lime/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
-    <div class="absolute bottom-0 right-0 w-[500px] h-[300px] bg-emerald-500/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-brand-lime/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute bottom-0 right-0 w-[400px] h-[200px] bg-emerald-500/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
     <!-- Main Auth Container -->
-    <main class="flex-1 flex items-center justify-center p-4 sm:p-6 my-6">
-        <div class="w-full max-w-md bg-white/90 backdrop-blur-xl border border-lime-200/80 rounded-[2.5rem] p-6 sm:p-10 shadow-2xl shadow-lime-900/10 relative overflow-hidden">
+    <main class="flex-1 flex items-center justify-center p-2.5 sm:p-4 my-auto">
+        <div class="w-full max-w-md bg-white/90 backdrop-blur-xl border border-lime-200/80 rounded-3xl p-4 sm:p-6 shadow-xl shadow-lime-900/10 relative overflow-hidden">
             <!-- Top Card Accent Line -->
-            <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-brand-lime via-emerald-500 to-brand-darklime"></div>
+            <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-lime via-emerald-500 to-brand-darklime"></div>
 
             <!-- Brand Header inside Card -->
-            <div class="text-center mb-8 pt-2">
-                <a href="{{ url('/') }}" class="inline-block mb-3 transition-transform hover:scale-105">
-                    <img src="{{ asset('images/brand/logocitasya.webp?v=10') }}" alt="{{ setting('app_name', 'CitasYa') }}" class="h-20 sm:h-24 w-auto mx-auto object-contain drop-shadow-sm">
+            <div class="text-center mb-3">
+                <a href="{{ url('/') }}" class="inline-block transition-transform hover:scale-105">
+                    <img src="{{ asset('images/brand/logocitasya.webp?v=10') }}" alt="{{ setting('app_name', 'CitasYa') }}" class="h-12 sm:h-14 w-auto mx-auto object-contain drop-shadow-sm">
                 </a>
             </div>
 
@@ -56,7 +56,7 @@
     </main>
 
     <!-- Simple Footer -->
-    <footer class="w-full py-6 text-center text-xs text-slate-500 border-t border-slate-200/60 bg-white/50 backdrop-blur-sm">
+    <footer class="w-full py-2.5 text-center text-[11px] text-slate-500 border-t border-slate-200/60 bg-white/50 backdrop-blur-sm">
         <p>&copy; {{ date('Y') }} <strong>CitasYa Bolivia</strong> · Todos los derechos reservados.</p>
     </footer>
 
