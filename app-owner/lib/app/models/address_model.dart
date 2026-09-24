@@ -80,7 +80,7 @@ class Address extends Model {
 
   LatLng getLatLng() {
     if (this.isUnknown()) {
-      return LatLng(38.806103, 52.4964453);
+      return LatLng(-17.7833, -63.1821);
     } else {
       return LatLng(this.latitude, this.longitude);
     }

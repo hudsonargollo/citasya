@@ -31,7 +31,7 @@ class Address extends Model {
     userId = stringFromJson(json, 'user_id');
   }
 
-  LatLng getLatLng() => isUnknown() ? LatLng(38.806103, 52.4964453) : LatLng(latitude!, longitude!);
+  LatLng getLatLng() => isUnknown() ? LatLng(-17.7833, -63.1821) : LatLng(latitude!, longitude!);
 
   String getDescription() {
     if (hasDescription()) return description!;
