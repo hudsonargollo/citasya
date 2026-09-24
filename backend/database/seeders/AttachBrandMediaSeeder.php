@@ -27,8 +27,17 @@ class AttachBrandMediaSeeder extends Seeder
         $slides = Slide::all();
         foreach ($slides as $idx => $slide) {
             $slideNum = $idx + 1;
+            $customSlideWebp = public_path("images/slides/slide{$slideNum}.webp");
             $customSlidePath = public_path("images/slides/slide{$slideNum}.png");
-            if (file_exists($customSlidePath)) {
+
+            if (file_exists($customSlideWebp)) {
+                $slide->text = '';
+                $slide->button = '';
+                $slide->save();
+                $slide->clearMediaCollection('image');
+                $slide->addMedia($customSlideWebp)->preservingOriginal()->toMediaCollection('image');
+                continue;
+            } elseif (file_exists($customSlidePath)) {
                 $slide->text = '';
                 $slide->button = '';
                 $slide->save();
@@ -48,24 +57,34 @@ class AttachBrandMediaSeeder extends Seeder
         // 2. Seed Categories
         $categories = Category::all();
         $categoryFiles = [
-            1 => '1_barberia.png',
-            2 => '2_unas.png',
-            3 => '3_facial.png',
-            4 => '4_cejas.png',
-            5 => '5_spa.png',
-            6 => '6_maquillaje.png',
-            7 => '7_estetica.png',
-            8 => '8_salud.png',
-            9 => '9_tatuajes.png',
-            10 => '10_bienestar.png',
-            11 => '11_fitness.png',
-            12 => '12_mascotas.png',
+            1 => '1_barberia',
+            2 => '2_unas',
+            3 => '3_facial',
+            4 => '4_cejas',
+            5 => '5_spa',
+            6 => '6_maquillaje',
+            7 => '7_estetica',
+            8 => '8_salud',
+            9 => '9_tatuajes',
+            10 => '10_bienestar',
+            11 => '11_fitness',
+            12 => '12_mascotas',
         ];
         foreach ($categories as $idx => $category) {
-            if (isset($categoryFiles[$category->id]) && file_exists(public_path('images/categories/' . $categoryFiles[$category->id]))) {
-                $category->clearMediaCollection('image');
-                $category->addMedia(public_path('images/categories/' . $categoryFiles[$category->id]))->preservingOriginal()->toMediaCollection('image');
-                continue;
+            if (isset($categoryFiles[$category->id])) {
+                $baseName = $categoryFiles[$category->id];
+                $webpPath = public_path("images/categories/{$baseName}.webp");
+                $pngPath = public_path("images/categories/{$baseName}.png");
+
+                if (file_exists($webpPath)) {
+                    $category->clearMediaCollection('image');
+                    $category->addMedia($webpPath)->preservingOriginal()->toMediaCollection('image');
+                    continue;
+                } elseif (file_exists($pngPath)) {
+                    $category->clearMediaCollection('image');
+                    $category->addMedia($pngPath)->preservingOriginal()->toMediaCollection('image');
+                    continue;
+                }
             }
 
             $img = $brandImages[$idx % count($brandImages)];
