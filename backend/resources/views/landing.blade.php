@@ -4,9 +4,9 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>CitasYa | Reserva de citas y servicios profesionales en Santa Cruz, Bolivia</title>
-<link rel="icon" type="image/png" href="{{ asset('favicon.png?v=5') }}"/>
-<link rel="shortcut icon" href="{{ asset('favicon.ico?v=5') }}"/>
-<link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png?v=5') }}"/>
+<link rel="icon" type="image/png" href="{{ asset('favicon.png?v=6') }}"/>
+<link rel="shortcut icon" href="{{ asset('favicon.ico?v=6') }}"/>
+<link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png?v=6') }}"/>
 <!-- Google Fonts: Plus Jakarta Sans for ultra-clean tech & neo-grotesque flair -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
