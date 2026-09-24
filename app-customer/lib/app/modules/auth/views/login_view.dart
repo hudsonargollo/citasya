@@ -8,7 +8,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../common/helper.dart';
 import '../../../routes/app_routes.dart';
 import '../../root/controllers/root_controller.dart';
 import '../controllers/auth_controller.dart';
@@ -16,12 +15,25 @@ import '../controllers/auth_controller.dart';
 class LoginView extends GetView<AuthController> {
   const LoginView({Key? key}) : super(key: key);
 
+  void _handleBack() {
+    if (Get.previousRoute.isNotEmpty && Get.previousRoute != Routes.LOGIN) {
+      Get.back();
+    } else {
+      try {
+        Get.find<RootController>().changePageOutRoot(0);
+      } catch (_) {
+        Get.offAllNamed(Routes.ROOT);
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    controller.loginFormKey = GlobalKey<FormState>();
-
     return WillPopScope(
-      onWillPop: Helper().onWillPop,
+      onWillPop: () async {
+        _handleBack();
+        return false;
+      },
       child: Scaffold(
         backgroundColor: const Color(0xFFFAFDF7),
         body: Stack(
@@ -82,13 +94,7 @@ class LoginView extends GetView<AuthController> {
                         Material(
                           color: Colors.transparent,
                           child: InkWell(
-                            onTap: () {
-                              try {
-                                Get.find<RootController>().changePageOutRoot(0);
-                              } catch (_) {
-                                Get.back();
-                              }
-                            },
+                            onTap: _handleBack,
                             borderRadius: BorderRadius.circular(12),
                             child: Container(
                               padding: const EdgeInsets.all(10),
@@ -240,7 +246,7 @@ class LoginView extends GetView<AuthController> {
                                           // Email Input Field
                                           _buildFieldLabel("CORREO ELECTRÓNICO"),
                                           const SizedBox(height: 6),
-                                          _buildEmailInput(context),
+                                          _buildEmailInput(),
                                           const SizedBox(height: 18),
 
                                           // Password Input Field
@@ -262,7 +268,7 @@ class LoginView extends GetView<AuthController> {
                                             ],
                                           ),
                                           const SizedBox(height: 6),
-                                          _buildPasswordInput(context),
+                                          _buildPasswordInput(),
                                           const SizedBox(height: 24),
 
                                           // Primary Submit Button
@@ -391,7 +397,7 @@ class LoginView extends GetView<AuthController> {
     );
   }
 
-  Widget _buildEmailInput(BuildContext context) {
+  Widget _buildEmailInput() {
     return Container(
       decoration: BoxDecoration(
         color: const Color(0xFFF8FAFC),
@@ -406,6 +412,7 @@ class LoginView extends GetView<AuthController> {
           fontWeight: FontWeight.w500,
           color: Color(0xFF0F172A),
         ),
+        onChanged: (input) => controller.currentUser.value.email = input.trim(),
         onSaved: (input) => controller.currentUser.value.email = input?.trim(),
         validator: (input) {
           if (input == null || input.trim().isEmpty) {
@@ -435,7 +442,7 @@ class LoginView extends GetView<AuthController> {
     );
   }
 
-  Widget _buildPasswordInput(BuildContext context) {
+  Widget _buildPasswordInput() {
     return Obx(
       () => Container(
         decoration: BoxDecoration(
@@ -452,6 +459,7 @@ class LoginView extends GetView<AuthController> {
             fontWeight: FontWeight.w500,
             color: Color(0xFF0F172A),
           ),
+          onChanged: (input) => controller.currentUser.value.password = input,
           onSaved: (input) => controller.currentUser.value.password = input,
           validator: (input) {
             if (input == null || input.isEmpty) {

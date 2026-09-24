@@ -14,32 +14,51 @@ import '../../root/controllers/root_controller.dart';
 
 class AuthController extends GetxController {
   final Rx<User> currentUser = Get.find<AuthService>().user;
-  late GlobalKey<FormState> loginFormKey;
-  late GlobalKey<FormState> registerFormKey;
-  late GlobalKey<FormState> forgotPasswordFormKey;
+  GlobalKey<FormState> loginFormKey = GlobalKey<FormState>();
+  GlobalKey<FormState> registerFormKey = GlobalKey<FormState>();
+  GlobalKey<FormState> forgotPasswordFormKey = GlobalKey<FormState>();
   final hidePassword = true.obs;
   final loading = false.obs;
   final smsSent = ''.obs;
   late UserRepository _userRepository;
 
   AuthController() {
+    loginFormKey = GlobalKey<FormState>();
+    registerFormKey = GlobalKey<FormState>();
+    forgotPasswordFormKey = GlobalKey<FormState>();
     _userRepository = UserRepository();
   }
 
   void login() async {
     Get.focusScope?.unfocus();
-    if (loginFormKey.currentState!.validate()) {
+    if (loginFormKey.currentState != null && loginFormKey.currentState!.validate()) {
       loginFormKey.currentState!.save();
       loading.value = true;
       try {
-        await Get.find<FireBaseMessagingService>().setDeviceToken();
-        currentUser.value = await _userRepository.login(currentUser.value);
         try {
-          await _userRepository.signInWithEmailAndPassword(currentUser.value.email!, currentUser.value.apiToken!);
+          await Get.find<FireBaseMessagingService>().setDeviceToken();
+        } catch (e) {
+          Get.log('FCM token notice: $e');
+        }
+
+        currentUser.value = await _userRepository.login(currentUser.value);
+
+        try {
+          if (currentUser.value.email != null && currentUser.value.apiToken != null) {
+            await _userRepository.signInWithEmailAndPassword(
+              currentUser.value.email!,
+              currentUser.value.apiToken!,
+            );
+          }
         } catch (e) {
           Get.log('Firebase signin notice: $e');
         }
-        await Get.find<RootController>().changePage(0);
+
+        try {
+          await Get.find<RootController>().changePage(0);
+        } catch (_) {
+          Get.offAllNamed(Routes.ROOT);
+        }
       } catch (e) {
         Get.showSnackbar(Ui.ErrorSnackBar(message: e.toString()));
       } finally {
@@ -50,7 +69,7 @@ class AuthController extends GetxController {
 
   void register() async {
     Get.focusScope?.unfocus();
-    if (registerFormKey.currentState!.validate()) {
+    if (registerFormKey.currentState != null && registerFormKey.currentState!.validate()) {
       registerFormKey.currentState!.save();
       loading.value = true;
       try {
@@ -59,14 +78,30 @@ class AuthController extends GetxController {
           loading.value = false;
           await Get.toNamed(Routes.PHONE_VERIFICATION);
         } else {
-          await Get.find<FireBaseMessagingService>().setDeviceToken();
-          currentUser.value = await _userRepository.register(currentUser.value);
           try {
-            await _userRepository.signUpWithEmailAndPassword(currentUser.value.email!, currentUser.value.apiToken!);
+            await Get.find<FireBaseMessagingService>().setDeviceToken();
+          } catch (e) {
+            Get.log('FCM token notice: $e');
+          }
+
+          currentUser.value = await _userRepository.register(currentUser.value);
+
+          try {
+            if (currentUser.value.email != null && currentUser.value.apiToken != null) {
+              await _userRepository.signUpWithEmailAndPassword(
+                currentUser.value.email!,
+                currentUser.value.apiToken!,
+              );
+            }
           } catch (e) {
             Get.log('Firebase signup notice: $e');
           }
-          await Get.find<RootController>().changePage(0);
+
+          try {
+            await Get.find<RootController>().changePage(0);
+          } catch (_) {
+            Get.offAllNamed(Routes.ROOT);
+          }
         }
       } catch (e) {
         Get.showSnackbar(Ui.ErrorSnackBar(message: e.toString()));
@@ -80,14 +115,30 @@ class AuthController extends GetxController {
     try {
       loading.value = true;
       await _userRepository.verifyPhone(smsSent.value);
-      await Get.find<FireBaseMessagingService>().setDeviceToken();
-      currentUser.value = await _userRepository.register(currentUser.value);
       try {
-        await _userRepository.signUpWithEmailAndPassword(currentUser.value.email!, currentUser.value.apiToken!);
+        await Get.find<FireBaseMessagingService>().setDeviceToken();
+      } catch (e) {
+        Get.log('FCM token notice: $e');
+      }
+
+      currentUser.value = await _userRepository.register(currentUser.value);
+
+      try {
+        if (currentUser.value.email != null && currentUser.value.apiToken != null) {
+          await _userRepository.signUpWithEmailAndPassword(
+            currentUser.value.email!,
+            currentUser.value.apiToken!,
+          );
+        }
       } catch (e) {
         Get.log('Firebase signup notice: $e');
       }
-      await Get.find<RootController>().changePage(0);
+
+      try {
+        await Get.find<RootController>().changePage(0);
+      } catch (_) {
+        Get.offAllNamed(Routes.ROOT);
+      }
     } catch (e) {
       Get.back();
       Get.showSnackbar(Ui.ErrorSnackBar(message: e.toString()));
@@ -102,14 +153,16 @@ class AuthController extends GetxController {
 
   void sendResetLink() async {
     Get.focusScope?.unfocus();
-    if (forgotPasswordFormKey.currentState!.validate()) {
+    if (forgotPasswordFormKey.currentState != null && forgotPasswordFormKey.currentState!.validate()) {
       forgotPasswordFormKey.currentState!.save();
       loading.value = true;
       try {
         await _userRepository.sendResetLinkEmail(currentUser.value);
         loading.value = false;
-        Get.showSnackbar(Ui.SuccessSnackBar(message: "The Password reset link has been sent to your email: ".tr + currentUser.value.email!));
-        Timer(Duration(seconds: 5), () {
+        Get.showSnackbar(Ui.SuccessSnackBar(
+          message: "The Password reset link has been sent to your email: ".tr + (currentUser.value.email ?? ''),
+        ));
+        Timer(Duration(seconds: 4), () {
           Get.offAndToNamed(Routes.LOGIN);
         });
       } catch (e) {
