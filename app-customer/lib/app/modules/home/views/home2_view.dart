@@ -27,14 +27,6 @@ class Home2View extends GetView<HomeController> {
   Widget build(BuildContext context) {
     final double screenWidth = MediaQuery.of(context).size.width;
     final bool isDesktop = screenWidth > 850;
-    final bool isTablet = screenWidth > 550 && screenWidth <= 850;
-
-    // Responsive 16:9 carousel height with bounds
-    final double carouselHeight = isDesktop
-        ? 340.0
-        : (isTablet ? 280.0 : (screenWidth / (16 / 9)).clamp(200.0, 250.0));
-
-    final double expandedHeaderHeight = carouselHeight + 85.0;
 
     return Scaffold(
       body: RefreshIndicator(
@@ -49,9 +41,9 @@ class Home2View extends GetView<HomeController> {
           slivers: <Widget>[
             SliverAppBar(
               backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-              expandedHeight: expandedHeaderHeight,
               elevation: 0.5,
               floating: true,
+              pinned: true,
               iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
               title: Text(
                 Get.find<SettingsService>().setting.value.appName ?? "CitasYa",
@@ -67,75 +59,73 @@ class Home2View extends GetView<HomeController> {
               ),
               actions: const [NotificationsButtonWidget()],
               bottom: HomeSearchBarWidget(),
-              flexibleSpace: FlexibleSpaceBar(
-                collapseMode: CollapseMode.parallax,
-                background: Obx(() {
-                  if (controller.slider.isEmpty) {
-                    return const SizedBox();
-                  }
-
-                  return Stack(
-                    alignment: AlignmentDirectional.bottomCenter,
-                    children: <Widget>[
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 45.0),
-                        child: CarouselSlider(
-                          options: CarouselOptions(
-                            autoPlay: true,
-                            autoPlayInterval: const Duration(seconds: 7),
-                            height: carouselHeight,
-                            viewportFraction: isDesktop ? 0.92 : 1.0,
-                            enlargeCenterPage: isDesktop,
-                            onPageChanged: (index, reason) {
-                              controller.currentSlide.value = index;
-                            },
-                          ),
-                          items: controller.slider.map((Slide slide) {
-                            return SlideItemWidget(slide: slide);
-                          }).toList(),
-                        ),
-                      ),
-                      // Slide Indicators
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 60.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: controller.slider.map((Slide slide) {
-                            final int idx = controller.slider.indexOf(slide);
-                            final bool isActive = controller.currentSlide.value == idx;
-                            return AnimatedContainer(
-                              duration: const Duration(milliseconds: 300),
-                              width: isActive ? 24.0 : 8.0,
-                              height: 6.0,
-                              margin: const EdgeInsets.symmetric(horizontal: 3.0),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                color: isActive
-                                    ? const Color(0xFF84CC16)
-                                    : Colors.white.withOpacity(0.5),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black.withOpacity(0.2),
-                                    blurRadius: 4,
-                                    offset: const Offset(0, 1),
-                                  ),
-                                ],
-                              ),
-                            );
-                          }).toList(),
-                        ),
-                      ),
-                    ],
-                  );
-                }),
-              ),
             ),
             SliverToBoxAdapter(
               child: Center(
                 child: ConstrainedBox(
                   constraints: const BoxConstraints(maxWidth: 1200),
-                  child: Wrap(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
+                      // Carousel Slider (Clean unclipped 16:9)
+                      Obx(() {
+                        if (controller.slider.isEmpty) {
+                          return const SizedBox.shrink();
+                        }
+
+                        return Container(
+                          padding: EdgeInsets.only(
+                            top: 8.0,
+                            bottom: 12.0,
+                            left: isDesktop ? 20.0 : 0.0,
+                            right: isDesktop ? 20.0 : 0.0,
+                          ),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              AspectRatio(
+                                aspectRatio: 16 / 9,
+                                child: CarouselSlider(
+                                  options: CarouselOptions(
+                                    autoPlay: true,
+                                    autoPlayInterval: const Duration(seconds: 7),
+                                    aspectRatio: 16 / 9,
+                                    viewportFraction: isDesktop ? 0.95 : 1.0,
+                                    enlargeCenterPage: isDesktop,
+                                    onPageChanged: (index, reason) {
+                                      controller.currentSlide.value = index;
+                                    },
+                                  ),
+                                  items: controller.slider.map((Slide slide) {
+                                    return SlideItemWidget(slide: slide);
+                                  }).toList(),
+                                ),
+                              ),
+                              const SizedBox(height: 8.0),
+                              // Slide Indicators
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: controller.slider.map((Slide slide) {
+                                  final int idx = controller.slider.indexOf(slide);
+                                  final bool isActive = controller.currentSlide.value == idx;
+                                  return AnimatedContainer(
+                                    duration: const Duration(milliseconds: 300),
+                                    width: isActive ? 22.0 : 7.0,
+                                    height: 6.0,
+                                    margin: const EdgeInsets.symmetric(horizontal: 3.0),
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(10),
+                                      color: isActive
+                                          ? const Color(0xFF006948)
+                                          : const Color(0xFFCBD5E1),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            ],
+                          ),
+                        );
+                      }),
                       AddressWidget(),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
