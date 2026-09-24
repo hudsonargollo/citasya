@@ -37,9 +37,24 @@ class LoginController extends Controller
     /**
      * Where to redirect users after login.
      *
-     * @var string
+     * @return string
      */
-    protected string $redirectTo = '/dashboard';
+    public function redirectTo(): string
+    {
+        $user = auth()->user();
+        if ($user) {
+            if ($user->hasRole('admin')) {
+                return '/dashboard';
+            }
+            if ($user->hasRole('salon owner') || $user->hasRole('provider')) {
+                return '/dashboard';
+            }
+            if ($user->hasRole('customer')) {
+                return '/bookings';
+            }
+        }
+        return '/dashboard';
+    }
     private UserRepository $userRepository;
     private UploadRepository $uploadRepository;
     private RoleRepository $roleRepository;
