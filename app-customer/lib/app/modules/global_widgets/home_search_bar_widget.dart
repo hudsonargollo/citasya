@@ -17,65 +17,77 @@ class HomeSearchBarWidget extends StatelessWidget implements PreferredSize {
 
   Widget buildSearchBar() {
     controller.heroTag.value = UniqueKey().toString();
-    return Hero(
-      tag: controller.heroTag.value,
-      child: Container(
-        margin: EdgeInsets.only(left: 20, right: 20, bottom: 16),
-        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-        decoration: BoxDecoration(
-            color: Get.theme.primaryColor,
-            border: Border.all(
-              color: Get.theme.focusColor.withOpacity(0.2),
-            ),
-            borderRadius: BorderRadius.circular(10)),
-        child: GestureDetector(
-          onTap: () {
-            Get.toNamed(Routes.SEARCH, arguments: controller.heroTag.value);
-          },
-          child: Row(
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.only(right: 12, left: 0),
-                child: Icon(Icons.search, color: Get.theme.colorScheme.secondary),
-              ),
-              Expanded(
-                child: Text(
-                  "Search for salon service...".tr,
-                  maxLines: 1,
-                  softWrap: false,
-                  overflow: TextOverflow.fade,
-                  style: Get.textTheme.bodySmall,
+    return Center(
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: 1200),
+        child: Hero(
+          tag: controller.heroTag.value,
+          child: Container(
+            margin: EdgeInsets.only(left: 20, right: 20, bottom: 12),
+            padding: EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+            decoration: BoxDecoration(
+                color: Get.theme.primaryColor,
+                border: Border.all(
+                  color: Get.theme.focusColor.withOpacity(0.18),
                 ),
-              ),
-              SizedBox(width: 8),
-              GestureDetector(
-                onTap: () {
-                  Get.bottomSheet(
-                    FilterBottomSheetWidget(),
-                    isScrollControlled: true,
-                  );
-                },
-                child: Container(
-                  padding: const EdgeInsets.only(right: 10, left: 10, top: 10, bottom: 10),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(8)),
-                    color: Get.theme.focusColor.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(14),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color(0xFF0F172A).withOpacity(0.04),
+                    blurRadius: 10,
+                    offset: Offset(0, 3),
                   ),
-                  child: Wrap(
-                    crossAxisAlignment: WrapCrossAlignment.center,
-                    spacing: 4,
-                    children: [
-                      Text("Filter".tr, style: Get.textTheme.bodyMedium),
-                      Icon(
-                        Icons.filter_list,
-                        color: Get.theme.hintColor,
-                        size: 21,
+                ]),
+            child: GestureDetector(
+              onTap: () {
+                Get.toNamed(Routes.SEARCH, arguments: controller.heroTag.value);
+              },
+              child: Row(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.only(right: 12, left: 0),
+                    child: Icon(Icons.search, color: Get.theme.colorScheme.secondary),
+                  ),
+                  Expanded(
+                    child: Text(
+                      "Search for salon service...".tr,
+                      maxLines: 1,
+                      softWrap: false,
+                      overflow: TextOverflow.fade,
+                      style: Get.textTheme.bodySmall,
+                    ),
+                  ),
+                  SizedBox(width: 8),
+                  GestureDetector(
+                    onTap: () {
+                      Get.bottomSheet(
+                        FilterBottomSheetWidget(),
+                        isScrollControlled: true,
+                      );
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.only(right: 10, left: 10, top: 10, bottom: 10),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(8)),
+                        color: Get.theme.focusColor.withOpacity(0.1),
                       ),
-                    ],
+                      child: Wrap(
+                        crossAxisAlignment: WrapCrossAlignment.center,
+                        spacing: 4,
+                        children: [
+                          Text("Filter".tr, style: Get.textTheme.bodyMedium),
+                          Icon(
+                            Icons.filter_list,
+                            color: Get.theme.hintColor,
+                            size: 21,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
       ),

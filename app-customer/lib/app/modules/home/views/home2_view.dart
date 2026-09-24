@@ -74,11 +74,11 @@ class Home2View extends GetView<HomeController> {
                         }
 
                         return Container(
-                          padding: EdgeInsets.only(
-                            top: 8.0,
+                          padding: const EdgeInsets.only(
+                            top: 4.0,
                             bottom: 12.0,
-                            left: isDesktop ? 20.0 : 0.0,
-                            right: isDesktop ? 20.0 : 0.0,
+                            left: 20.0,
+                            right: 20.0,
                           ),
                           child: Column(
                             mainAxisSize: MainAxisSize.min,
@@ -90,8 +90,8 @@ class Home2View extends GetView<HomeController> {
                                     autoPlay: true,
                                     autoPlayInterval: const Duration(seconds: 7),
                                     aspectRatio: 16 / 9,
-                                    viewportFraction: isDesktop ? 0.95 : 1.0,
-                                    enlargeCenterPage: isDesktop,
+                                    viewportFraction: 1.0,
+                                    enlargeCenterPage: false,
                                     onPageChanged: (index, reason) {
                                       controller.currentSlide.value = index;
                                     },
