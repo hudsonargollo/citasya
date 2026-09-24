@@ -111,8 +111,8 @@
     /* 3D Icon & Pulsing Ring Wrapper */
     .icon-box {
       position: relative;
-      width: 126px;
-      height: 126px;
+      width: 136px;
+      height: 136px;
       margin-bottom: 22px;
       display: flex;
       align-items: center;
@@ -124,8 +124,8 @@
     .svg-ring {
       position: absolute;
       inset: 0;
-      width: 126px;
-      height: 126px;
+      width: 136px;
+      height: 136px;
       z-index: 3;
       pointer-events: none;
       transform-origin: center center;
@@ -133,45 +133,45 @@
 
     .ring-track {
       stroke: rgba(132, 204, 22, 0.18);
-      stroke-width: 3;
+      stroke-width: 3.5;
       fill: none;
     }
 
     .ring-pulse-stroke {
       fill: none;
       stroke: url(#limeGradCustomer);
-      stroke-width: 4;
+      stroke-width: 4.5;
       stroke-linecap: round;
       stroke-linejoin: round;
-      stroke-dasharray: 140 280;
+      stroke-dasharray: 150 300;
       animation: ringOrbit 2.4s linear infinite, ringAura 2s ease-in-out infinite alternate;
       transform-origin: center center;
     }
 
     @keyframes ringOrbit {
-      0% { stroke-dashoffset: 420; }
+      0% { stroke-dashoffset: 450; }
       100% { stroke-dashoffset: 0; }
     }
 
     @keyframes ringAura {
       0% {
-        transform: scale(0.97);
+        transform: scale(0.98);
         opacity: 0.75;
         filter: drop-shadow(0 0 8px rgba(132, 204, 22, 0.7));
       }
       100% {
-        transform: scale(1.03);
+        transform: scale(1.02);
         opacity: 1;
-        filter: drop-shadow(0 0 16px rgba(163, 230, 53, 0.95));
+        filter: drop-shadow(0 0 18px rgba(163, 230, 53, 0.95));
       }
     }
 
-    /* 3D Master Icon Image */
+    /* 3D Master Icon Image - Sits at the edge of the animated SVG */
     .app-icon-img {
-      width: 96px;
-      height: 96px;
+      width: 120px;
+      height: 120px;
       object-fit: contain;
-      border-radius: 24px;
+      border-radius: 30px;
       filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.55));
       animation: floatBadge 3s ease-in-out infinite alternate;
       z-index: 2;
@@ -256,7 +256,7 @@
     <div class="loader-stage">
       <div class="icon-box">
         <!-- Enveloping Pulsing SVG Ring -->
-        <svg class="svg-ring" viewBox="0 0 126 126">
+        <svg class="svg-ring" viewBox="0 0 136 136">
           <defs>
             <linearGradient id="limeGradCustomer" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#A3E635" />
@@ -264,8 +264,8 @@
               <stop offset="100%" stop-color="#059669" />
             </linearGradient>
           </defs>
-          <rect class="ring-track" x="7" y="7" width="112" height="112" rx="28" ry="28" />
-          <rect class="ring-pulse-stroke" x="7" y="7" width="112" height="112" rx="28" ry="28" />
+          <rect class="ring-track" x="8" y="8" width="120" height="120" rx="30" ry="30" />
+          <rect class="ring-pulse-stroke" x="8" y="8" width="120" height="120" rx="30" ry="30" />
         </svg>
 
         <!-- Crisp 3D Master Badge Icon -->
