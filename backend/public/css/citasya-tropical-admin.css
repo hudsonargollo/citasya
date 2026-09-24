@@ -1,0 +1,395 @@
+/*
+ * CitasYa Tropical Modern Admin Dashboard Design System
+ * Matches login design: Emerald #006948, Electric Lime #84CC16, Dark Slate #0F172A
+ */
+
+:root {
+  --citasya-emerald: #006948;
+  --citasya-emerald-dark: #005137;
+  --citasya-emerald-light: #059669;
+  --citasya-lime: #84CC16;
+  --citasya-lime-light: #A3E635;
+  --citasya-lime-glow: rgba(132, 204, 22, 0.25);
+  --citasya-slate: #0F172A;
+  --citasya-slate-light: #1E293B;
+  --citasya-slate-muted: #64748B;
+  --citasya-bg: #FAFDF7;
+  --citasya-card-bg: #FFFFFF;
+  --citasya-border: #E2E8F0;
+  --citasya-radius-sm: 10px;
+  --citasya-radius-md: 16px;
+  --citasya-radius-lg: 20px;
+  --citasya-radius-pill: 9999px;
+  --citasya-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+  --citasya-shadow-hover: 0 10px 25px -4px rgba(15, 23, 42, 0.1);
+}
+
+body {
+  font-family: 'Poppins', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  background-color: var(--citasya-bg) !important;
+  color: var(--citasya-slate) !important;
+  letter-spacing: -0.01em;
+}
+
+/* --- Content Wrapper & Backgrounds --- */
+.content-wrapper {
+  background-color: var(--citasya-bg) !important;
+  padding: 1rem 1.25rem;
+}
+
+/* --- Navbar Styling --- */
+.main-header.navbar {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid var(--citasya-border) !important;
+  box-shadow: 0 1px 8px rgba(15, 23, 42, 0.03) !important;
+  padding: 0.6rem 1.25rem;
+}
+
+.main-header.navbar .nav-link {
+  color: var(--citasya-slate) !important;
+  font-weight: 600;
+  border-radius: var(--citasya-radius-sm);
+  transition: all 0.2s ease;
+}
+
+.main-header.navbar .nav-link:hover {
+  background-color: #F1F5F9 !important;
+  color: var(--citasya-emerald) !important;
+}
+
+/* --- Sidebar Styling (Dark Slate with Tropical Accents) --- */
+.main-sidebar {
+  background-color: var(--citasya-slate) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: 4px 0 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+.brand-link {
+  background-color: var(--citasya-slate) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding: 1rem 1.25rem !important;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-link .brand-text {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: -0.02em;
+}
+
+.brand-link .brand-image {
+  max-height: 38px !important;
+  width: auto !important;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+/* Sidebar Nav Links */
+.sidebar .nav-sidebar .nav-item > .nav-link {
+  color: #94A3B8 !important;
+  font-weight: 500;
+  font-size: 0.88rem;
+  border-radius: var(--citasya-radius-sm);
+  margin: 2px 10px;
+  padding: 0.6rem 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar .nav-sidebar .nav-item > .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  color: #FFFFFF !important;
+  transform: translateX(2px);
+}
+
+.sidebar .nav-sidebar .nav-item > .nav-link.active {
+  background: linear-gradient(135deg, var(--citasya-emerald) 0%, var(--citasya-emerald-light) 100%) !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(0, 105, 72, 0.35) !important;
+}
+
+.sidebar .nav-sidebar .nav-item > .nav-link.active i {
+  color: var(--citasya-lime-light) !important;
+}
+
+.sidebar .nav-treeview .nav-item > .nav-link {
+  padding-left: 2rem !important;
+  font-size: 0.83rem;
+}
+
+/* --- Cards & Containers --- */
+.card {
+  background-color: var(--citasya-card-bg) !important;
+  border: 1px solid var(--citasya-border) !important;
+  border-radius: var(--citasya-radius-md) !important;
+  box-shadow: var(--citasya-shadow) !important;
+  transition: all 0.25s ease;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  box-shadow: var(--citasya-shadow-hover) !important;
+}
+
+.card-header {
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--citasya-border) !important;
+  padding: 1rem 1.25rem !important;
+  font-weight: 700;
+}
+
+.card-header .card-title {
+  color: var(--citasya-slate) !important;
+  font-weight: 800 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: -0.02em;
+}
+
+/* --- Small Stat Boxes (Dashboard Overview) --- */
+.small-box {
+  border-radius: var(--citasya-radius-lg) !important;
+  border: 1px solid var(--citasya-border) !important;
+  box-shadow: var(--citasya-shadow) !important;
+  background-color: #FFFFFF !important;
+  transition: all 0.25s ease;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.small-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -5px rgba(15, 23, 42, 0.12) !important;
+  border-color: rgba(132, 204, 22, 0.4) !important;
+}
+
+.small-box .inner {
+  padding: 1.4rem 1.25rem !important;
+}
+
+.small-box .inner h3 {
+  font-weight: 900 !important;
+  font-size: 2rem !important;
+  color: var(--citasya-emerald) !important;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.25rem;
+}
+
+.small-box .inner p {
+  color: var(--citasya-slate-muted) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0;
+}
+
+.small-box .icon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #F0FDF4;
+  color: var(--citasya-emerald);
+  font-size: 1.5rem !important;
+  transition: all 0.3s ease;
+}
+
+.small-box:hover .icon {
+  background: var(--citasya-emerald);
+  color: var(--citasya-lime-light);
+  transform: scale(1.1) rotate(5deg);
+}
+
+.small-box-footer {
+  background-color: #F8FAFC !important;
+  color: var(--citasya-slate) !important;
+  font-weight: 700 !important;
+  font-size: 0.78rem !important;
+  padding: 0.5rem 1rem !important;
+  border-top: 1px solid var(--citasya-border) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+
+.small-box-footer:hover {
+  background-color: var(--citasya-slate) !important;
+  color: var(--citasya-lime-light) !important;
+}
+
+/* --- Buttons (Matching Login Theme) --- */
+.btn-primary, .btn-secondary, a.btn-primary {
+  background-color: var(--citasya-slate) !important;
+  color: var(--citasya-lime-light) !important;
+  border: none !important;
+  border-radius: var(--citasya-radius-pill) !important;
+  font-weight: 700 !important;
+  padding: 0.5rem 1.25rem !important;
+  font-size: 0.85rem !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12) !important;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover, a.btn-primary:hover {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.2) !important;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, var(--citasya-emerald) 0%, var(--citasya-emerald-light) 100%) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: var(--citasya-radius-pill) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(0, 105, 72, 0.25) !important;
+}
+
+.btn-success:hover {
+  background: var(--citasya-emerald-dark) !important;
+  transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+  color: var(--citasya-emerald) !important;
+  border: 1.5px solid var(--citasya-emerald) !important;
+  border-radius: var(--citasya-radius-pill) !important;
+  font-weight: 700 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--citasya-emerald) !important;
+  color: #FFFFFF !important;
+}
+
+/* --- Badges --- */
+.badge {
+  padding: 0.35rem 0.75rem !important;
+  border-radius: var(--citasya-radius-pill) !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.02em;
+}
+
+.badge-success, .badge.bg-olive, .badge.bg-success {
+  background-color: #ECFDF5 !important;
+  color: #047857 !important;
+  border: 1px solid #A7F3D0 !important;
+}
+
+.badge-warning {
+  background-color: #FFFBEB !important;
+  color: #B45309 !important;
+  border: 1px solid #FDE68A !important;
+}
+
+.badge-danger {
+  background-color: #FEF2F2 !important;
+  color: #B91C1C !important;
+  border: 1px solid #FECACA !important;
+}
+
+/* --- Form Controls & Inputs --- */
+.form-control, select.form-control {
+  background-color: #F8FAFC !important;
+  border: 1px solid var(--citasya-border) !important;
+  border-radius: var(--citasya-radius-sm) !important;
+  padding: 0.55rem 0.9rem !important;
+  font-size: 0.88rem !important;
+  color: var(--citasya-slate) !important;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus {
+  background-color: #FFFFFF !important;
+  border-color: var(--citasya-emerald) !important;
+  box-shadow: 0 0 0 3px var(--citasya-lime-glow) !important;
+  outline: none !important;
+}
+
+/* --- DataTables & Tables --- */
+table.dataTable {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+  border-radius: var(--citasya-radius-md) !important;
+}
+
+table.dataTable thead th {
+  background-color: #F8FAFC !important;
+  color: var(--citasya-slate-muted) !important;
+  font-size: 0.75rem !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-top: none !important;
+  border-bottom: 1px solid var(--citasya-border) !important;
+  padding: 0.85rem 1rem !important;
+}
+
+table.dataTable tbody td {
+  padding: 0.9rem 1rem !important;
+  vertical-align: middle !important;
+  border-bottom: 1px solid #F1F5F9 !important;
+  font-size: 0.88rem !important;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: #F0FDF4 !important;
+}
+
+/* DataTables Pagination */
+.page-item.active .page-link {
+  background: var(--citasya-slate) !important;
+  border-color: var(--citasya-slate) !important;
+  color: var(--citasya-lime-light) !important;
+  font-weight: 800 !important;
+  border-radius: var(--citasya-radius-sm) !important;
+}
+
+.page-item .page-link {
+  border-radius: var(--citasya-radius-sm) !important;
+  margin: 0 2px;
+  color: var(--citasya-slate);
+  border: 1px solid var(--citasya-border);
+}
+
+/* Header Tabs */
+.card-header-tabs .nav-link {
+  border-radius: var(--citasya-radius-pill) !important;
+  font-weight: 700 !important;
+  font-size: 0.83rem !important;
+  padding: 0.45rem 1.1rem !important;
+  margin-right: 0.5rem;
+  color: var(--citasya-slate-muted) !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease;
+}
+
+.card-header-tabs .nav-link.active {
+  background-color: var(--citasya-slate) !important;
+  color: var(--citasya-lime-light) !important;
+  border: 1px solid var(--citasya-slate) !important;
+}
+
+/* --- Footer --- */
+.main-footer {
+  background-color: #FFFFFF !important;
+  border-top: 1px solid var(--citasya-border) !important;
+  color: var(--citasya-slate-muted) !important;
+  font-size: 0.82rem !important;
+  padding: 0.75rem 1.25rem;
+}

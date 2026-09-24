@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/styles.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/'.setting("theme_color","primary").'.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/citasya-tropical-admin.css?v=2')}}">
     @yield('css_custom')
 </head>
 

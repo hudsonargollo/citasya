@@ -1,9 +1,9 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-{{setting('theme_contrast')}}-{{setting('theme_color')}} shadow">
     <!-- Brand Logo -->
-    <a href="{{url('dashboard')}}" class="brand-link border-bottom-0 {{setting('logo_bg_color','bg-white')}}">
-        <img src="{{asset('images/brand/icon_2d.png?v=2')}}" alt="{{setting('app_name')}}" class="brand-image">
-        <span class="brand-text font-weight-bold">{{setting('app_name')}}</span>
+    <a href="{{url('dashboard')}}" class="brand-link border-bottom-0">
+        <img src="{{asset('images/brand/icon_3d.png?v=5')}}" alt="{{setting('app_name', 'CitasYa')}}" class="brand-image img-circle elevation-2">
+        <span class="brand-text">{{setting('app_name', 'CitasYa')}}</span>
     </a>
 
     <!-- Sidebar -->
