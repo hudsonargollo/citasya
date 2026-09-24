@@ -55,8 +55,23 @@ trait HasTranslations
         } elseif (!isJson(parent::getAttributeValue($key))) {
             return parent::getAttributeValue($key);
         }
-        return $this->getTranslation($key, $this->getLocale());
 
+        $locale = $this->getLocale();
+        $translation = $this->getTranslation($key, $locale, false);
+
+        if (empty($translation)) {
+            $fallback = config('app.fallback_locale', 'en');
+            $translation = $this->getTranslation($key, $fallback, false);
+        }
+
+        if (empty($translation)) {
+            $translations = $this->getTranslations($key);
+            if (!empty($translations)) {
+                $translation = reset($translations);
+            }
+        }
+
+        return $translation;
     }
 
     public function getCasts(): array
