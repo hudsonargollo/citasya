@@ -45,10 +45,12 @@ class HomeController extends GetxController {
   }
 
   Future refreshHome({bool showMessage = false}) async {
-    await getSlider();
-    await getCategories();
-    await getFeatured();
-    await getRecommendedSalons();
+    await Future.wait([
+      getSlider(),
+      getCategories(),
+      getFeatured(),
+      getRecommendedSalons(),
+    ]);
     Get.find<RootController>().getNotificationsCount();
     if (showMessage) {
       Get.showSnackbar(Ui.SuccessSnackBar(message: "Home page refreshed successfully".tr));

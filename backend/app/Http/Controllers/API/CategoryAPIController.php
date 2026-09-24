@@ -44,17 +44,25 @@ class CategoryAPIController extends Controller
      */
     public function index(Request $request): JsonResponse
     {
-        try {
-            $this->categoryRepository->pushCriteria(new RequestCriteria($request));
-            $this->categoryRepository->pushCriteria(new ParentCriteria($request));
-            $this->categoryRepository->pushCriteria(new NearCriteria($request));
-            $this->categoryRepository->pushCriteria(new LimitOffsetCriteria($request));
-        } catch (RepositoryException $e) {
-            return $this->sendError($e->getMessage());
-        }
-        $categories = $this->categoryRepository->all();
+        $cacheKey = 'api_categories_' . md5($request->fullUrl());
+        $data = \Illuminate\Support\Facades\Cache::remember($cacheKey, 600, function () use ($request) {
+            try {
+                $this->categoryRepository->pushCriteria(new RequestCriteria($request));
+                $this->categoryRepository->pushCriteria(new ParentCriteria($request));
+                $this->categoryRepository->pushCriteria(new NearCriteria($request));
+                $this->categoryRepository->pushCriteria(new LimitOffsetCriteria($request));
+                $categories = $this->categoryRepository->all();
+                return $categories->toArray();
+            } catch (RepositoryException $e) {
+                return null;
+            }
+        });
 
-        return $this->sendResponse($categories->toArray(), 'Categories retrieved successfully');
+        if ($data === null) {
+            return $this->sendError('Error retrieving categories');
+        }
+
+        return $this->sendResponse($data, 'Categories retrieved successfully');
     }
 
     /**

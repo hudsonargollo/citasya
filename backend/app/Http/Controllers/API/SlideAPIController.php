@@ -44,17 +44,25 @@ class SlideAPIController extends Controller
      */
     public function index(Request $request): JsonResponse
     {
-        try {
-            $this->slideRepository->pushCriteria(new RequestCriteria($request));
-            $this->slideRepository->pushCriteria(new LimitOffsetCriteria($request));
-            $this->slideRepository->pushCriteria(new OrderCriteria());
-            $this->slideRepository->pushCriteria(new EnabledCriteria());
-        } catch (RepositoryException $e) {
-            return $this->sendError($e->getMessage());
-        }
-        $slides = $this->slideRepository->all();
+        $cacheKey = 'api_slides_' . md5($request->fullUrl());
+        $data = \Illuminate\Support\Facades\Cache::remember($cacheKey, 600, function () use ($request) {
+            try {
+                $this->slideRepository->pushCriteria(new RequestCriteria($request));
+                $this->slideRepository->pushCriteria(new LimitOffsetCriteria($request));
+                $this->slideRepository->pushCriteria(new OrderCriteria());
+                $this->slideRepository->pushCriteria(new EnabledCriteria());
+                $slides = $this->slideRepository->all();
+                return $slides->toArray();
+            } catch (RepositoryException $e) {
+                return null;
+            }
+        });
 
-        return $this->sendResponse($slides->toArray(), 'Slides retrieved successfully');
+        if ($data === null) {
+            return $this->sendError('Error retrieving slides');
+        }
+
+        return $this->sendResponse($data, 'Slides retrieved successfully');
     }
 
     /**

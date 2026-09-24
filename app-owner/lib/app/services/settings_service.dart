@@ -32,16 +32,10 @@ class SettingsService extends GetxService {
     address.listen((Address _address) {
       _box.write('current_address', _address.toJson());
     });
-    try {
-      setting.value = await _settingsRepo.get();
-    } catch (e) {
-      Get.log('SettingsService get error: $e');
-    }
-    try {
-      setting.value.modules = await _settingsRepo.getModules();
-    } catch (e) {
-      Get.log('SettingsService getModules error: $e');
-    }
+    await Future.wait([
+      _settingsRepo.get().then((val) => setting.value = val).catchError((e) => Get.log('SettingsService get error: $e')),
+      _settingsRepo.getModules().then((val) => setting.value.modules = val).catchError((e) => Get.log('SettingsService getModules error: $e')),
+    ]);
     return this;
   }
 

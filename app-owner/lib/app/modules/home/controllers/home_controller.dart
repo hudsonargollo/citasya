@@ -42,8 +42,10 @@ class HomeController extends GetxController {
   }
 
   Future refreshHome({bool showMessage = false, String? statusId}) async {
-    await getBookingStatuses();
-    await getStatistics();
+    await Future.wait([
+      getBookingStatuses(),
+      getStatistics(),
+    ]);
     Get.find<RootController>().getNotificationsCount();
     changeTab(statusId ?? currentStatus.value);
     if (showMessage) {
