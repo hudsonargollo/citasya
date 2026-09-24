@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-const Color PRIMARY_COLOR = Colors.blueAccent;
-const Color BACKGROUND_COLOR = Color(0xffE2E7F2);
+const Color PRIMARY_COLOR = Color(0xFF006948);
+const Color BACKGROUND_COLOR = Color(0xFFF0FDF4);
 
 class CustomBottomNavigationBar extends StatefulWidget {
   final Color? backgroundColor;

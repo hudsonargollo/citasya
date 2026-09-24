@@ -36,7 +36,7 @@
               slate: '#0F172A',
               cardDark: '#1E293B',
               amberAccent: '#F59E0B',
-              cyanAccent: '#06B6D4'
+              limeAccent: '#84CC16'
             }
           },
           fontFamily: {
@@ -523,7 +523,7 @@
 <rect fill="none" height="102.5" rx="27.25" stroke="#A7F3D0" stroke-width="1.5" width="102.5" x="8.75" y="8.75"></rect>
 <rect fill="#059669" height="48" rx="14" width="48" x="36" y="32"></rect>
 <path d="M60 42 V70 M46 56 H74" stroke="#FFFFFF" stroke-linecap="round" stroke-width="5.5"></path>
-<path d="M30 68 L42 68 L48 58 L54 78 L62 62 L66 68 L90 68" fill="none" opacity="0.9" stroke="#06B6D4" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<path d="M30 68 L42 68 L48 58 L54 78 L62 62 L66 68 L90 68" fill="none" opacity="0.9" stroke="#84CC16" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
 <circle cx="84" cy="36" fill="#F59E0B" r="14" stroke="#FFFFFF" stroke-width="2.5"></circle>
 <path d="M85 29 L80.5 36.5 H84.5 L83 43 L88 35.5 H84 Z" fill="#FFFFFF"></path>
 </svg>
@@ -575,7 +575,7 @@
 <path d="M38 72 C44 83 76 83 82 72" fill="none" stroke="#059669" stroke-linecap="round" stroke-width="4"></path>
 <path d="M84 32 Q84 38 90 38 Q84 38 84 44 Q84 38 78 38 Q84 38 84 32 Z" fill="#F59E0B"></path>
 <path d="M34 36 Q34 40 38 40 Q34 40 34 44 Q34 40 30 40 Q34 40 34 36 Z" fill="#F59E0B"></path>
-<circle cx="60" cy="85" fill="#06B6D4" r="3"></circle>
+<circle cx="60" cy="85" fill="#84CC16" r="3"></circle>
 </svg>
 </div>
 <span class="text-xs font-bold text-amber-800 bg-amber-100 px-3 py-1 rounded-full">
@@ -624,9 +624,9 @@
 <path d="M46 80 H74" stroke="#0F172A" stroke-linecap="round" stroke-width="4.5"></path>
 <rect fill="#059669" height="6" rx="2" width="20" x="50" y="74"></rect>
 <path d="M34 43 Q60 40 86 43" fill="none" stroke="#0F172A" stroke-linecap="round" stroke-width="4"></path>
-<path d="M34 43 L26 58 M34 43 L42 58" fill="none" stroke="#06B6D4" stroke-linecap="round" stroke-width="2"></path>
+<path d="M34 43 L26 58 M34 43 L42 58" fill="none" stroke="#84CC16" stroke-linecap="round" stroke-width="2"></path>
 <path d="M23 58 C23 66 45 66 45 58 Z" fill="#059669"></path>
-<path d="M86 43 L78 58 M86 43 L94 58" fill="none" stroke="#06B6D4" stroke-linecap="round" stroke-width="2"></path>
+<path d="M86 43 L78 58 M86 43 L94 58" fill="none" stroke="#84CC16" stroke-linecap="round" stroke-width="2"></path>
 <path d="M75 58 C75 66 97 66 97 58 Z" fill="#059669"></path>
 <circle cx="86" cy="30" fill="#059669" r="11" stroke="#FFFFFF" stroke-width="2"></circle>
 <path d="M82 30 L85 33 L90 27" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
