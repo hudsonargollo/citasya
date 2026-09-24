@@ -1,0 +1,6107 @@
+[
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Barbería República SCZ",
+    "name_en": "Barbería República SCZ",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71645321",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #2087, Barrio Petrolero",
+    "lat": -17.79207,
+    "lng": -63.18974,
+    "services": [
+      [
+        "Tratamiento Anticaída Capilar",
+        130,
+        "00:40"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "The Barbers Club Equipetrol",
+    "name_en": "The Barbers Club Equipetrol",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70989322",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #1935, Urubó Village",
+    "lat": -17.76059,
+    "lng": -63.22189,
+    "services": [
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "Capital Fade Studio",
+    "name_en": "Capital Fade Studio",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71680670",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2187, Los Cusis",
+    "lat": -17.76583,
+    "lng": -63.17741,
+    "services": [
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ],
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Barba Brava Barbershop",
+    "name_en": "Barba Brava Barbershop",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78053811",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #1284, Urbarí",
+    "lat": -17.7918,
+    "lng": -63.19961,
+    "services": [
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ],
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Legendary Cuts Santa Cruz",
+    "name_en": "Legendary Cuts Santa Cruz",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76056166",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #336, Barrio Petrolero",
+    "lat": -17.79105,
+    "lng": -63.19435,
+    "services": [
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Imperio Urbano Barber",
+    "name_en": "Imperio Urbano Barber",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71665126",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #146, Ventura Mall & 4to Anillo",
+    "lat": -17.75402,
+    "lng": -63.19229,
+    "services": [
+      [
+        "Tratamiento Anticaída Capilar",
+        130,
+        "00:40"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "Don Vito Peluquería Masculina",
+    "name_en": "Don Vito Peluquería Masculina",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77083012",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #731, Av. Busch 2do y 3er Anillo",
+    "lat": -17.7748,
+    "lng": -63.19709,
+    "services": [
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Corte Degradé Clásico",
+        60,
+        "00:40"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "Master Cut Sirari",
+    "name_en": "Master Cut Sirari",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70842659",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #1240, Las Palmas",
+    "lat": -17.80708,
+    "lng": -63.20722,
+    "services": [
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ],
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "Vanguardia Barber Lounge",
+    "name_en": "Vanguardia Barber Lounge",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70818728",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2432, Barrio Hamacas",
+    "lat": -17.75872,
+    "lng": -63.18122,
+    "services": [
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ],
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ],
+      [
+        "Tratamiento Anticaída Capilar",
+        130,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "Golden Scissor Urbarí",
+    "name_en": "Golden Scissor Urbarí",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78536626",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #2320, Urubó Village",
+    "lat": -17.76616,
+    "lng": -63.21372,
+    "services": [
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Distrito 7 Barbershop",
+    "name_en": "Distrito 7 Barbershop",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70973669",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #2436, Ventura Mall & 4to Anillo",
+    "lat": -17.75408,
+    "lng": -63.20115,
+    "services": [
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Corte Degradé Clásico",
+        60,
+        "00:40"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "El Templo del Barbero",
+    "name_en": "El Templo del Barbero",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78565809",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2098, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78198,
+    "lng": -63.19763,
+    "services": [
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ],
+      [
+        "Corte Degradé Clásico",
+        60,
+        "00:40"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Legacy Men Grooming",
+    "name_en": "Legacy Men Grooming",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70857316",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #924, Urbarí",
+    "lat": -17.79797,
+    "lng": -63.19424,
+    "services": [
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "Prime Cuts Ventura",
+    "name_en": "Prime Cuts Ventura",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77065343",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #1210, Centro Histórico",
+    "lat": -17.7787,
+    "lng": -63.17654,
+    "services": [
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "Urban Kings Barbería",
+    "name_en": "Urban Kings Barbería",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71619757",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #895, Villa Fraterna / Santos Dumont",
+    "lat": -17.81446,
+    "lng": -63.19362,
+    "services": [
+      [
+        "Diseño Hair Tattoo & Freestyle",
+        90,
+        "00:50"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ],
+      [
+        "Tratamiento Anticaída Capilar",
+        130,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "El Barbero de Sevilla SCZ",
+    "name_en": "El Barbero de Sevilla SCZ",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75052874",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1519, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77545,
+    "lng": -63.19806,
+    "services": [
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 4,
+    "name_es": "Roots Barber Shop",
+    "name_en": "Roots Barber Shop",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75051333",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1270, Barrio Petrolero",
+    "lat": -17.79287,
+    "lng": -63.19446,
+    "services": [
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ],
+      [
+        "Alisado Queratina Masculino",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Top Notch Barber Studio",
+    "name_en": "Top Notch Barber Studio",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76627253",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #212, Av. Banzer Km 3-5",
+    "lat": -17.75533,
+    "lng": -63.17843,
+    "services": [
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ],
+      [
+        "Tratamiento Anticaída Capilar",
+        130,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 3,
+    "name_es": "Santacruzano Barber House",
+    "name_en": "Santacruzano Barber House",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78592495",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #490, Ventura Mall & 4to Anillo",
+    "lat": -17.75647,
+    "lng": -63.1922,
+    "services": [
+      [
+        "Corte Ejecutivo Tijera",
+        80,
+        "00:45"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ],
+      [
+        "Color & Camuflaje de Canas",
+        95,
+        "00:45"
+      ],
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 1,
+    "level_id": 2,
+    "name_es": "Signature Fade & Shave",
+    "name_en": "Signature Fade & Shave",
+    "desc_es": "Atención especializada y servicios de barbería y peluquería en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized barbershop & hair services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76656175",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #2752, Urbarí",
+    "lat": -17.79247,
+    "lng": -63.19999,
+    "services": [
+      [
+        "Afeitado Tradicional Navaja",
+        50,
+        "00:30"
+      ],
+      [
+        "Perfilado de Barba con Toalla Caliente",
+        45,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Studio Nails Las Palmas",
+    "name_en": "Studio Nails Las Palmas",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75049774",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #2312, Equipetrol",
+    "lat": -17.76926,
+    "lng": -63.19113,
+    "services": [
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 3,
+    "name_es": "Velvet Manicure & Pedicure",
+    "name_en": "Velvet Manicure & Pedicure",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70865090",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #281, Urbarí",
+    "lat": -17.7913,
+    "lng": -63.19649,
+    "services": [
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Nail Lounge Beauty Plaza",
+    "name_en": "Nail Lounge Beauty Plaza",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77093145",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #831, Barrio Hamacas",
+    "lat": -17.76467,
+    "lng": -63.17994,
+    "services": [
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ],
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 4,
+    "name_es": "Acrílicas & Co. Equipetrol",
+    "name_en": "Acrílicas & Co. Equipetrol",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75038574",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #458, Equipetrol",
+    "lat": -17.76698,
+    "lng": -63.19643,
+    "services": [
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 4,
+    "name_es": "Boutique Uñas & Esmalte",
+    "name_en": "Boutique Uñas & Esmalte",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75070592",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #433, Urubó Village",
+    "lat": -17.76121,
+    "lng": -63.21701,
+    "services": [
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Chic & Shine Nail Bar",
+    "name_en": "Chic & Shine Nail Bar",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75053134",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #1311, Urbarí",
+    "lat": -17.79581,
+    "lng": -63.20189,
+    "services": [
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Dulce Manicura SCZ",
+    "name_en": "Dulce Manicura SCZ",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76641087",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #191, Av. Monseñor Rivero",
+    "lat": -17.77825,
+    "lng": -63.1829,
+    "services": [
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Oh My Nails Sirari",
+    "name_en": "Oh My Nails Sirari",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76670093",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2715, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77575,
+    "lng": -63.19644,
+    "services": [
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Pure Glam Nail Spa",
+    "name_en": "Pure Glam Nail Spa",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76668476",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #155, Urubó Village",
+    "lat": -17.76628,
+    "lng": -63.21931,
+    "services": [
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 3,
+    "name_es": "La Reinita Nails Studio",
+    "name_en": "La Reinita Nails Studio",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71646920",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #329, Barrio Petrolero",
+    "lat": -17.79273,
+    "lng": -63.1932,
+    "services": [
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Diamond Nails Santa Cruz",
+    "name_en": "Diamond Nails Santa Cruz",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78054768",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #2601, Av. Monseñor Rivero",
+    "lat": -17.77335,
+    "lng": -63.18162,
+    "services": [
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Luxe French & Acrylics",
+    "name_en": "Luxe French & Acrylics",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78059046",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #544, Sirari",
+    "lat": -17.76739,
+    "lng": -63.19445,
+    "services": [
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 3,
+    "name_es": "Nail Queen Urbarí",
+    "name_en": "Nail Queen Urbarí",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78060917",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #2400, Barrio Petrolero",
+    "lat": -17.79023,
+    "lng": -63.19274,
+    "services": [
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 3,
+    "name_es": "Color & Arte Manicura",
+    "name_en": "Color & Arte Manicura",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76036815",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #239, Centro Histórico",
+    "lat": -17.77837,
+    "lng": -63.17872,
+    "services": [
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 4,
+    "name_es": "Pretty Hands & Feet",
+    "name_en": "Pretty Hands & Feet",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70812687",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #263, Urbarí",
+    "lat": -17.79119,
+    "lng": -63.19607,
+    "services": [
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ],
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Nails Paradise Banzer",
+    "name_en": "Nails Paradise Banzer",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70886409",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #844, Equipetrol",
+    "lat": -17.76678,
+    "lng": -63.19392,
+    "services": [
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Retiro Seguro + Nutrición",
+        60,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Manos Bonitas Studio",
+    "name_en": "Manos Bonitas Studio",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77048428",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #886, Equipetrol Norte / DUO",
+    "lat": -17.76969,
+    "lng": -63.20174,
+    "services": [
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 2,
+    "name_es": "Glossy Nails Equipetrol Norte",
+    "name_en": "Glossy Nails Equipetrol Norte",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76626648",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #2450, Las Palmas",
+    "lat": -17.80659,
+    "lng": -63.20034,
+    "services": [
+      [
+        "Manicura Rusa con Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ],
+      [
+        "Pedicura Spa Jelly Relax",
+        150,
+        "01:10"
+      ],
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 4,
+    "name_es": "Studio 54 Nail Bar",
+    "name_en": "Studio 54 Nail Bar",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76052965",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #871, Urubó Village",
+    "lat": -17.76332,
+    "lng": -63.2196,
+    "services": [
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ],
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 2,
+    "level_id": 4,
+    "name_es": "Lirio Blanco Nails & Spa",
+    "name_en": "Lirio Blanco Nails & Spa",
+    "desc_es": "Atención especializada y servicios de uñas y manicura en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized nails & manicure services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75088449",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #1338, Las Palmas",
+    "lat": -17.79911,
+    "lng": -63.19902,
+    "services": [
+      [
+        "Uñas Esculpidas Acrílicas",
+        220,
+        "01:45"
+      ],
+      [
+        "Kapping Fortalecedor Gel",
+        110,
+        "01:00"
+      ],
+      [
+        "Dipping Powder Manicura",
+        140,
+        "01:00"
+      ],
+      [
+        "Soft Gel Nails con Diseño",
+        170,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 3,
+    "name_es": "Centro de Estética Facial Dermolife",
+    "name_en": "Centro de Estética Facial Dermolife",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76088912",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1527, Sirari",
+    "lat": -17.7651,
+    "lng": -63.19028,
+    "services": [
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ],
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "HydraSkin Clinic Equipetrol",
+    "name_en": "HydraSkin Clinic Equipetrol",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76055279",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #886, Centro Histórico",
+    "lat": -17.78328,
+    "lng": -63.18296,
+    "services": [
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 3,
+    "name_es": "Clínica de la Piel Dr. Suárez",
+    "name_en": "Clínica de la Piel Dr. Suárez",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71612554",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #2118, Equipetrol Norte / DUO",
+    "lat": -17.76564,
+    "lng": -63.1969,
+    "services": [
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Facial Glow Up Sirari",
+    "name_en": "Facial Glow Up Sirari",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77036984",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #640, Sirari",
+    "lat": -17.77072,
+    "lng": -63.19334,
+    "services": [
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 3,
+    "name_es": "Dermaclinic Las Palmas",
+    "name_en": "Dermaclinic Las Palmas",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70938307",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #1566, Centro Histórico",
+    "lat": -17.78342,
+    "lng": -63.17678,
+    "services": [
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "Renacer Facial Spa Urbarí",
+    "name_en": "Renacer Facial Spa Urbarí",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76652807",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1257, Equipetrol Norte / DUO",
+    "lat": -17.76982,
+    "lng": -63.19721,
+    "services": [
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Skin Care Studio SCZ",
+    "name_en": "Skin Care Studio SCZ",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70953291",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1767, Barrio Petrolero",
+    "lat": -17.78536,
+    "lng": -63.19024,
+    "services": [
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "BioDermis Centro Facial",
+    "name_en": "BioDermis Centro Facial",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78054380",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #2491, Urbarí",
+    "lat": -17.79252,
+    "lng": -63.19647,
+    "services": [
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Piel de Seda Estética",
+    "name_en": "Piel de Seda Estética",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78053108",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #1995, Centro Histórico",
+    "lat": -17.7831,
+    "lng": -63.18542,
+    "services": [
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "Centro Cosmiátrico Avanzado SCZ",
+    "name_en": "Centro Cosmiátrico Avanzado SCZ",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70842419",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1840, Sirari",
+    "lat": -17.7698,
+    "lng": -63.19439,
+    "services": [
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Clínica Antiaging Bolivia",
+    "name_en": "Clínica Antiaging Bolivia",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77011405",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #2026, Equipetrol",
+    "lat": -17.77303,
+    "lng": -63.19322,
+    "services": [
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ],
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "Pureza Facial Studio",
+    "name_en": "Pureza Facial Studio",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76620463",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1414, Villa Fraterna / Santos Dumont",
+    "lat": -17.81372,
+    "lng": -63.18439,
+    "services": [
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "DermaGlow Ventura",
+    "name_en": "DermaGlow Ventura",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77093634",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #2226, Urubó Village",
+    "lat": -17.76602,
+    "lng": -63.21867,
+    "services": [
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Estética Facial Los Cusis",
+    "name_en": "Estética Facial Los Cusis",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76611436",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2290, Los Cusis",
+    "lat": -17.76883,
+    "lng": -63.17092,
+    "services": [
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Harmonía Facial Clinic",
+    "name_en": "Harmonía Facial Clinic",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70969274",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #2484, Sirari",
+    "lat": -17.77119,
+    "lng": -63.19307,
+    "services": [
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 3,
+    "name_es": "Secretos de Belleza Facial",
+    "name_en": "Secretos de Belleza Facial",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76035116",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #312, Villa Fraterna / Santos Dumont",
+    "lat": -17.80828,
+    "lng": -63.18772,
+    "services": [
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ],
+      [
+        "Peeling Químico Celular Renovador",
+        340,
+        "00:50"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "Komorebi Skin Sanctuary",
+    "name_en": "Komorebi Skin Sanctuary",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77384160",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #1791, Urubó Village",
+    "lat": -17.76013,
+    "lng": -63.22285,
+    "services": [
+      [
+        "Microdermoabrasión con Puntas Diamante",
+        190,
+        "00:45"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ],
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 2,
+    "name_es": "NutriDermis Santa Cruz",
+    "name_en": "NutriDermis Santa Cruz",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78018278",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #1615, Urbarí",
+    "lat": -17.79758,
+    "lng": -63.20044,
+    "services": [
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Facial Glass Skin & Glow",
+        290,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 3,
+    "name_es": "Vital Skin Studio",
+    "name_en": "Vital Skin Studio",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70866622",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #2146, Equipetrol Norte / DUO",
+    "lat": -17.76608,
+    "lng": -63.19486,
+    "services": [
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Masaje Kobido Lifting Japonés",
+        210,
+        "00:50"
+      ],
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:00"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 3,
+    "level_id": 4,
+    "name_es": "Dra. Valeria Rocha Estética",
+    "name_en": "Dra. Valeria Rocha Estética",
+    "desc_es": "Atención especializada y servicios de cuidado facial y piel en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized facial & skincare services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70964515",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1575, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78171,
+    "lng": -63.19371,
+    "services": [
+      [
+        "Limpieza Profunda con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Protocolo Anti-Acné y Fototerapia",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Brows & Lashes Boutique SCZ",
+    "name_en": "Brows & Lashes Boutique SCZ",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70938843",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1948, Villa Fraterna / Santos Dumont",
+    "lat": -17.8153,
+    "lng": -63.19325,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "Mirada Impacto Equipetrol",
+    "name_en": "Mirada Impacto Equipetrol",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78084869",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #2010, Urbarí",
+    "lat": -17.79065,
+    "lng": -63.1999,
+    "services": [
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 3,
+    "name_es": "Lash House Santa Cruz",
+    "name_en": "Lash House Santa Cruz",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76649135",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #2262, Av. Monseñor Rivero",
+    "lat": -17.77613,
+    "lng": -63.18511,
+    "services": [
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "La Cejería Sirari",
+    "name_en": "La Cejería Sirari",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78023636",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #2779, Urbarí",
+    "lat": -17.79,
+    "lng": -63.19355,
+    "services": [
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ],
+      [
+        "Depilación con Hilo Hindú",
+        50,
+        "00:25"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Microblading Art Urbarí",
+    "name_en": "Microblading Art Urbarí",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70915172",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1208, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78039,
+    "lng": -63.19367,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Divinas Miradas Las Palmas",
+    "name_en": "Divinas Miradas Las Palmas",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77030706",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #2723, Barrio Petrolero",
+    "lat": -17.79282,
+    "lng": -63.1953,
+    "services": [
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 3,
+    "name_es": "The Lash Lounge Ventura",
+    "name_en": "The Lash Lounge Ventura",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78560505",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1376, Sirari",
+    "lat": -17.77425,
+    "lng": -63.1892,
+    "services": [
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Cejas Perfectas Hamacas",
+    "name_en": "Cejas Perfectas Hamacas",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76667337",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #2362, Equipetrol Norte / DUO",
+    "lat": -17.76702,
+    "lng": -63.20071,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Volumen & Diseño Pestañas",
+    "name_en": "Volumen & Diseño Pestañas",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77398070",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #2192, Sirari",
+    "lat": -17.76753,
+    "lng": -63.18607,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "Lash Studio 360",
+    "name_en": "Lash Studio 360",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70971600",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #1343, Equipetrol",
+    "lat": -17.77505,
+    "lng": -63.19327,
+    "services": [
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 4,
+    "name_es": "Miradas de Reina",
+    "name_en": "Miradas de Reina",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70936854",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2607, Barrio Hamacas",
+    "lat": -17.75915,
+    "lng": -63.17629,
+    "services": [
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ],
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "Brows Master Studio",
+    "name_en": "Brows Master Studio",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75098188",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1255, Sirari",
+    "lat": -17.76952,
+    "lng": -63.192,
+    "services": [
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "Lash Couture Equipetrol",
+    "name_en": "Lash Couture Equipetrol",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76636195",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #627, Barrio Hamacas",
+    "lat": -17.76415,
+    "lng": -63.17625,
+    "services": [
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 3,
+    "name_es": "Studio Mirada Encantadora",
+    "name_en": "Studio Mirada Encantadora",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78091673",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #448, Ventura Mall & 4to Anillo",
+    "lat": -17.76069,
+    "lng": -63.20008,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 3,
+    "name_es": "Blink & Brow Bar",
+    "name_en": "Blink & Brow Bar",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75058809",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #1413, Barrio Hamacas",
+    "lat": -17.76558,
+    "lng": -63.17438,
+    "services": [
+      [
+        "Laminado de Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ],
+      [
+        "Lash Lifting + Tinte Queratina",
+        160,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 4,
+    "level_id": 2,
+    "name_es": "Perfección en Cejas SCZ",
+    "name_en": "Perfección en Cejas SCZ",
+    "desc_es": "Atención especializada y servicios de cejas y pestañas en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized brows & lashes services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71617093",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #1867, Ventura Mall & 4to Anillo",
+    "lat": -17.75641,
+    "lng": -63.19533,
+    "services": [
+      [
+        "Extensiones Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:30"
+      ],
+      [
+        "Diseño de Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ],
+      [
+        "Microblading Pelo a Pelo",
+        550,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Santuario Zen Spa Urubó",
+    "name_en": "Santuario Zen Spa Urubó",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78591142",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #833, Sirari",
+    "lat": -17.77242,
+    "lng": -63.18744,
+    "services": [
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 2,
+    "name_es": "Aromas del Oriente Day Spa",
+    "name_en": "Aromas del Oriente Day Spa",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70878022",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #749, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77485,
+    "lng": -63.19604,
+    "services": [
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Masaje Tailandés Tradicional",
+        260,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 2,
+    "name_es": "Mandala Spa Equipetrol",
+    "name_en": "Mandala Spa Equipetrol",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70818258",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2524, Los Cusis",
+    "lat": -17.76732,
+    "lng": -63.17335,
+    "services": [
+      [
+        "Masaje Tailandés Tradicional",
+        260,
+        "01:15"
+      ],
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ],
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 2,
+    "name_es": "Spa Termal Los Mangales",
+    "name_en": "Spa Termal Los Mangales",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78053292",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #2499, Villa Fraterna / Santos Dumont",
+    "lat": -17.80816,
+    "lng": -63.18689,
+    "services": [
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Aguas del Edén Spa",
+    "name_en": "Aguas del Edén Spa",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70857737",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #415, Barrio Petrolero",
+    "lat": -17.79104,
+    "lng": -63.19347,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 4,
+    "name_es": "Pura Vida Masajes & Relajación",
+    "name_en": "Pura Vida Masajes & Relajación",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77087019",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #1886, Av. Monseñor Rivero",
+    "lat": -17.77466,
+    "lng": -63.17913,
+    "services": [
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ],
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Kallpa Masajes Terapéuticos",
+    "name_en": "Kallpa Masajes Terapéuticos",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70849304",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #2708, Barrio Petrolero",
+    "lat": -17.79344,
+    "lng": -63.18967,
+    "services": [
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 4,
+    "name_es": "Tierra Santa Spa Sirari",
+    "name_en": "Tierra Santa Spa Sirari",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70958680",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2248, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78059,
+    "lng": -63.19986,
+    "services": [
+      [
+        "Masaje Tailandés Tradicional",
+        260,
+        "01:15"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Lotus Day Spa Las Palmas",
+    "name_en": "Lotus Day Spa Las Palmas",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70878446",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1572, Villa Fraterna / Santos Dumont",
+    "lat": -17.80639,
+    "lng": -63.19161,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Alivio Muscular & Descontracturante",
+    "name_en": "Alivio Muscular & Descontracturante",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76618082",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #982, Urbarí",
+    "lat": -17.79496,
+    "lng": -63.20009,
+    "services": [
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ],
+      [
+        "Masaje Tailandés Tradicional",
+        260,
+        "01:15"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Bambú Relax Center",
+    "name_en": "Bambú Relax Center",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75029765",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1467, Equipetrol Norte / DUO",
+    "lat": -17.76437,
+    "lng": -63.19606,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ],
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Nube Spa Experience",
+    "name_en": "Nube Spa Experience",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70828233",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #1320, Centro Histórico",
+    "lat": -17.78587,
+    "lng": -63.18626,
+    "services": [
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Oasis Urbano Masajes",
+    "name_en": "Oasis Urbano Masajes",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70920491",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #2385, Equipetrol",
+    "lat": -17.77367,
+    "lng": -63.1924,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Equilibrio & Relax SCZ",
+    "name_en": "Equilibrio & Relax SCZ",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78072548",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #231, Sirari",
+    "lat": -17.76788,
+    "lng": -63.18806,
+    "services": [
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 4,
+    "name_es": "Pachamama Spa & Terapia",
+    "name_en": "Pachamama Spa & Terapia",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77329880",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #2223, Urubó Village",
+    "lat": -17.75917,
+    "lng": -63.22073,
+    "services": [
+      [
+        "Masaje Tailandés Tradicional",
+        260,
+        "01:15"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ],
+      [
+        "Masaje Descontracturante Profundo",
+        230,
+        "01:00"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 2,
+    "name_es": "Serenidad Spa Hamacas",
+    "name_en": "Serenidad Spa Hamacas",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75049719",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #595, Sirari",
+    "lat": -17.77047,
+    "lng": -63.19328,
+    "services": [
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Bambuterapia Descontracturante",
+        240,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 2,
+    "name_es": "Harmonie Spa & Sauna",
+    "name_en": "Harmonie Spa & Sauna",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77319006",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #1943, Las Palmas",
+    "lat": -17.80312,
+    "lng": -63.19874,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Circuito Spa Relax para Parejas",
+        560,
+        "02:00"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ],
+      [
+        "Masaje con Piedras Volcánicas Calientes",
+        280,
+        "01:20"
+      ]
+    ]
+  },
+  {
+    "category_id": 5,
+    "level_id": 3,
+    "name_es": "Vitalis Spa Center",
+    "name_en": "Vitalis Spa Center",
+    "desc_es": "Atención especializada y servicios de spa y masajes en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized spa & massage services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70921578",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #2565, Equipetrol",
+    "lat": -17.77256,
+    "lng": -63.198,
+    "services": [
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ],
+      [
+        "Exfoliación Corporal con Sales de Uyuni",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 2,
+    "name_es": "Makeup Studio Carla Vaca",
+    "name_en": "Makeup Studio Carla Vaca",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75016606",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #2665, Sirari",
+    "lat": -17.77419,
+    "lng": -63.19434,
+    "services": [
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 2,
+    "name_es": "Atelier de Maquillaje SCZ",
+    "name_en": "Atelier de Maquillaje SCZ",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78582562",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2639, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77693,
+    "lng": -63.19969,
+    "services": [
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 2,
+    "name_es": "Glamour & Brush Equipetrol",
+    "name_en": "Glamour & Brush Equipetrol",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78571735",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #2414, Las Palmas",
+    "lat": -17.80009,
+    "lng": -63.20078,
+    "services": [
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ],
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 3,
+    "name_es": "Makeup Bar Las Palmas",
+    "name_en": "Makeup Bar Las Palmas",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77071088",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1360, Equipetrol Norte / DUO",
+    "lat": -17.7615,
+    "lng": -63.19475,
+    "services": [
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 3,
+    "name_es": "Studio Belleza Nupcial",
+    "name_en": "Studio Belleza Nupcial",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75086392",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #430, Ventura Mall & 4to Anillo",
+    "lat": -17.76211,
+    "lng": -63.19373,
+    "services": [
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Pro Makeup Artist Rossy",
+    "name_en": "Pro Makeup Artist Rossy",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70877187",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1662, Villa Fraterna / Santos Dumont",
+    "lat": -17.81065,
+    "lng": -63.19205,
+    "services": [
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 2,
+    "name_es": "Esencia MakeUp & Hair",
+    "name_en": "Esencia MakeUp & Hair",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77027326",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #1947, Equipetrol",
+    "lat": -17.7739,
+    "lng": -63.19946,
+    "services": [
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Colorimetría & Glam Studio",
+    "name_en": "Colorimetría & Glam Studio",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70887102",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #940, Villa Fraterna / Santos Dumont",
+    "lat": -17.81168,
+    "lng": -63.19382,
+    "services": [
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Beauty Room Santa Cruz",
+    "name_en": "Beauty Room Santa Cruz",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78075724",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1861, Equipetrol Norte / DUO",
+    "lat": -17.76446,
+    "lng": -63.19959,
+    "services": [
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 3,
+    "name_es": "Maquillaje de Pasarela SCZ",
+    "name_en": "Maquillaje de Pasarela SCZ",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75038445",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1102, Villa Fraterna / Santos Dumont",
+    "lat": -17.8117,
+    "lng": -63.19299,
+    "services": [
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 3,
+    "name_es": "Studio Iluminación Pro",
+    "name_en": "Studio Iluminación Pro",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77395841",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #2408, Barrio Petrolero",
+    "lat": -17.78902,
+    "lng": -63.19408,
+    "services": [
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ],
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 3,
+    "name_es": "Glow Artists Collective",
+    "name_en": "Glow Artists Collective",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71628612",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1778, Equipetrol Norte / DUO",
+    "lat": -17.7661,
+    "lng": -63.19776,
+    "services": [
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Novias Radiantes SCZ",
+    "name_en": "Novias Radiantes SCZ",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76662381",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #923, Los Cusis",
+    "lat": -17.76794,
+    "lng": -63.17066,
+    "services": [
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ],
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Peinado de Gala / Ondas al Agua",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Vogue MakeUp Urbarí",
+    "name_en": "Vogue MakeUp Urbarí",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76691191",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #898, Centro Histórico",
+    "lat": -17.78608,
+    "lng": -63.18512,
+    "services": [
+      [
+        "Maquillaje Editorial para Fotografía",
+        300,
+        "01:15"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 2,
+    "name_es": "Studio MakeUp Andrea Paz",
+    "name_en": "Studio MakeUp Andrea Paz",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78022435",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1870, Sirari",
+    "lat": -17.76846,
+    "lng": -63.18759,
+    "services": [
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 6,
+    "level_id": 4,
+    "name_es": "Divas Glam MakeUp",
+    "name_en": "Divas Glam MakeUp",
+    "desc_es": "Atención especializada y servicios de maquillaje profesional en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized professional makeup services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77312154",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #2425, Equipetrol Norte / DUO",
+    "lat": -17.76201,
+    "lng": -63.19316,
+    "services": [
+      [
+        "Maquillaje Social de Noche con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Combo Graduación (MakeUp + Peinado)",
+        420,
+        "02:00"
+      ],
+      [
+        "Maquillaje Novia VIP con Prueba",
+        750,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "Clínica Estética Bellanova",
+    "name_en": "Clínica Estética Bellanova",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70990704",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #2061, Ventura Mall & 4to Anillo",
+    "lat": -17.75302,
+    "lng": -63.19306,
+    "services": [
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 2,
+    "name_es": "MedEsthetic Santa Cruz",
+    "name_en": "MedEsthetic Santa Cruz",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77052176",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #1643, Urubó Village",
+    "lat": -17.75781,
+    "lng": -63.22159,
+    "services": [
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Criolipólisis Médica Reductora",
+        700,
+        "01:15"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 2,
+    "name_es": "Centro Láser & Belleza Equipetrol",
+    "name_en": "Centro Láser & Belleza Equipetrol",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70822156",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #2648, Centro Histórico",
+    "lat": -17.7781,
+    "lng": -63.18298,
+    "services": [
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Criolipólisis Médica Reductora",
+        700,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 4,
+    "name_es": "Harmonización & Antiaging Sirari",
+    "name_en": "Harmonización & Antiaging Sirari",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78550269",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #288, Equipetrol",
+    "lat": -17.76957,
+    "lng": -63.19351,
+    "services": [
+      [
+        "Criolipólisis Médica Reductora",
+        700,
+        "01:15"
+      ],
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ],
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 2,
+    "name_es": "Dr. Fernando Morales Medicina Estética",
+    "name_en": "Dr. Fernando Morales Medicina Estética",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71640204",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #2046, Urbarí",
+    "lat": -17.79037,
+    "lng": -63.20038,
+    "services": [
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "Clínica Rejuvenece SCZ",
+    "name_en": "Clínica Rejuvenece SCZ",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76097195",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #741, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78033,
+    "lng": -63.19637,
+    "services": [
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "BioSculpt Urbarí",
+    "name_en": "BioSculpt Urbarí",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78593447",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2289, Barrio Hamacas",
+    "lat": -17.76199,
+    "lng": -63.18305,
+    "services": [
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 4,
+    "name_es": "Dra. Andrea Justiniano Estética",
+    "name_en": "Dra. Andrea Justiniano Estética",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75089654",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2514, Los Cusis",
+    "lat": -17.76836,
+    "lng": -63.17498,
+    "services": [
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 4,
+    "name_es": "Skin & Body Clinic Las Palmas",
+    "name_en": "Skin & Body Clinic Las Palmas",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78597261",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #655, Av. Monseñor Rivero",
+    "lat": -17.77761,
+    "lng": -63.18166,
+    "services": [
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 4,
+    "name_es": "Estética Médica Los Cusis",
+    "name_en": "Estética Médica Los Cusis",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70850418",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #661, Barrio Hamacas",
+    "lat": -17.75927,
+    "lng": -63.17597,
+    "services": [
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ],
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 2,
+    "name_es": "LaserDerm Ventura",
+    "name_en": "LaserDerm Ventura",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77346209",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #1149, Equipetrol",
+    "lat": -17.76945,
+    "lng": -63.19136,
+    "services": [
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ],
+      [
+        "Hilos Tensores de Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 2,
+    "name_es": "Centro de Modelado Corporal",
+    "name_en": "Centro de Modelado Corporal",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75030374",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #1447, Equipetrol",
+    "lat": -17.77264,
+    "lng": -63.19908,
+    "services": [
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 4,
+    "name_es": "Silueta Perfecta Estética",
+    "name_en": "Silueta Perfecta Estética",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75016320",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1013, Barrio Petrolero",
+    "lat": -17.79148,
+    "lng": -63.19079,
+    "services": [
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ],
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "LuxeMed Clínica",
+    "name_en": "LuxeMed Clínica",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77078260",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1441, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77533,
+    "lng": -63.19452,
+    "services": [
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ],
+      [
+        "Criolipólisis Médica Reductora",
+        700,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "Dermomedic Equipetrol Norte",
+    "name_en": "Dermomedic Equipetrol Norte",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70959245",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1809, Villa Fraterna / Santos Dumont",
+    "lat": -17.8128,
+    "lng": -63.18798,
+    "services": [
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Depilación Láser Soprano Ice (Sesión)",
+        550,
+        "01:15"
+      ],
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "Clínica Vivir Mejor Estética",
+    "name_en": "Clínica Vivir Mejor Estética",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70996440",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1708, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78211,
+    "lng": -63.19639,
+    "services": [
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ],
+      [
+        "Relleno de Labios Ácido Hialurónico",
+        1400,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "ProAge Aesthetic Center",
+    "name_en": "ProAge Aesthetic Center",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76013753",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #2382, Urubó Village",
+    "lat": -17.75946,
+    "lng": -63.22158,
+    "services": [
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 7,
+    "level_id": 3,
+    "name_es": "Vitality Medical Spa",
+    "name_en": "Vitality Medical Spa",
+    "desc_es": "Atención especializada y servicios de estética y medicina estética en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized aesthetics & medical spa services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78034843",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #571, Barrio Petrolero",
+    "lat": -17.79268,
+    "lng": -63.19341,
+    "services": [
+      [
+        "Bioestimulador de Colágeno Radiesse",
+        2100,
+        "01:00"
+      ],
+      [
+        "Aplicación Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ],
+      [
+        "Rinomodelación No Quirúrgica",
+        1600,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 2,
+    "name_es": "Clínica Dental OdontoSalud Equipetrol",
+    "name_en": "Clínica Dental OdontoSalud Equipetrol",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78019417",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #700, Sirari",
+    "lat": -17.77313,
+    "lng": -63.18715,
+    "services": [
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Centro Médico Especializado Sirari",
+    "name_en": "Centro Médico Especializado Sirari",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77367065",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1619, Villa Fraterna / Santos Dumont",
+    "lat": -17.80865,
+    "lng": -63.19022,
+    "services": [
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Odontología Integral Las Palmas",
+    "name_en": "Odontología Integral Las Palmas",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78033420",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1541, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78007,
+    "lng": -63.19839,
+    "services": [
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "Smile Clinic Santa Cruz",
+    "name_en": "Smile Clinic Santa Cruz",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70820850",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #315, Ventura Mall & 4to Anillo",
+    "lat": -17.75659,
+    "lng": -63.19984,
+    "services": [
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 2,
+    "name_es": "Centro Pediátrico El Chuchío",
+    "name_en": "Centro Pediátrico El Chuchío",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78095889",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #199, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78092,
+    "lng": -63.19073,
+    "services": [
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "CardioSalud Diagnóstico",
+    "name_en": "CardioSalud Diagnóstico",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76676128",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #919, Barrio Petrolero",
+    "lat": -17.79083,
+    "lng": -63.19541,
+    "services": [
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "Clínica Odontológica Urbarí",
+    "name_en": "Clínica Odontológica Urbarí",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77025249",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #1790, Barrio Hamacas",
+    "lat": -17.76465,
+    "lng": -63.17933,
+    "services": [
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Fisiomedic Rehabilitación Física",
+    "name_en": "Fisiomedic Rehabilitación Física",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77334361",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1091, Barrio Petrolero",
+    "lat": -17.78574,
+    "lng": -63.19022,
+    "services": [
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 2,
+    "name_es": "GinecoSalud Integral",
+    "name_en": "GinecoSalud Integral",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78010949",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #1298, Av. Monseñor Rivero",
+    "lat": -17.772,
+    "lng": -63.18748,
+    "services": [
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Centro de Ojos Santa Cruz",
+    "name_en": "Centro de Ojos Santa Cruz",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71636275",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #2338, Centro Histórico",
+    "lat": -17.78101,
+    "lng": -63.17759,
+    "services": [
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "OdontoKids Pediátrico",
+    "name_en": "OdontoKids Pediátrico",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77366124",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #747, Urubó Village",
+    "lat": -17.75845,
+    "lng": -63.21581,
+    "services": [
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "Clínica Dental del Oriente",
+    "name_en": "Clínica Dental del Oriente",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75023814",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1389, Villa Fraterna / Santos Dumont",
+    "lat": -17.80961,
+    "lng": -63.18811,
+    "services": [
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 2,
+    "name_es": "Salud Familiar Hamacas",
+    "name_en": "Salud Familiar Hamacas",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77349441",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1673, Barrio Petrolero",
+    "lat": -17.78685,
+    "lng": -63.19147,
+    "services": [
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Centro Traumatológico del Sur",
+    "name_en": "Centro Traumatológico del Sur",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76035188",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1101, Equipetrol Norte / DUO",
+    "lat": -17.76542,
+    "lng": -63.19597,
+    "services": [
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Limpieza Dental Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ],
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 2,
+    "name_es": "Dental Design Ventura",
+    "name_en": "Dental Design Ventura",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71632656",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #445, Equipetrol Norte / DUO",
+    "lat": -17.76393,
+    "lng": -63.19748,
+    "services": [
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ],
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Diseño Digital de Sonrisa Carillas E-Max",
+        1800,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "Consultorios Médicos San Martín",
+    "name_en": "Consultorios Médicos San Martín",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77046252",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1844, Equipetrol Norte / DUO",
+    "lat": -17.76511,
+    "lng": -63.19547,
+    "services": [
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Clínica Dental White Smile",
+    "name_en": "Clínica Dental White Smile",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78574619",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #1756, Av. Banzer Km 3-5",
+    "lat": -17.74759,
+    "lng": -63.17799,
+    "services": [
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ],
+      [
+        "Sesión de Fisioterapia & Kinesiología",
+        150,
+        "00:50"
+      ],
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 4,
+    "name_es": "Centro Integral de Salud Los Cusis",
+    "name_en": "Centro Integral de Salud Los Cusis",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76076389",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #1032, Las Palmas",
+    "lat": -17.80274,
+    "lng": -63.20313,
+    "services": [
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ],
+      [
+        "Consulta Médica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "Dermavita Consultorios",
+    "name_en": "Dermavita Consultorios",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70975437",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #483, Av. Monseñor Rivero",
+    "lat": -17.77412,
+    "lng": -63.1831,
+    "services": [
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Ecografía General de Diagnóstico",
+        280,
+        "00:30"
+      ],
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 8,
+    "level_id": 3,
+    "name_es": "EcoSalud Diagnóstico por Imágenes",
+    "name_en": "EcoSalud Diagnóstico por Imágenes",
+    "desc_es": "Atención especializada y servicios de salud y consultas médicas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized health & clinic consultations services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75093964",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1559, Villa Fraterna / Santos Dumont",
+    "lat": -17.81014,
+    "lng": -63.18858,
+    "services": [
+      [
+        "Blanqueamiento Dental Láser Led",
+        450,
+        "01:00"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 3,
+    "name_es": "Ink Master Tattoo Studio Equipetrol",
+    "name_en": "Ink Master Tattoo Studio Equipetrol",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76656701",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #1084, Los Cusis",
+    "lat": -17.76137,
+    "lng": -63.17129,
+    "services": [
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ],
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Tatuaje Minimalista / Fine Line",
+        250,
+        "01:00"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 4,
+    "name_es": "Santa Cruz Tattoo Art",
+    "name_en": "Santa Cruz Tattoo Art",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70872510",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2181, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78186,
+    "lng": -63.19209,
+    "services": [
+      [
+        "Tatuaje Mediano Personalizado",
+        550,
+        "02:30"
+      ],
+      [
+        "Tatuaje Minimalista / Fine Line",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 2,
+    "name_es": "Puro Arte Tatuajes & Piercing",
+    "name_en": "Puro Arte Tatuajes & Piercing",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78048957",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #107, Equipetrol",
+    "lat": -17.77563,
+    "lng": -63.19255,
+    "services": [
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ],
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 4,
+    "name_es": "Black Diamond Tattoo Urbarí",
+    "name_en": "Black Diamond Tattoo Urbarí",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75077364",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2566, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77374,
+    "lng": -63.19652,
+    "services": [
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Cover Up & Restauración Tatuajes",
+        700,
+        "03:00"
+      ],
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ],
+      [
+        "Tatuaje Minimalista / Fine Line",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 3,
+    "name_es": "Tinta Cruceña Studio",
+    "name_en": "Tinta Cruceña Studio",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75058977",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #1827, Los Cusis",
+    "lat": -17.76037,
+    "lng": -63.17388,
+    "services": [
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ],
+      [
+        "Tatuaje Mediano Personalizado",
+        550,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 2,
+    "name_es": "Viper Ink Las Palmas",
+    "name_en": "Viper Ink Las Palmas",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77339876",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2488, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77894,
+    "lng": -63.19208,
+    "services": [
+      [
+        "Tatuaje Mediano Personalizado",
+        550,
+        "02:30"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ],
+      [
+        "Tatuaje Minimalista / Fine Line",
+        250,
+        "01:00"
+      ],
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 3,
+    "name_es": "La Hermandad Tattoo",
+    "name_en": "La Hermandad Tattoo",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77357774",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2483, Los Cusis",
+    "lat": -17.76206,
+    "lng": -63.17696,
+    "services": [
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ],
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 4,
+    "name_es": "Sacred Art Tattoo Sirari",
+    "name_en": "Sacred Art Tattoo Sirari",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77372961",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #2782, Ventura Mall & 4to Anillo",
+    "lat": -17.75339,
+    "lng": -63.19957,
+    "services": [
+      [
+        "Tatuaje Mediano Personalizado",
+        550,
+        "02:30"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ],
+      [
+        "Cover Up & Restauración Tatuajes",
+        700,
+        "03:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 2,
+    "name_es": "Titanium Piercing & Tattoo",
+    "name_en": "Titanium Piercing & Tattoo",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77026778",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #319, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78141,
+    "lng": -63.19254,
+    "services": [
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ],
+      [
+        "Cover Up & Restauración Tatuajes",
+        700,
+        "03:00"
+      ],
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Tatuaje Mediano Personalizado",
+        550,
+        "02:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 4,
+    "name_es": "Dark Ink Collective SCZ",
+    "name_en": "Dark Ink Collective SCZ",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71667951",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2302, Los Cusis",
+    "lat": -17.76383,
+    "lng": -63.17175,
+    "services": [
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ],
+      [
+        "Tatuaje Minimalista / Fine Line",
+        250,
+        "01:00"
+      ],
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 3,
+    "name_es": "Urban Legend Tattoos",
+    "name_en": "Urban Legend Tattoos",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77032382",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2403, Barrio Hamacas",
+    "lat": -17.75901,
+    "lng": -63.17785,
+    "services": [
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ],
+      [
+        "Perforación Nostril / Hélix",
+        120,
+        "00:25"
+      ],
+      [
+        "Sesión Tatuaje Realismo / Manga (4h)",
+        1200,
+        "04:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 9,
+    "level_id": 3,
+    "name_es": "El Gato Negro Tatuajes",
+    "name_en": "El Gato Negro Tatuajes",
+    "desc_es": "Atención especializada y servicios de tatuajes y piercing en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized tattoo & piercing services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77023379",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #1257, Los Cusis",
+    "lat": -17.76149,
+    "lng": -63.16911,
+    "services": [
+      [
+        "Cover Up & Restauración Tatuajes",
+        700,
+        "03:00"
+      ],
+      [
+        "Piercing Titania Grado Implante",
+        150,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Centro Holístico Prana SCZ",
+    "name_en": "Centro Holístico Prana SCZ",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77010864",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2735, Los Cusis",
+    "lat": -17.76712,
+    "lng": -63.17516,
+    "services": [
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Sesión Privada Yoga Terapéutico",
+        150,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 3,
+    "name_es": "Shanti Yoga & Meditación Urubó",
+    "name_en": "Shanti Yoga & Meditación Urubó",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77399608",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #662, Villa Fraterna / Santos Dumont",
+    "lat": -17.81108,
+    "lng": -63.19356,
+    "services": [
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Armonía & Sonido Equipetrol",
+    "name_en": "Armonía & Sonido Equipetrol",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78593308",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #1181, Equipetrol Norte / DUO",
+    "lat": -17.7643,
+    "lng": -63.19631,
+    "services": [
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 2,
+    "name_es": "Centro de Acupuntura & MTC Sirari",
+    "name_en": "Centro de Acupuntura & MTC Sirari",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76063032",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #243, Av. Monseñor Rivero",
+    "lat": -17.77149,
+    "lng": -63.18394,
+    "services": [
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Sesión Privada Yoga Terapéutico",
+        150,
+        "01:00"
+      ],
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 3,
+    "name_es": "Casa del Sol Terapias Alternativas",
+    "name_en": "Casa del Sol Terapias Alternativas",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76698977",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #306, Equipetrol",
+    "lat": -17.77071,
+    "lng": -63.19042,
+    "services": [
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Reiki & Sanación Cuántica",
+    "name_en": "Reiki & Sanación Cuántica",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71680947",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #1363, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77306,
+    "lng": -63.19984,
+    "services": [
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Espacio Consciente Las Palmas",
+    "name_en": "Espacio Consciente Las Palmas",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Urbarí. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Urbarí, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78594030",
+    "zone": "Urbarí",
+    "address": "Av. Piraí #283, Urbarí",
+    "lat": -17.7954,
+    "lng": -63.19899,
+    "services": [
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 2,
+    "name_es": "Bioenergetica & Salud Holística",
+    "name_en": "Bioenergetica & Salud Holística",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77084283",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #2545, Av. Busch 2do y 3er Anillo",
+    "lat": -17.78255,
+    "lng": -63.19828,
+    "services": [
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ],
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 2,
+    "name_es": "Ananda Bienestar Integral",
+    "name_en": "Ananda Bienestar Integral",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Los Cusis. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Los Cusis, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76618861",
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #2591, Los Cusis",
+    "lat": -17.76564,
+    "lng": -63.17286,
+    "services": [
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Luz & Guía Terapias",
+    "name_en": "Luz & Guía Terapias",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76029241",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #2063, Villa Fraterna / Santos Dumont",
+    "lat": -17.81426,
+    "lng": -63.18899,
+    "services": [
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 4,
+    "name_es": "Templo de Paz Santa Cruz",
+    "name_en": "Templo de Paz Santa Cruz",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Las Palmas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Las Palmas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75079464",
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #1217, Las Palmas",
+    "lat": -17.8074,
+    "lng": -63.20069,
+    "services": [
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 2,
+    "name_es": "Equilibrio Vital Hamacas",
+    "name_en": "Equilibrio Vital Hamacas",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71680264",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #1314, Equipetrol",
+    "lat": -17.7716,
+    "lng": -63.19179,
+    "services": [
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ],
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Lectura Carta Astral & Coaching Holístico",
+        250,
+        "01:15"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 2,
+    "name_es": "Centro Ayurvédico del Oriente",
+    "name_en": "Centro Ayurvédico del Oriente",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71647633",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #589, Equipetrol",
+    "lat": -17.77031,
+    "lng": -63.19936,
+    "services": [
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ],
+      [
+        "Sesión de Acupuntura Tradicional China",
+        220,
+        "01:00"
+      ],
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 10,
+    "level_id": 3,
+    "name_es": "Sinergia Holística SCZ",
+    "name_en": "Sinergia Holística SCZ",
+    "desc_es": "Atención especializada y servicios de bienestar y terapias holísticas en Av. Busch 2do y 3er Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized wellness & holistic care services in Av. Busch 2do y 3er Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77311250",
+    "zone": "Av. Busch 2do y 3er Anillo",
+    "address": "Av. Busch #761, Av. Busch 2do y 3er Anillo",
+    "lat": -17.77558,
+    "lng": -63.19542,
+    "services": [
+      [
+        "Terapia de Cuencos Tibetanos & Sonido",
+        180,
+        "01:00"
+      ],
+      [
+        "Biomagnetismo Médico Holístico",
+        200,
+        "01:00"
+      ],
+      [
+        "Sesión Privada Yoga Terapéutico",
+        150,
+        "01:00"
+      ],
+      [
+        "Alineación de Chakras & Reiki",
+        160,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "FitLife Performance Studio",
+    "name_en": "FitLife Performance Studio",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77391207",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #1015, Villa Fraterna / Santos Dumont",
+    "lat": -17.80898,
+    "lng": -63.18617,
+    "services": [
+      [
+        "Entrenamiento Funcional HIIT",
+        90,
+        "00:50"
+      ],
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 3,
+    "name_es": "CrossFit Camba Urbarí",
+    "name_en": "CrossFit Camba Urbarí",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Av. Monseñor Rivero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Av. Monseñor Rivero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75048178",
+    "zone": "Av. Monseñor Rivero",
+    "address": "Boulevard Monseñor Rivero #1490, Av. Monseñor Rivero",
+    "lat": -17.77201,
+    "lng": -63.1811,
+    "services": [
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "Pilates Core Studio Equipetrol",
+    "name_en": "Pilates Core Studio Equipetrol",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77040487",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #946, Barrio Petrolero",
+    "lat": -17.79299,
+    "lng": -63.19078,
+    "services": [
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ],
+      [
+        "Entrenamiento Funcional HIIT",
+        90,
+        "00:50"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 3,
+    "name_es": "PowerZone Training Las Palmas",
+    "name_en": "PowerZone Training Las Palmas",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78552642",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #1196, Sirari",
+    "lat": -17.76532,
+    "lng": -63.196,
+    "services": [
+      [
+        "Sesión de Boxeo & Acondicionamiento",
+        110,
+        "01:00"
+      ],
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "Fight Club SCZ Boxing",
+    "name_en": "Fight Club SCZ Boxing",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Sirari. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Sirari, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70995311",
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #2509, Sirari",
+    "lat": -17.76921,
+    "lng": -63.18727,
+    "services": [
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ],
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ],
+      [
+        "Sesión de Boxeo & Acondicionamiento",
+        110,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 3,
+    "name_es": "Olympus Gym & Studio Banzer",
+    "name_en": "Olympus Gym & Studio Banzer",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78580369",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #533, Av. Banzer Km 3-5",
+    "lat": -17.75334,
+    "lng": -63.17779,
+    "services": [
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ],
+      [
+        "Entrenamiento Funcional HIIT",
+        90,
+        "00:50"
+      ],
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 2,
+    "name_es": "Iron Body Fitness Center",
+    "name_en": "Iron Body Fitness Center",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71660419",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #525, Barrio Hamacas",
+    "lat": -17.76626,
+    "lng": -63.18288,
+    "services": [
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ],
+      [
+        "Entrenamiento Funcional HIIT",
+        90,
+        "00:50"
+      ],
+      [
+        "Sesión de Boxeo & Acondicionamiento",
+        110,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 3,
+    "name_es": "Reformer Pilates Boutique Sirari",
+    "name_en": "Reformer Pilates Boutique Sirari",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76688999",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2784, Barrio Hamacas",
+    "lat": -17.76565,
+    "lng": -63.17485,
+    "services": [
+      [
+        "Sesión de Boxeo & Acondicionamiento",
+        110,
+        "01:00"
+      ],
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ],
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "Functional Box Ventura",
+    "name_en": "Functional Box Ventura",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77315159",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #1958, Urubó Village",
+    "lat": -17.7659,
+    "lng": -63.22286,
+    "services": [
+      [
+        "Sesión de Boxeo & Acondicionamiento",
+        110,
+        "01:00"
+      ],
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 2,
+    "name_es": "Titanium Fitness Hamacas",
+    "name_en": "Titanium Fitness Hamacas",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70841057",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #2336, Villa Fraterna / Santos Dumont",
+    "lat": -17.80962,
+    "lng": -63.18671,
+    "services": [
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 3,
+    "name_es": "Evolution Training SCZ",
+    "name_en": "Evolution Training SCZ",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Villa Fraterna / Santos Dumont. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Villa Fraterna / Santos Dumont, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71626029",
+    "zone": "Villa Fraterna / Santos Dumont",
+    "address": "Av. Santos Dumont #2534, Villa Fraterna / Santos Dumont",
+    "lat": -17.81237,
+    "lng": -63.19381,
+    "services": [
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ],
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "Boutique Fitness Urubó",
+    "name_en": "Boutique Fitness Urubó",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Equipetrol. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Equipetrol, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78585400",
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #844, Equipetrol",
+    "lat": -17.77255,
+    "lng": -63.19631,
+    "services": [
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ],
+      [
+        "Entrenamiento Funcional HIIT",
+        90,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 4,
+    "name_es": "Studio 100 Pilates & Yoga",
+    "name_en": "Studio 100 Pilates & Yoga",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77026293",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #1835, Centro Histórico",
+    "lat": -17.7825,
+    "lng": -63.18086,
+    "services": [
+      [
+        "Sesión Personalizada con Entrenador",
+        120,
+        "01:00"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "category_id": 11,
+    "level_id": 2,
+    "name_es": "Alpha Athletics Equipetrol",
+    "name_en": "Alpha Athletics Equipetrol",
+    "desc_es": "Atención especializada y servicios de fitness y entrenamiento en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized fitness & personal training services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76064168",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #1708, Av. Banzer Km 3-5",
+    "lat": -17.75043,
+    "lng": -63.17683,
+    "services": [
+      [
+        "Clase Reformer Pilates Studio",
+        140,
+        "00:55"
+      ],
+      [
+        "Plan Nutricional Deportivo Mensual",
+        350,
+        "00:45"
+      ],
+      [
+        "Evaluación Cineantropométrica InBody",
+        160,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Pet Spa & Boutique Equipetrol",
+    "name_en": "Pet Spa & Boutique Equipetrol",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 78535353",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #527, Urubó Village",
+    "lat": -17.75971,
+    "lng": -63.21814,
+    "services": [
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ],
+      [
+        "Spa Felino Especializado",
+        150,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Clínica Veterinaria San Francisco",
+    "name_en": "Clínica Veterinaria San Francisco",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70865481",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #1004, Av. Banzer Km 3-5",
+    "lat": -17.75059,
+    "lng": -63.18049,
+    "services": [
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Desparasitación & Vacunación Anual",
+        180,
+        "00:30"
+      ],
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ],
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 4,
+    "name_es": "Grooming & Pet Salon Sirari",
+    "name_en": "Grooming & Pet Salon Sirari",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76074341",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #2082, Ventura Mall & 4to Anillo",
+    "lat": -17.75782,
+    "lng": -63.19269,
+    "services": [
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Desparasitación & Vacunación Anual",
+        180,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 4,
+    "name_es": "Hospital Veterinario Cruz Verde",
+    "name_en": "Hospital Veterinario Cruz Verde",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Centro Histórico. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Centro Histórico, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 75054843",
+    "zone": "Centro Histórico",
+    "address": "Calle 24 de Septiembre #2438, Centro Histórico",
+    "lat": -17.77866,
+    "lng": -63.18035,
+    "services": [
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Spa Felino Especializado",
+        150,
+        "01:00"
+      ],
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 4,
+    "name_es": "Mascotas Felices Urbarí",
+    "name_en": "Mascotas Felices Urbarí",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70837458",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2527, Barrio Hamacas",
+    "lat": -17.76624,
+    "lng": -63.18238,
+    "services": [
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Pet Paradise Banzer",
+    "name_en": "Pet Paradise Banzer",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Barrio Hamacas. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Barrio Hamacas, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77330505",
+    "zone": "Barrio Hamacas",
+    "address": "Calle Beni esq. 3er Anillo #2539, Barrio Hamacas",
+    "lat": -17.7666,
+    "lng": -63.18398,
+    "services": [
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ],
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ],
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 3,
+    "name_es": "Spa de Mascotas Las Palmas",
+    "name_en": "Spa de Mascotas Las Palmas",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 71672962",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #2459, Av. Banzer Km 3-5",
+    "lat": -17.75327,
+    "lng": -63.18086,
+    "services": [
+      [
+        "Spa Felino Especializado",
+        150,
+        "01:00"
+      ],
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Vet & Groom Hamacas",
+    "name_en": "Vet & Groom Hamacas",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Av. Banzer Km 3-5. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Av. Banzer Km 3-5, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70951102",
+    "zone": "Av. Banzer Km 3-5",
+    "address": "Av. Cristo Redentor #2563, Av. Banzer Km 3-5",
+    "lat": -17.74931,
+    "lng": -63.17189,
+    "services": [
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ],
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Peludos VIP Santa Cruz",
+    "name_en": "Peludos VIP Santa Cruz",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Urubó Village. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Urubó Village, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 70836008",
+    "zone": "Urubó Village",
+    "address": "Av. Principal Urubó #372, Urubó Village",
+    "lat": -17.76476,
+    "lng": -63.214,
+    "services": [
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Spa Felino Especializado",
+        150,
+        "01:00"
+      ],
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 4,
+    "name_es": "Veterinaria del Oriente 24 Horas",
+    "name_en": "Veterinaria del Oriente 24 Horas",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Ventura Mall & 4to Anillo. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Ventura Mall & 4to Anillo, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76693339",
+    "zone": "Ventura Mall & 4to Anillo",
+    "address": "4to Anillo esq. San Martín #235, Ventura Mall & 4to Anillo",
+    "lat": -17.76013,
+    "lng": -63.1949,
+    "services": [
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Desparasitación & Vacunación Anual",
+        180,
+        "00:30"
+      ],
+      [
+        "Spa Felino Especializado",
+        150,
+        "01:00"
+      ],
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Canis & Felis Spa",
+    "name_en": "Canis & Felis Spa",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Equipetrol Norte / DUO. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Equipetrol Norte / DUO, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 77055374",
+    "zone": "Equipetrol Norte / DUO",
+    "address": "Torre DUO Empresarial #494, Equipetrol Norte / DUO",
+    "lat": -17.76184,
+    "lng": -63.19391,
+    "services": [
+      [
+        "Limpieza Dental Canina No Invasiva",
+        220,
+        "00:50"
+      ],
+      [
+        "Desparasitación & Vacunación Anual",
+        180,
+        "00:30"
+      ],
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Consulta Veterinaria Integral",
+        140,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "category_id": 12,
+    "level_id": 2,
+    "name_es": "Clínica Veterinaria El Cristo",
+    "name_en": "Clínica Veterinaria El Cristo",
+    "desc_es": "Atención especializada y servicios de cuidado de mascotas en Barrio Petrolero. Reserva tu cita hoy con confirmación inmediata.",
+    "desc_en": "Specialized pet grooming & vet services in Barrio Petrolero, Santa Cruz. Book your appointment today with instant confirmation.",
+    "phone": "+591 76094725",
+    "zone": "Barrio Petrolero",
+    "address": "Av. Grigotá #1986, Barrio Petrolero",
+    "lat": -17.78508,
+    "lng": -63.19464,
+    "services": [
+      [
+        "Baño Medicado & Corte Spa Canino",
+        130,
+        "01:15"
+      ],
+      [
+        "Corte de Raza & Desenredado Pro",
+        160,
+        "01:30"
+      ]
+    ]
+  }
+]
