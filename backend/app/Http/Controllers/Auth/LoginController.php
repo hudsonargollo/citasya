@@ -39,7 +39,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected string $redirectTo = '/';
+    protected string $redirectTo = '/dashboard';
     private UserRepository $userRepository;
     private UploadRepository $uploadRepository;
     private RoleRepository $roleRepository;
