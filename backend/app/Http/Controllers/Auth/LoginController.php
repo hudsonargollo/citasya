@@ -118,6 +118,6 @@ class LoginController extends Controller
             }
         }
         auth()->login($user, true);
-        return redirect(route('users.profile'));
+        return redirect($this->redirectTo());
     }
 }
