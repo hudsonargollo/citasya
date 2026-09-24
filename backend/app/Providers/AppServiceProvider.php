@@ -34,6 +34,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if (request()->server('HTTP_X_FORWARDED_PROTO') == 'https' || str_contains(config('app.url'), 'https://')) {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
+
         Schema::defaultStringLength(191);
         try {
             config(['mail.driver' => setting('mail_driver', 'smtp')]);

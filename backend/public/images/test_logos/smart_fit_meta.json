@@ -1,0 +1,11 @@
+{
+  "business_name": "Smart Fit",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/51/1/smart-fit-logo-png_seeklogo-511462.png",
+  "output_file": "/root/ClubeMkt/CitasYa/backend/public/images/test_logos/smart_fit_logo.png",
+  "ai_analysis": {
+    "error": "HTTP Error 400: Bad Request",
+    "is_logo": true,
+    "confidence_score": 0.5
+  }
+}

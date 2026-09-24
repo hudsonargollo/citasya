@@ -67,41 +67,27 @@ class LogoSearcher:
             return None
 
     @classmethod
-    def search_duckduckgo_images(cls, query: str, limit: int = 5) -> List[str]:
-        """Search DuckDuckGo Images endpoint without API keys."""
-        logger.info(f"Searching DuckDuckGo images for: '{query}'")
+    def search_bing_images(cls, query: str, limit: int = 5) -> List[str]:
+        """Search Bing Images endpoint for robust candidate resolution without API keys."""
+        logger.info(f"Searching Bing images for: '{query}'")
         candidates: List[str] = []
         try:
-            # 1. Get vqd token from main search page
-            token_url = f"https://duckduckgo.com/?q={urllib.parse.quote(query)}"
-            page_content = cls._fetch_url(token_url)
-            if not page_content:
-                return candidates
-
-            html = page_content.decode("utf-8", errors="ignore")
-            vqd_match = re.search(r'vqd=([\d-]+)&', html) or re.search(r'vqd="([^"]+)"', html) or re.search(r'vqd:\s*\'([^\']+)\'', html)
-            if not vqd_match:
-                logger.debug("Could not extract DuckDuckGo vqd token.")
-                return candidates
-
-            vqd = vqd_match.group(1)
-            # 2. Fetch image JSON
-            img_url = f"https://duckduckgo.com/i.js?l=wt-wt&o=json&q={urllib.parse.quote(query)}&vqd={vqd}&f=,,,&p=1"
-            headers = {
-                "Accept": "application/json",
-                "Referer": "https://duckduckgo.com/",
-            }
-            raw_json = cls._fetch_url(img_url, headers=headers)
-            if raw_json:
-                data = json.loads(raw_json.decode("utf-8", errors="ignore"))
-                results = data.get("results", [])
-                for item in results[:limit]:
-                    image_url = item.get("image")
-                    if image_url and image_url.startswith("http"):
-                        candidates.append(image_url)
+            url = f"https://www.bing.com/images/search?q={urllib.parse.quote(query)}&form=HDRSC2&first=1"
+            html_bytes = cls._fetch_url(url)
+            if html_bytes:
+                html = html_bytes.decode("utf-8", errors="ignore")
+                m_urls = re.findall(r'murl&quot;:&quot;(http[^&]+)&quot;', html) or re.findall(r'\"murl\":\"(http[^\"]+)\"', html)
+                for u in m_urls[:limit]:
+                    if u and u.startswith("http") and not any(ext in u.lower() for ext in ['.svg', '.gif']):
+                        candidates.append(u)
         except Exception as e:
-            logger.warning(f"Error searching DuckDuckGo: {e}")
+            logger.warning(f"Error searching Bing: {e}")
+        return candidates
 
+    @classmethod
+    def search_duckduckgo_images(cls, query: str, limit: int = 5) -> List[str]:
+        """Search DuckDuckGo & Bing images endpoints."""
+        candidates = cls.search_bing_images(query, limit=limit)
         return candidates
 
     @classmethod
@@ -265,7 +251,7 @@ class OllamaLogoAnalyzer:
         )
 
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=12) as resp:
                 res_body = json.loads(resp.read().decode("utf-8"))
                 raw_response = res_body.get("response", "").strip()
 
@@ -392,7 +378,7 @@ def main():
     parser.add_argument("--out-dir", type=str, default="./logos", help="Output directory")
     parser.add_argument("--batch", type=str, default=None, help="Path to JSON file with list of businesses")
     parser.add_argument("--ollama-endpoint", type=str, default="http://127.0.0.1:11434", help="Local Ollama endpoint")
-    parser.add_argument("--ollama-model", type=str, default="gemma4:latest", help="Ollama vision/model name")
+    parser.add_argument("--ollama-model", type=str, default="llama3.2:3b", help="Ollama vision/model name")
     parser.add_argument("--no-ai", action="store_true", help="Disable Ollama AI inspection")
 
     args = parser.parse_args()
