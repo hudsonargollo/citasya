@@ -277,7 +277,7 @@
       <div class="progress-track">
         <div class="progress-fill" id="progress-bar"></div>
       </div>
-      <div class="status-msg" id="status-msg">Cargando experiencia CitasYa...</div>
+      <div class="status-msg" id="status-msg">Sincronizando servicios y negocios...</div>
     </div>
   </div>
 
@@ -295,9 +295,9 @@
           pBar.style.animation = 'none';
           pBar.style.width = '100%';
         }
-        if (sMsg) sMsg.innerText = '¡Listo!';
+        if (sMsg) sMsg.innerText = '¡Todo listo!';
         
-        // Wait 120ms so the initial Flutter frame buffer is fully drawn to the display
+        // Wait 150ms so the initial Flutter frame buffer is fully drawn to the display
         setTimeout(function() {
           if (loader) {
             loader.classList.add('fade-out');
@@ -305,36 +305,25 @@
               loader.remove();
             }, 550);
           }
-        }, 120);
+        }, 150);
       };
 
-      // 1. Listen for official Flutter Web first frame event
-      window.addEventListener('flutter-first-frame', window.dismissLoader);
-      window.addEventListener('flutter-app-ready', window.dismissLoader);
+      // 1. Primary Trigger: Wait for Flutter's full data & asset load
+      window.addEventListener('citasya-app-fully-loaded', function() {
+        window.dismissLoader();
+      });
 
-      // 2. Active Render Frame Detector (Checks when Flutter Canvas / Scene is rendered in DOM)
-      function checkFlutterRendered() {
-        if (isDismissed) return;
-        const gp = document.querySelector('flt-glass-pane') || document.querySelector('flutter-view');
-        if (gp) {
-          const root = gp.shadowRoot || gp;
-          const canvas = root.querySelector('canvas') || root.querySelector('flt-canvas-container') || root.querySelector('flt-scene-host');
-          if (canvas) {
-            // Check if active elements exist
-            setTimeout(window.dismissLoader, 300);
-            return;
-          }
-        }
-        requestAnimationFrame(checkFlutterRendered);
-      }
-      requestAnimationFrame(checkFlutterRendered);
+      // 2. Secondary Trigger: Fallback after first frame
+      window.addEventListener('flutter-first-frame', function() {
+        setTimeout(window.dismissLoader, 800);
+      });
 
-      // 3. Failsafe timeout: Max 6s
-      setTimeout(window.dismissLoader, 6000);
+      // 3. Failsafe timeout: Max 8s
+      setTimeout(window.dismissLoader, 8000);
     })();
   </script>
 
   <!-- Flutter Web Bootstrap -->
-  <script src="flutter_bootstrap.js?v=20260924v7" async></script>
+  <script src="flutter_bootstrap.js?v=20260924v8" async></script>
 </body>
 </html>

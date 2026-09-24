@@ -8,6 +8,7 @@ import '../../../models/statistic.dart';
 import '../../../repositories/booking_repository.dart';
 import '../../../repositories/statistic_repository.dart';
 import '../../../services/global_service.dart';
+import '../../../services/web_ready_service.dart';
 import '../../root/controllers/root_controller.dart';
 
 class HomeController extends GetxController {
@@ -48,6 +49,7 @@ class HomeController extends GetxController {
     if (showMessage) {
       Get.showSnackbar(Ui.SuccessSnackBar(message: "Home page refreshed successfully".tr));
     }
+    notifyAppFullyLoaded();
   }
 
   void initScrollController() {

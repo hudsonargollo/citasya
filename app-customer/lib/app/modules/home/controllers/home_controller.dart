@@ -16,6 +16,7 @@ import '../../../repositories/category_repository.dart';
 import '../../../repositories/salon_repository.dart';
 import '../../../repositories/slider_repository.dart';
 import '../../../services/settings_service.dart';
+import '../../../services/web_ready_service.dart';
 import '../../root/controllers/root_controller.dart';
 
 class HomeController extends GetxController {
@@ -52,6 +53,7 @@ class HomeController extends GetxController {
     if (showMessage) {
       Get.showSnackbar(Ui.SuccessSnackBar(message: "Home page refreshed successfully".tr));
     }
+    notifyAppFullyLoaded();
   }
 
   Address get currentAddress {
