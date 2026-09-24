@@ -1,0 +1,2932 @@
+[
+  {
+    "id": 1,
+    "name_es": "Gentleman's Club Barber & Lounge",
+    "name_en": "Gentleman's Club Barber & Lounge",
+    "category_id": 1,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #100, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.776,
+    "lng": -63.1975,
+    "phone": "+59178000000",
+    "level_id": 2,
+    "desc_es": "Barbería clásica premium con servicio de cortes modernos y perfilado a navaja.",
+    "desc_en": "Barbería clásica premium con servicio de cortes modernos y perfilado a navaja.",
+    "services": [
+      [
+        "Corte Ejecutivo & Barba",
+        90,
+        "00:45"
+      ],
+      [
+        "Perfilado con Toalla Caliente",
+        50,
+        "00:30"
+      ],
+      [
+        "Tratamiento Anticaída",
+        140,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "name_es": "Barbería Urbarí Vintage",
+    "name_en": "Barbería Urbarí Vintage",
+    "category_id": 1,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #117, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7728,
+    "lng": -63.1925,
+    "phone": "+59178000137",
+    "level_id": 3,
+    "desc_es": "Estilo vintage y cortes urbanos con los mejores barberos de Santa Cruz.",
+    "desc_en": "Estilo vintage y cortes urbanos con los mejores barberos de Santa Cruz.",
+    "services": [
+      [
+        "Fade Clásico / Degradé",
+        60,
+        "00:35"
+      ],
+      [
+        "Afeitado Tradicional",
+        45,
+        "00:25"
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "name_es": "The Godfather Barbershop SCZ",
+    "name_en": "The Godfather Barbershop SCZ",
+    "category_id": 1,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #134, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.804,
+    "lng": -63.2035,
+    "phone": "+59178000274",
+    "level_id": 2,
+    "desc_es": "Cortes de autor, diseño de barba y cuidado masculino integral.",
+    "desc_en": "Cortes de autor, diseño de barba y cuidado masculino integral.",
+    "services": [
+      [
+        "Corte de Autor Godfather",
+        85,
+        "00:50"
+      ],
+      [
+        "Limpieza Facial Express Hombres",
+        110,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "name_es": "Barber Studio Las Palmas",
+    "name_en": "Barber Studio Las Palmas",
+    "category_id": 1,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #151, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.7945,
+    "lng": -63.1955,
+    "phone": "+59178000411",
+    "level_id": 3,
+    "desc_es": "Atención personalizada, corte a tijera y afeitado tradicional.",
+    "desc_en": "Atención personalizada, corte a tijera y afeitado tradicional.",
+    "services": [
+      [
+        "Corte Clásico a Tijera",
+        70,
+        "00:40"
+      ],
+      [
+        "Corte + Barba + Mascarilla Black",
+        110,
+        "00:55"
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "name_es": "Brooklyn Fade Barbería",
+    "name_en": "Brooklyn Fade Barbería",
+    "category_id": 1,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #168, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7815,
+    "lng": -63.1785,
+    "phone": "+59178000548",
+    "level_id": 2,
+    "desc_es": "Especialistas en Skin Fade, Taper Fade y diseños personalizados.",
+    "desc_en": "Especialistas en Skin Fade, Taper Fade y diseños personalizados.",
+    "services": [
+      [
+        "Skin Fade & Hair Tattoo",
+        75,
+        "00:45"
+      ],
+      [
+        "Corte Infantil Urbano",
+        50,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "name_es": "Barba Negra Grooming Co.",
+    "name_en": "Barba Negra Grooming Co.",
+    "category_id": 1,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #185, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.748,
+    "lng": -63.1795,
+    "phone": "+59178000685",
+    "level_id": 3,
+    "desc_es": "Tradición barbera en el corazón de Santa Cruz con productos importados.",
+    "desc_en": "Tradición barbera en el corazón de Santa Cruz con productos importados.",
+    "services": [
+      [
+        "Corte Tradicional SCZ",
+        55,
+        "00:35"
+      ],
+      [
+        "Tinte de Barba & Canas",
+        80,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 7,
+    "name_es": "Royals Hair & Beard Lounge",
+    "name_en": "Royals Hair & Beard Lounge",
+    "category_id": 1,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #202, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7535,
+    "lng": -63.198,
+    "phone": "+59178000822",
+    "level_id": 2,
+    "desc_es": "Servicio VIP de barbería dentro de la zona comercial más exclusiva.",
+    "desc_en": "Servicio VIP de barbería dentro de la zona comercial más exclusiva.",
+    "services": [
+      [
+        "Combo Royal VIP",
+        160,
+        "01:15"
+      ],
+      [
+        "Corte Estilo Libre",
+        80,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 8,
+    "name_es": "Old School Barbershop SCZ",
+    "name_en": "Old School Barbershop SCZ",
+    "category_id": 1,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #219, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7695,
+    "lng": -63.1725,
+    "phone": "+59178000959",
+    "level_id": 3,
+    "desc_es": "El auténtico espíritu old-school para cortes masculinos.",
+    "desc_en": "El auténtico espíritu old-school para cortes masculinos.",
+    "services": [
+      [
+        "Corte Pompadour",
+        65,
+        "00:40"
+      ],
+      [
+        "Perfilado de Barba",
+        40,
+        "00:25"
+      ]
+    ]
+  },
+  {
+    "id": 9,
+    "name_es": "Elite Men Salon & Barbers",
+    "name_en": "Elite Men Salon & Barbers",
+    "category_id": 1,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #236, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.7695,
+    "lng": -63.1955,
+    "phone": "+59178001096",
+    "level_id": 2,
+    "desc_es": "Peluquería y spa diseñada para el hombre de negocios moderno.",
+    "desc_en": "Peluquería y spa diseñada para el hombre de negocios moderno.",
+    "services": [
+      [
+        "Corte Ejecutivo & Lavado",
+        95,
+        "00:45"
+      ],
+      [
+        "Masaje Capilar Terapéutico",
+        120,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 10,
+    "name_es": "Urban Cut Barbería & Tattoo",
+    "name_en": "Urban Cut Barbería & Tattoo",
+    "category_id": 1,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #253, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7795,
+    "lng": -63.192,
+    "phone": "+59178001233",
+    "level_id": 3,
+    "desc_es": "Cortes urbanos, perfilados y asesoría de imagen masculina.",
+    "desc_en": "Cortes urbanos, perfilados y asesoría de imagen masculina.",
+    "services": [
+      [
+        "Corte Degradado + Cejas",
+        65,
+        "00:40"
+      ],
+      [
+        "Alisado Anti-Frizz Masculino",
+        130,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 11,
+    "name_es": "La Logia Barber Shop",
+    "name_en": "La Logia Barber Shop",
+    "category_id": 1,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #270, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.7715,
+    "lng": -63.1975,
+    "phone": "+59178001370",
+    "level_id": 2,
+    "desc_es": "Ambiente exclusivo con billar, bebidas de cortesía y barberos máster.",
+    "desc_en": "Ambiente exclusivo con billar, bebidas de cortesía y barberos máster.",
+    "services": [
+      [
+        "Corte Master La Logia",
+        90,
+        "00:45"
+      ],
+      [
+        "Spa de Barba Completo",
+        70,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "id": 12,
+    "name_es": "King's Blade Barbería",
+    "name_en": "King's Blade Barbería",
+    "category_id": 1,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #287, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7683,
+    "lng": -63.1925,
+    "phone": "+59178001507",
+    "level_id": 3,
+    "desc_es": "Corte milimétrico y diseño de barba con productos de barbería internacional.",
+    "desc_en": "Corte milimétrico y diseño de barba con productos de barbería internacional.",
+    "services": [
+      [
+        "Corte King's Blade",
+        80,
+        "00:40"
+      ],
+      [
+        "Afeitado a Navaja con Vapor",
+        60,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 13,
+    "name_es": "Glamour Nails & Spa Equipetrol",
+    "name_en": "Glamour Nails & Spa Equipetrol",
+    "category_id": 2,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #304, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.7995,
+    "lng": -63.2035,
+    "phone": "+59178001644",
+    "level_id": 2,
+    "desc_es": "Especialistas en uñas acrílicas esculpidas, soft gel y manicura rusa.",
+    "desc_en": "Especialistas en uñas acrílicas esculpidas, soft gel y manicura rusa.",
+    "services": [
+      [
+        "Manicura Rusa & Esmaltado Gel",
+        130,
+        "01:15"
+      ],
+      [
+        "Uñas Acrílicas Full Set",
+        220,
+        "01:45"
+      ],
+      [
+        "Pedicura Spa Hidratante",
+        140,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 14,
+    "name_es": "Oh La La Nail Studio SCZ",
+    "name_en": "Oh La La Nail Studio SCZ",
+    "category_id": 2,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #321, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.79,
+    "lng": -63.1955,
+    "phone": "+59178001781",
+    "level_id": 3,
+    "desc_es": "Espacio de relax para consentir manos y pies con tendencias globales.",
+    "desc_en": "Espacio de relax para consentir manos y pies con tendencias globales.",
+    "services": [
+      [
+        "Soft Gel Nails con Diseño",
+        160,
+        "01:30"
+      ],
+      [
+        "Kapping Gel Fortalecedor",
+        110,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 15,
+    "name_es": "Diva Nails & Beauty Bar",
+    "name_en": "Diva Nails & Beauty Bar",
+    "category_id": 2,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #338, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7875,
+    "lng": -63.1785,
+    "phone": "+59178001918",
+    "level_id": 2,
+    "desc_es": "Ambiente boutique exclusivo con cócteles de cortesía y nail art de lujo.",
+    "desc_en": "Ambiente boutique exclusivo con cócteles de cortesía y nail art de lujo.",
+    "services": [
+      [
+        "Diva Gel Manicure + Spa Parafina",
+        150,
+        "01:15"
+      ],
+      [
+        "Pedicura Jelly Spa Relajante",
+        160,
+        "01:10"
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "name_es": "La Manicurería Beauty Plaza",
+    "name_en": "La Manicurería Beauty Plaza",
+    "category_id": 2,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #355, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.754,
+    "lng": -63.1795,
+    "phone": "+59178002055",
+    "level_id": 3,
+    "desc_es": "Manicura y pedicura express y premium en Beauty Plaza.",
+    "desc_en": "Manicura y pedicura express y premium en Beauty Plaza.",
+    "services": [
+      [
+        "Manicura Express Tradicional",
+        60,
+        "00:30"
+      ],
+      [
+        "Uñas Poligel Esculpidas",
+        190,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "id": 17,
+    "name_es": "Nail Art Lounge Urbarí",
+    "name_en": "Nail Art Lounge Urbarí",
+    "category_id": 2,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #372, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7595,
+    "lng": -63.198,
+    "phone": "+59178002192",
+    "level_id": 2,
+    "desc_es": "Diseños a mano alzada, pedrería Swarovski y cuidado estético.",
+    "desc_en": "Diseños a mano alzada, pedrería Swarovski y cuidado estético.",
+    "services": [
+      [
+        "Manicura Semipermanente Chrome",
+        120,
+        "01:00"
+      ],
+      [
+        "Retiro y Tratamiento Nutritivo",
+        70,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 18,
+    "name_es": "Pink Studio Nails & Lashes",
+    "name_en": "Pink Studio Nails & Lashes",
+    "category_id": 2,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #389, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.765,
+    "lng": -63.1725,
+    "phone": "+59178002329",
+    "level_id": 3,
+    "desc_es": "Expertas en esculpido de uñas y pedicure clínico en el centro.",
+    "desc_en": "Expertas en esculpido de uñas y pedicure clínico en el centro.",
+    "services": [
+      [
+        "Combo Manos & Pies Semipermanente",
+        200,
+        "01:45"
+      ],
+      [
+        "Pedicura Clínica Especializada",
+        120,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "name_es": "Luxe Nail Boutique Banzer",
+    "name_en": "Luxe Nail Boutique Banzer",
+    "category_id": 2,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #406, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.765,
+    "lng": -63.1955,
+    "phone": "+59178002466",
+    "level_id": 2,
+    "desc_es": "Servicios de uñas de lujo con esterilización hospitalaria.",
+    "desc_en": "Servicios de uñas de lujo con esterilización hospitalaria.",
+    "services": [
+      [
+        "Acrílico Encapsulado con Glitter",
+        210,
+        "01:40"
+      ],
+      [
+        "Spa Manos Colágeno Antiedad",
+        110,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 20,
+    "name_es": "Bella Uña & Color",
+    "name_en": "Bella Uña & Color",
+    "category_id": 2,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #423, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.775,
+    "lng": -63.192,
+    "phone": "+59178002603",
+    "level_id": 3,
+    "desc_es": "Variedad de más de 300 tonos en esmaltes de larga duración.",
+    "desc_en": "Variedad de más de 300 tonos en esmaltes de larga duración.",
+    "services": [
+      [
+        "Esmaltado en Gel 21 Días",
+        90,
+        "00:45"
+      ],
+      [
+        "Baño de Acrílico Protector",
+        130,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 21,
+    "name_es": "Studio 92 Nails & Spa",
+    "name_en": "Studio 92 Nails & Spa",
+    "category_id": 2,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #440, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.767,
+    "lng": -63.1975,
+    "phone": "+59178002740",
+    "level_id": 2,
+    "desc_es": "Atención rápida y detallista en manicura dipping powder.",
+    "desc_en": "Atención rápida y detallista en manicura dipping powder.",
+    "services": [
+      [
+        "Dipping Powder Manicure",
+        140,
+        "01:00"
+      ],
+      [
+        "Pedicura Exfoliante Marina",
+        80,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 22,
+    "name_es": "Nail Paradise Sirari",
+    "name_en": "Nail Paradise Sirari",
+    "category_id": 2,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #457, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7743,
+    "lng": -63.1925,
+    "phone": "+59178002877",
+    "level_id": 3,
+    "desc_es": "El paraíso para tus manos con esmaltados franceses y baby boomer.",
+    "desc_en": "El paraíso para tus manos con esmaltados franceses y baby boomer.",
+    "services": [
+      [
+        "Baby Boomer / Ombré Nails",
+        170,
+        "01:20"
+      ],
+      [
+        "Manicura Rusa Express",
+        100,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 23,
+    "name_es": "Dermacare Centro Facial Avanzado",
+    "name_en": "Dermacare Centro Facial Avanzado",
+    "category_id": 3,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #474, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.8055,
+    "lng": -63.2035,
+    "phone": "+59178003014",
+    "level_id": 2,
+    "desc_es": "Tratamientos dermatológicos y cosméticos con tecnología de punta.",
+    "desc_en": "Tratamientos dermatológicos y cosméticos con tecnología de punta.",
+    "services": [
+      [
+        "Limpieza Facial con Hidrafacial",
+        280,
+        "01:15"
+      ],
+      [
+        "Peeling Químico Celular",
+        350,
+        "00:50"
+      ],
+      [
+        "Protocolo Antiacné",
+        240,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 24,
+    "name_es": "Skin Clinic Santa Cruz",
+    "name_en": "Skin Clinic Santa Cruz",
+    "category_id": 3,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #491, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.796,
+    "lng": -63.1955,
+    "phone": "+59178003151",
+    "level_id": 3,
+    "desc_es": "Rejuvenecimiento facial, eliminación de manchas y nutrición dérmica.",
+    "desc_en": "Rejuvenecimiento facial, eliminación de manchas y nutrición dérmica.",
+    "services": [
+      [
+        "Dermapen con Ácido Hialurónico",
+        320,
+        "01:10"
+      ],
+      [
+        "Radiofrecuencia Facial Tensora",
+        260,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 25,
+    "name_es": "Facial Spa Urbarí",
+    "name_en": "Facial Spa Urbarí",
+    "category_id": 3,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #508, Centro, Santa Cruz, Bolivia",
+    "lat": -17.783,
+    "lng": -63.1785,
+    "phone": "+59178003288",
+    "level_id": 2,
+    "desc_es": "Tratamientos faciales relajantes con mascarillas botánicas y masajes.",
+    "desc_en": "Tratamientos faciales relajantes con mascarillas botánicas y masajes.",
+    "services": [
+      [
+        "Facial Detox Carbón Activado",
+        180,
+        "01:00"
+      ],
+      [
+        "Masaje Kobido Lifting Japonés",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 26,
+    "name_es": "Aura Skin & Glow Studio",
+    "name_en": "Aura Skin & Glow Studio",
+    "category_id": 3,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #525, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7495,
+    "lng": -63.1795,
+    "phone": "+59178003425",
+    "level_id": 3,
+    "desc_es": "Protocolos faciales Glass Skin, fototerapia LED y oxigenoterapia.",
+    "desc_en": "Protocolos faciales Glass Skin, fototerapia LED y oxigenoterapia.",
+    "services": [
+      [
+        "Tratamiento Glass Skin Glow",
+        300,
+        "01:15"
+      ],
+      [
+        "Fototerapia LED Anti-Aging",
+        190,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "name_es": "Glow Up Facial Lounge",
+    "name_en": "Glow Up Facial Lounge",
+    "category_id": 3,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #542, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.755,
+    "lng": -63.198,
+    "phone": "+59178003562",
+    "level_id": 2,
+    "desc_es": "Sesiones express de limpieza facial y nutrición cutánea.",
+    "desc_en": "Sesiones express de limpieza facial y nutrición cutánea.",
+    "services": [
+      [
+        "Express Glow Facial 30m",
+        140,
+        "00:30"
+      ],
+      [
+        "Extracción Ultrasónica & Colágeno",
+        210,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 28,
+    "name_es": "Dra. Piel & Belleza Facial",
+    "name_en": "Dra. Piel & Belleza Facial",
+    "category_id": 3,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #559, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7605,
+    "lng": -63.1725,
+    "phone": "+59178003699",
+    "level_id": 3,
+    "desc_es": "Evaluación personalizada de piel, control de rosácea y nutrición.",
+    "desc_en": "Evaluación personalizada de piel, control de rosácea y nutrición.",
+    "services": [
+      [
+        "Consulta Dermocosmética + Scan",
+        150,
+        "00:45"
+      ],
+      [
+        "Tratamiento Calmante Rosácea",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 29,
+    "name_es": "Skin Revival Studio Banzer",
+    "name_en": "Skin Revival Studio Banzer",
+    "category_id": 3,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #576, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.771,
+    "lng": -63.1955,
+    "phone": "+59178003836",
+    "level_id": 2,
+    "desc_es": "Protocolos despigmentantes avanzados para melasma y manchas solares.",
+    "desc_en": "Protocolos despigmentantes avanzados para melasma y manchas solares.",
+    "services": [
+      [
+        "Despigmentante Melasma Stop",
+        380,
+        "01:15"
+      ],
+      [
+        "Microdermoabrasión Diamante",
+        200,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 30,
+    "name_es": "BioSkin Centro Cosmiátrico",
+    "name_en": "BioSkin Centro Cosmiátrico",
+    "category_id": 3,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #593, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.781,
+    "lng": -63.192,
+    "phone": "+59178003973",
+    "level_id": 3,
+    "desc_es": "Cosmiatría integral, hidratación labial y drenaje linfático facial.",
+    "desc_en": "Cosmiatría integral, hidratación labial y drenaje linfático facial.",
+    "services": [
+      [
+        "Hydra Lips Hidratación de Labios",
+        160,
+        "00:40"
+      ],
+      [
+        "Limpieza Facial con Ozono",
+        220,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 31,
+    "name_es": "Lumière Esthétique Facial",
+    "name_en": "Lumière Esthétique Facial",
+    "category_id": 3,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #610, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.773,
+    "lng": -63.1975,
+    "phone": "+59178004110",
+    "level_id": 2,
+    "desc_es": "Cosmética francesa y tratamientos antiedad de alta pureza.",
+    "desc_en": "Cosmética francesa y tratamientos antiedad de alta pureza.",
+    "services": [
+      [
+        "Tratamiento Antiarrugas Péptidos",
+        340,
+        "01:10"
+      ],
+      [
+        "Drenaje Linfático Facial Post-Cirugía",
+        220,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 32,
+    "name_es": "Pura Piel Dermatocosmética",
+    "name_en": "Pura Piel Dermatocosmética",
+    "category_id": 3,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #627, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7698,
+    "lng": -63.1925,
+    "phone": "+59178004247",
+    "level_id": 3,
+    "desc_es": "Cuidado integral para pieles sensibles, secas o con acné.",
+    "desc_en": "Cuidado integral para pieles sensibles, secas o con acné.",
+    "services": [
+      [
+        "Limpieza Facial Piel Sensible",
+        190,
+        "00:55"
+      ],
+      [
+        "Mascarilla de Alginatos de Oro",
+        260,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 33,
+    "name_es": "Brow & Lash Studio SCZ",
+    "name_en": "Brow & Lash Studio SCZ",
+    "category_id": 4,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #644, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.801,
+    "lng": -63.2035,
+    "phone": "+59178004384",
+    "level_id": 2,
+    "desc_es": "Microblading pelo a pelo, laminado de cejas HD y extensiones.",
+    "desc_en": "Microblading pelo a pelo, laminado de cejas HD y extensiones.",
+    "services": [
+      [
+        "Lash Lifting & Tinte Queratina",
+        160,
+        "01:00"
+      ],
+      [
+        "Laminado Cejas HD + Perfilado",
+        140,
+        "00:50"
+      ],
+      [
+        "Microblading Hiperrealista",
+        550,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "id": 34,
+    "name_es": "Miradas Perfectas Santa Cruz",
+    "name_en": "Miradas Perfectas Santa Cruz",
+    "category_id": 4,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #661, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.7915,
+    "lng": -63.1955,
+    "phone": "+59178004521",
+    "level_id": 3,
+    "desc_es": "Volumen ruso, efecto rímel y diseño visagista de cejas.",
+    "desc_en": "Volumen ruso, efecto rímel y diseño visagista de cejas.",
+    "services": [
+      [
+        "Extensiones Pestañas Volumen Ruso",
+        280,
+        "02:00"
+      ],
+      [
+        "Diseño Cejas con Henna Orgánica",
+        90,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 35,
+    "name_es": "The Brow Bar Las Palmas",
+    "name_en": "The Brow Bar Las Palmas",
+    "category_id": 4,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #678, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7785,
+    "lng": -63.1785,
+    "phone": "+59178004658",
+    "level_id": 2,
+    "desc_es": "Arquitectura de cejas con hilo hindú y nanoblading.",
+    "desc_en": "Arquitectura de cejas con hilo hindú y nanoblading.",
+    "services": [
+      [
+        "Depilación Hilo Hindú",
+        50,
+        "00:25"
+      ],
+      [
+        "Nanoblading Efecto Polvo",
+        600,
+        "02:15"
+      ]
+    ]
+  },
+  {
+    "id": 36,
+    "name_es": "Lashes & Beauty Lounge Urbarí",
+    "name_en": "Lashes & Beauty Lounge Urbarí",
+    "category_id": 4,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #695, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7555,
+    "lng": -63.1795,
+    "phone": "+59178004795",
+    "level_id": 3,
+    "desc_es": "Extensiones clásicas, híbridas y mega volumen hipoalergénicas.",
+    "desc_en": "Extensiones clásicas, híbridas y mega volumen hipoalergénicas.",
+    "services": [
+      [
+        "Pestañas Híbridas Efecto Natural",
+        220,
+        "01:45"
+      ],
+      [
+        "Mantenimiento / Retoque",
+        120,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 37,
+    "name_es": "Studio Mirada Chic Centro",
+    "name_en": "Studio Mirada Chic Centro",
+    "category_id": 4,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #712, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.761,
+    "lng": -63.198,
+    "phone": "+59178004932",
+    "level_id": 2,
+    "desc_es": "Servicios rápidos de cejas y pestañas para el día a día.",
+    "desc_en": "Servicios rápidos de cejas y pestañas para el día a día.",
+    "services": [
+      [
+        "Combo Lifting + Laminado",
+        250,
+        "01:30"
+      ],
+      [
+        "Perfilado Express",
+        70,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 38,
+    "name_es": "Divas Lashes & Brows Banzer",
+    "name_en": "Divas Lashes & Brows Banzer",
+    "category_id": 4,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #729, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7665,
+    "lng": -63.1725,
+    "phone": "+59178005069",
+    "level_id": 3,
+    "desc_es": "Especialistas en pestañas efecto Kim K y Wispy Lashes.",
+    "desc_en": "Especialistas en pestañas efecto Kim K y Wispy Lashes.",
+    "services": [
+      [
+        "Wispy Lashes Efecto Kim K",
+        260,
+        "01:50"
+      ],
+      [
+        "Retiro Seguro de Extensiones",
+        60,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 39,
+    "name_es": "Brows Couture Ventura",
+    "name_en": "Brows Couture Ventura",
+    "category_id": 4,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #746, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.7665,
+    "lng": -63.1955,
+    "phone": "+59178005206",
+    "level_id": 2,
+    "desc_es": "Alta costura en cejas y pestañas con pigmentos alemanes.",
+    "desc_en": "Alta costura en cejas y pestañas con pigmentos alemanes.",
+    "services": [
+      [
+        "Microshading Ombré Powder",
+        580,
+        "02:15"
+      ],
+      [
+        "Botox de Pestañas",
+        120,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 40,
+    "name_es": "Studio Glam Brows Los Cusis",
+    "name_en": "Studio Glam Brows Los Cusis",
+    "category_id": 4,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #763, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7765,
+    "lng": -63.192,
+    "phone": "+59178005343",
+    "level_id": 3,
+    "desc_es": "Transforma tu mirada con resultados naturales y duraderos.",
+    "desc_en": "Transforma tu mirada con resultados naturales y duraderos.",
+    "services": [
+      [
+        "Pestañas Clásicas 1 a 1",
+        190,
+        "01:30"
+      ],
+      [
+        "Diseño Cejas Cera Suave",
+        45,
+        "00:20"
+      ]
+    ]
+  },
+  {
+    "id": 41,
+    "name_es": "Samadhi Spa & Wellness Equipetrol",
+    "name_en": "Samadhi Spa & Wellness Equipetrol",
+    "category_id": 5,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #780, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.7685,
+    "lng": -63.1975,
+    "phone": "+59178005480",
+    "level_id": 2,
+    "desc_es": "Santuario urbano con masajes relajantes, piedras calientes y sauna.",
+    "desc_en": "Santuario urbano con masajes relajantes, piedras calientes y sauna.",
+    "services": [
+      [
+        "Masaje Piedras Calientes (80m)",
+        280,
+        "01:20"
+      ],
+      [
+        "Circuito Spa Parejas",
+        550,
+        "02:00"
+      ],
+      [
+        "Masaje Descontracturante",
+        240,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 42,
+    "name_es": "Nirvana Thai Massage & Spa",
+    "name_en": "Nirvana Thai Massage & Spa",
+    "category_id": 5,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #797, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7653,
+    "lng": -63.1925,
+    "phone": "+59178005617",
+    "level_id": 3,
+    "desc_es": "Auténtico masaje tailandés tradicional y reflexología podal.",
+    "desc_en": "Auténtico masaje tailandés tradicional y reflexología podal.",
+    "services": [
+      [
+        "Masaje Tradicional Thai",
+        260,
+        "01:15"
+      ],
+      [
+        "Reflexología Podal Thai",
+        160,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 43,
+    "name_es": "Las Palmas Day Spa & Relax",
+    "name_en": "Las Palmas Day Spa & Relax",
+    "category_id": 5,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #814, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.807,
+    "lng": -63.2035,
+    "phone": "+59178005754",
+    "level_id": 2,
+    "desc_es": "Día de spa completo, hidroterapia y exfoliación corporal.",
+    "desc_en": "Día de spa completo, hidroterapia y exfoliación corporal.",
+    "services": [
+      [
+        "Día de Spa Desconexión Total",
+        620,
+        "04:00"
+      ],
+      [
+        "Exfoliación Sales de Uyuni",
+        230,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 44,
+    "name_es": "Spa Urbano Relax Urbarí",
+    "name_en": "Spa Urbano Relax Urbarí",
+    "category_id": 5,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #831, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.7975,
+    "lng": -63.1955,
+    "phone": "+59178005891",
+    "level_id": 3,
+    "desc_es": "Terapia muscular, masajes reductores y drenaje linfático.",
+    "desc_en": "Terapia muscular, masajes reductores y drenaje linfático.",
+    "services": [
+      [
+        "Masaje Reductor & Modelador",
+        180,
+        "00:50"
+      ],
+      [
+        "Drenaje Linfático Postoperatorio",
+        200,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 45,
+    "name_es": "Zenith Spa & Aromaterapia Centro",
+    "name_en": "Zenith Spa & Aromaterapia Centro",
+    "category_id": 5,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #848, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7845,
+    "lng": -63.1785,
+    "phone": "+59178006028",
+    "level_id": 2,
+    "desc_es": "Alivio del estrés con aceites esenciales botánicos.",
+    "desc_en": "Alivio del estrés con aceites esenciales botánicos.",
+    "services": [
+      [
+        "Masaje Antiestrés Cuello & Espalda",
+        130,
+        "00:35"
+      ],
+      [
+        "Masaje Sueco Completo",
+        210,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 46,
+    "name_es": "Bambu Spa & Estética Banzer",
+    "name_en": "Bambu Spa & Estética Banzer",
+    "category_id": 5,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #865, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.751,
+    "lng": -63.1795,
+    "phone": "+59178006165",
+    "level_id": 3,
+    "desc_es": "Bambuterapia relajante con cañas de bambú tibias y calor.",
+    "desc_en": "Bambuterapia relajante con cañas de bambú tibias y calor.",
+    "services": [
+      [
+        "Masaje con Cañas de Bambú",
+        250,
+        "01:10"
+      ],
+      [
+        "Chocoterapia Corporal",
+        270,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "id": 47,
+    "name_es": "Aqua Spa & Club Ventura",
+    "name_en": "Aqua Spa & Club Ventura",
+    "category_id": 5,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #882, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7565,
+    "lng": -63.198,
+    "phone": "+59178006302",
+    "level_id": 2,
+    "desc_es": "Piscina climatizada de hidromasaje y circuito de aguas.",
+    "desc_en": "Piscina climatizada de hidromasaje y circuito de aguas.",
+    "services": [
+      [
+        "Pase Circuito Hidrotermal + Masaje",
+        350,
+        "02:00"
+      ],
+      [
+        "Masaje a Cuatro Manos",
+        420,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 48,
+    "name_es": "Oasis Spa Los Cusis",
+    "name_en": "Oasis Spa Los Cusis",
+    "category_id": 5,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #899, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.762,
+    "lng": -63.1725,
+    "phone": "+59178006439",
+    "level_id": 3,
+    "desc_es": "Un verdadero oasis de paz para desconectar cuerpo y mente.",
+    "desc_en": "Un verdadero oasis de paz para desconectar cuerpo y mente.",
+    "services": [
+      [
+        "Masaje Craneofacial Relax",
+        190,
+        "00:50"
+      ],
+      [
+        "Sesión Sauna Eucalipto",
+        90,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 49,
+    "name_es": "Ayurveda Wellness Center Sirari",
+    "name_en": "Ayurveda Wellness Center Sirari",
+    "category_id": 5,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #116, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.762,
+    "lng": -63.1955,
+    "phone": "+59178006576",
+    "level_id": 2,
+    "desc_es": "Masaje indio Abhyanga con aceites tibios y Shirodhara.",
+    "desc_en": "Masaje indio Abhyanga con aceites tibios y Shirodhara.",
+    "services": [
+      [
+        "Masaje Abhyanga con Aceites",
+        290,
+        "01:15"
+      ],
+      [
+        "Terapia Shirodhara Antiestrés",
+        320,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 50,
+    "name_es": "Vitality Spa Urbano Equipetrol Norte",
+    "name_en": "Vitality Spa Urbano Equipetrol Norte",
+    "category_id": 5,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #133, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7825,
+    "lng": -63.192,
+    "phone": "+59178006713",
+    "level_id": 3,
+    "desc_es": "Masajes deportivos, reflexología y recuperación muscular.",
+    "desc_en": "Masajes deportivos, reflexología y recuperación muscular.",
+    "services": [
+      [
+        "Masaje Deportivo Pre/Post",
+        220,
+        "01:00"
+      ],
+      [
+        "Crioterapia & Miofascial",
+        250,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 51,
+    "name_es": "Studio MakeUp Glam Equipetrol",
+    "name_en": "Studio MakeUp Glam Equipetrol",
+    "category_id": 6,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #150, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.7745,
+    "lng": -63.1975,
+    "phone": "+59178006850",
+    "level_id": 2,
+    "desc_es": "Maquillaje profesional para novias, eventos de gala y social.",
+    "desc_en": "Maquillaje profesional para novias, eventos de gala y social.",
+    "services": [
+      [
+        "Maquillaje Social Fiesta con Pestañas",
+        250,
+        "01:15"
+      ],
+      [
+        "Paquete Novia VIP (Prueba + Boda)",
+        750,
+        "02:30"
+      ],
+      [
+        "Peinado de Gala / Ondas",
+        180,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 52,
+    "name_es": "Studio Paola MakeUp Artist",
+    "name_en": "Studio Paola MakeUp Artist",
+    "category_id": 6,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #167, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7713,
+    "lng": -63.1925,
+    "phone": "+59178006987",
+    "level_id": 3,
+    "desc_es": "Técnica piel blindada waterproof para el clima cálido cruceño.",
+    "desc_en": "Técnica piel blindada waterproof para el clima cálido cruceño.",
+    "services": [
+      [
+        "Maquillaje Piel Blindada Waterproof",
+        280,
+        "01:20"
+      ],
+      [
+        "Masterclass Automaquillaje (3h)",
+        400,
+        "03:00"
+      ]
+    ]
+  },
+  {
+    "id": 53,
+    "name_es": "MakeUp & Hair Boutique Las Palmas",
+    "name_en": "MakeUp & Hair Boutique Las Palmas",
+    "category_id": 6,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #184, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.8025,
+    "lng": -63.2035,
+    "phone": "+59178007124",
+    "level_id": 2,
+    "desc_es": "Producción completa de belleza para graduaciones y eventos.",
+    "desc_en": "Producción completa de belleza para graduaciones y eventos.",
+    "services": [
+      [
+        "Combo Quinceañera (Maquillaje + Peinado)",
+        450,
+        "02:00"
+      ],
+      [
+        "Maquillaje Editorial para Fotos",
+        300,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "id": 54,
+    "name_es": "Carla Studio Glam Urbarí",
+    "name_en": "Carla Studio Glam Urbarí",
+    "category_id": 6,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #201, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.793,
+    "lng": -63.1955,
+    "phone": "+59178007261",
+    "level_id": 3,
+    "desc_es": "Maquillaje de larga duración con cosméticos de alta gama.",
+    "desc_en": "Maquillaje de larga duración con cosméticos de alta gama.",
+    "services": [
+      [
+        "Maquillaje Social Noche",
+        200,
+        "01:00"
+      ],
+      [
+        "Peinado Semirecogido Fiesta",
+        140,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 55,
+    "name_es": "Beauty Spot SCZ Centro",
+    "name_en": "Beauty Spot SCZ Centro",
+    "category_id": 6,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #218, Centro, Santa Cruz, Bolivia",
+    "lat": -17.78,
+    "lng": -63.1785,
+    "phone": "+59178007398",
+    "level_id": 2,
+    "desc_es": "Maquillaje de día, natural glow y brushing express.",
+    "desc_en": "Maquillaje de día, natural glow y brushing express.",
+    "services": [
+      [
+        "Maquillaje Natural Glow Día",
+        160,
+        "00:45"
+      ],
+      [
+        "Ondas Sueltas & Brushing",
+        100,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 56,
+    "name_es": "MakeUp Bar Beauty Plaza",
+    "name_en": "MakeUp Bar Beauty Plaza",
+    "category_id": 6,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #235, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7465,
+    "lng": -63.1795,
+    "phone": "+59178007535",
+    "level_id": 3,
+    "desc_es": "Barra de maquillaje express e iluminación profesional.",
+    "desc_en": "Barra de maquillaje express e iluminación profesional.",
+    "services": [
+      [
+        "Full Glam Event Makeup",
+        290,
+        "01:15"
+      ],
+      [
+        "Peinado Recogido Alta Costura",
+        220,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 57,
+    "name_es": "Studio Elegance Banzer",
+    "name_en": "Studio Elegance Banzer",
+    "category_id": 6,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #252, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7625,
+    "lng": -63.198,
+    "phone": "+59178007672",
+    "level_id": 2,
+    "desc_es": "Especialistas en maquillaje para novias y madrinas.",
+    "desc_en": "Especialistas en maquillaje para novias y madrinas.",
+    "services": [
+      [
+        "Maquillaje Madrina de Boda",
+        240,
+        "01:10"
+      ],
+      [
+        "Peinado Clásico con Tiara",
+        170,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 58,
+    "name_es": "Glam & Chic Makeup Los Cusis",
+    "name_en": "Glam & Chic Makeup Los Cusis",
+    "category_id": 6,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #269, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.768,
+    "lng": -63.1725,
+    "phone": "+59178007809",
+    "level_id": 3,
+    "desc_es": "Asesoramiento de colorimetría y maquillaje personalizado.",
+    "desc_en": "Asesoramiento de colorimetría y maquillaje personalizado.",
+    "services": [
+      [
+        "Maquillaje con Análisis Color",
+        220,
+        "01:00"
+      ],
+      [
+        "Peinado Trenzado Boho",
+        130,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 59,
+    "name_es": "Clínica Estética Dr. Velasco",
+    "name_en": "Clínica Estética Dr. Velasco",
+    "category_id": 7,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #286, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.768,
+    "lng": -63.1955,
+    "phone": "+59178007946",
+    "level_id": 3,
+    "desc_es": "Medicina estética avanzada, toxina botulínica y armonización facial.",
+    "desc_en": "Medicina estética avanzada, toxina botulínica y armonización facial.",
+    "services": [
+      [
+        "Toxina Botulínica (3 Zonas)",
+        1200,
+        "00:45"
+      ],
+      [
+        "Relleno Labial Ácido Hialurónico",
+        1400,
+        "00:50"
+      ],
+      [
+        "Rinomodelación sin Cirugía",
+        1600,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 60,
+    "name_es": "BioEsthetic Medical Group Sirari",
+    "name_en": "BioEsthetic Medical Group Sirari",
+    "category_id": 7,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #303, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.778,
+    "lng": -63.192,
+    "phone": "+59178008083",
+    "level_id": 3,
+    "desc_es": "Depilación láser Soprano Ice y bioestimuladores de colágeno.",
+    "desc_en": "Depilación láser Soprano Ice y bioestimuladores de colágeno.",
+    "services": [
+      [
+        "Láser Soprano Full Body (Sesión)",
+        650,
+        "01:30"
+      ],
+      [
+        "Bioestimulador Radiesse / Sculptra",
+        2100,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 61,
+    "name_es": "Dra. Sofía Arteaga Medicina Estética",
+    "name_en": "Dra. Sofía Arteaga Medicina Estética",
+    "category_id": 7,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #320, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.77,
+    "lng": -63.1975,
+    "phone": "+59178008220",
+    "level_id": 3,
+    "desc_es": "Rejuvenecimiento facial natural con hilos tensores y mesoterapia.",
+    "desc_en": "Rejuvenecimiento facial natural con hilos tensores y mesoterapia.",
+    "services": [
+      [
+        "Hilos Tensores Espiculados Tracción",
+        1800,
+        "01:15"
+      ],
+      [
+        "Revitalización NCTF 135HA",
+        850,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 62,
+    "name_es": "Sculpt Body Clinic Urbarí",
+    "name_en": "Sculpt Body Clinic Urbarí",
+    "category_id": 7,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #337, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7668,
+    "lng": -63.1925,
+    "phone": "+59178008357",
+    "level_id": 3,
+    "desc_es": "Criolipólisis médica, cavitación y radiofrecuencia corporal.",
+    "desc_en": "Criolipólisis médica, cavitación y radiofrecuencia corporal.",
+    "services": [
+      [
+        "Criolipólisis Médica (2 Zonas)",
+        700,
+        "01:15"
+      ],
+      [
+        "Pack 10 Sesiones Lipoláser",
+        1100,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 63,
+    "name_es": "Clínica Dermoláser Santa Cruz",
+    "name_en": "Clínica Dermoláser Santa Cruz",
+    "category_id": 7,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #354, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.798,
+    "lng": -63.2035,
+    "phone": "+59178008494",
+    "level_id": 3,
+    "desc_es": "Láser CO2 fraccionado para cicatrices y eliminación de manchas.",
+    "desc_en": "Láser CO2 fraccionado para cicatrices y eliminación de manchas.",
+    "services": [
+      [
+        "Láser Fraccionado CO2 Facial",
+        950,
+        "01:00"
+      ],
+      [
+        "Eliminación Láser Tatuajes",
+        300,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 64,
+    "name_es": "Esthetic Center Torres DUO",
+    "name_en": "Esthetic Center Torres DUO",
+    "category_id": 7,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #371, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.799,
+    "lng": -63.1955,
+    "phone": "+59178008631",
+    "level_id": 3,
+    "desc_es": "Medicina estética de alta gama con máxima privacidad.",
+    "desc_en": "Medicina estética de alta gama con máxima privacidad.",
+    "services": [
+      [
+        "Full Face Harmonization",
+        2800,
+        "01:30"
+      ],
+      [
+        "Lifting No Invasivo HIFU",
+        1500,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "id": 65,
+    "name_es": "MedLuxe Estética Avanzada Banzer",
+    "name_en": "MedLuxe Estética Avanzada Banzer",
+    "category_id": 7,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #388, Centro, Santa Cruz, Bolivia",
+    "lat": -17.786,
+    "lng": -63.1785,
+    "phone": "+59178008768",
+    "level_id": 3,
+    "desc_es": "Reducción de celulitis con enzimas recombinantes PBSerum.",
+    "desc_en": "Reducción de celulitis con enzimas recombinantes PBSerum.",
+    "services": [
+      [
+        "Sesión PBSerum Enzimas",
+        800,
+        "00:45"
+      ],
+      [
+        "Carboxiterapia Corporal",
+        180,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "id": 66,
+    "name_es": "NovaPiel Centro Médico Estético",
+    "name_en": "NovaPiel Centro Médico Estético",
+    "category_id": 7,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #405, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7525,
+    "lng": -63.1795,
+    "phone": "+59178008905",
+    "level_id": 3,
+    "desc_es": "Plasma Rico en Plaquetas (PRP) facial y capilar.",
+    "desc_en": "Plasma Rico en Plaquetas (PRP) facial y capilar.",
+    "services": [
+      [
+        "PRP Capilar Anticaída",
+        450,
+        "01:00"
+      ],
+      [
+        "PRP Vampire Facelift con Dermapen",
+        400,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 67,
+    "name_es": "Belleza Médica Dra. Roxana",
+    "name_en": "Belleza Médica Dra. Roxana",
+    "category_id": 7,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #422, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.758,
+    "lng": -63.198,
+    "phone": "+59178009042",
+    "level_id": 3,
+    "desc_es": "Sueroterapia détox y antienvejecimiento celular.",
+    "desc_en": "Sueroterapia détox y antienvejecimiento celular.",
+    "services": [
+      [
+        "Sueroterapia Vitamina C Megadosis",
+        350,
+        "00:45"
+      ],
+      [
+        "Peeling Médico TCA Manchas",
+        420,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 68,
+    "name_es": "LaserClinic Ventura Mall",
+    "name_en": "LaserClinic Ventura Mall",
+    "category_id": 7,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #439, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7635,
+    "lng": -63.1725,
+    "phone": "+59178009179",
+    "level_id": 3,
+    "desc_es": "Depilación láser de diodo indolora y tratamientos vasculares.",
+    "desc_en": "Depilación láser de diodo indolora y tratamientos vasculares.",
+    "services": [
+      [
+        "Tratamiento Arañitas Vasculares Láser",
+        400,
+        "00:45"
+      ],
+      [
+        "Pack 6 Sesiones Axilas & Cavado",
+        900,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 69,
+    "name_es": "Clínica Dental Foianini Equipetrol",
+    "name_en": "Clínica Dental Foianini Equipetrol",
+    "category_id": 8,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #456, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.7635,
+    "lng": -63.1955,
+    "phone": "+59178009316",
+    "level_id": 3,
+    "desc_es": "Odontología digital integral, carillas porcelana y ortodoncia invisible.",
+    "desc_en": "Odontología digital integral, carillas porcelana y ortodoncia invisible.",
+    "services": [
+      [
+        "Diseño Sonrisa Digital Carillas E-Max",
+        1800,
+        "01:30"
+      ],
+      [
+        "Alineadores Invisibles Ortodoncia",
+        3500,
+        "01:00"
+      ],
+      [
+        "Profilaxis con Ultrasonido",
+        180,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 70,
+    "name_es": "Centro Pediátrico & Médico Las Palmas",
+    "name_en": "Centro Pediátrico & Médico Las Palmas",
+    "category_id": 8,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #473, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7735,
+    "lng": -63.192,
+    "phone": "+59178009453",
+    "level_id": 3,
+    "desc_es": "Consultas pediátricas, medicina interna y chequeo integral infantil.",
+    "desc_en": "Consultas pediátricas, medicina interna y chequeo integral infantil.",
+    "services": [
+      [
+        "Consulta Pediátrica Niño Sano",
+        200,
+        "00:40"
+      ],
+      [
+        "Consulta Medicina General",
+        180,
+        "00:35"
+      ],
+      [
+        "Electrocardiograma con Informe",
+        250,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 71,
+    "name_es": "OdontoArt Sirari Smile Design",
+    "name_en": "OdontoArt Sirari Smile Design",
+    "category_id": 8,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #490, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.776,
+    "lng": -63.1975,
+    "phone": "+59178009590",
+    "level_id": 3,
+    "desc_es": "Blanqueamiento dental láser e implantes guiados 3D.",
+    "desc_en": "Blanqueamiento dental láser e implantes guiados 3D.",
+    "services": [
+      [
+        "Blanqueamiento Láser Led Pro (1 Sesión)",
+        450,
+        "01:00"
+      ],
+      [
+        "Implante Dental Titanio + Corona",
+        3200,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "id": 72,
+    "name_es": "Clínica Traumatológica & Fisioterapia SCZ",
+    "name_en": "Clínica Traumatológica & Fisioterapia SCZ",
+    "category_id": 8,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #507, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7728,
+    "lng": -63.1925,
+    "phone": "+59178009727",
+    "level_id": 3,
+    "desc_es": "Rehabilitación física deportiva y lesiones de columna.",
+    "desc_en": "Rehabilitación física deportiva y lesiones de columna.",
+    "services": [
+      [
+        "Sesión Fisioterapia Deportiva",
+        140,
+        "00:50"
+      ],
+      [
+        "Punción Seca & Ondas de Choque",
+        220,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 73,
+    "name_es": "Consultorio Ginecológico Dra. Morales",
+    "name_en": "Consultorio Ginecológico Dra. Morales",
+    "category_id": 8,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #524, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.804,
+    "lng": -63.2035,
+    "phone": "+59178009864",
+    "level_id": 3,
+    "desc_es": "Salud femenina, ecografía 5D HD Live y control prenatal.",
+    "desc_en": "Salud femenina, ecografía 5D HD Live y control prenatal.",
+    "services": [
+      [
+        "Ecografía Obstétrica 5D HD Live",
+        350,
+        "00:40"
+      ],
+      [
+        "Consulta Ginecológica + Papanicolau",
+        250,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 74,
+    "name_es": "Centro Odontológico Urbarí",
+    "name_en": "Centro Odontológico Urbarí",
+    "category_id": 8,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #541, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.7945,
+    "lng": -63.1955,
+    "phone": "+59178010001",
+    "level_id": 3,
+    "desc_es": "Odontopediatría, brackets estéticos y resinas de alta estética.",
+    "desc_en": "Odontopediatría, brackets estéticos y resinas de alta estética.",
+    "services": [
+      [
+        "Curación Dental Resina Estética",
+        120,
+        "00:35"
+      ],
+      [
+        "Instalación Brackets Zafiro",
+        1800,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "id": 75,
+    "name_es": "Laboratorio Clínico Santa Cruz",
+    "name_en": "Laboratorio Clínico Santa Cruz",
+    "category_id": 8,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #558, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7815,
+    "lng": -63.1785,
+    "phone": "+59178010138",
+    "level_id": 3,
+    "desc_es": "Análisis clínicos de rutina, perfil hormonal y tomas a domicilio.",
+    "desc_en": "Análisis clínicos de rutina, perfil hormonal y tomas a domicilio.",
+    "services": [
+      [
+        "Perfil Lipídico Bioquímico Completo",
+        160,
+        "00:20"
+      ],
+      [
+        "Perfil Tiroideo TSH T3 T4",
+        220,
+        "00:20"
+      ]
+    ]
+  },
+  {
+    "id": 76,
+    "name_es": "Consultorio Oftalmológico Visión SCZ",
+    "name_en": "Consultorio Oftalmológico Visión SCZ",
+    "category_id": 8,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #575, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.748,
+    "lng": -63.1795,
+    "phone": "+59178010275",
+    "level_id": 3,
+    "desc_es": "Medición computarizada de la vista y control de glaucoma.",
+    "desc_en": "Medición computarizada de la vista y control de glaucoma.",
+    "services": [
+      [
+        "Examen Oftalmológico Computarizado",
+        180,
+        "00:30"
+      ],
+      [
+        "Tonometría Presión Intraocular",
+        100,
+        "00:20"
+      ]
+    ]
+  },
+  {
+    "id": 77,
+    "name_es": "Nutrición Clínica Lic. Camila",
+    "name_en": "Nutrición Clínica Lic. Camila",
+    "category_id": 8,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #592, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7535,
+    "lng": -63.198,
+    "phone": "+59178010412",
+    "level_id": 3,
+    "desc_es": "Planes nutricionales personalizados y análisis InBody.",
+    "desc_en": "Planes nutricionales personalizados y análisis InBody.",
+    "services": [
+      [
+        "Consulta Nutrición + InBody",
+        200,
+        "00:45"
+      ],
+      [
+        "Plan Alimentario Personalizado 30d",
+        280,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 78,
+    "name_es": "Dental Spa Los Cusis",
+    "name_en": "Dental Spa Los Cusis",
+    "category_id": 8,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #609, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7695,
+    "lng": -63.1725,
+    "phone": "+59178010549",
+    "level_id": 3,
+    "desc_es": "Odontología sin dolor con aromaterapia y placas de bruxismo.",
+    "desc_en": "Odontología sin dolor con aromaterapia y placas de bruxismo.",
+    "services": [
+      [
+        "Limpieza Dental Spa Desensibilizante",
+        150,
+        "00:40"
+      ],
+      [
+        "Placa Miorrelajante Bruxismo",
+        400,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 79,
+    "name_es": "Dermatología Médica Dr. Suárez",
+    "name_en": "Dermatología Médica Dr. Suárez",
+    "category_id": 8,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #626, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.7695,
+    "lng": -63.1955,
+    "phone": "+59178010686",
+    "level_id": 3,
+    "desc_es": "Tratamiento de acné, dermatitis, caída de pelo y lunares.",
+    "desc_en": "Tratamiento de acné, dermatitis, caída de pelo y lunares.",
+    "services": [
+      [
+        "Consulta Dermatológica Especializada",
+        250,
+        "00:40"
+      ],
+      [
+        "Mapeo Digital de Lunares",
+        320,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 80,
+    "name_es": "Quiropráctica de Columna SCZ",
+    "name_en": "Quiropráctica de Columna SCZ",
+    "category_id": 8,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #643, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7795,
+    "lng": -63.192,
+    "phone": "+59178010823",
+    "level_id": 3,
+    "desc_es": "Ajustes vertebrales y descompresión de columna sin cirugía.",
+    "desc_en": "Ajustes vertebrales y descompresión de columna sin cirugía.",
+    "services": [
+      [
+        "Ajuste Quiropráctico Columna",
+        180,
+        "00:35"
+      ],
+      [
+        "Descompresión Lumbar Terapéutica",
+        220,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 81,
+    "name_es": "CardioCheck Centro Cardiológico",
+    "name_en": "CardioCheck Centro Cardiológico",
+    "category_id": 8,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #660, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.7715,
+    "lng": -63.1975,
+    "phone": "+59178010960",
+    "level_id": 3,
+    "desc_es": "Monitoreo cardíaco preventivo, Holter y ecocardiograma Doppler.",
+    "desc_en": "Monitoreo cardíaco preventivo, Holter y ecocardiograma Doppler.",
+    "services": [
+      [
+        "Ecocardiograma Doppler Color",
+        450,
+        "00:45"
+      ],
+      [
+        "Prueba de Esfuerzo Ergometría",
+        400,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 82,
+    "name_es": "Clínica Podológica Santa Cruz",
+    "name_en": "Clínica Podológica Santa Cruz",
+    "category_id": 8,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #677, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7683,
+    "lng": -63.1925,
+    "phone": "+59178011097",
+    "level_id": 3,
+    "desc_es": "Tratamiento podológico para pie diabético y uñas encarnadas.",
+    "desc_en": "Tratamiento podológico para pie diabético y uñas encarnadas.",
+    "services": [
+      [
+        "Servicio Podológico Completo Integral",
+        140,
+        "00:45"
+      ],
+      [
+        "Tratamiento Uña Encarnada Láser",
+        180,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "id": 83,
+    "name_es": "Ink & Art Tattoo Studio Equipetrol",
+    "name_en": "Ink & Art Tattoo Studio Equipetrol",
+    "category_id": 9,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #694, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.7995,
+    "lng": -63.2035,
+    "phone": "+59178011234",
+    "level_id": 2,
+    "desc_es": "Realismo black & grey, fine line y piercings de titanio.",
+    "desc_en": "Realismo black & grey, fine line y piercings de titanio.",
+    "services": [
+      [
+        "Tatuaje Fine Line Minimalista (hasta 5cm)",
+        200,
+        "01:00"
+      ],
+      [
+        "Piercing Titanio Grado Implante",
+        120,
+        "00:30"
+      ],
+      [
+        "Sesión Media Jornada Realismo",
+        900,
+        "04:00"
+      ]
+    ]
+  },
+  {
+    "id": 84,
+    "name_es": "Black Needle Tattoo Collective",
+    "name_en": "Black Needle Tattoo Collective",
+    "category_id": 9,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #711, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.79,
+    "lng": -63.1955,
+    "phone": "+59178011371",
+    "level_id": 3,
+    "desc_es": "Artistas residentes en neotradicional, oriental y lettering.",
+    "desc_en": "Artistas residentes en neotradicional, oriental y lettering.",
+    "services": [
+      [
+        "Diseño Personalizado de Autor",
+        350,
+        "01:30"
+      ],
+      [
+        "Piercing Helix / Tragus Anodizado",
+        140,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 85,
+    "name_es": "Urban Skin Tattoo & Piercing Urbarí",
+    "name_en": "Urban Skin Tattoo & Piercing Urbarí",
+    "category_id": 9,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #728, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7875,
+    "lng": -63.1785,
+    "phone": "+59178011508",
+    "level_id": 2,
+    "desc_es": "Bioseguridad certificada, agujas descartables y tintas veganas.",
+    "desc_en": "Bioseguridad certificada, agujas descartables y tintas veganas.",
+    "services": [
+      [
+        "Piercing Nostril Nariz con Circonia",
+        90,
+        "00:20"
+      ],
+      [
+        "Tatuaje Frase Caligrafía Fina",
+        180,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 86,
+    "name_es": "Holy Grail Tattoo Studio Centro",
+    "name_en": "Holy Grail Tattoo Studio Centro",
+    "category_id": 9,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #745, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.754,
+    "lng": -63.1795,
+    "phone": "+59178011645",
+    "level_id": 3,
+    "desc_es": "Tatuajes old school tradicional y cover-up de tatuajes.",
+    "desc_en": "Tatuajes old school tradicional y cover-up de tatuajes.",
+    "services": [
+      [
+        "Tatuaje Old School Tradicional Flash",
+        220,
+        "01:15"
+      ],
+      [
+        "Cover-Up Tatuaje Antiguo",
+        450,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "id": 87,
+    "name_es": "Golden Ink Las Palmas",
+    "name_en": "Golden Ink Las Palmas",
+    "category_id": 9,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #762, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.7595,
+    "lng": -63.198,
+    "phone": "+59178011782",
+    "level_id": 2,
+    "desc_es": "Ambiente privado para piezas de gran formato y joyería fina.",
+    "desc_en": "Ambiente privado para piezas de gran formato y joyería fina.",
+    "services": [
+      [
+        "Sesión Día Completo Tatuaje (7h)",
+        1600,
+        "07:00"
+      ],
+      [
+        "Perforación Industrial Titanio",
+        160,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 88,
+    "name_es": "Viper Tattoo & Piercing Banzer",
+    "name_en": "Viper Tattoo & Piercing Banzer",
+    "category_id": 9,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #779, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.765,
+    "lng": -63.1725,
+    "phone": "+59178011919",
+    "level_id": 3,
+    "desc_es": "Especialistas en anime, dotwork y microdermales.",
+    "desc_en": "Especialistas en anime, dotwork y microdermales.",
+    "services": [
+      [
+        "Implante Microdermal Titanio",
+        180,
+        "00:30"
+      ],
+      [
+        "Tatuaje Anime / Geometría Dotwork",
+        260,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "id": 89,
+    "name_es": "Prana Yoga & Centro Holístico Equipetrol",
+    "name_en": "Prana Yoga & Centro Holístico Equipetrol",
+    "category_id": 10,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #796, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.765,
+    "lng": -63.1955,
+    "phone": "+59178012056",
+    "level_id": 2,
+    "desc_es": "Vinyasa yoga, sound healing con cuencos y meditación.",
+    "desc_en": "Vinyasa yoga, sound healing con cuencos y meditación.",
+    "services": [
+      [
+        "Terapia de Sonido Cuencos Tibetanos",
+        150,
+        "01:00"
+      ],
+      [
+        "Pase Mensual Yoga Ilimitado",
+        400,
+        "01:00"
+      ],
+      [
+        "Armonización Chakras & Reiki",
+        180,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 90,
+    "name_es": "Centro de Acupuntura & MTC Sirari",
+    "name_en": "Centro de Acupuntura & MTC Sirari",
+    "category_id": 10,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #813, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.775,
+    "lng": -63.192,
+    "phone": "+59178012193",
+    "level_id": 3,
+    "desc_es": "Medicina china, acupuntura bioenergética y ventosas.",
+    "desc_en": "Medicina china, acupuntura bioenergética y ventosas.",
+    "services": [
+      [
+        "Acupuntura China para Dolor & Estrés",
+        160,
+        "00:50"
+      ],
+      [
+        "Ventosaterapia Terapéutica Cupping",
+        120,
+        "00:35"
+      ]
+    ]
+  },
+  {
+    "id": 91,
+    "name_es": "Armonía Holística Las Palmas",
+    "name_en": "Armonía Holística Las Palmas",
+    "category_id": 10,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #830, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.767,
+    "lng": -63.1975,
+    "phone": "+59178012330",
+    "level_id": 2,
+    "desc_es": "Biomagnetismo médico y terapia floral de Bach.",
+    "desc_en": "Biomagnetismo médico y terapia floral de Bach.",
+    "services": [
+      [
+        "Sesión Biomagnetismo Par Médico",
+        200,
+        "01:00"
+      ],
+      [
+        "Terapia Floral Bach + Frasco",
+        150,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 92,
+    "name_es": "Casa Shanti Espacio de Sanación Urbarí",
+    "name_en": "Casa Shanti Espacio de Sanación Urbarí",
+    "category_id": 10,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #847, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7743,
+    "lng": -63.1925,
+    "phone": "+59178012467",
+    "level_id": 3,
+    "desc_es": "Respiración consciente breathwork y constelaciones familiares.",
+    "desc_en": "Respiración consciente breathwork y constelaciones familiares.",
+    "services": [
+      [
+        "Sesión Breathwork Respiración",
+        140,
+        "01:15"
+      ],
+      [
+        "Constelación Familiar Individual",
+        300,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "id": 93,
+    "name_es": "Oasis Zen Terapias Centro",
+    "name_en": "Oasis Zen Terapias Centro",
+    "category_id": 10,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #864, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.8055,
+    "lng": -63.2035,
+    "phone": "+59178012604",
+    "level_id": 2,
+    "desc_es": "Masajes holísticos con aceites orgánicos y sahumerios.",
+    "desc_en": "Masajes holísticos con aceites orgánicos y sahumerios.",
+    "services": [
+      [
+        "Masaje Holístico Integrativo",
+        180,
+        "00:50"
+      ],
+      [
+        "Limpieza Energética Auríca",
+        120,
+        "00:40"
+      ]
+    ]
+  },
+  {
+    "id": 94,
+    "name_es": "Espacio Vitality Yoga & Pilates Banzer",
+    "name_en": "Espacio Vitality Yoga & Pilates Banzer",
+    "category_id": 10,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #881, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.796,
+    "lng": -63.1955,
+    "phone": "+59178012741",
+    "level_id": 3,
+    "desc_es": "Pilates reformer en máquinas y yoga prenatal.",
+    "desc_en": "Pilates reformer en máquinas y yoga prenatal.",
+    "services": [
+      [
+        "Clase Privada Pilates Reformer",
+        130,
+        "00:55"
+      ],
+      [
+        "Yoga Prenatal Embarazadas",
+        90,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 95,
+    "name_es": "Centro Holístico Illimani Los Cusis",
+    "name_en": "Centro Holístico Illimani Los Cusis",
+    "category_id": 10,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #898, Centro, Santa Cruz, Bolivia",
+    "lat": -17.783,
+    "lng": -63.1785,
+    "phone": "+59178012878",
+    "level_id": 2,
+    "desc_es": "Hipnoterapia ericksoniana y tapping EFT para ansiedad.",
+    "desc_en": "Hipnoterapia ericksoniana y tapping EFT para ansiedad.",
+    "services": [
+      [
+        "Hipnoterapia Control de Ansiedad",
+        250,
+        "01:15"
+      ],
+      [
+        "Liberación Emocional Tapping EFT",
+        160,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 96,
+    "name_es": "Ananda Healing Studio Ventura",
+    "name_en": "Ananda Healing Studio Ventura",
+    "category_id": 10,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #115, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7495,
+    "lng": -63.1795,
+    "phone": "+59178013015",
+    "level_id": 3,
+    "desc_es": "Terapia craneosacral para migraña y reiki Usui.",
+    "desc_en": "Terapia craneosacral para migraña y reiki Usui.",
+    "services": [
+      [
+        "Terapia Craneosacral Estrés & Migraña",
+        220,
+        "01:00"
+      ],
+      [
+        "Reiki Usui Tradicional",
+        170,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 97,
+    "name_es": "Alpha Performance Gym Equipetrol",
+    "name_en": "Alpha Performance Gym Equipetrol",
+    "category_id": 11,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #132, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.755,
+    "lng": -63.198,
+    "phone": "+59178013152",
+    "level_id": 2,
+    "desc_es": "Gimnasio boutique de alto rendimiento con entrenadores certificados.",
+    "desc_en": "Gimnasio boutique de alto rendimiento con entrenadores certificados.",
+    "services": [
+      [
+        "Membresía Mensual Full Access + InBody",
+        380,
+        "01:00"
+      ],
+      [
+        "Sesión 1 a 1 Entrenamiento Personal",
+        120,
+        "01:00"
+      ],
+      [
+        "Pase Diario VIP Gym & Sauna",
+        50,
+        "02:00"
+      ]
+    ]
+  },
+  {
+    "id": 98,
+    "name_es": "CrossFit SCZ Urbarí",
+    "name_en": "CrossFit SCZ Urbarí",
+    "category_id": 11,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #149, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7605,
+    "lng": -63.1725,
+    "phone": "+59178013289",
+    "level_id": 3,
+    "desc_es": "Box oficial de CrossFit y levantamiento olímpico de pesas.",
+    "desc_en": "Box oficial de CrossFit y levantamiento olímpico de pesas.",
+    "services": [
+      [
+        "Membresía Mensual CrossFit WOD",
+        350,
+        "01:00"
+      ],
+      [
+        "Clase de Prueba Guiada",
+        40,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 99,
+    "name_es": "Elite Pilates & Functional Las Palmas",
+    "name_en": "Elite Pilates & Functional Las Palmas",
+    "category_id": 11,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #166, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.771,
+    "lng": -63.1955,
+    "phone": "+59178013426",
+    "level_id": 2,
+    "desc_es": "Estudio exclusivo de Pilates Reformer y HIIT funcional.",
+    "desc_en": "Estudio exclusivo de Pilates Reformer y HIIT funcional.",
+    "services": [
+      [
+        "Pack 8 Clases Pilates Reformer",
+        480,
+        "00:55"
+      ],
+      [
+        "Entrenamiento HIIT Funcional",
+        80,
+        "00:50"
+      ]
+    ]
+  },
+  {
+    "id": 100,
+    "name_es": "Iron Body Fitness Banzer",
+    "name_en": "Iron Body Fitness Banzer",
+    "category_id": 11,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #183, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.781,
+    "lng": -63.192,
+    "phone": "+59178013563",
+    "level_id": 3,
+    "desc_es": "Zona de peso libre, cardio cinema y clases de spinning.",
+    "desc_en": "Zona de peso libre, cardio cinema y clases de spinning.",
+    "services": [
+      [
+        "Membresía Trimestral Promo",
+        850,
+        "01:00"
+      ],
+      [
+        "Clase Spinning Indoor Cycling",
+        35,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 101,
+    "name_es": "PowerBox Training Sirari",
+    "name_en": "PowerBox Training Sirari",
+    "category_id": 11,
+    "zone": "Equipetrol",
+    "address": "Av. San Martín #200, Equipetrol, Santa Cruz, Bolivia",
+    "lat": -17.773,
+    "lng": -63.1975,
+    "phone": "+59178013700",
+    "level_id": 2,
+    "desc_es": "Entrenamiento de fuerza, calistenia y movilidad.",
+    "desc_en": "Entrenamiento de fuerza, calistenia y movilidad.",
+    "services": [
+      [
+        "Membresía Calistenia & Fuerza",
+        320,
+        "01:00"
+      ],
+      [
+        "Evaluación Fuerza & Movilidad",
+        100,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 102,
+    "name_es": "Fight Club Boxing Gym Centro",
+    "name_en": "Fight Club Boxing Gym Centro",
+    "category_id": 11,
+    "zone": "Sirari",
+    "address": "Calle Los Claveles #217, Sirari, Santa Cruz, Bolivia",
+    "lat": -17.7698,
+    "lng": -63.1925,
+    "phone": "+59178013837",
+    "level_id": 3,
+    "desc_es": "Boxeo recreativo anti-estrés y kickboxing funcional.",
+    "desc_en": "Boxeo recreativo anti-estrés y kickboxing funcional.",
+    "services": [
+      [
+        "Clase Boxeo Recreativo Anti-Estrés",
+        50,
+        "01:00"
+      ],
+      [
+        "Membresía Mensual Boxeo",
+        300,
+        "01:00"
+      ]
+    ]
+  },
+  {
+    "id": 103,
+    "name_es": "Curves & Fitness Studio Los Cusis",
+    "name_en": "Curves & Fitness Studio Los Cusis",
+    "category_id": 11,
+    "zone": "Las Palmas",
+    "address": "Av. Las Palmas #234, Las Palmas, Santa Cruz, Bolivia",
+    "lat": -17.801,
+    "lng": -63.2035,
+    "phone": "+59178013974",
+    "level_id": 2,
+    "desc_es": "Gimnasio exclusivo para mujeres con circuito y zumba.",
+    "desc_en": "Gimnasio exclusivo para mujeres con circuito y zumba.",
+    "services": [
+      [
+        "Membresía Circuito Femenino + Zumba",
+        280,
+        "00:45"
+      ],
+      [
+        "Clase GAP Glúteos & Abdomen",
+        35,
+        "00:45"
+      ]
+    ]
+  },
+  {
+    "id": 104,
+    "name_es": "Smart Fit Ventura Mall",
+    "name_en": "Smart Fit Ventura Mall",
+    "category_id": 11,
+    "zone": "Urbarí",
+    "address": "Av. Piraí #251, Urbarí, Santa Cruz, Bolivia",
+    "lat": -17.7915,
+    "lng": -63.1955,
+    "phone": "+59178014111",
+    "level_id": 3,
+    "desc_es": "Tecnología de punta y sillones de hidromasaje.",
+    "desc_en": "Tecnología de punta y sillones de hidromasaje.",
+    "services": [
+      [
+        "Plan Black Acceso Total Sedes",
+        299,
+        "01:00"
+      ],
+      [
+        "Sillón Hidromasaje Post-Entreno",
+        40,
+        "00:20"
+      ]
+    ]
+  },
+  {
+    "id": 105,
+    "name_es": "Hospital Veterinario 24/7 Equipetrol",
+    "name_en": "Hospital Veterinario 24/7 Equipetrol",
+    "category_id": 12,
+    "zone": "Centro",
+    "address": "Calle 24 de Septiembre #268, Centro, Santa Cruz, Bolivia",
+    "lat": -17.7785,
+    "lng": -63.1785,
+    "phone": "+59178014248",
+    "level_id": 2,
+    "desc_es": "Emergencias veterinarias 24h, quirófano, rayos X y ecografía.",
+    "desc_en": "Emergencias veterinarias 24h, quirófano, rayos X y ecografía.",
+    "services": [
+      [
+        "Consulta Veterinaria General",
+        120,
+        "00:35"
+      ],
+      [
+        "Vacunación Séxtuple / Triple Felina",
+        140,
+        "00:25"
+      ],
+      [
+        "Ecografía Abdominal Veterinaria",
+        200,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 106,
+    "name_es": "Pet Spa & Grooming Boutique Sirari",
+    "name_en": "Pet Spa & Grooming Boutique Sirari",
+    "category_id": 12,
+    "zone": "Av. Banzer",
+    "address": "Av. Banzer Km 4 #285, Av. Banzer, Santa Cruz, Bolivia",
+    "lat": -17.7555,
+    "lng": -63.1795,
+    "phone": "+59178014385",
+    "level_id": 3,
+    "desc_es": "Baño spa con ozonoterapia y corte de raza estética.",
+    "desc_en": "Baño spa con ozonoterapia y corte de raza estética.",
+    "services": [
+      [
+        "Baño Ozonoterapia + Corte Raza",
+        110,
+        "01:30"
+      ],
+      [
+        "Uñas, Oídos y Dientes Combo",
+        60,
+        "00:30"
+      ],
+      [
+        "Deslanado Profundo Canino",
+        140,
+        "01:45"
+      ]
+    ]
+  },
+  {
+    "id": 107,
+    "name_es": "Clínica Veterinaria Las Palmas",
+    "name_en": "Clínica Veterinaria Las Palmas",
+    "category_id": 12,
+    "zone": "Ventura Mall",
+    "address": "4to Anillo esq. San Martín #302, Ventura Mall, Santa Cruz, Bolivia",
+    "lat": -17.761,
+    "lng": -63.198,
+    "phone": "+59178014522",
+    "level_id": 2,
+    "desc_es": "Cirugías seguras, esterilización y profilaxis dental para mascotas.",
+    "desc_en": "Cirugías seguras, esterilización y profilaxis dental para mascotas.",
+    "services": [
+      [
+        "Profilaxis Dental Ultrasónica Mascota",
+        320,
+        "01:00"
+      ],
+      [
+        "Esterilización Canina/Felina Segura",
+        450,
+        "01:30"
+      ]
+    ]
+  },
+  {
+    "id": 108,
+    "name_es": "Pet Center & Peluquería Urbarí",
+    "name_en": "Pet Center & Peluquería Urbarí",
+    "category_id": 12,
+    "zone": "Los Cusis",
+    "address": "Av. Los Cusis #319, Los Cusis, Santa Cruz, Bolivia",
+    "lat": -17.7665,
+    "lng": -63.1725,
+    "phone": "+59178014659",
+    "level_id": 3,
+    "desc_es": "Baños medicados antipulgas y peluquería felina sin sedación.",
+    "desc_en": "Baños medicados antipulgas y peluquería felina sin sedación.",
+    "services": [
+      [
+        "Baño Medicado Antipulgas",
+        90,
+        "01:00"
+      ],
+      [
+        "Peluquería Felina sin Sedación",
+        130,
+        "01:15"
+      ]
+    ]
+  },
+  {
+    "id": 109,
+    "name_es": "Clínica Veterinaria San Roque Centro",
+    "name_en": "Clínica Veterinaria San Roque Centro",
+    "category_id": 12,
+    "zone": "Equipetrol Norte",
+    "address": "Torre Empresarial DUO #336, Equipetrol Norte, Santa Cruz, Bolivia",
+    "lat": -17.7665,
+    "lng": -63.1955,
+    "phone": "+59178014796",
+    "level_id": 2,
+    "desc_es": "Atención veterinaria integral con más de 20 años de experiencia.",
+    "desc_en": "Atención veterinaria integral con más de 20 años de experiencia.",
+    "services": [
+      [
+        "Consulta Veterinaria & Diagnóstico",
+        100,
+        "00:30"
+      ],
+      [
+        "Hemograma y Bioquímica Mascota",
+        180,
+        "00:30"
+      ]
+    ]
+  },
+  {
+    "id": 110,
+    "name_es": "Pet Paradise Banzer",
+    "name_en": "Pet Paradise Banzer",
+    "category_id": 12,
+    "zone": "3er Anillo Busch",
+    "address": "Av. Busch esq. 3er Anillo #353, 3er Anillo Busch, Santa Cruz, Bolivia",
+    "lat": -17.7765,
+    "lng": -63.192,
+    "phone": "+59178014933",
+    "level_id": 3,
+    "desc_es": "Guardería de día, hotel canino y peluquería con transporte.",
+    "desc_en": "Guardería de día, hotel canino y peluquería con transporte.",
+    "services": [
+      [
+        "Día de Guardería Canina & Juegos",
+        70,
+        "08:00"
+      ],
+      [
+        "Baño con Traslado Puerta a Puerta",
+        120,
+        "02:00"
+      ]
+    ]
+  }
+]
