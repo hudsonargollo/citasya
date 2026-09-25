@@ -238,8 +238,12 @@ class BlogService
      */
     protected function renderMarkdownWithToc(string $markdown, string $slug): array
     {
-        // Replace relative image paths
-        $markdown = preg_replace('/!\[(.*?)\]\(\.\.\/images\/(.*?)\)/', '![$1](/images/blog/$2)', $markdown);
+        // Replace relative image paths with cache-busting timestamp
+        $markdown = preg_replace_callback('/!\[(.*?)\]\(\.\.\/images\/(.*?)\)/', function ($m) {
+            $imgPath = public_path('images/blog/' . $m[2]);
+            $ver = file_exists($imgPath) ? filemtime($imgPath) : time();
+            return sprintf('![%s](/images/blog/%s?v=%s)', $m[1], $m[2], $ver);
+        }, $markdown);
 
         // Convert markdown to HTML via Laravel standard Str::markdown
         $html = Str::markdown($markdown);
