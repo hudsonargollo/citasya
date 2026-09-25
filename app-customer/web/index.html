@@ -331,6 +331,17 @@
     })();
   </script>
 
+  <!-- Unregister any stale service workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
+
   <!-- Flutter Web Bootstrap -->
   <script src="flutter_bootstrap.js?v=20260924v12" async></script>
 </body>
