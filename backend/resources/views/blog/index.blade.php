@@ -66,9 +66,9 @@
 
   <!-- Header -->
   <header class="sticky top-0 z-50 bg-[#FAFDF7]/95 backdrop-blur-md border-b border-lime-100 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between">
       <a class="flex items-center gap-3 group" href="{{ route('home') }}">
-        <img alt="CitasYa" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logocitasya.webp?v=10"/>
+        <img alt="CitasYa" class="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logocitasya.webp?v=10"/>
       </a>
 
       <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">

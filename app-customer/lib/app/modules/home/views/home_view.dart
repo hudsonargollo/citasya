@@ -22,9 +22,10 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          Get.find<SettingsService>().setting.value.appName ?? "",
-          style: Get.textTheme.titleLarge,
+        title: Image.asset(
+          'assets/img/logocitasya.webp',
+          height: 44,
+          fit: BoxFit.contain,
         ),
         centerTitle: true,
         backgroundColor: Colors.transparent,

@@ -126,14 +126,14 @@
 <!-- END: TopAnnouncementBar -->
 <!-- BEGIN: MainHeader -->
 <header class="sticky top-0 z-50 bg-[#FAFDF7]/90 backdrop-blur-md border-b border-lime-100 transition-all duration-300" data-purpose="site-header">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between">
 <!-- Brand Logo -->
 <a class="flex items-center gap-2.5 group" href="#">
   <div class="flex items-center gap-3">
-    <img alt="CitasYa Oficial" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logocitasya.webp?v=10"/>
+    <img alt="CitasYa Oficial" class="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logocitasya.webp?v=10"/>
     <div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3">
-      <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span>
-      <span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
+      <span class="text-[11px] tracking-widest uppercase font-bold text-slate-400 leading-none">Santa Cruz</span>
+      <span class="text-[10px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
     </div>
   </div>
 </a>

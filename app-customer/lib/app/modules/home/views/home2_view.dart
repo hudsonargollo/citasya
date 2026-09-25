@@ -45,11 +45,10 @@ class Home2View extends GetView<HomeController> {
               floating: true,
               pinned: true,
               iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
-              title: Text(
-                Get.find<SettingsService>().setting.value.appName ?? "CitasYa",
-                style: Get.textTheme.titleLarge?.merge(
-                  const TextStyle(fontWeight: FontWeight.w800),
-                ),
+              title: Image.asset(
+                'assets/img/logocitasya.webp',
+                height: 44,
+                fit: BoxFit.contain,
               ),
               centerTitle: true,
               automaticallyImplyLeading: false,

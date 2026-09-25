@@ -42,9 +42,10 @@ class HomeView extends GetView<HomeController> {
                     elevation: 0.5,
                     floating: false,
                     iconTheme: IconThemeData(color: Get.theme.primaryColor),
-                    title: Text(
-                      Get.find<SettingsService>().setting.value.salonAppName ?? "",
-                      style: Get.textTheme.titleLarge,
+                    title: Image.asset(
+                      'assets/img/logocitasya.webp',
+                      height: 44,
+                      fit: BoxFit.contain,
                     ),
                     centerTitle: true,
                     automaticallyImplyLeading: false,
