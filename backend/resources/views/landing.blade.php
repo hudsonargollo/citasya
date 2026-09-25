@@ -3,7 +3,7 @@
 <html class="scroll-smooth" lang="es" style=""><svg aria-hidden="true" class="inline-defs-container" style="position:absolute;width:0;height:0;overflow:hidden"></svg><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>CitasYa | Reserva de citas y servicios profesionales en Santa Cruz, Bolivia</title>
+{!! SEO::generate() !!}
 <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg?v=20260925') }}"/>
 <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicon.png?v=20260925') }}"/>
 <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon-96x96.png?v=20260925') }}"/>
