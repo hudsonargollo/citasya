@@ -147,6 +147,7 @@
 <a class="hover:text-brand-darklime transition-colors" href="#para-negocios">Para Negocios</a>
 <a class="hover:text-brand-darklime transition-colors" href="#testimonios">Especialistas</a>
 <a class="hover:text-brand-darklime transition-colors" href="#precios">Precios</a>
+<a class="hover:text-brand-darklime transition-colors" href="{{ route('blog.index') }}">Blog</a>
 </nav>
 <!-- Header Action Buttons -->
 <div class="flex items-center gap-3">
@@ -1022,9 +1023,10 @@
 </div>
 <!-- Col 3: Plataforma -->
 <div>
-<h4 class="font-display font-bold text-sm text-white uppercase tracking-wider mb-4">Negocios</h4>
+<h4 class="font-display font-bold text-sm text-white uppercase tracking-wider mb-4">Negocios & Recursos</h4>
 <ul class="space-y-2.5 text-xs text-slate-400">
 <li class=""><a class="hover:text-brand-lime transition" href="#para-negocios">Cómo Funciona</a></li>
+<li class=""><a class="hover:text-brand-lime transition" href="{{ route('blog.index') }}">Blog & Artículos</a></li>
 <li class=""><a class="hover:text-brand-lime transition" href="#para-negocios">Integración con WhatsApp</a></li>
 <li class=""><a class="hover:text-brand-lime transition" href="#para-negocios">Cobros con Simple QR</a></li>
 <li class=""><a class="hover:text-brand-lime transition" href="#precios">Planes y Precios</a></li>

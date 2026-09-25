@@ -58,6 +58,10 @@ Route::get('/', function () {
     return view('landing');
 })->name('home');
 
+Route::get('blog', 'BlogController@index')->name('blog.index');
+Route::get('blog/feed', 'BlogController@feed')->name('blog.feed');
+Route::get('blog/{slug}', 'BlogController@show')->name('blog.show');
+
 Route::get('brand-guidelines', function () {
     return view('brand_guidelines');
 })->name('brand-guidelines');
