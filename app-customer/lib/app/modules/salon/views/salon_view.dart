@@ -66,9 +66,19 @@ class SalonView extends GetView<SalonController> {
                     iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
                     centerTitle: true,
                     automaticallyImplyLeading: false,
-                    leading: new IconButton(
-                      icon: new Icon(Icons.arrow_back_ios, color: Get.theme.hintColor),
-                      onPressed: () => {Get.back()},
+                    leading: Padding(
+                      padding: const EdgeInsets.all(6.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black.withOpacity(0.4),
+                          shape: BoxShape.circle,
+                        ),
+                        child: IconButton(
+                          padding: const EdgeInsets.only(left: 6),
+                          icon: const Icon(Icons.arrow_back_ios, color: Colors.white, size: 18),
+                          onPressed: () => Get.back(),
+                        ),
+                      ),
                     ),
                     bottom: buildSalonTitleBarWidget(_salon),
                     flexibleSpace: FlexibleSpaceBar(
@@ -78,43 +88,49 @@ class SalonView extends GetView<SalonController> {
                         return Stack(
                           alignment: AlignmentDirectional.bottomCenter,
                           children: <Widget>[
-                            // Background premium gradient banner
+                            // Background premium photorealistic 3D spa/salon ambience
+                            Positioned.fill(
+                              child: Image.asset(
+                                'assets/img/spa.png',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                            // Rich emerald & dark slate gradient overlay
                             Positioned.fill(
                               child: Container(
-                                decoration: const BoxDecoration(
+                                decoration: BoxDecoration(
                                   gradient: LinearGradient(
-                                    begin: Alignment.topLeft,
-                                    end: Alignment.bottomRight,
-                                    colors: [Color(0xFF042F1A), Color(0xFF006948)],
+                                    begin: Alignment.topCenter,
+                                    end: Alignment.bottomCenter,
+                                    colors: [
+                                      Colors.black.withOpacity(0.45),
+                                      const Color(0xDD042F1A),
+                                      const Color(0xFF004D34),
+                                    ],
                                   ),
                                 ),
                               ),
                             ),
-                            // Decorative watermark subtle grid
+                            // Floating Branded Squircle Logo Badge with neon lime glow
                             Positioned(
-                              right: -40,
-                              top: -40,
-                              child: Icon(
-                                Icons.calendar_today_outlined,
-                                size: 240,
-                                color: const Color(0xFF84CC16).withOpacity(0.06),
-                              ),
-                            ),
-                            // Floating Branded Squircle Logo Badge
-                            Positioned(
-                              bottom: 120,
+                              bottom: 110,
                               child: Container(
-                                width: 120,
-                                height: 120,
+                                width: 124,
+                                height: 124,
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(28),
-                                  border: Border.all(color: const Color(0xFF84CC16), width: 4),
+                                  border: Border.all(color: const Color(0xFF84CC16), width: 3.5),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: Colors.black.withOpacity(0.2),
-                                      blurRadius: 15,
+                                      color: const Color(0xFF84CC16).withOpacity(0.35),
+                                      blurRadius: 25,
                                       offset: const Offset(0, 8),
+                                    ),
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.3),
+                                      blurRadius: 15,
+                                      offset: const Offset(0, 6),
                                     ),
                                   ],
                                 ),
