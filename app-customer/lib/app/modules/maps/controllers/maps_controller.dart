@@ -50,21 +50,33 @@ class MapsController extends GetxController {
   }
 
   Future<void> getCurrentPosition() async {
+    LatLng pos = (!currentAddress.isUnknown()) ? currentAddress.getLatLng() : LatLng(-17.7833, -63.1821);
     cameraPosition.value = CameraPosition(
-      target: currentAddress.getLatLng(),
+      target: pos,
       zoom: 14.4746,
     );
-    Marker marker = await _getMyPositionMarker(currentAddress.getLatLng());
-    allMarkers.add(marker);
+    try {
+      Marker marker = await _getMyPositionMarker(pos);
+      allMarkers.add(marker);
+    } catch (e) {
+      Get.log('Marker error: $e');
+    }
   }
 
   Future getNearSalons() async {
     try {
       salons.clear();
-      salons.assignAll(await _salonRepository.getNearSalons(currentAddress.getLatLng(), cameraPosition.value.target));
+      LatLng center = cameraPosition.value.target;
+      salons.assignAll(await _salonRepository.getNearSalons(center, center));
       salons.forEach((element) async {
-        var salonMarket = await getSalonMarker(element);
-        allMarkers.add(salonMarket);
+        if (element.address != null && !element.address!.isUnknown()) {
+          try {
+            var salonMarket = await getSalonMarker(element);
+            allMarkers.add(salonMarket);
+          } catch (e) {
+            Get.log('Salon marker error: $e');
+          }
+        }
       });
     } catch (e) {
       Get.showSnackbar(Ui.ErrorSnackBar(message: e.toString()));
