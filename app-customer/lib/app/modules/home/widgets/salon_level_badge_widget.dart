@@ -23,7 +23,7 @@ class SalonLevelBadgeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsetsDirectional.only(start: 12, top: 10),
-      child: Text(_salon.salonLevel?.name ?? '',
+      child: Text(_salon.salonLevel?.name.tr ?? '',
           maxLines: 1,
           style: Get.textTheme.bodyMedium?.merge(
             TextStyle(color: Get.theme.primaryColor, height: 1.4, fontSize: 10),
