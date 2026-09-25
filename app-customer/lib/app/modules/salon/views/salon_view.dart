@@ -77,8 +77,61 @@ class SalonView extends GetView<SalonController> {
                         return Stack(
                           alignment: AlignmentDirectional.bottomCenter,
                           children: <Widget>[
-                            buildCarouselSlider(_salon),
-                            buildCarouselBullets(_salon),
+                            // Background premium gradient banner
+                            Positioned.fill(
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  gradient: LinearGradient(
+                                    begin: Alignment.topLeft,
+                                    end: Alignment.bottomRight,
+                                    colors: [Color(0xFF042F1A), Color(0xFF006948)],
+                                  ),
+                                ),
+                              ),
+                            ),
+                            // Decorative watermark subtle grid
+                            Positioned(
+                              right: -40,
+                              top: -40,
+                              child: Icon(
+                                Icons.calendar_today_outlined,
+                                size: 240,
+                                color: const Color(0xFF84CC16).withOpacity(0.06),
+                              ),
+                            ),
+                            // Floating Branded Squircle Logo Badge
+                            Positioned(
+                              bottom: 120,
+                              child: Container(
+                                width: 120,
+                                height: 120,
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(28),
+                                  border: Border.all(color: const Color(0xFF84CC16), width: 4),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.2),
+                                      blurRadius: 15,
+                                      offset: const Offset(0, 8),
+                                    ),
+                                  ],
+                                ),
+                                padding: const EdgeInsets.all(8),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: CachedNetworkImage(
+                                    imageUrl: _salon.firstImageUrl,
+                                    fit: BoxFit.contain,
+                                    placeholder: (context, url) => Image.asset(
+                                      'assets/img/loading.gif',
+                                      fit: BoxFit.contain,
+                                    ),
+                                    errorWidget: (context, url, error) => const Icon(Icons.error_outline),
+                                  ),
+                                ),
+                              ),
+                            ),
                           ],
                         ).paddingOnly(bottom: 70);
                       }),
