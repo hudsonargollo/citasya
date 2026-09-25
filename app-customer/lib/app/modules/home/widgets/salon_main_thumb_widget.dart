@@ -26,20 +26,23 @@ class SalonMainThumbWidget extends StatelessWidget {
       children: [
         Hero(
           tag: 'recommended_carousel' + (_salon.id ?? ''),
-          child: ClipRRect(
-            borderRadius: BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
-            child: CachedNetworkImage(
-              height: 150,
-              width: double.infinity,
-              fit: BoxFit.cover,
-              imageUrl: _salon.firstImageUrl,
-              placeholder: (context, url) => Image.asset(
-                'assets/img/loading.gif',
-                fit: BoxFit.cover,
+          child: Container(
+            color: const Color(0xFFFAFDF7),
+            child: ClipRRect(
+              borderRadius: const BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
+              child: CachedNetworkImage(
+                height: 150,
                 width: double.infinity,
-                height: 100,
+                fit: BoxFit.contain,
+                imageUrl: _salon.firstImageUrl,
+                placeholder: (context, url) => Image.asset(
+                  'assets/img/loading.gif',
+                  fit: BoxFit.contain,
+                  width: double.infinity,
+                  height: 100,
+                ),
+                errorWidget: (context, url, error) => const Icon(Icons.error_outline),
               ),
-              errorWidget: (context, url, error) => Icon(Icons.error_outline),
             ),
           ),
         ),

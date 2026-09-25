@@ -136,33 +136,35 @@
                         </div>
                     </div>
                     <div class="card-body p-0">
-                        <table class="table table-striped table-valign-middle">
-                            <thead>
-                            <tr>
-                                <th>{{trans('lang.salon_image')}}</th>
-                                <th>{{trans('lang.salon')}}</th>
-                                <th>{{trans('lang.salon_address')}}</th>
-                                <th>{{trans('lang.actions')}}</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            @foreach($salons as $salon)
-
+                        <div class="table-responsive">
+                            <table class="table table-striped table-valign-middle">
+                                <thead>
                                 <tr>
-                                    <td>
-                                        {!! getMediaColumn($salon, 'image','img-circle mr-2') !!}
-                                    </td>
-                                    <td>{!! $salon->name !!}</td>
-                                    <td>
-                                        {!! $salon->address == null ? '' : $salon->address->address !!}
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="{!! route('salons.edit',$salon->id) !!}" class="text-muted"> <i class="fas fa-edit"></i> </a>
-                                    </td>
+                                    <th>{{trans('lang.salon_image')}}</th>
+                                    <th>{{trans('lang.salon')}}</th>
+                                    <th>{{trans('lang.salon_address')}}</th>
+                                    <th>{{trans('lang.actions')}}</th>
                                 </tr>
-                            @endforeach
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                @foreach($salons as $salon)
+    
+                                    <tr>
+                                        <td>
+                                            {!! getMediaColumn($salon, 'image','img-circle mr-2') !!}
+                                        </td>
+                                        <td>{!! $salon->name !!}</td>
+                                        <td>
+                                            {!! $salon->address == null ? '' : $salon->address->address !!}
+                                        </td>
+                                        <td class="text-center">
+                                            <a href="{!! route('salons.edit',$salon->id) !!}" class="text-muted"> <i class="fas fa-edit"></i> </a>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
