@@ -189,18 +189,24 @@
                 </div>
 
                 <div class="lg:col-span-5">
-                  <div class="relative rounded-2xl bg-gradient-to-tr from-brand-cruz/40 via-lime-500/20 to-slate-800 p-8 border border-lime-500/20 aspect-video lg:aspect-[4/3] flex flex-col justify-between overflow-hidden shadow-inner">
-                    <div class="flex items-center justify-between">
-                      <span class="text-xs font-bold text-lime-400 uppercase tracking-widest">CitasYa Insights</span>
-                      <span class="w-3 h-3 rounded-full bg-lime-400 animate-pulse"></span>
+                  @if(!empty($featuredPost['image']) && file_exists(public_path($featuredPost['image'])))
+                    <div class="relative rounded-2xl overflow-hidden aspect-video border border-lime-500/30 shadow-lg group-hover:scale-105 transition-transform duration-500">
+                      <img src="{{ $featuredPost['image'] }}" alt="{{ $featuredPost['title'] }}" class="w-full h-full object-cover">
                     </div>
-                    <div>
-                      <span class="text-xs text-slate-300 uppercase tracking-wider block font-semibold mb-1">Palabra Clave Estratégica:</span>
-                      <div class="bg-slate-900/80 backdrop-blur-sm px-3.5 py-2 rounded-xl text-xs font-mono text-lime-300 border border-lime-500/30">
-                        {{ $featuredPost['target_keyword'] ?: 'reservas online santa cruz' }}
+                  @else
+                    <div class="relative rounded-2xl bg-gradient-to-tr from-brand-cruz/40 via-lime-500/20 to-slate-800 p-8 border border-lime-500/20 aspect-video lg:aspect-[4/3] flex flex-col justify-between overflow-hidden shadow-inner">
+                      <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold text-lime-400 uppercase tracking-widest">CitasYa Insights</span>
+                        <span class="w-3 h-3 rounded-full bg-lime-400 animate-pulse"></span>
+                      </div>
+                      <div>
+                        <span class="text-xs text-slate-300 uppercase tracking-wider block font-semibold mb-1">Palabra Clave Estratégica:</span>
+                        <div class="bg-slate-900/80 backdrop-blur-sm px-3.5 py-2 rounded-xl text-xs font-mono text-lime-300 border border-lime-500/30">
+                          {{ $featuredPost['target_keyword'] ?: 'reservas online santa cruz' }}
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  @endif
                 </div>
               </div>
             </a>

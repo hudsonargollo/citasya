@@ -49,6 +49,15 @@
   </script>
   <style>
     /* Prose and Custom Typography Enhancements */
+    .prose-citasya img {
+      width: 100%;
+      height: auto;
+      border-radius: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      border: 1px solid #E2E8F0;
+      box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.12);
+    }
     .prose-citasya h1 {
       display: none; /* Already rendered in the header */
     }
