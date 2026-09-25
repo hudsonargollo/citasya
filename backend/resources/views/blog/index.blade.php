@@ -69,10 +69,6 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       <a class="flex items-center gap-3 group" href="{{ route('home') }}">
         <img alt="CitasYa" class="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105" src="/images/brand/logocitasya.webp?v=10"/>
-        <div class="hidden sm:flex flex-col text-left border-l border-slate-200 pl-3">
-          <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 leading-none">Blog & Recursos</span>
-          <span class="text-[9px] tracking-wider uppercase font-semibold text-emerald-600 mt-0.5">Bolivia</span>
-        </div>
       </a>
 
       <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
