@@ -74,6 +74,7 @@ class SalonView extends GetView<SalonController> {
                     flexibleSpace: FlexibleSpaceBar(
                       collapseMode: CollapseMode.pin,
                       background: Obx(() {
+                        final String logoUrl = controller.salon.value.firstImageUrl;
                         return Stack(
                           alignment: AlignmentDirectional.bottomCenter,
                           children: <Widget>[
@@ -121,7 +122,7 @@ class SalonView extends GetView<SalonController> {
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(20),
                                   child: CachedNetworkImage(
-                                    imageUrl: _salon.firstImageUrl,
+                                    imageUrl: logoUrl,
                                     fit: BoxFit.contain,
                                     placeholder: (context, url) => Image.asset(
                                       'assets/img/loading.gif',
