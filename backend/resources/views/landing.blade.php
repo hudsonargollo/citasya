@@ -1076,12 +1076,12 @@
       
       <!-- Mode Toggle Switcher -->
       <div class="flex rounded-2xl bg-slate-100 p-1 mb-6 border border-slate-200">
-        <button id="btnTabNew" onclick="switchExpressTab('new')" class="flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1.5">
-          <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+        <button id="btnTabNew" onclick="switchExpressTab('new')" class="flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1 sm:gap-1.5">
+          <svg class="hidden sm:inline-block w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
           <span>Primera Vez</span>
         </button>
-        <button id="btnTabReturning" onclick="switchExpressTab('returning')" class="flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5">
-          <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 0121 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        <button id="btnTabReturning" onclick="switchExpressTab('returning')" class="flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1 sm:gap-1.5">
+          <svg class="hidden sm:inline-block w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 0121 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
           <span>Ya Tengo Cuenta</span>
         </button>
       </div>
@@ -1199,14 +1199,14 @@ function switchExpressTab(type) {
   if (type === 'new') {
     newForm.classList.remove('hidden');
     loginForm.classList.add('hidden');
-    btnNew.className = "flex-1 py-2 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm";
-    btnRet.className = "flex-1 py-2 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800";
+    btnNew.className = "flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1 sm:gap-1.5";
+    btnRet.className = "flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1 sm:gap-1.5";
     title.innerHTML = "<span>Reserva tu Cita al Instante</span>";
   } else {
     newForm.classList.add('hidden');
     loginForm.classList.remove('hidden');
-    btnRet.className = "flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1.5";
-    btnNew.className = "flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5";
+    btnRet.className = "flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1 sm:gap-1.5";
+    btnNew.className = "flex-1 py-2.5 px-1.5 text-[11px] sm:text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1 sm:gap-1.5";
     title.innerHTML = "<span>Bienvenido de Nuevo</span>";
   }
 }
