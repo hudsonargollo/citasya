@@ -1,0 +1,10 @@
+{
+  "business_name": "Luxe Nail Boutique Banzer",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/dd14e963610161.5ab6471f391af.png",
+  "output_file": "/var/www/html/public/images/salons/luxe_nail_boutique_banzer_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

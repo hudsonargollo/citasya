@@ -1,0 +1,10 @@
+{
+  "business_name": "Renacer Facial Spa Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://imgv2-2-f.scribdassets.com/img/document/682851385/original/dc3659fecb/1?v=1",
+  "output_file": "/var/www/html/public/images/salons/renacer_facial_spa_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

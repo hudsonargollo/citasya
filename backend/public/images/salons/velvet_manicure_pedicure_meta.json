@@ -1,0 +1,10 @@
+{
+  "business_name": "Velvet Manicure & Pedicure",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/027/420/373/non_2x/menicure-pedicure-logo-with-foot-illustrasi-logo-design-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/velvet_manicure_pedicure_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

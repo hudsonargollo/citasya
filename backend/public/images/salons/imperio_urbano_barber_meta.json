@@ -1,0 +1,10 @@
+{
+  "business_name": "Imperio Urbano Barber",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://d1yjjnpx0p53s8.cloudfront.net/logotipo-imperio-barberia-vector1.png",
+  "output_file": "/var/www/html/public/images/salons/imperio_urbano_barber_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

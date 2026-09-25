@@ -1,0 +1,10 @@
+{
+  "business_name": "Aqua Spa & Club Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.boliviaentusmanos.com/amarillas/blogos/aqua-spa-logo.jpg",
+  "output_file": "/var/www/html/public/images/salons/aqua_spa_club_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

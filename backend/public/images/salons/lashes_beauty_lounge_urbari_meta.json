@@ -1,0 +1,10 @@
+{
+  "business_name": "Lashes & Beauty Lounge Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/019/499/072/non_2x/lash-beauty-salon-or-lashmaking-studio-logotype-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/lashes_beauty_lounge_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

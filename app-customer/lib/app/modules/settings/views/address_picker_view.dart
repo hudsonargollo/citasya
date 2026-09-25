@@ -7,6 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_place_picker_mb/google_maps_place_picker.dart';
 
 import '../../../models/address_model.dart';
@@ -22,13 +23,19 @@ class AddressPickerView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    LatLng initialPos = Get.find<SettingsService>().address.value.getLatLng();
+    if ((initialPos.latitude == 0 && initialPos.longitude == 0) || Get.find<SettingsService>().address.value.isUnknown()) {
+      initialPos = const LatLng(-17.7833, -63.1821);
+    }
     return PlacePicker(
       apiKey: Get.find<SettingsService>().setting.value.googleMapsKey ?? '',
-      initialPosition: Get.find<SettingsService>().address.value.getLatLng(),
+      initialPosition: initialPos,
       useCurrentLocation: true,
       selectInitialPosition: true,
       usePlaceDetailSearch: true,
       forceSearchOnZoomChanged: true,
+      ignoreLocationPermissionErrors: true,
+      desiredLocationAccuracy: LocationAccuracy.medium,
       selectedPlaceWidgetBuilder: (_, selectedPlace, state, isSearchBarFocused) {
         if (isSearchBarFocused) {
           return SizedBox();

@@ -1,0 +1,10 @@
+{
+  "business_name": "Nail Art Lounge Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/1_860075-120.jpg",
+  "output_file": "/var/www/html/public/images/salons/nail_art_lounge_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

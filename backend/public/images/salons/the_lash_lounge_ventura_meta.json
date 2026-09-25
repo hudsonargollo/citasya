@@ -1,0 +1,10 @@
+{
+  "business_name": "The Lash Lounge Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mma.prnewswire.com/media/2961122/The_Lash_Lounge__Logo.jpg?p=facebook",
+  "output_file": "/var/www/html/public/images/salons/the_lash_lounge_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

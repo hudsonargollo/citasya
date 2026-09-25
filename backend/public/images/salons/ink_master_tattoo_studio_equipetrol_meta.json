@@ -1,0 +1,10 @@
+{
+  "business_name": "Ink Master Tattoo Studio Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://tattooinkmaster.com/wp-content/uploads/2025/08/Logo-Black.png",
+  "output_file": "/var/www/html/public/images/salons/ink_master_tattoo_studio_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

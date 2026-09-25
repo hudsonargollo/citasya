@@ -1,0 +1,10 @@
+{
+  "business_name": "Vitalis Spa Center",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/922df2112879511.601c7d7ca2b3c.png",
+  "output_file": "/var/www/html/public/images/salons/vitalis_spa_center_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

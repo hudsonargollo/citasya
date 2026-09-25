@@ -1,0 +1,10 @@
+{
+  "business_name": "Nail Lounge Beauty Plaza",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/035/259/541/large_2x/collection-of-nail-beauty-salon-logo-with-creative-concept-premium-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/nail_lounge_beauty_plaza_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

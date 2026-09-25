@@ -1,0 +1,10 @@
+{
+  "business_name": "Reiki & Sanación Cuántica",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://st2.depositphotos.com/4716603/43915/v/1600/depositphotos_439159436-stock-illustration-healing-reiki-energi-logotype-reiki.jpg",
+  "output_file": "/var/www/html/public/images/salons/reiki_sanacion_cuantica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

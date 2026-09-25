@@ -1,0 +1,10 @@
+{
+  "business_name": "Consultorio Ginecológico Dra. Morales",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://dramargelymorales.com/wp-content/uploads/2023/08/Logotipo-Dra-Morales_-1.jpg",
+  "output_file": "/var/www/html/public/images/salons/consultorio_ginecologico_dra_morales_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

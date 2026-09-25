@@ -1,0 +1,10 @@
+{
+  "business_name": "Lash House Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://integro.gt/wp-content/uploads/2024/10/logo_lash_house.jpg",
+  "output_file": "/var/www/html/public/images/salons/lash_house_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

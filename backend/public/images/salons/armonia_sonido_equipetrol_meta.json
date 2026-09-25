@@ -1,0 +1,10 @@
+{
+  "business_name": "Armonía & Sonido Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.equipetrol.com/wp-content/uploads/2023/04/logo_equipetrol_light-300x71.png",
+  "output_file": "/var/www/html/public/images/salons/armonia_sonido_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

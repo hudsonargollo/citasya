@@ -91,6 +91,33 @@ class UserAPIController extends Controller
     function register(Request $request): JsonResponse
     {
         try {
+            $email = $request->input('email');
+            $phone = $request->input('phone_number');
+
+            if ($email || $phone) {
+                $query = User::query();
+                if ($email && $phone) {
+                    $query->where('email', $email)->orWhere('phone_number', $phone);
+                } elseif ($email) {
+                    $query->where('email', $email);
+                } else {
+                    $query->where('phone_number', $phone);
+                }
+                $existingUser = $query->first();
+
+                if ($existingUser) {
+                    if (empty($existingUser->api_token)) {
+                        $existingUser->api_token = Str::random(60);
+                        $existingUser->save();
+                    }
+                    return $this->sendResponse($existingUser->load('roles'), 'User session retrieved successfully');
+                }
+            }
+
+            if (!$request->has('password') || empty($request->input('password'))) {
+                $request->merge(['password' => 'CY-' . Str::random(12)]);
+            }
+
             $this->validate($request, User::$rules);
             $user = new User;
             $user->name = $request->input('name');

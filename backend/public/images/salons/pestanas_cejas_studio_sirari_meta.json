@@ -1,0 +1,10 @@
+{
+  "business_name": "Pestañas & Cejas Studio Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://png.pngtree.com/png-clipart/20220621/original/pngtree-eyebrow-and-eyelashes-studio-logo-png-image_8163760.png",
+  "output_file": "/var/www/html/public/images/salons/pestanas_cejas_studio_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

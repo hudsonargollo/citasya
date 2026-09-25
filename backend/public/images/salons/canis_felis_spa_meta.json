@@ -1,0 +1,10 @@
+{
+  "business_name": "Canis & Felis Spa",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://perigot.com.br/wp-content/uploads/2017/05/Logo-Canis-Felix.jpg",
+  "output_file": "/var/www/html/public/images/salons/canis_felis_spa_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

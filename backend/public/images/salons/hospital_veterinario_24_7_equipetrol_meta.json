@@ -1,0 +1,10 @@
+{
+  "business_name": "Hospital Veterinario 24/7 Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mundocamba.com/wp-content/uploads/2025/04/veterinaria-zoo-center.jpg",
+  "output_file": "/var/www/html/public/images/salons/hospital_veterinario_24_7_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

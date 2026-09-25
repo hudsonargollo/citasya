@@ -1,0 +1,10 @@
+{
+  "business_name": "NovaPiel Centro Médico Estético",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.wixstatic.com/media/46961a_f61b3d45aaaf473caa07251784182904~mv2.jpg/v1/fit/w_2500,h_1330,al_c/46961a_f61b3d45aaaf473caa07251784182904~mv2.jpg",
+  "output_file": "/var/www/html/public/images/salons/novapiel_centro_medico_estetico_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "El Barbero de Sevilla SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://santacruz.gob.bo/assets/logo-scz.png",
+  "output_file": "/var/www/html/public/images/salons/el_barbero_de_sevilla_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

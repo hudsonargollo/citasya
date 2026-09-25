@@ -632,11 +632,9 @@ packages:
   google_maps_place_picker_mb:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "3.1.3"
-      resolved-ref: "0c008b8bc4a3a09473c5fc1fb37121d51d3ef933"
-      url: "https://github.com/SmarterVision/google_maps_place_picker_mb.git"
-    source: git
+      path: "../packages/google_maps_place_picker_mb"
+      relative: true
+    source: path
     version: "3.1.2"
   html:
     dependency: transitive

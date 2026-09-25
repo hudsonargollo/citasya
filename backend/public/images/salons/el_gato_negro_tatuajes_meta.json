@@ -1,0 +1,10 @@
+{
+  "business_name": "El Gato Negro Tatuajes",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.elgatonegrotat2.be/wp-content/uploads/2020/03/logo_new-scaled.jpg",
+  "output_file": "/var/www/html/public/images/salons/el_gato_negro_tatuajes_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

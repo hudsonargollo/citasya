@@ -1,0 +1,10 @@
+{
+  "business_name": "Consultorio Oftalmológico Visión SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.wixstatic.com/media/3a8d15_c4f11e4dce854fe897f0b1112c7a9ee8~mv2.jpg/v1/fill/w_980,h_1305,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3a8d15_c4f11e4dce854fe897f0b1112c7a9ee8~mv2.jpg",
+  "output_file": "/var/www/html/public/images/salons/consultorio_oftalmologico_vision_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

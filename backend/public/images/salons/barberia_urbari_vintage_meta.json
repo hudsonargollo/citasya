@@ -1,0 +1,10 @@
+{
+  "business_name": "Barbería Urbarí Vintage",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/emblema-barberia-vintage_1415-702.jpg?w=996",
+  "output_file": "/var/www/html/public/images/salons/barberia_urbari_vintage_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

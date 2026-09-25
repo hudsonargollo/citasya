@@ -1,0 +1,10 @@
+{
+  "business_name": "Belleza Médica Dra. Roxana",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.bellezamedica.es/contenido/2019/07/belleza-medica-2019.png",
+  "output_file": "/var/www/html/public/images/salons/belleza_medica_dra_roxana_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

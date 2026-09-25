@@ -1,0 +1,10 @@
+{
+  "business_name": "Signature Fade & Shave",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://play-lh.googleusercontent.com/uFtLz9rj788OTT9aPnoJDd0jBzwA4d7uEqC5kx1d3qWmkNInYvfGtqyOuNSWWGqUhA",
+  "output_file": "/var/www/html/public/images/salons/signature_fade_shave_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

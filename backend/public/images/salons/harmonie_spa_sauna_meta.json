@@ -1,0 +1,10 @@
+{
+  "business_name": "Harmonie Spa & Sauna",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://play-lh.googleusercontent.com/JQivVjT0IabeJnUx_gi8Fqq3gTgGWqCuAW4Jdu9SnHPPsyoXIbIhCCi3lSFqLUu6_Ic",
+  "output_file": "/var/www/html/public/images/salons/harmonie_spa_sauna_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

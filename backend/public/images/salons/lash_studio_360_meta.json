@@ -1,0 +1,10 @@
+{
+  "business_name": "Lash Studio 360",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/528f7269105115.5b74b21594855.jpg",
+  "output_file": "/var/www/html/public/images/salons/lash_studio_360_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

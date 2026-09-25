@@ -1,0 +1,10 @@
+{
+  "business_name": "Barba Brava Barbershop",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.barbabrava.com.br/wp-content/uploads/2024/03/Barba-Brava-Stamp.jpg",
+  "output_file": "/var/www/html/public/images/salons/barba_brava_barbershop_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

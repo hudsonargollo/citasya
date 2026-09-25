@@ -1,0 +1,10 @@
+{
+  "business_name": "Puro Arte Tatuajes & Piercing",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://yourfleshtattoo.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-16-at-4.14.57-PM.png",
+  "output_file": "/var/www/html/public/images/salons/puro_arte_tatuajes_piercing_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

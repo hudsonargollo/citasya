@@ -3,6 +3,7 @@
 /public/**/*.map
 /public/storage
 /storage/*.key
+/storage/media-library/temp
 /vendor
 /Modules
 .env.backup

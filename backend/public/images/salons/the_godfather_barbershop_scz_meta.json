@@ -1,0 +1,10 @@
+{
+  "business_name": "The Godfather Barbershop SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://lh3.googleusercontent.com/places/AAcXr8oOM6JzvvI1191VlkfpRvvSnCtpBhCE41QEZZqttQLLdt4aeQgeFnd8TVzz24O2TyynQfaMugTeTYFxzDSsSWqZLp1p75lPy2c=s1600-w600-h600",
+  "output_file": "/var/www/html/public/images/salons/the_godfather_barbershop_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

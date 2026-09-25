@@ -1,0 +1,10 @@
+{
+  "business_name": "Fisiomedic Rehabilitación Física",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://amarillas.bo/img/companies/logos/6924-fisiomed.jpg",
+  "output_file": "/var/www/html/public/images/salons/fisiomedic_rehabilitacion_fisica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

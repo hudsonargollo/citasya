@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Dental Foianini Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://clinicafoianini.com/wp-content/uploads/2021/12/logo-clinica-foianini.png",
+  "output_file": "/var/www/html/public/images/salons/clinica_dental_foianini_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

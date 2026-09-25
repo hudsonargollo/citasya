@@ -1,0 +1,10 @@
+{
+  "business_name": "CardioSalud Diagnóstico",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3592408479793741437",
+  "output_file": "/var/www/html/public/images/salons/cardiosalud_diagnostico_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

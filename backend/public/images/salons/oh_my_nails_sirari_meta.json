@@ -1,0 +1,10 @@
+{
+  "business_name": "Oh My Nails Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.logodesign-agentur.ch/cm/wp-content/uploads/logo-erstellen_ohmynails-white-1300x715.jpg",
+  "output_file": "/var/www/html/public/images/salons/oh_my_nails_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

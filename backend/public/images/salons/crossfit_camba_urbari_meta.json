@@ -1,0 +1,10 @@
+{
+  "business_name": "CrossFit Camba Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://marketplace.canva.com/EAFaMW3eZBY/1/0/800w/canva-crossfit-logo-rojo-9ziG7FuVpwc.jpg",
+  "output_file": "/var/www/html/public/images/salons/crossfit_camba_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

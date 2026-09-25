@@ -1,0 +1,10 @@
+{
+  "business_name": "Pilates Core Studio Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.shutterstock.com/image-vector/pilates-studio-logo-vector-illustration-260nw-2208606561.jpg",
+  "output_file": "/var/www/html/public/images/salons/pilates_core_studio_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

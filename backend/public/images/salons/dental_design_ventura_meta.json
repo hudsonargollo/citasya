@@ -1,0 +1,10 @@
+{
+  "business_name": "Dental Design Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://dcassetcdn.com/design_img/2318167/582361/582361_12122758_2318167_20ab8564_image.jpg",
+  "output_file": "/var/www/html/public/images/salons/dental_design_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

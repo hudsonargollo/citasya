@@ -1,0 +1,10 @@
+{
+  "business_name": "Holy Grail Tattoo Studio Centro",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/334f4774580583.5c347dd03c8f6.png",
+  "output_file": "/var/www/html/public/images/salons/holy_grail_tattoo_studio_centro_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Pet Spa & Grooming Boutique Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/050/984/370/large_2x/logo-of-the-premium-spa-salon-for-animals-luxery-pet-spa-illustration-line-art-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/pet_spa_grooming_boutique_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

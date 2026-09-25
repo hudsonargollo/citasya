@@ -1,0 +1,10 @@
+{
+  "business_name": "Titanium Piercing & Tattoo",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://d1kq2dqeox7x40.cloudfront.net/images/profile/images/20190623_8X9yJmUVpqQVzjc.jpg",
+  "output_file": "/var/www/html/public/images/salons/titanium_piercing_tattoo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

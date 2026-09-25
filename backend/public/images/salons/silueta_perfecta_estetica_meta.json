@@ -1,0 +1,10 @@
+{
+  "business_name": "Silueta Perfecta Estética",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/santa-cruz-skyline-silhouette-bolivia-flag-travel-souvenir-sticker-vector-illustration_669574-787.jpg",
+  "output_file": "/var/www/html/public/images/salons/silueta_perfecta_estetica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

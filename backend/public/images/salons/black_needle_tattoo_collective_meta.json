@@ -1,0 +1,10 @@
+{
+  "business_name": "Black Needle Tattoo Collective",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=387716369655246",
+  "output_file": "/var/www/html/public/images/salons/black_needle_tattoo_collective_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

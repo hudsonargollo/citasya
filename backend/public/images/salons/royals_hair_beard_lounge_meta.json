@@ -1,0 +1,10 @@
+{
+  "business_name": "Royals Hair & Beard Lounge",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/39/1/the-royal-hair-salon-logo-png_seeklogo-394228.png",
+  "output_file": "/var/www/html/public/images/salons/royals_hair_beard_lounge_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

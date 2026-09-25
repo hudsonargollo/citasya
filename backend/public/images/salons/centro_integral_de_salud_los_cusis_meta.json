@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro Integral de Salud Los Cusis",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.ibolivia.org/wp-content/uploads/2018/09/centros-de-salud-en-santa-cruz-230x118.jpg",
+  "output_file": "/var/www/html/public/images/salons/centro_integral_de_salud_los_cusis_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

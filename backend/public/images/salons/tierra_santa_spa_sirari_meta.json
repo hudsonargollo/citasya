@@ -1,0 +1,10 @@
+{
+  "business_name": "Tierra Santa Spa Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.pngkey.com/png/detail/139-1399377_tierra-santa-image-tierra-santa-logo-png.png",
+  "output_file": "/var/www/html/public/images/salons/tierra_santa_spa_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Sacred Art Tattoo Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/f04dc7146946519.62b9c53f19b38.jpg",
+  "output_file": "/var/www/html/public/images/salons/sacred_art_tattoo_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

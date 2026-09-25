@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro Holístico Prana SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/636f046af44e9e0252b20b28/3518d101-d22c-4ab0-aa2a-cff41a869536/Pranalogo.jpg",
+  "output_file": "/var/www/html/public/images/salons/centro_holistico_prana_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

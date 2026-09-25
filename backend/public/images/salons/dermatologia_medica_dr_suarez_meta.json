@@ -1,0 +1,10 @@
+{
+  "business_name": "Dermatología Médica Dr. Suárez",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://sociedadbolivianadermatologia.org/wp-content/uploads/2023/05/LogoFilialSucre.jpg",
+  "output_file": "/var/www/html/public/images/salons/dermatologia_medica_dr_suarez_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

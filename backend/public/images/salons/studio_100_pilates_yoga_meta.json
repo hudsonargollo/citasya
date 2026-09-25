@@ -1,0 +1,10 @@
+{
+  "business_name": "Studio 100 Pilates & Yoga",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://studio100pilates.com/wp-content/uploads/2021/03/Studio100Pilates_Logo_RGB_HR_NoBkgrd_med.png",
+  "output_file": "/var/www/html/public/images/salons/studio_100_pilates_yoga_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

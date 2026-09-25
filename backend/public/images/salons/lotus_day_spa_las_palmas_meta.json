@@ -1,0 +1,10 @@
+{
+  "business_name": "Lotus Day Spa Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.rawpixel.com/image_social_square/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjI4Ni1hZXctMDkxLWhlYWx0aC1sb2dvXzIuanBn.jpg",
+  "output_file": "/var/www/html/public/images/salons/lotus_day_spa_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

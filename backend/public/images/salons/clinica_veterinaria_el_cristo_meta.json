@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Veterinaria El Cristo",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://clinicaveterinariasantacruz.com/wp-content/uploads/2025/04/logo-04-1024x1024.png",
+  "output_file": "/var/www/html/public/images/salons/clinica_veterinaria_el_cristo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

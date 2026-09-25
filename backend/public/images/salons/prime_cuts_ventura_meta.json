@@ -1,0 +1,10 @@
+{
+  "business_name": "Prime Cuts Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/print_1144934-32.jpg",
+  "output_file": "/var/www/html/public/images/salons/prime_cuts_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

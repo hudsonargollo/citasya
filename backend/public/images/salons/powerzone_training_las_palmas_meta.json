@@ -1,0 +1,10 @@
+{
+  "business_name": "PowerZone Training Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/baaa9688358487.Y3JvcCw3NjksNjAxLDE5LDE1.jpg",
+  "output_file": "/var/www/html/public/images/salons/powerzone_training_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

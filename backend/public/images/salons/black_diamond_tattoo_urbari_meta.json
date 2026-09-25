@@ -1,0 +1,10 @@
+{
+  "business_name": "Black Diamond Tattoo Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/5c336d0cec4eb740f622130a/1757117458937-AI6FVL308XIOB4021E6B/Diamond+Circle+Logo+BLACK.png",
+  "output_file": "/var/www/html/public/images/salons/black_diamond_tattoo_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Oasis Urbano Masajes",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://urbanoasis.zenoti.com/temp_data/tempassetstore/47e36ee4-2d84-4608-9f20-fb54eaa432c5/customassetupload/cebc2673-d1e2-4171-9373-5d0827e790a4.png",
+  "output_file": "/var/www/html/public/images/salons/oasis_urbano_masajes_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Iron Body Fitness Center",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/efe4f7185772249.Y3JvcCwzNTkxLDI4MDgsMTEyMCwyNjY.jpg",
+  "output_file": "/var/www/html/public/images/salons/iron_body_fitness_center_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

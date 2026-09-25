@@ -1,0 +1,10 @@
+{
+  "business_name": "Brows Master Studio",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/a228eb132281061.61a61b39efcab.png",
+  "output_file": "/var/www/html/public/images/salons/brows_master_studio_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

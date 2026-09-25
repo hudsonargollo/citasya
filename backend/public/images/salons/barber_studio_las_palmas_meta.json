@@ -1,0 +1,10 @@
+{
+  "business_name": "Barber Studio Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/santa-cruz-bolivia-flag-travel-souvenir-sticker-skyline-logo-badge-stamp-seal-emblem-vector-svg-eps_669574-279.jpg?w=1380",
+  "output_file": "/var/www/html/public/images/salons/barber_studio_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

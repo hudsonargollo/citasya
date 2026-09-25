@@ -1,0 +1,10 @@
+{
+  "business_name": "Barbería República SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://santacruz.gob.bo/assets/logo-scz.png",
+  "output_file": "/var/www/html/public/images/salons/barberia_republica_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

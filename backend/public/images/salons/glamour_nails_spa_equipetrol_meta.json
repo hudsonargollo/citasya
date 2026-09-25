@@ -1,0 +1,10 @@
+{
+  "business_name": "Glamour Nails & Spa Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://linktr.ee/og/image/glamurnailsspa.jpg",
+  "output_file": "/var/www/html/public/images/salons/glamour_nails_spa_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

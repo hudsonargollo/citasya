@@ -1,0 +1,10 @@
+{
+  "business_name": "Sinergia Holística SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://santacruz.gob.bo/assets/logo-scz.png",
+  "output_file": "/var/www/html/public/images/salons/sinergia_holistica_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

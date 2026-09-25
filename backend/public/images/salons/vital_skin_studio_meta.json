@@ -1,0 +1,10 @@
+{
+  "business_name": "Vital Skin Studio",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/3fd7ff198441681.6641c2512b9ab.png",
+  "output_file": "/var/www/html/public/images/salons/vital_skin_studio_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Roots Barber Shop",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/663a74b6503bec414588a4fe/44e2761d-af3a-4574-a220-9dbe4f343789/IMG_3950.jpg?format=2500w",
+  "output_file": "/var/www/html/public/images/salons/roots_barber_shop_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

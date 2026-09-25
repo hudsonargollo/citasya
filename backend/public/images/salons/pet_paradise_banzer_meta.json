@@ -1,0 +1,10 @@
+{
+  "business_name": "Pet Paradise Banzer",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.clipartkey.com/mpngs/m/304-3049801_pet-paradise-logo-web-illustration.png",
+  "output_file": "/var/www/html/public/images/salons/pet_paradise_banzer_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

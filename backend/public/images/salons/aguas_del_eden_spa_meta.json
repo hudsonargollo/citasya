@@ -1,0 +1,10 @@
+{
+  "business_name": "Aguas del Edén Spa",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://aguaeleden.com.do/wp-content/uploads/2022/08/brand-eden.png",
+  "output_file": "/var/www/html/public/images/salons/aguas_del_eden_spa_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

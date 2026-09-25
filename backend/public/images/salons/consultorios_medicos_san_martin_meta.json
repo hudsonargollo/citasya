@@ -1,0 +1,10 @@
+{
+  "business_name": "Consultorios Médicos San Martín",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://logovector.net/wp-content/uploads/2013/03/343823-clinica-san-martin-logo.png",
+  "output_file": "/var/www/html/public/images/salons/consultorios_medicos_san_martin_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

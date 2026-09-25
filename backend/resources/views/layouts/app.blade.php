@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <title>{{setting('app_name')}} | {{setting('app_short_description')}}</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <link rel="icon" type="image/png" href="{{asset('favicon.png?v=6')}}"/>
-    <link rel="shortcut icon" href="{{asset('favicon.ico?v=6')}}"/>
-    <link rel="apple-touch-icon" href="{{asset('apple-touch-icon.png?v=6')}}"/>
+    <link rel="icon" type="image/svg+xml" href="{{asset('favicon.svg?v=20260925')}}"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('favicon.png?v=20260925')}}"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('favicon-96x96.png?v=20260925')}}"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('favicon-32x32.png?v=20260925')}}"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('favicon-16x16.png?v=20260925')}}"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico?v=20260925')}}"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('apple-touch-icon.png?v=20260925')}}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free/css/all.min.css')}}">
 

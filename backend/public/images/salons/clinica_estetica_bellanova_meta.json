@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Estética Bellanova",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://itaubeneficios.cl/wp-content/uploads/2025/12/logo-Belanova.jpg",
+  "output_file": "/var/www/html/public/images/salons/clinica_estetica_bellanova_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Ananda Bienestar Integral",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.anandaintegral.com/wp-content/uploads/2023/06/logo1.jpg",
+  "output_file": "/var/www/html/public/images/salons/ananda_bienestar_integral_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

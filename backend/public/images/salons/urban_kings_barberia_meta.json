@@ -1,0 +1,10 @@
+{
+  "business_name": "Urban Kings Barbería",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/21b297142495213.62680339101c6.png",
+  "output_file": "/var/www/html/public/images/salons/urban_kings_barberia_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

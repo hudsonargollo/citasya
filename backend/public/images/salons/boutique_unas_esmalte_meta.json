@@ -1,0 +1,10 @@
+{
+  "business_name": "Boutique Uñas & Esmalte",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/011/775/199/non_2x/set-of-collection-nail-polish-or-nail-art-icon-logo-design-with-creative-element-premium-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/boutique_unas_esmalte_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

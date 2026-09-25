@@ -1,0 +1,10 @@
+{
+  "business_name": "Dra. Andrea Justiniano Estética",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://esteticaybellezasantacruz.cl/wp-content/uploads/2025/06/logo_sin_fondo_estetica_santa_cruz-e1749746590865.png",
+  "output_file": "/var/www/html/public/images/salons/dra_andrea_justiniano_estetica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro Holístico Illimani Los Cusis",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://ftb.formaciontecnicabolivia.org/sites/default/files/ceas/273213846_107310471866590_8914819449465999141_n.jpg",
+  "output_file": "/var/www/html/public/images/salons/centro_holistico_illimani_los_cusis_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

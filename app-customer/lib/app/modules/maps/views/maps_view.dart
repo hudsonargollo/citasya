@@ -11,33 +11,13 @@ import 'package:google_maps_flutter/google_maps_flutter.dart' as gmaps;
 
 import '../controllers/maps_controller.dart';
 import '../widgets/maps_carousel_widget.dart';
-
-// ignore: unnecessary_import
-import 'dart:ui' as ui;
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html;
+import 'web_map_helper.dart';
 
 class MapsView extends GetView<MapsController> {
   @override
   Widget build(BuildContext context) {
     if (kIsWeb) {
-      // Register OpenStreetMap interactive embed for Web
-      try {
-        // ignore: undefined_prefixed_name
-        ui.platformViewRegistry.registerViewFactory(
-          'openstreetmap-map',
-          (int viewId) {
-            html.IFrameElement iframeElement = html.IFrameElement();
-            iframeElement.src = 'https://www.openstreetmap.org/export/embed.html?bbox=-63.23,-17.83,-63.14,-17.74&layer=mapnik&marker=-17.7833,-63.1821';
-            iframeElement.style.border = 'none';
-            iframeElement.style.width = '100%';
-            iframeElement.style.height = '100%';
-            return iframeElement;
-          },
-        );
-      } catch (e) {
-        // already registered
-      }
+      registerWebMap();
     }
 
     return Scaffold(

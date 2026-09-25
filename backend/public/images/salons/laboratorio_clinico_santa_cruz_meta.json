@@ -1,0 +1,10 @@
+{
+  "business_name": "Laboratorio Clínico Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://santacruz.connectionslab2.net/images-clientes/logo_santacruz.png",
+  "output_file": "/var/www/html/public/images/salons/laboratorio_clinico_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

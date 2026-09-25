@@ -1,0 +1,10 @@
+{
+  "business_name": "Diva Nails & Beauty Bar",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/dd1e5b133153017.61b7ae714db5b.png",
+  "output_file": "/var/www/html/public/images/salons/diva_nails_beauty_bar_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

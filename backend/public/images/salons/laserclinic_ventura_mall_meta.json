@@ -1,0 +1,10 @@
+{
+  "business_name": "LaserClinic Ventura Mall",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/laser-clinic-logo-design_874847-974.jpg?w=360",
+  "output_file": "/var/www/html/public/images/salons/laserclinic_ventura_mall_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

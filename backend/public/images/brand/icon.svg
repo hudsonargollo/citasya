@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Background Squircle Gradient -->
+    <linearGradient id="bgGrad" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#006948" />
+      <stop offset="100%" stop-color="#012B18" />
+    </linearGradient>
+
+    <!-- Glass Rim Highlight -->
+    <linearGradient id="rimGrad" x1="128" y1="32" x2="384" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A3E635" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#10B981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#012B18" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Emerald / Lime Checkmark Gradient -->
+    <linearGradient id="checkGrad" x1="190" y1="210" x2="340" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A3E635" />
+      <stop offset="50%" stop-color="#84CC16" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A3E635" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Clock Arc Gradient -->
+    <linearGradient id="arcGrad" x1="160" y1="180" x2="360" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#84CC16" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#006948" flood-opacity="0.35" />
+    </filter>
+
+    <filter id="checkShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#012B18" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Base Squircle Container (App Icon / Favicon Badge) -->
+  <rect x="28" y="28" width="456" height="456" rx="114" fill="url(#bgGrad)" filter="url(#glowFilter)" />
+  <rect x="28" y="28" width="456" height="456" rx="114" stroke="url(#rimGrad)" stroke-width="4" fill="none" />
+
+  <!-- Calendar Top Hanger Rings -->
+  <rect x="156" y="58" width="36" height="76" rx="18" fill="url(#ringGrad)" />
+  <rect x="320" y="58" width="36" height="76" rx="18" fill="url(#ringGrad)" />
+
+  <!-- Inner Calendar Surface Card -->
+  <rect x="80" y="98" width="352" height="336" rx="64" fill="#0F172A" />
+  <rect x="80" y="98" width="352" height="336" rx="64" stroke="#1E293B" stroke-width="3" fill="none" />
+
+  <!-- Calendar Header Accent Stripe -->
+  <path d="M80 162C80 126.654 108.654 98 144 98H368C403.346 98 432 126.654 432 162V176H80V162Z" fill="#1E293B" />
+  
+  <!-- Calendar Header Pin Dots -->
+  <circle cx="174" cy="96" r="10" fill="#0F172A" />
+  <circle cx="338" cy="96" r="10" fill="#0F172A" />
+
+  <!-- Dynamic Left Speed Streaks (Citas al Instante) -->
+  <rect x="116" y="238" width="42" height="8" rx="4" fill="#10B981" opacity="0.8" />
+  <rect x="104" y="272" width="48" height="8" rx="4" fill="#84CC16" opacity="0.9" />
+  <rect x="122" y="306" width="32" height="8" rx="4" fill="#34D399" opacity="0.7" />
+
+  <!-- Central Dial Circle / Clock Orbit -->
+  <circle cx="274" cy="286" r="92" stroke="#334155" stroke-width="14" stroke-dasharray="10 14" stroke-linecap="round" fill="#090D16" />
+  <circle cx="274" cy="286" r="92" stroke="url(#arcGrad)" stroke-width="14" stroke-dasharray="80 320" stroke-linecap="round" fill="none" />
+
+  <!-- Clock Center Node -->
+  <circle cx="274" cy="286" r="7" fill="#84CC16" />
+
+  <!-- Radiant Checkmark ("Ya" Confirmation) -->
+  <path d="M224 286L260 322L338 238" 
+        stroke="url(#checkGrad)" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        filter="url(#checkShadow)" />
+
+  <!-- Top Glass Sheen -->
+  <path d="M30 142C30 79.0395 81.0395 28 144 28H368C430.96 28 482 79.0395 482 142V190C360 210 160 230 30 180V142Z" 
+        fill="white" 
+        opacity="0.06" />
+</svg>

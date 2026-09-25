@@ -1,0 +1,10 @@
+{
+  "business_name": "Piel de Seda Estética",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8f971c94374249.5e7d0f2262c72.jpg",
+  "output_file": "/var/www/html/public/images/salons/piel_de_seda_estetica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

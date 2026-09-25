@@ -1,0 +1,10 @@
+{
+  "business_name": "MakeUp & Hair Boutique Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/049/330/085/original/beauty-salon-boutique-adult-makeup-logo-design-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/makeup_hair_boutique_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

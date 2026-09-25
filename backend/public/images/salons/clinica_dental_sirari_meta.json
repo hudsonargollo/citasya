@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Dental Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/017/640/588/non_2x/dentistry-clinic-logo-on-letter-s-concept-family-dental-care-symbol-dental-dentist-logo-sign-free-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/clinica_dental_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

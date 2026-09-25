@@ -1,0 +1,10 @@
+{
+  "business_name": "Studio Nails Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/vecteur-gratis-logo-nail-art-studio_860075-5.jpg?w=2000",
+  "output_file": "/var/www/html/public/images/salons/studio_nails_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Distrito 7 Barbershop",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://scaled-images.timma.fi/timma/image/upload/v1734591984/i/3856-jpeg-c1ea70c0-bdd7-11ef-8bff-bb4676836c6f-customer-logo.jpg",
+  "output_file": "/var/www/html/public/images/salons/distrito_7_barbershop_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

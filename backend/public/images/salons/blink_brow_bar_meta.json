@@ -1,0 +1,10 @@
+{
+  "business_name": "Blink & Brow Bar",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://linktr.ee/og/image/blinkbrowbar.jpg",
+  "output_file": "/var/www/html/public/images/salons/blink_brow_bar_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

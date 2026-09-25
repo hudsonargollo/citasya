@@ -1,0 +1,10 @@
+{
+  "business_name": "Chic & Shine Nail Bar",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/050/993/109/non_2x/hand-and-nail-care-studio-logo-name-chic-nails-spa-illustration-line-art-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/chic_shine_nail_bar_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

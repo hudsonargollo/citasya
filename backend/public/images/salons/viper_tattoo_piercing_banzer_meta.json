@@ -1,0 +1,10 @@
+{
+  "business_name": "Viper Tattoo & Piercing Banzer",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.nicepng.com/png/detail/238-2386323_tattoo-viper-tattoo-viper-logo-de-tatuajes.png",
+  "output_file": "/var/www/html/public/images/salons/viper_tattoo_piercing_banzer_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

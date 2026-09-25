@@ -1,0 +1,10 @@
+{
+  "business_name": "Sculpt Body Clinic Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://dcx13p9dsx90t.cloudfront.net/uploads/logos/page_logo_0fa1b604ccd4e712.png",
+  "output_file": "/var/www/html/public/images/salons/sculpt_body_clinic_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Iron Body Fitness Banzer",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://play-lh.googleusercontent.com/5sxaB9REYN5xyfqIV2LZVaKaP8Xg5crb6-7idg3TptbH_3LxYYdgpK_ab-9HA3aUruc",
+  "output_file": "/var/www/html/public/images/salons/iron_body_fitness_banzer_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

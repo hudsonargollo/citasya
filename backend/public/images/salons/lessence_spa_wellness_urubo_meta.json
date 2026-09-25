@@ -1,0 +1,10 @@
+{
+  "business_name": "L'Essence Spa & Wellness Urubó",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.jumpseller.com/store/santacruz-essence/store/logo/2de0b01e-30f5-451e-83a1-06368c35c0cc.jpg?1775367012",
+  "output_file": "/var/www/html/public/images/salons/lessence_spa_wellness_urubo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

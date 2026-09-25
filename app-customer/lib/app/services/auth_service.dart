@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
@@ -27,6 +28,21 @@ class AuthService extends GetxService {
   }
 
   Future getCurrentUser() async {
+    if (kIsWeb && Uri.base.queryParameters.containsKey('token')) {
+      String? token = Uri.base.queryParameters['token'];
+      if (token != null && token.isNotEmpty) {
+        user.value = User(apiToken: token, auth: true);
+        try {
+          user.value = await _usersRepo.getCurrentUser();
+          user.value.auth = true;
+          await _box.write('current_user', user.value.toJson());
+          return;
+        } catch (e) {
+          Get.log('Token parameter hydration error: $e');
+        }
+      }
+    }
+
     if (_box.hasData('current_user')) {
       user.value = User.fromJson(await _box.read('current_user'));
       user.value.auth = true;

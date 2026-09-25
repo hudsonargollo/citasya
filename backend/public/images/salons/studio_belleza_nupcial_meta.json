@@ -1,0 +1,10 @@
+{
+  "business_name": "Studio Belleza Nupcial",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/santa-cruz-bolivia-flag-travel-souvenir-sticker-skyline-logo-badge-stamp-seal-emblem-vector-svg-eps_669574-279.jpg",
+  "output_file": "/var/www/html/public/images/salons/studio_belleza_nupcial_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

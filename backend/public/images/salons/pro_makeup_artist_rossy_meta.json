@@ -1,0 +1,10 @@
+{
+  "business_name": "Pro Makeup Artist Rossy",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://kimpro-bolivia.com/wp-content/uploads/2025/08/logo-rossy.png",
+  "output_file": "/var/www/html/public/images/salons/pro_makeup_artist_rossy_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

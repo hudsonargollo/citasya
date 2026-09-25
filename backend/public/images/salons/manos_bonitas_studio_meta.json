@@ -1,0 +1,10 @@
+{
+  "business_name": "Manos Bonitas Studio",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/manos-brillante-santa-cruz-elemento-diseno-logotipo-etiqueta-emblema-signo-insignia-ilustracion-vectorial_124137-4177.jpg?w=1060",
+  "output_file": "/var/www/html/public/images/salons/manos_bonitas_studio_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

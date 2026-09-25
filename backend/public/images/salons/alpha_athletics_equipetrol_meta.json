@@ -1,0 +1,10 @@
+{
+  "business_name": "Alpha Athletics Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://alphaathleticscheer.com.au/wp-content/uploads/2023/10/cropped-Alpha-Logo-No-Background-1-1.png",
+  "output_file": "/var/www/html/public/images/salons/alpha_athletics_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

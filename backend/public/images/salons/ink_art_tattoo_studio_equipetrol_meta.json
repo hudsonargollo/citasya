@@ -1,0 +1,10 @@
+{
+  "business_name": "Ink & Art Tattoo Studio Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/643b01f4a3d6b94d7a1bccc3/85353481-9cfb-4092-91a4-cdccb647f4ec/inkart-primary-logo.png",
+  "output_file": "/var/www/html/public/images/salons/ink_art_tattoo_studio_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

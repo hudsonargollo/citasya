@@ -1,0 +1,10 @@
+{
+  "business_name": "Lirio Blanco Nails & Spa",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/plantilla-diseno-logotipo-flor-lirio-blanco-estilo-lineal-minimalista-simple-vector-emblema-floral-e-icono-beauty-studio-spa_501165-675.jpg",
+  "output_file": "/var/www/html/public/images/salons/lirio_blanco_nails_spa_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

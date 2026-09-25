@@ -1,0 +1,10 @@
+{
+  "business_name": "Las Palmas Day Spa & Relax",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/17b2b4144147125.6286ebcadc07a.jpg",
+  "output_file": "/var/www/html/public/images/salons/las_palmas_day_spa_relax_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

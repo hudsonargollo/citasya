@@ -1,0 +1,10 @@
+{
+  "business_name": "Templo de Paz Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.etsystatic.com/5233020/r/il/43a80a/7119986848/il_1080xN.7119986848_a0kg.jpg",
+  "output_file": "/var/www/html/public/images/salons/templo_de_paz_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

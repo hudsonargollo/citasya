@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Odontológica Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://clinicaurbari.com.bo/wp-content/uploads/2021/04/slider_logo-2048x716.jpg",
+  "output_file": "/var/www/html/public/images/salons/clinica_odontologica_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

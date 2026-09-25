@@ -1,0 +1,10 @@
+{
+  "business_name": "DermaGlow Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cdn.lynkid.my.id/profile/15-09-2023/1694782100085_6100389",
+  "output_file": "/var/www/html/public/images/salons/dermaglow_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

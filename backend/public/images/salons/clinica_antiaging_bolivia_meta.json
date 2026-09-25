@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Antiaging Bolivia",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/16/1/antiaging-medical-logo-png_seeklogo-168776.png",
+  "output_file": "/var/www/html/public/images/salons/clinica_antiaging_bolivia_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

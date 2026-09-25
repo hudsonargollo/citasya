@@ -1,0 +1,10 @@
+{
+  "business_name": "Casa Shanti Espacio de Sanación Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://eventario.co/wp-content/uploads/2025/03/perfil-logo-tipo-whatsap-jpg.jpg",
+  "output_file": "/var/www/html/public/images/salons/casa_shanti_espacio_de_sanacion_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

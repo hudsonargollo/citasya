@@ -1,0 +1,10 @@
+{
+  "business_name": "Olympus Gym & Studio Banzer",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/6793af4c2cbd326da9d626c1/72cacfce-80ca-4f18-9bbb-ce858469b8ab/olympus-logo-web.png?format=1500w",
+  "output_file": "/var/www/html/public/images/salons/olympus_gym_studio_banzer_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

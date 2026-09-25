@@ -1,0 +1,10 @@
+{
+  "business_name": "Studio Paola MakeUp Artist",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://linktr.ee/og/image/paolamakeup.jpg",
+  "output_file": "/var/www/html/public/images/salons/studio_paola_makeup_artist_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

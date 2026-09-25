@@ -1,0 +1,10 @@
+{
+  "business_name": "Urban Cut Barbería & Tattoo",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://iconape.com/wp-content/png_logo_vector/the-urban-cuts-logo.png",
+  "output_file": "/var/www/html/public/images/salons/urban_cut_barberia_tattoo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Titanium Fitness Hamacas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://seeklogo.com/images/T/titanium-fitness-skopje-logo-67378863DE-seeklogo.com.png?v=637855267770000000",
+  "output_file": "/var/www/html/public/images/salons/titanium_fitness_hamacas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "LuxeMed Clínica",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://logovector.net/wp-content/uploads/2013/04/345843-luxmed-logo.png",
+  "output_file": "/var/www/html/public/images/salons/luxemed_clinica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

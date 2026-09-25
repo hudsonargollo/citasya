@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro de Ojos Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vetores-premium/santa-cruz-bolivia-bandeira-viagem-lembranca-adesivo-skyline-logo-emblema-selo-selo-emblema-vector-svg-eps_669574-279.jpg",
+  "output_file": "/var/www/html/public/images/salons/centro_de_ojos_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

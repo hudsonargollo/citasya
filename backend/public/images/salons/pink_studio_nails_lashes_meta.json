@@ -1,0 +1,10 @@
+{
+  "business_name": "Pink Studio Nails & Lashes",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.fresha.com/locations/location-profile-images/1066380/1197365/9ecda1d3-0376-435e-91c1-ba8204fc13df.jpg?class=fallback",
+  "output_file": "/var/www/html/public/images/salons/pink_studio_nails_lashes_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

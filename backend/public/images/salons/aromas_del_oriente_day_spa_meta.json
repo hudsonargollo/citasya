@@ -1,0 +1,10 @@
+{
+  "business_name": "Aromas del Oriente Day Spa",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Oriental_Aromas_Identidad_Visual_-_Version_Horizontal_-_Color_principal_Sin_fondo_4ead128b-80e7-4c0d-9061-f2408af27850.png?v=1707858458",
+  "output_file": "/var/www/html/public/images/salons/aromas_del_oriente_day_spa_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

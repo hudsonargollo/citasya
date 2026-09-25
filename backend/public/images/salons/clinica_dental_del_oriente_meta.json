@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Dental del Oriente",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cruzodontologia.com.br/wp-content/uploads/2024/11/logo-cruz-head-02.png",
+  "output_file": "/var/www/html/public/images/salons/clinica_dental_del_oriente_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

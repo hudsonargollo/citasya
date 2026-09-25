@@ -1,0 +1,10 @@
+{
+  "business_name": "Ananda Healing Studio Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://anandayogavitoria.com/wp-content/uploads/2024/03/logo-Ananda-plus2.png",
+  "output_file": "/var/www/html/public/images/salons/ananda_healing_studio_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

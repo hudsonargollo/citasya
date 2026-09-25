@@ -1,0 +1,10 @@
+{
+  "business_name": "The Brow Bar Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://thumbs.dreamstime.com/b/illustration-brow-bar-text-logo-vector-design-hand-drawn-calligraphy-lettering-typography-business-card-banners-badge-tags-165666116.jpg",
+  "output_file": "/var/www/html/public/images/salons/the_brow_bar_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

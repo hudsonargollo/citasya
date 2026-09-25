@@ -1,0 +1,10 @@
+{
+  "business_name": "Dermaclinic Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://inversionesmorro.com/wp-content/uploads/2025/03/dermaclinic.jpg",
+  "output_file": "/var/www/html/public/images/salons/dermaclinic_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

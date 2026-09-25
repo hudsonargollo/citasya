@@ -1,0 +1,10 @@
+{
+  "business_name": "Diamond Nails Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/b4fdee162907181.63ddcc63ac794.png",
+  "output_file": "/var/www/html/public/images/salons/diamond_nails_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

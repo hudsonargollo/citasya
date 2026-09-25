@@ -1,0 +1,10 @@
+{
+  "business_name": "Veterinaria del Oriente 24 Horas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://vetoriente.cl/assets/img/logo-pie.png",
+  "output_file": "/var/www/html/public/images/salons/veterinaria_del_oriente_24_horas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

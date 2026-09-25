@@ -1,0 +1,10 @@
+{
+  "business_name": "La Hermandad Tattoo",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://pbs.twimg.com/profile_images/1645699485740179456/ojOlDWrZ_400x400.jpg",
+  "output_file": "/var/www/html/public/images/salons/la_hermandad_tattoo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

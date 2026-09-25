@@ -1,0 +1,10 @@
+{
+  "business_name": "Brow & Lash Studio SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.pinimg.com/736x/9c/be/32/9cbe32c2b439c916ee1bdbbf4a22e513.jpg",
+  "output_file": "/var/www/html/public/images/salons/brow_lash_studio_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

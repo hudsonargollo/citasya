@@ -1,0 +1,10 @@
+{
+  "business_name": "Barba Negra Grooming Co.",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/38d910125797559.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+  "output_file": "/var/www/html/public/images/salons/barba_negra_grooming_co_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

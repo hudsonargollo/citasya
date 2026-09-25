@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Dermoláser Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/santa-cruz-bolivia-bandera-viaje-souvenir-pegatina-skyline-logo-insignia-sello-sello-emblema-vector-svg-eps_669574-279.jpg?w=2000",
+  "output_file": "/var/www/html/public/images/salons/clinica_dermolaser_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

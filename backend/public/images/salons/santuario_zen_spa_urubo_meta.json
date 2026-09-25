@@ -1,0 +1,10 @@
+{
+  "business_name": "Santuario Zen Spa Urubó",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.squarespace-cdn.com/content/v1/6042a503e2dfb32dd91bee47/11e02dbc-bbdd-46f5-8620-7208302d573b/D87AC64F-CE47-4B50-929B-6C7798850EA8.PNG",
+  "output_file": "/var/www/html/public/images/salons/santuario_zen_spa_urubo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

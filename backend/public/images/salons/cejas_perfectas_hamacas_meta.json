@@ -1,0 +1,10 @@
+{
+  "business_name": "Cejas Perfectas Hamacas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cejasperfectas.com/wp-content/uploads/2024/09/Logo-vertical-blanco.png.webp",
+  "output_file": "/var/www/html/public/images/salons/cejas_perfectas_hamacas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Grooming & Pet Salon Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/052/939/377/non_2x/grooming-pet-cats-and-dogs-logo-for-your-business-or-company-illustration-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/grooming_pet_salon_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

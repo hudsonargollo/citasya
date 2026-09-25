@@ -1,0 +1,10 @@
+{
+  "business_name": "Equilibrio Vital Hamacas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "http://www.equilibriovital.com/wp-content/uploads/2019/07/logotipo-equilibrio-vital.png",
+  "output_file": "/var/www/html/public/images/salons/equilibrio_vital_hamacas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

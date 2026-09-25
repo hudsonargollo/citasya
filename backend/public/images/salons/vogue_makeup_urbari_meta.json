@@ -1,0 +1,10 @@
+{
+  "business_name": "Vogue MakeUp Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://tl.vhv.rs/dpng/s/446-4464058_vogue-cosmticos-survey-vogue-hd-png-download.png",
+  "output_file": "/var/www/html/public/images/salons/vogue_makeup_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

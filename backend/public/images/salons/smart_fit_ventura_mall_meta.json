@@ -1,0 +1,10 @@
+{
+  "business_name": "Smart Fit Ventura Mall",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://funocomercial.com/pabellon-salina-cruz/wp-content/uploads/sites/68/2025/01/Diseno-sin-titulo-81.jpg",
+  "output_file": "/var/www/html/public/images/salons/smart_fit_ventura_mall_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

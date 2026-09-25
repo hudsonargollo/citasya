@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro Médico Especializado Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://centromedicosantacruz.com/assets/logo_azul-Dc_az_be.png",
+  "output_file": "/var/www/html/public/images/salons/centro_medico_especializado_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

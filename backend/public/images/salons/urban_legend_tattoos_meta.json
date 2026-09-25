@@ -1,0 +1,10 @@
+{
+  "business_name": "Urban Legend Tattoos",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cdn.inspireuplift.com/uploads/images/seller_products/27374/1704644688_santacruiz.png",
+  "output_file": "/var/www/html/public/images/salons/urban_legend_tattoos_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

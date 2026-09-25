@@ -1,0 +1,10 @@
+{
+  "business_name": "Beautique Nail Bar & Spa Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/thumbnails/011/667/850/small_2x/beauty-nail-logo-design-with-creative-unique-style-premium-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/beautique_nail_bar___spa_urbar__logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

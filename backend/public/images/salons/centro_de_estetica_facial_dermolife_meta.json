@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro de Estética Facial Dermolife",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://dermalife.cl/wp-content/uploads/2026/03/logo-normal-nuevo.webp",
+  "output_file": "/var/www/html/public/images/salons/centro_de_estetica_facial_dermolife_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

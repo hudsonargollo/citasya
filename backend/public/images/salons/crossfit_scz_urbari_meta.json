@@ -1,0 +1,10 @@
+{
+  "business_name": "CrossFit SCZ Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/066/406/459/large_2x/crossfit-gym-fitness-club-logo-emblem-isolated-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/crossfit_scz_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

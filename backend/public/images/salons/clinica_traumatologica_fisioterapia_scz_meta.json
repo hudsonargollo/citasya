@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Traumatológica & Fisioterapia SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://linktr.ee/og/image/santacruz_fisio.jpg",
+  "output_file": "/var/www/html/public/images/salons/clinica_traumatologica_fisioterapia_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Armonía Holística Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.pinimg.com/736x/d9/09/9e/d9099ebd184048dcdbba7c079539e487.jpg",
+  "output_file": "/var/www/html/public/images/salons/armonia_holistica_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Beauty Room Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.rawpixel.com/image_social_square/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjI4Ni1hZXctMDcwLWhlYWx0aC1sb2dvXzIuanBn.jpg",
+  "output_file": "/var/www/html/public/images/salons/beauty_room_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

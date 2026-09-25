@@ -1,0 +1,10 @@
+{
+  "business_name": "Oh La La Nail Studio SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100063702391851",
+  "output_file": "/var/www/html/public/images/salons/oh_la_la_nail_studio_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

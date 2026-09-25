@@ -1,0 +1,10 @@
+{
+  "business_name": "Studio Spa Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=61584699290943",
+  "output_file": "/var/www/html/public/images/salons/studio_spa_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Pura Piel Dermatocosmética",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/879b1d68491573.Y3JvcCw4MjUsNjQ1LDI5MCwxNzE.jpg",
+  "output_file": "/var/www/html/public/images/salons/pura_piel_dermatocosmetica_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

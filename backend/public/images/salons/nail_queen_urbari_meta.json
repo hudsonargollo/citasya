@@ -1,0 +1,10 @@
+{
+  "business_name": "Nail Queen Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.etsystatic.com/25317796/r/il/4de238/4507187497/il_fullxfull.4507187497_9ddp.jpg",
+  "output_file": "/var/www/html/public/images/salons/nail_queen_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

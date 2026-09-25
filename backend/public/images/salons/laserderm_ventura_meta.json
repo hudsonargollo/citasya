@@ -1,0 +1,10 @@
+{
+  "business_name": "LaserDerm Ventura",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.pinimg.com/736x/62/3b/10/623b10cb6d59a9d9a3d84d5db915ec15.jpg",
+  "output_file": "/var/www/html/public/images/salons/laserderm_ventura_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

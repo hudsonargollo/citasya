@@ -1,0 +1,10 @@
+{
+  "business_name": "Clínica Rejuvenece SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://clinicarejuvenecer.com/wp-content/uploads/2023/12/pared-doc-logo-nuevo-03-1024x1002.png",
+  "output_file": "/var/www/html/public/images/salons/clinica_rejuvenece_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

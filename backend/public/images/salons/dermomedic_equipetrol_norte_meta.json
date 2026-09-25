@@ -1,0 +1,10 @@
+{
+  "business_name": "Dermomedic Equipetrol Norte",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/30/1/dermomedica-logo-png_seeklogo-304633.png",
+  "output_file": "/var/www/html/public/images/salons/dermomedic_equipetrol_norte_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Viper Ink Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/14/2/viper-logo-png_seeklogo-149525.png",
+  "output_file": "/var/www/html/public/images/salons/viper_ink_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

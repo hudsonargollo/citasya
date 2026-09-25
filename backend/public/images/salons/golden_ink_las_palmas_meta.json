@@ -1,0 +1,10 @@
+{
+  "business_name": "Golden Ink Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.vecteezy.com/system/resources/previews/021/559/063/non_2x/author-signature-logo-feather-quill-pen-with-golden-ink-logo-vintage-fountain-pen-logo-with-gold-ink-icon-luxury-elegant-classic-stationery-illustration-isolated-on-white-background-vector.jpg",
+  "output_file": "/var/www/html/public/images/salons/golden_ink_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

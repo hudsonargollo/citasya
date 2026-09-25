@@ -1,0 +1,10 @@
+{
+  "business_name": "Aura Skin & Glow Studio",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://logoarena-storage.s3.amazonaws.com/contests/public/5647/9490_1425510009_png",
+  "output_file": "/var/www/html/public/images/salons/aura_skin_glow_studio_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

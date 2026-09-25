@@ -1,0 +1,10 @@
+{
+  "business_name": "Dra. Piel & Belleza Facial",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.boliviaentusmanos.com/amarillas/blogos/consultorio-salud-piel-y-belleza-logo1.jpg",
+  "output_file": "/var/www/html/public/images/salons/dra_piel_belleza_facial_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

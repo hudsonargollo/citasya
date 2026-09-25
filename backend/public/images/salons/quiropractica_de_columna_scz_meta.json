@@ -1,0 +1,10 @@
+{
+  "business_name": "Quiropráctica de Columna SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/vector-premium/vector-diseno-logotipo-quiropractica-columna-vertebral-concepto-premium-gradiente-color-verde_1124373-686.jpg?w=2000",
+  "output_file": "/var/www/html/public/images/salons/quiropractica_de_columna_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

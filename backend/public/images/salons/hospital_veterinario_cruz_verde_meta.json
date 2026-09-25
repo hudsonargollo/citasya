@@ -1,0 +1,10 @@
+{
+  "business_name": "Hospital Veterinario Cruz Verde",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.vetformacion.com/wp-content/uploads/2023/10/centro_511.png",
+  "output_file": "/var/www/html/public/images/salons/hospital_veterinario_cruz_verde_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

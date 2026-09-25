@@ -1,0 +1,10 @@
+{
+  "business_name": "MakeUp Bar Beauty Plaza",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "http://makeupbarhn.com/cdn/shop/files/Makeup_Bar_Logo_1_-02_a4e41676-4ffe-4adc-92bf-99577af1805d.png?v=1654010931",
+  "output_file": "/var/www/html/public/images/salons/makeup_bar_beauty_plaza_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

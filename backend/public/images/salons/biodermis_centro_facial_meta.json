@@ -1,0 +1,10 @@
+{
+  "business_name": "BioDermis Centro Facial",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.tcdn.com.br/img/img_prod/754653/1585233028_logo_biodermis2.png",
+  "output_file": "/var/www/html/public/images/salons/biodermis_centro_facial_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

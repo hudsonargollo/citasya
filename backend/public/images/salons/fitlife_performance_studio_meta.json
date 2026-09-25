@@ -1,0 +1,10 @@
+{
+  "business_name": "FitLife Performance Studio",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://dcassetcdn.com/design_img/1785731/546216/546216_9674364_1785731_56420d9b_image.png",
+  "output_file": "/var/www/html/public/images/salons/fitlife_performance_studio_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

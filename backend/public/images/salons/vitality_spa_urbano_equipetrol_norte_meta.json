@@ -1,0 +1,10 @@
+{
+  "business_name": "Vitality Spa Urbano Equipetrol Norte",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.cyprusspa.com/images/advertisments/13923/nd/vitality-spa-wellness-center-logo.jpg",
+  "output_file": "/var/www/html/public/images/salons/vitality_spa_urbano_equipetrol_norte_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "The Barbers Club Equipetrol",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://static.wixstatic.com/media/00e60a_21767e9479e54a18b11269c9ac29d5f8~mv2.png/v1/fill/w_1536,h_1024,al_c/00e60a_21767e9479e54a18b11269c9ac29d5f8~mv2.png",
+  "output_file": "/var/www/html/public/images/salons/the_barbers_club_equipetrol_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

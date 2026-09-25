@@ -1,0 +1,10 @@
+{
+  "business_name": "Skin Clinic Santa Cruz",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/6f2929202236355.Y3JvcCw4OTQsNzAwLDI1Miww.png",
+  "output_file": "/var/www/html/public/images/salons/skin_clinic_santa_cruz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

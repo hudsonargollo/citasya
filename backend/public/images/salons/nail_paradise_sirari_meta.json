@@ -1,0 +1,10 @@
+{
+  "business_name": "Nail Paradise Sirari",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.pinimg.com/736x/70/82/ca/7082ca098b9a7947c5c2b5dd22afb763.jpg",
+  "output_file": "/var/www/html/public/images/salons/nail_paradise_sirari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

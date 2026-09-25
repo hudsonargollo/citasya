@@ -1,0 +1,10 @@
+{
+  "business_name": "Harmonía Facial Clinic",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize/2024/01/17/04/Logo-292853_25301_040705039_267905299.jpg",
+  "output_file": "/var/www/html/public/images/salons/harmonia_facial_clinic_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

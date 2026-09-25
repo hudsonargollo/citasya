@@ -1,0 +1,10 @@
+{
+  "business_name": "Zenith Spa & Aromaterapia Centro",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://linktr.ee/og/image/zenithspa.jpg",
+  "output_file": "/var/www/html/public/images/salons/zenith_spa_aromaterapia_centro_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

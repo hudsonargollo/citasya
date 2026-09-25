@@ -1,0 +1,10 @@
+{
+  "business_name": "BioSculpt Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://wp.logos-download.com/wp-content/uploads/2021/01/Bio_Sculpture_Logo.png?dl",
+  "output_file": "/var/www/html/public/images/salons/biosculpt_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

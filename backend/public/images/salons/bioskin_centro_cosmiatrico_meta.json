@@ -1,0 +1,10 @@
+{
+  "business_name": "BioSkin Centro Cosmiátrico",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.bioskinaesthetics.com/wp-content/uploads/2024/10/LOGO-BIOSKIN.webp",
+  "output_file": "/var/www/html/public/images/salons/bioskin_centro_cosmiatrico_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

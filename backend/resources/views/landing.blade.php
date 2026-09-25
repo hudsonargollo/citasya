@@ -4,9 +4,13 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>CitasYa | Reserva de citas y servicios profesionales en Santa Cruz, Bolivia</title>
-<link rel="icon" type="image/png" href="{{ asset('favicon.png?v=6') }}"/>
-<link rel="shortcut icon" href="{{ asset('favicon.ico?v=6') }}"/>
-<link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png?v=6') }}"/>
+<link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg?v=20260925') }}"/>
+<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicon.png?v=20260925') }}"/>
+<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon-96x96.png?v=20260925') }}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png?v=20260925') }}"/>
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png?v=20260925') }}"/>
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico?v=20260925') }}"/>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png?v=20260925') }}"/>
 <!-- Google Fonts: Plus Jakarta Sans for ultra-clean tech & neo-grotesque flair -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -137,7 +141,7 @@
 <a class="hidden sm:inline-flex text-xs md:text-sm font-semibold text-brand-slate hover:text-brand-darklime px-4 py-2 transition-colors" href="/login">
           Iniciar Sesión
         </a>
-<a class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs md:text-sm font-bold text-brand-slate bg-brand-lime hover:bg-[#92dc24] border border-lime-300 shadow-sm shadow-lime-300/40 transition-all hover:scale-105 active:scale-95" href="/app/">
+<a class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs md:text-sm font-bold text-brand-slate bg-brand-lime hover:bg-[#92dc24] border border-lime-300 shadow-sm shadow-lime-300/40 transition-all hover:scale-105 active:scale-95 cursor-pointer" onclick="openExpressBookingModal(event)">
 <svg class="w-4 h-4 mr-1.5 text-brand-slate" fill="none" stroke="currentColor" viewbox="0 0 24 24">
 <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
 </svg>
@@ -1046,4 +1050,250 @@
 </div>
 </footer>
 <!-- END: MainFooter -->
+<!-- Express Onboarding & Booking Modal -->
+<div id="expressBookingModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/80 backdrop-blur-md transition-opacity duration-300">
+  <div class="relative w-full max-w-md bg-white rounded-3xl shadow-2xl border border-lime-200 overflow-hidden transform transition-all scale-95 opacity-0 animate-modal-enter" id="modalCard">
+    
+    <!-- Top Accent Banner with Branded SVG Logo -->
+    <div class="bg-gradient-to-r from-emerald-600 via-emerald-500 to-lime-500 p-6 text-white text-center relative">
+      <button onclick="closeExpressBookingModal()" class="absolute top-4 right-4 text-white/80 hover:text-white p-1.5 rounded-full bg-black/10 hover:bg-black/20 transition">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+      </button>
+      
+      <!-- CitasYa Branded SVG Icon Badge -->
+      <div class="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md p-1.5 mx-auto mb-3 border border-white/20 shadow-lg">
+        <img src="{{ asset('favicon.svg?v=20260925') }}" alt="CitasYa" class="w-full h-full object-contain">
+      </div>
+
+      <h3 class="text-xl font-extrabold tracking-tight flex items-center justify-center gap-2" id="modalTitle">
+        <span>Reserva tu Cita al Instante</span>
+      </h3>
+      <p class="text-xs text-white/90 font-medium mt-1" id="modalSubtitle">Ingresa tus datos para continuar a la agenda. Cero fricción.</p>
+    </div>
+
+    <!-- Modal Form Body -->
+    <div class="p-6">
+      
+      <!-- Mode Toggle Switcher -->
+      <div class="flex rounded-2xl bg-slate-100 p-1 mb-6 border border-slate-200">
+        <button id="btnTabNew" onclick="switchExpressTab('new')" class="flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+          <span>Primera Vez</span>
+        </button>
+        <button id="btnTabReturning" onclick="switchExpressTab('returning')" class="flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 0121 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          <span>Ya Tengo Cuenta</span>
+        </button>
+      </div>
+
+      <!-- Form 1: New Patron Express Onboarding -->
+      <form id="expressNewForm" onsubmit="handleExpressOnboarding(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <span>Nombre Completo *</span>
+          </label>
+          <div class="relative">
+            <input type="text" id="custName" required placeholder="Ej. María René Paz" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-sm font-semibold text-slate-800 bg-slate-50/50">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <span>WhatsApp / Teléfono *</span>
+          </label>
+          <div class="relative flex items-center">
+            <span class="absolute left-3 text-xs font-bold text-slate-600 flex items-center gap-1 bg-slate-200/80 px-2.5 py-1 rounded-lg">BO +591</span>
+            <input type="tel" id="custPhone" required placeholder="77012345" class="w-full pl-24 pr-4 py-3 rounded-2xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-sm font-semibold text-slate-800 bg-slate-50/50">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <span>Correo Electrónico *</span>
+          </label>
+          <div class="relative">
+            <input type="email" id="custEmail" required placeholder="maria@ejemplo.bo" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-sm font-semibold text-slate-800 bg-slate-50/50">
+          </div>
+        </div>
+
+        <button type="submit" id="btnSubmitNew" class="w-full py-3.5 px-6 rounded-2xl bg-brand-slate hover:bg-slate-800 text-brand-lime font-extrabold text-sm tracking-wide shadow-lg shadow-slate-900/20 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2">
+          <span>Continuar a la Agenda</span>
+          <svg class="w-4 h-4 text-brand-lime" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+        </button>
+      </form>
+
+      <!-- Form 2: Returning User Login -->
+      <form id="expressLoginForm" onsubmit="handleExpressLogin(event)" class="space-y-4 hidden">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <span>Correo Electrónico *</span>
+          </label>
+          <input type="email" id="loginEmail" required placeholder="tu@correo.com" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-sm font-semibold text-slate-800 bg-slate-50/50">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5 flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            <span>Contraseña *</span>
+          </label>
+          <input type="password" id="loginPassword" required placeholder="••••••••" class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 text-sm font-semibold text-slate-800 bg-slate-50/50">
+        </div>
+
+        <button type="submit" id="btnSubmitLogin" class="w-full py-3.5 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-emerald-600/30 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2">
+          <span>Iniciar Sesión & Reservar</span>
+          <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+        </button>
+      </form>
+
+      <div id="modalAlert" class="mt-3 text-xs text-center font-bold text-rose-500 hidden"></div>
+
+      <!-- Trust Assurance Note -->
+      <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-center gap-1.5 text-[11px] text-slate-400 font-medium">
+        <svg class="w-3.5 h-3.5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+        <span>Confirmación inmediata por WhatsApp • Cero fricción</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+function openExpressBookingModal(e) {
+  if (e) e.preventDefault();
+  const modal = document.getElementById('expressBookingModal');
+  const card = document.getElementById('modalCard');
+  if (!modal || !card) return;
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+  setTimeout(() => {
+    card.classList.remove('scale-95', 'opacity-0');
+    card.classList.add('scale-100', 'opacity-100');
+  }, 10);
+}
+
+function closeExpressBookingModal() {
+  const modal = document.getElementById('expressBookingModal');
+  const card = document.getElementById('modalCard');
+  if (!modal || !card) return;
+  card.classList.remove('scale-100', 'opacity-100');
+  card.classList.add('scale-95', 'opacity-0');
+  setTimeout(() => {
+    modal.classList.remove('flex');
+    modal.classList.add('hidden');
+  }, 200);
+}
+
+function switchExpressTab(type) {
+  const newForm = document.getElementById('expressNewForm');
+  const loginForm = document.getElementById('expressLoginForm');
+  const btnNew = document.getElementById('btnTabNew');
+  const btnRet = document.getElementById('btnTabReturning');
+  const title = document.getElementById('modalTitle');
+  const alertBox = document.getElementById('modalAlert');
+  if (alertBox) alertBox.classList.add('hidden');
+
+  if (type === 'new') {
+    newForm.classList.remove('hidden');
+    loginForm.classList.add('hidden');
+    btnNew.className = "flex-1 py-2 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm";
+    btnRet.className = "flex-1 py-2 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800";
+    title.innerHTML = "<span>Reserva tu Cita al Instante</span>";
+  } else {
+    newForm.classList.add('hidden');
+    loginForm.classList.remove('hidden');
+    btnRet.className = "flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all bg-white text-slate-800 shadow-sm flex items-center justify-center gap-1.5";
+    btnNew.className = "flex-1 py-2.5 px-3 text-xs font-bold rounded-xl transition-all text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5";
+    title.innerHTML = "<span>Bienvenido de Nuevo</span>";
+  }
+}
+
+async function handleExpressOnboarding(e) {
+  e.preventDefault();
+  const name = document.getElementById('custName').value.trim();
+  let phone = document.getElementById('custPhone').value.trim();
+  const email = document.getElementById('custEmail').value.trim();
+  const btn = document.getElementById('btnSubmitNew');
+  const alertBox = document.getElementById('modalAlert');
+
+  if (!name || !phone || !email) {
+    if (alertBox) {
+      alertBox.innerText = "Por favor completa todos los campos requeridos.";
+      alertBox.classList.remove('hidden');
+    }
+    return;
+  }
+
+  if (!phone.startsWith('+')) {
+    phone = '+591' + phone.replace(/[^0-9]/g, '');
+  }
+
+  btn.disabled = true;
+  btn.innerText = "Cargando agenda...";
+
+  try {
+    const res = await fetch('/api/register', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ name: name, phone_number: phone, email: email })
+    });
+
+    const data = await res.json();
+    if (data.success && data.data && data.data.api_token) {
+      localStorage.setItem('citasya_user', JSON.stringify(data.data));
+      localStorage.setItem('citasya_token', data.data.api_token);
+      window.location.href = '/app/?token=' + encodeURIComponent(data.data.api_token);
+    } else {
+      // Direct redirect if fallback token exists
+      window.location.href = '/app/';
+    }
+  } catch (err) {
+    window.location.href = '/app/';
+  }
+}
+
+async function handleExpressLogin(e) {
+  e.preventDefault();
+  const email = document.getElementById('loginEmail').value.trim();
+  const password = document.getElementById('loginPassword').value.trim();
+  const btn = document.getElementById('btnSubmitLogin');
+  const alertBox = document.getElementById('modalAlert');
+
+  btn.disabled = true;
+  btn.innerText = "Verificando...";
+
+  try {
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ email: email, password: password })
+    });
+
+    const data = await res.json();
+    if (data.success && data.data && data.data.api_token) {
+      localStorage.setItem('citasya_user', JSON.stringify(data.data));
+      localStorage.setItem('citasya_token', data.data.api_token);
+      window.location.href = '/app/?token=' + encodeURIComponent(data.data.api_token);
+    } else {
+      if (alertBox) {
+        alertBox.innerText = data.message || "Credenciales incorrectas. Verifica tu contraseña.";
+        alertBox.classList.remove('hidden');
+      }
+      btn.disabled = false;
+      btn.innerHTML = '<span>Iniciar Sesión & Reservar</span><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>';
+    }
+  } catch (err) {
+    if (alertBox) {
+      alertBox.innerText = "Error de conexión. Intenta nuevamente.";
+      alertBox.classList.remove('hidden');
+    }
+    btn.disabled = false;
+    btn.innerHTML = '<span>Iniciar Sesión & Reservar</span><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>';
+  }
+}
+</script>
+
 </body></html>

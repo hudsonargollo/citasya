@@ -1,0 +1,10 @@
+{
+  "business_name": "Gentleman's Club Barber & Lounge",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.pinimg.com/originals/7a/e4/45/7ae445add1d06c7983be280dae655fdd.jpg",
+  "output_file": "/var/www/html/public/images/salons/gentlemans_club_barber_lounge_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

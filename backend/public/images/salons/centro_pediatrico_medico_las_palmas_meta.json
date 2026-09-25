@@ -1,0 +1,10 @@
+{
+  "business_name": "Centro Pediátrico & Médico Las Palmas",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://cmsantacruz.com.ar/wp-content/uploads/2022/11/CMSC-logotipo-editable-01.png",
+  "output_file": "/var/www/html/public/images/salons/centro_pediatrico_medico_las_palmas_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

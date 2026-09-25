@@ -1,0 +1,10 @@
+{
+  "business_name": "Curves & Fitness Studio Los Cusis",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://www.paseopilar.com/wp-content/uploads/2015/04/imagen-destacada-curves-700x466.jpg",
+  "output_file": "/var/www/html/public/images/salons/curves_fitness_studio_los_cusis_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

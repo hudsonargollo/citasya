@@ -1,0 +1,10 @@
+{
+  "business_name": "Oasis Spa Los Cusis",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://p.kindpng.com/picc/s/275-2750191_oasis-spa-hd-png-download.png",
+  "output_file": "/var/www/html/public/images/salons/oasis_spa_los_cusis_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

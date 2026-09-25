@@ -1,0 +1,10 @@
+{
+  "business_name": "Skin Care Studio SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/skincare-center-logo-design-beauty-fashion-spa-yoga-medical-lady-salon-icon-shape_171487-429.jpg?w=1480",
+  "output_file": "/var/www/html/public/images/salons/skin_care_studio_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

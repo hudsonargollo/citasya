@@ -1,0 +1,10 @@
+{
+  "business_name": "EcoSalud Diagnóstico por Imágenes",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://i.vimeocdn.com/portrait/79296438_640x640",
+  "output_file": "/var/www/html/public/images/salons/ecosalud_diagnostico_por_imagenes_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

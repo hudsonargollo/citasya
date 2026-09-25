@@ -1,0 +1,10 @@
+{
+  "business_name": "Dermacare Centro Facial Avanzado",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://images.seeklogo.com/logo-png/27/1/dermacare-logo-png_seeklogo-272691.png",
+  "output_file": "/var/www/html/public/images/salons/dermacare_centro_facial_avanzado_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

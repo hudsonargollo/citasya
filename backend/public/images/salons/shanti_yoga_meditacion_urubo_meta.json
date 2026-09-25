@@ -1,0 +1,10 @@
+{
+  "business_name": "Shanti Yoga & Meditación Urubó",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/715744154608221.Y3JvcCwxOTE5LDE1MDEsMTYxLDA.png",
+  "output_file": "/var/www/html/public/images/salons/shanti_yoga_meditacion_urubo_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

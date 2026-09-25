@@ -1,0 +1,10 @@
+{
+  "business_name": "King's Blade Barbería",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://kingsblades.com/wp-content/uploads/2022/06/logo-full-1.png",
+  "output_file": "/var/www/html/public/images/salons/kings_blade_barberia_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "business_name": "Fight Club Boxing Gym Centro",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://thumbs.dreamstime.com/z/logo-fight-club-128277859.jpg",
+  "output_file": "/var/www/html/public/images/salons/fight_club_boxing_gym_centro_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

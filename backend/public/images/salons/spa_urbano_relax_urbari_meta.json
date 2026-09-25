@@ -1,0 +1,10 @@
+{
+  "business_name": "Spa Urbano Relax Urbarí",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://mir-s3-cdn-cf.behance.net/projects/404/c0070e128374545.Y3JvcCwyNTU2LDIwMDAsNzUzLDA.jpg",
+  "output_file": "/var/www/html/public/images/salons/spa_urbano_relax_urbari_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}

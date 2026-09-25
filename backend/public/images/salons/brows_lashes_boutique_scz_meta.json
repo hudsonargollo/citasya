@@ -1,0 +1,10 @@
+{
+  "business_name": "Brows & Lashes Boutique SCZ",
+  "city": "Santa Cruz Bolivia",
+  "source_url": "https://img.freepik.com/premium-vector/modern-brow-lashes-logo-design-template-makeup-salon-premium-vektor_468375-763.jpg?w=2000",
+  "output_file": "/var/www/html/public/images/salons/brows_lashes_boutique_scz_logo.png",
+  "ai_analysis": {
+    "is_logo": true,
+    "confidence_score": 1.0
+  }
+}
