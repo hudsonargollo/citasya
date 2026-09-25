@@ -110,6 +110,17 @@ body {
   color: #FFFFFF !important;
   font-weight: 700 !important;
   box-shadow: 0 4px 14px rgba(0, 105, 72, 0.35) !important;
+  border-left: 4px solid var(--citasya-lime) !important;
+}
+
+/* Sidebar Nav Header */
+.sidebar .nav-sidebar .nav-header {
+  color: var(--citasya-slate-muted) !important;
+  font-weight: 700 !important;
+  font-size: 0.72rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 1.2rem 1.25rem 0.5rem !important;
 }
 
 .sidebar .nav-sidebar .nav-item > .nav-link.active i {
