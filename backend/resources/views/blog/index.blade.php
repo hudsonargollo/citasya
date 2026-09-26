@@ -187,7 +187,7 @@
                 <div class="lg:col-span-5">
                   @if(!empty($featuredPost['image']) && file_exists(public_path($featuredPost['image'])))
                     <div class="relative rounded-2xl overflow-hidden aspect-video border border-lime-500/30 shadow-lg group-hover:scale-105 transition-transform duration-500">
-                      <img src="{{ $featuredPost['image'] }}?v={{ filemtime(public_path($featuredPost['image'])) }}" alt="{{ $featuredPost['title'] }}" class="w-full h-full object-cover">
+                      <img src="{{ asset($featuredPost['image']) }}?v={{ filemtime(public_path($featuredPost['image'])) }}" alt="{{ $featuredPost['title'] }}" class="w-full h-full object-cover">
                     </div>
                   @else
                     <div class="relative rounded-2xl bg-gradient-to-tr from-brand-cruz/40 via-lime-500/20 to-slate-800 p-8 border border-lime-500/20 aspect-video lg:aspect-[4/3] flex flex-col justify-between overflow-hidden shadow-inner">
