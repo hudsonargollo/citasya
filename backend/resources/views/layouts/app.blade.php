@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="{{asset('vendor/fontawesome-free/css/all.min.css')}}">
 
     @stack('css_lib')
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('vendor/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
     <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/styles.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/'.setting("theme_color","primary").'.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/citasya-tropical-admin.css?v=2')}}">
+    <link rel="stylesheet" href="{{asset('css/citasya-tropical-admin.css?v='.time())}}">
     @yield('css_custom')
 </head>
 

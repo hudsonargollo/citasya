@@ -45,6 +45,42 @@ h1, h2, h3, h4, h5, h6, .font-display {
   letter-spacing: -0.025em;
 }
 
+/* --- Content Header & Breadcrumbs --- */
+.content-header {
+  padding: 1.25rem 0.5rem 1.5rem !important;
+}
+
+.content-header h1 {
+  font-size: 1.65rem !important;
+  font-weight: 800 !important;
+  color: var(--cy-slate) !important;
+}
+
+.content-header h1 small {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--cy-slate-muted) !important;
+}
+
+.breadcrumb {
+  background: white !important;
+  border: 1px solid var(--cy-border) !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03) !important;
+  padding: 0.5rem 1.25rem !important;
+  border-radius: var(--cy-radius-pill) !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+}
+
+.breadcrumb-item a {
+  color: var(--cy-emerald) !important;
+  text-decoration: none !important;
+}
+
+.breadcrumb-item.active {
+  color: var(--cy-slate-muted) !important;
+}
+
 /* --- Content Wrapper --- */
 .content-wrapper {
   background-color: var(--cy-bg) !important;
@@ -92,6 +128,7 @@ h1, h2, h3, h4, h5, h6, .font-display {
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
   transition: all 0.25s var(--cy-ease-spring);
   margin-right: 0.5rem;
+  text-decoration: none !important;
 }
 
 .nav-shortcut-btn:hover {
@@ -183,44 +220,9 @@ h1, h2, h3, h4, h5, h6, .font-display {
   padding: 1.25rem 1.5rem 0.4rem !important;
 }
 
-/* --- Hero Banner (Welcome & Quick Stats) --- */
-.dashboard-hero-banner {
-  position: relative;
-  background: linear-gradient(135deg, #042F1A 0%, #004D34 50%, #0F172A 100%);
-  border-radius: var(--cy-radius-xl);
-  padding: 2.25rem 2.5rem;
-  color: white;
-  margin-bottom: 2rem;
-  overflow: hidden;
-  box-shadow: 0 16px 40px -10px rgba(4, 47, 26, 0.35);
-  border: 1px solid rgba(132, 204, 22, 0.25);
-}
-
-.dashboard-hero-banner::before {
-  content: '';
-  position: absolute;
-  top: -80px;
-  right: -80px;
-  width: 320px;
-  height: 320px;
-  background: radial-gradient(circle, rgba(132, 204, 22, 0.22) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-.hero-pill-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.35rem 0.85rem;
-  border-radius: var(--cy-radius-pill);
-  background: rgba(132, 204, 22, 0.15);
-  border: 1px solid rgba(132, 204, 22, 0.4);
-  color: var(--cy-lime-light);
-  font-size: 0.72rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  margin-bottom: 0.75rem;
+.sidebar .nav-treeview .nav-item > .nav-link {
+  padding-left: 2rem !important;
+  font-size: 0.83rem;
 }
 
 /* --- Double-Bezel (Doppelrand) Bento Stat Cards --- */
@@ -305,29 +307,117 @@ h1, h2, h3, h4, h5, h6, .font-display {
 .cy-trend-up { background: #DCFCE7; color: #166534; }
 .cy-trend-neutral { background: #F1F5F9; color: #475569; }
 
-/* --- Awwwards Table Design --- */
-.cy-table-card {
-  background: white;
-  border-radius: var(--cy-radius-xl);
-  border: 1px solid var(--cy-border);
-  box-shadow: var(--cy-shadow-ambient);
-  overflow: hidden;
-  margin-bottom: 2rem;
+/* --- Fallback Small Box Stat Cards --- */
+.small-box {
+  background: white !important;
+  border-radius: var(--cy-radius-lg) !important;
+  border: 1px solid var(--cy-border) !important;
+  box-shadow: var(--cy-shadow-ambient) !important;
+  padding: 1.5rem !important;
+  transition: all 0.35s var(--cy-ease-spring) !important;
+  overflow: hidden !important;
 }
 
-.cy-table-card .card-header {
+.small-box:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--cy-shadow-hover) !important;
+  border-color: rgba(132, 204, 22, 0.4) !important;
+}
+
+.small-box .inner {
+  padding: 0 !important;
+}
+
+.small-box .inner h3 {
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 2.25rem !important;
+  color: var(--cy-slate) !important;
+  letter-spacing: -0.03em;
+  margin: 0 !important;
+}
+
+.small-box .inner p {
+  color: var(--cy-slate-muted) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0.25rem 0 0 !important;
+}
+
+.small-box .icon {
+  right: 1.25rem !important;
+  top: 1.25rem !important;
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: var(--cy-radius-md) !important;
+  background: #F0FDF4 !important;
+  color: var(--cy-emerald) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+  z-index: 10;
+}
+
+.small-box:hover .icon {
+  background: var(--cy-emerald) !important;
+  color: var(--cy-lime-light) !important;
+  transform: scale(1.08) rotate(3deg);
+}
+
+.small-box-footer {
+  background: #F8FAFC !important;
+  color: var(--cy-slate) !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  padding: 0.75rem 1.5rem !important;
+  border-top: 1px solid var(--cy-border) !important;
+  margin-top: 1.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  text-decoration: none !important;
+}
+
+/* --- Awwwards Table & Container Card --- */
+.cy-table-card, .card {
   background: white !important;
-  padding: 1.5rem !important;
+  border-radius: var(--cy-radius-xl) !important;
+  border: 1px solid var(--cy-border) !important;
+  box-shadow: var(--cy-shadow-ambient) !important;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.25s ease;
+}
+
+.card:hover, .cy-table-card:hover {
+  box-shadow: var(--cy-shadow-elevated) !important;
+}
+
+.cy-table-card .card-header, .card-header {
+  background: white !important;
+  padding: 1.5rem 1.75rem !important;
   border-bottom: 1px solid #F1F5F9 !important;
 }
 
-table.table {
+.card-header .card-title {
+  color: var(--cy-slate) !important;
+  font-weight: 800 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: -0.02em;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* --- Tables Styling --- */
+table.table, table.dataTable {
   border-collapse: separate !important;
-  border-spacing: 0 8px !important;
+  border-spacing: 0 6px !important;
   width: 100% !important;
 }
 
-table.table thead th {
+table.table thead th, table.dataTable thead th {
   background: transparent !important;
   font-size: 0.72rem !important;
   font-weight: 800 !important;
@@ -335,29 +425,36 @@ table.table thead th {
   letter-spacing: 0.12em;
   color: var(--cy-slate-muted) !important;
   border: none !important;
-  padding: 1rem 1.5rem !important;
+  padding: 1rem 1.25rem !important;
 }
 
-table.table tbody td {
-  padding: 1.25rem 1.5rem !important;
+table.table tbody td, table.dataTable tbody td {
+  padding: 1.1rem 1.25rem !important;
   vertical-align: middle !important;
   border-top: 1px solid #F1F5F9 !important;
   border-bottom: 1px solid #F1F5F9 !important;
   background: white;
-  font-size: 0.9rem !important;
+  font-size: 0.88rem !important;
   font-weight: 500;
 }
 
-table.table tbody tr:first-child td { border-top: none; }
-table.table tbody tr:first-child td:first-child { border-top-left-radius: var(--cy-radius-md); }
-table.table tbody tr:first-child td:last-child { border-top-right-radius: var(--cy-radius-md); }
-table.table tbody tr:last-child td:first-child { border-bottom-left-radius: var(--cy-radius-md); }
-table.table tbody tr:last-child td:last-child { border-bottom-right-radius: var(--cy-radius-md); }
-
-table.table tbody tr:hover td {
-  background-color: #FAFDF7;
+table.table tbody tr td:first-child, table.dataTable tbody tr td:first-child {
+  border-left: 1px solid #F1F5F9;
+  border-top-left-radius: var(--cy-radius-sm);
+  border-bottom-left-radius: var(--cy-radius-sm);
 }
 
+table.table tbody tr td:last-child, table.dataTable tbody tr td:last-child {
+  border-right: 1px solid #F1F5F9;
+  border-top-right-radius: var(--cy-radius-sm);
+  border-bottom-right-radius: var(--cy-radius-sm);
+}
+
+table.table tbody tr:hover td, table.dataTable tbody tr:hover td {
+  background-color: #FAFDF7 !important;
+}
+
+/* --- Tier Badges --- */
 .cy-tier-badge {
   font-size: 0.72rem;
   font-weight: 800;
@@ -391,6 +488,154 @@ table.table tbody tr:hover td {
   background: var(--cy-slate);
   color: var(--cy-lime);
   transform: scale(1.05);
+}
+
+/* --- Buttons --- */
+.btn-primary, a.btn-primary {
+  background-color: var(--cy-slate) !important;
+  color: var(--cy-lime-light) !important;
+  border: none !important;
+  border-radius: var(--cy-radius-pill) !important;
+  font-weight: 700 !important;
+  padding: 0.5rem 1.25rem !important;
+  font-size: 0.85rem !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12) !important;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover, a.btn-primary:hover {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.2) !important;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, var(--cy-emerald) 0%, var(--cy-emerald-light) 100%) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: var(--cy-radius-pill) !important;
+  font-weight: 700 !important;
+  padding: 0.5rem 1.25rem !important;
+  box-shadow: 0 4px 12px rgba(0, 105, 72, 0.25) !important;
+}
+
+.btn-success:hover {
+  background: var(--cy-emerald-dark) !important;
+  transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+  color: var(--cy-emerald) !important;
+  border: 1.5px solid var(--cy-emerald) !important;
+  border-radius: var(--cy-radius-pill) !important;
+  font-weight: 700 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--cy-emerald) !important;
+  color: #FFFFFF !important;
+}
+
+/* --- Badges --- */
+.badge {
+  padding: 0.35rem 0.75rem !important;
+  border-radius: var(--cy-radius-pill) !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.02em;
+}
+
+.badge-success, .badge.bg-olive, .badge.bg-success {
+  background-color: #ECFDF5 !important;
+  color: #047857 !important;
+  border: 1px solid #A7F3D0 !important;
+}
+
+.badge-warning {
+  background-color: #FFFBEB !important;
+  color: #B45309 !important;
+  border: 1px solid #FDE68A !important;
+}
+
+.badge-danger {
+  background-color: #FEF2F2 !important;
+  color: #B91C1C !important;
+  border: 1px solid #FECACA !important;
+}
+
+/* --- Form Controls & Inputs --- */
+.form-control, select.form-control {
+  background-color: #F8FAFC !important;
+  border: 1px solid var(--cy-border) !important;
+  border-radius: var(--cy-radius-sm) !important;
+  padding: 0.6rem 1rem !important;
+  font-size: 0.88rem !important;
+  color: var(--cy-slate) !important;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus {
+  background-color: #FFFFFF !important;
+  border-color: var(--cy-emerald) !important;
+  box-shadow: 0 0 0 3px var(--cy-lime-glow) !important;
+  outline: none !important;
+}
+
+/* --- Dropdowns --- */
+.dropdown-menu {
+  border-radius: var(--cy-radius-md) !important;
+  border: 1px solid var(--cy-border) !important;
+  box-shadow: var(--cy-shadow-elevated) !important;
+  padding: 0.5rem !important;
+}
+
+.dropdown-item {
+  border-radius: var(--cy-radius-sm) !important;
+  padding: 0.5rem 0.85rem !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  color: var(--cy-slate) !important;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #F0FDF4 !important;
+  color: var(--cy-emerald) !important;
+}
+
+/* --- Header Tabs --- */
+.card-header-tabs .nav-link {
+  border-radius: var(--cy-radius-pill) !important;
+  font-weight: 700 !important;
+  font-size: 0.83rem !important;
+  padding: 0.45rem 1.1rem !important;
+  margin-right: 0.5rem;
+  color: var(--cy-slate-muted) !important;
+  border: 1px solid transparent !important;
+  transition: all 0.2s ease;
+}
+
+.card-header-tabs .nav-link.active {
+  background-color: var(--cy-slate) !important;
+  color: var(--cy-lime-light) !important;
+  border: 1px solid var(--cy-slate) !important;
+}
+
+/* --- DataTables Pagination --- */
+.page-item.active .page-link {
+  background: var(--cy-slate) !important;
+  border-color: var(--cy-slate) !important;
+  color: var(--cy-lime-light) !important;
+  font-weight: 800 !important;
+  border-radius: var(--cy-radius-sm) !important;
+}
+
+.page-item .page-link {
+  border-radius: var(--cy-radius-sm) !important;
+  margin: 0 2px;
+  color: var(--cy-slate);
+  border: 1px solid var(--cy-border);
 }
 
 /* --- Footer --- */
