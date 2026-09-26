@@ -214,6 +214,11 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             @foreach($gridPosts as $post)
               <article class="bg-white rounded-3xl border border-slate-200/80 hover:border-lime-300 overflow-hidden shadow-sm hover:shadow-xl hover:shadow-lime-500/10 transition-all flex flex-col justify-between group">
+                <a href="{{ route('blog.show', $post['slug']) }}" class="block">
+                  <div class="relative w-full aspect-video overflow-hidden">
+                    <img src="{{ asset($post['image']) }}" alt="{{ $post['title'] }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                  </div>
+                </a>
                 <div class="p-6">
                   
                   <div class="flex items-center justify-between gap-2 text-xs mb-3">
