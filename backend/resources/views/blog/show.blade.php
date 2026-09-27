@@ -336,7 +336,7 @@
               Reserva tu cita en los mejores salones de Santa Cruz
             </h4>
             <p class="text-xs text-slate-300 leading-relaxed mb-5">
-              Encuentra especialistas verificados en Equipetrol, Urubó, Las Palmas y más. Reserva en 30 segundos sin llamadas.
+              Encuentra especialistas verificados en toda Santa Cruz de la Sierra (del 1er al 8vo anillo, Norte, Sur, Este y Oeste). Reserva en 30 segundos sin llamadas.
             </p>
             <a href="/app/" class="w-full block text-center py-3 px-4 rounded-full bg-brand-lime text-brand-slate font-extrabold text-xs hover:bg-[#92dc24] transition-all shadow-md">
               Explorar Salones & Clínicas

@@ -112,7 +112,7 @@
 <div class="max-w-7xl mx-auto flex items-center justify-between">
 <div class="flex items-center gap-2 mx-auto sm:mx-0">
 <span class="inline-flex items-center justify-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-brand-lime text-brand-slate uppercase tracking-wider">Nuevo</span>
-<span class="">🎉 Lanzamiento oficial en Equipetrol y Urubó: ¡Primer mes sin comisión para consultorios!</span>
+<span class="">🎉 Cobertura total en toda Santa Cruz de la Sierra: ¡Primer mes sin comisión para negocios y consultorios!</span>
 </div>
 <div class="hidden sm:flex items-center gap-4 text-slate-300 text-xs">
 <span class="flex items-center gap-1">
@@ -194,26 +194,27 @@
 </h1>
 <!-- Hero Subtitle -->
 <p class="mt-6 text-base sm:text-lg lg:text-xl text-slate-600 max-w-2xl mx-auto font-normal leading-relaxed">
-          Encuentra médicos especialistas, centros de belleza, notarías y consultores en <strong class="text-slate-800 font-semibold">Equipetrol, Urubó, Las Palmas</strong> y el centro. Confirmación instantánea por WhatsApp.
+          Encuentra médicos especialistas, centros de belleza, notarías y consultores en <strong class="text-slate-800 font-semibold">toda Santa Cruz de la Sierra</strong> (del 1er al 8vo anillo, Norte, Sur, Este y Oeste). Confirmación instantánea por WhatsApp.
         </p>
-<!-- CTA Buttons -->
+<!-- CTA Actions Row -->
 <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-slate text-brand-lime font-display font-bold text-base hover:bg-slate-800 shadow-xl shadow-slate-900/15 transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2" href="#servicios">
-<span class="">Explorar Especialistas</span>
-<svg class="w-5 h-5 text-brand-lime" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-</a>
+<button onclick="openExpressBookingModal('Buscar Especialista', 'Encuentra y agenda con especialistas en toda Santa Cruz de la Sierra')" class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-slate text-white font-display font-extrabold text-base hover:bg-slate-900 shadow-xl shadow-slate-950/20 transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 group border border-slate-700">
+<span class="">Agendar Cita Ahora</span>
+<svg class="w-4 h-4 text-brand-lime group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+</button>
 <a class="w-full sm:w-auto px-7 py-4 rounded-full bg-white text-slate-800 font-display font-bold text-base border border-slate-200 hover:border-brand-darklime shadow-sm hover:bg-slate-50 transition-all flex items-center justify-center gap-2" href="#demo-interactiva">
 <span class="w-6 h-6 rounded-full bg-brand-lime/30 text-brand-darklime flex items-center justify-center text-xs">▶</span>
 <span class="">Ver Demo en Vivo</span>
 </a>
 </div>
-<!-- Quick Filters Pills (Equipetrol, Urubó, etc.) -->
+<!-- Quick Filters Pills -->
 <div class="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs font-semibold text-slate-600">
-<span class="text-slate-400">Zonas más activas:</span>
-<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Equipetrol Norte</span>
-<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Urubó Village</span>
-<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 2do Anillo &amp; Las Palmas</span>
-<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Monseñor Rivero</span>
+<span class="text-slate-400">Cobertura en toda la ciudad:</span>
+<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 1er al 8vo Anillo</span>
+<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Equipetrol &amp; Urubó</span>
+<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Las Palmas &amp; Sirari</span>
+<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Plan 3000 &amp; Villa 1ro de Mayo</span>
+<span class="px-3 py-1 bg-white rounded-full border border-slate-200 hover:border-brand-lime cursor-pointer transition">📍 Zona Norte &amp; Banzer</span>
 </div>
 <!-- BEGIN: ClubeMktTabletShowcase -->
 <!-- Centerpiece inspired by ClubeMkt mockup composition with lime green backing card and device tablet -->
@@ -450,8 +451,8 @@
                 Busca especialista por zona
               </h3>
 <p class="text-slate-600 text-sm leading-relaxed">
-                Filtra por tu barrio o anillo preferido en Santa Cruz: Equipetrol, Urubó, Las Palmas o Casco Viejo. Consulta tarifas, credenciales y valoraciones reales.
-              </p>
+  Filtra por tu barrio o anillo preferido en toda Santa Cruz: del 1er al 8vo anillo, Norte, Sur, Este y Oeste. Consulta tarifas, credenciales y valoraciones reales.
+</p>
 </div>
 <div class="mt-6 pt-4 border-t border-lime-100 flex items-center text-xs font-bold text-brand-darklime">
 <span class="">Geolocalización precisa</span>
@@ -553,8 +554,8 @@
                 Salud &amp; Medicina
               </h3>
 <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                Pediatría, dermatología, odontología y laboratorios clínicos en Equipetrol, Foianini y Las Palmas. Citas garantizadas sin filas en sala.
-              </p>
+  Pediatría, dermatología, odontología y laboratorios clínicos en toda Santa Cruz de la Sierra. Citas garantizadas sin filas en sala.
+</p>
 <!-- Tags -->
 <div class="flex flex-wrap gap-1.5 mb-6 text-xs font-medium text-slate-700">
 <span class="bg-slate-100 px-2.5 py-1 rounded-lg">Dermatología</span>
@@ -1038,7 +1039,7 @@
 <h4 class="font-display font-bold text-sm text-white uppercase tracking-wider mb-4">Cobertura Bolivia</h4>
 <ul class="space-y-2.5 text-xs text-slate-400">
 <li class="flex items-center gap-1.5 text-white font-medium">
-<span class="w-2 h-2 rounded-full bg-brand-lime"></span> Santa Cruz (Equipetrol/Urubó)
+<span class="w-2 h-2 rounded-full bg-brand-lime"></span> Toda Santa Cruz (Todos los Anillos &amp; Zonas)
             </li>
 <li class="flex items-center gap-1.5 text-slate-400">
 <span class="w-1.5 h-1.5 rounded-full bg-slate-500"></span> La Paz (Zona Sur/Calacoto)
