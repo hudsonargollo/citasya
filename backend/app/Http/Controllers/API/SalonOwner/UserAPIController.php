@@ -108,7 +108,13 @@ class UserAPIController extends Controller
 
             $defaultRoles = $this->roleRepository->findByField('default', '1');
             $defaultRoles = $defaultRoles->pluck('name')->toArray();
-            $user->assignRole($defaultRoles);
+            $rolesToAssign = array_unique(array_merge($defaultRoles, ['salon owner']));
+            $user->assignRole($rolesToAssign);
+
+            $customFields = $this->customFieldRepository->findByField('custom_field_model', $this->userRepository->model());
+            foreach (getCustomFieldsValues($customFields, $request) as $value) {
+                $user->customFieldsValues()->updateOrCreate(['custom_field_id' => $value['custom_field_id']], $value);
+            }
         } catch (ValidationException $e) {
             return $this->sendError(array_values($e->errors()));
         } catch (Exception $e) {

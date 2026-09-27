@@ -119,7 +119,7 @@
 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           Sistema 100% Operativo en Santa Cruz
         </span>
-<a class="underline hover:text-brand-lime transition" href="#contacto">Soporte WhatsApp</a>
+<a class="underline hover:text-brand-lime transition" href="https://wa.me/59164543654?text=Hola%20CitasYa!%20Quiero%20hablar%20con%20un%20asesor%20local." target="_blank">Soporte WhatsApp (+591 64543654)</a>
 </div>
 </div>
 </div>
@@ -978,7 +978,7 @@
 <a class="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-slate text-brand-lime font-display font-extrabold text-base hover:bg-slate-900 shadow-xl transition-transform hover:scale-105 active:scale-95" href="/register">
                 Registrar Mi Negocio Gratis
               </a>
-<a class="w-full sm:w-auto px-7 py-4 rounded-full bg-white text-slate-900 font-display font-bold text-base hover:bg-slate-50 transition-colors flex items-center justify-center gap-2" href="#contacto-whatsapp">
+<a class="w-full sm:w-auto px-7 py-4 rounded-full bg-white text-slate-900 font-display font-bold text-base hover:bg-slate-50 transition-colors flex items-center justify-center gap-2 shadow-lg hover:shadow-xl" href="https://wa.me/59164543654?text=Hola%20CitasYa!%20Quiero%20hablar%20con%20un%20asesor%20local%20para%20activar%20mi%20negocio." target="_blank">
 <span class="">Hablar con un Asesor Local</span>
 <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
 </a>
@@ -1064,6 +1064,21 @@
 </div>
 </footer>
 <!-- END: MainFooter -->
+
+<!-- Floating Asesor Local WhatsApp Button -->
+<a href="https://wa.me/59164543654?text=Hola%20CitasYa!%20Quiero%20hablar%20con%20un%20asesor%20local." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl flex items-center gap-3 transition-all transform hover:scale-105 active:scale-95 group border-2 border-white/80" title="Hablar con Asesor Local">
+  <div class="relative">
+    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.771.815 2.796.815 3.182 0 5.767-2.587 5.768-5.766.001-3.181-2.585-5.767-5.768-5.766zm10.007 5.766c-.002 5.51-4.484 9.991-9.992 9.991-1.748 0-3.376-.452-4.795-1.246l-5.251 1.378 1.402-5.12c-.874-1.472-1.374-3.195-1.375-5.003.002-5.51 4.484-9.991 9.993-9.991 5.51 0 9.992 4.481 9.992 9.991z"/></svg>
+    <span class="absolute -top-1 -right-1 flex h-2.5 w-2.5">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-300 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-lime-400"></span>
+    </span>
+  </div>
+  <div class="hidden sm:flex flex-col text-left">
+    <span class="text-[10px] uppercase font-extrabold tracking-wider text-emerald-100 leading-none">Asesor Local</span>
+    <span class="text-xs font-bold leading-tight mt-0.5">+591 64543654</span>
+  </div>
+</a>
 <!-- Express Onboarding & Booking Modal -->
 <div id="expressBookingModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/80 backdrop-blur-md transition-opacity duration-300">
   <div class="relative w-full max-w-md bg-white rounded-3xl shadow-2xl border border-lime-200 overflow-hidden transform transition-all scale-95 opacity-0 animate-modal-enter" id="modalCard">

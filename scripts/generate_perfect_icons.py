@@ -6,18 +6,15 @@ base = "/root/ClubeMkt/CitasYa"
 def run_ffmpeg(args):
     subprocess.check_call(['ffmpeg', '-y'] + args)
 
-def export_clean_png(src_webp, dest_png):
-    # Direct high-quality RGBA conversion preserving all alpha channels and crisp details
-    run_ffmpeg(['-i', src_webp, '-vf', 'scale=1024:1024:flags=lanczos', dest_png])
-    print(f"Exported clean master PNG: {dest_png}")
+def render_master_svg(svg_path, dest_png):
+    subprocess.check_call(['rsvg-convert', '-w', '1024', '-h', '1024', svg_path, '-o', dest_png])
+    print(f"Rendered clean master PNG from SVG: {dest_png}")
 
 def generate_adaptive_foreground(src_png, dest_png, size=432):
-    # Android adaptive foreground needs content in the center 66% (e.g. 72dp of 108dp)
-    # 432x432 for xxxhdpi, 72% content = ~310x310 in center, padded to 432x432 with transparent bg
-    pad_filter = "scale=310:310:flags=lanczos,pad=432:432:(432-310)/2:(432-310)/2:color=0x00000000"
-    if size != 432:
-        icon_sz = int(size * 0.72)
-        pad_filter = f"scale={icon_sz}:{icon_sz}:flags=lanczos,pad={size}:{size}:({size}-{icon_sz})/2:({size}-{icon_sz})/2:color=0x00000000"
+    # Android adaptive foreground needs content in the center 66-72%
+    icon_sz = int(size * 0.72)
+    pad = (size - icon_sz) // 2
+    pad_filter = f"scale={icon_sz}:{icon_sz}:flags=lanczos,pad={size}:{size}:{pad}:{pad}:color=0x00000000"
     run_ffmpeg(['-i', src_png, '-vf', pad_filter, dest_png])
 
 def generate_assets_for_app(master_png, app_dir, is_owner=False):
@@ -34,13 +31,12 @@ def generate_assets_for_app(master_png, app_dir, is_owner=False):
     # 2. assets/img/
     run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{img_dir}/appicon.png"])
     run_ffmpeg(['-i', master_png, '-vf', 'scale=192:192:flags=lanczos', f"{img_dir}/favicon.png"])
+    run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{img_dir}/icon_2d.png"])
+    run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{img_dir}/icon_3d.png"])
     if is_owner:
         run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{img_dir}/icon_owner.png"])
-    else:
-        run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{img_dir}/icon_3d.png"])
 
     # 3. Android Mipmaps & Drawables
-    # Android standard legacy icon sizes
     densities = [
         ('mdpi', 48, 24, 108),
         ('hdpi', 72, 36, 162),
@@ -54,11 +50,8 @@ def generate_assets_for_app(master_png, app_dir, is_owner=False):
         os.makedirs(mipmap_dir, exist_ok=True)
         os.makedirs(drawable_dir, exist_ok=True)
 
-        # Legacy launcher icon (clean transparent background squircle)
         run_ffmpeg(['-i', master_png, '-vf', f'scale={icon_s}:{icon_s}:flags=lanczos', f"{mipmap_dir}/ic_launcher.png"])
         run_ffmpeg(['-i', master_png, '-vf', f'scale={notif_s}:{notif_s}:flags=lanczos', f"{mipmap_dir}/ic_notification.png"])
-
-        # Adaptive icon foreground (padded for safe zone on transparent bg)
         generate_adaptive_foreground(master_png, f"{drawable_dir}/ic_launcher_foreground.png", size=fg_s)
 
     # 4. Web Icons
@@ -70,16 +63,16 @@ def generate_assets_for_app(master_png, app_dir, is_owner=False):
         run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{web_dir}/icons/Icon-512.png"])
         run_ffmpeg(['-i', master_png, '-vf', 'scale=192:192:flags=lanczos', f"{web_dir}/icons/Icon-maskable-192.png"])
         run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{web_dir}/icons/Icon-maskable-512.png"])
+        run_ffmpeg(['-i', master_png, '-vf', 'scale=512:512:flags=lanczos', f"{web_dir}/loading_logo.png"])
 
 def main():
-    cust_webp = f"{base}/docs/appicon.webp"
+    svg_favicon = f"{base}/backend/public/favicon.svg"
     cust_png = f"{base}/docs/appicon.png"
-    owner_webp = f"{base}/docs/appowner.webp"
     owner_png = f"{base}/docs/appowner.png"
 
-    # Export clean masters
-    export_clean_png(cust_webp, cust_png)
-    export_clean_png(owner_webp, owner_png)
+    # Render clean masters directly from favicon SVG
+    render_master_svg(svg_favicon, cust_png)
+    render_master_svg(svg_favicon, owner_png)
 
     # Generate customer app assets
     generate_assets_for_app(cust_png, f"{base}/app-customer", is_owner=False)
@@ -91,13 +84,12 @@ def main():
     brand_dir = f"{base}/backend/public/images/brand"
     os.makedirs(brand_dir, exist_ok=True)
     run_ffmpeg(['-i', cust_png, '-vf', 'scale=512:512:flags=lanczos', f"{brand_dir}/icon_3d.png"])
+    run_ffmpeg(['-i', cust_png, '-vf', 'scale=512:512:flags=lanczos', f"{brand_dir}/icon_2d.png"])
     run_ffmpeg(['-i', owner_png, '-vf', 'scale=512:512:flags=lanczos', f"{brand_dir}/icon_owner.png"])
-    run_ffmpeg(['-i', cust_png, '-vf', 'scale=64:64:flags=lanczos', f"{base}/backend/public/favicon.ico"])
-    run_ffmpeg(['-i', cust_png, '-vf', 'scale=192:192:flags=lanczos', f"{base}/backend/public/favicon.png"])
-    run_ffmpeg(['-i', cust_png, '-vf', 'scale=180:180:flags=lanczos', f"{base}/backend/public/apple-touch-icon.png"])
-    run_ffmpeg(['-i', cust_png, '-vf', 'scale=192:192:flags=lanczos', f"{brand_dir}/favicon.png"])
+    run_ffmpeg(['-i', cust_png, '-vf', 'scale=512:512:flags=lanczos', f"{brand_dir}/appicon.png"])
+    run_ffmpeg(['-i', owner_png, '-vf', 'scale=512:512:flags=lanczos', f"{brand_dir}/appowner.png"])
 
-    print("All icons successfully generated with pristine transparency and safe adaptive padding!")
+    print("All icons successfully generated from favicon!")
 
 if __name__ == "__main__":
     main()
